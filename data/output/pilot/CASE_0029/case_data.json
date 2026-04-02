@@ -1,0 +1,101 @@
+{
+  "case_id": "CASE_0029",
+  "tax_year": 2024,
+  "taxpayer": {
+    "first_name": "Mario",
+    "last_name": "Harvey",
+    "ssn": "431-75-1138",
+    "dob": "1970-07-16",
+    "occupation": "Graphic Designer",
+    "employer": null,
+    "full_name": "Mario Harvey"
+  },
+  "spouse": {
+    "first_name": "Joseph",
+    "last_name": "Moore",
+    "ssn": "371-29-4264",
+    "dob": "2000-12-29",
+    "occupation": "Nurse",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "Joseph Moore"
+  },
+  "address": {
+    "street": "093 Lisa Pine",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "48430",
+    "county": "Sacramento"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
+    "full_year_resident": true
+  },
+  "dependents": [
+    {
+      "first_name": "Yolanda",
+      "last_name": "Harvey",
+      "ssn": "624-17-4175",
+      "relationship": "son",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Yolanda Harvey"
+    },
+    {
+      "first_name": "Jose",
+      "last_name": "Harvey",
+      "ssn": "568-26-6723",
+      "relationship": "son",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Jose Harvey"
+    }
+  ],
+  "income_documents": {
+    "w2": {
+      "employer_name": "Pacific Health System Inc.",
+      "wages_box1": 44416,
+      "federal_withholding": 4789,
+      "state_wages": 44416,
+      "state_withholding": 929
+    },
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 438
+    },
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 1416,
+      "qualified_dividends": 895
+    },
+    "schedule_c": null
+  },
+  "federal_return": {
+    "total_income": 46270,
+    "adjustments": 0,
+    "agi": 46270,
+    "standard_deduction": 29200,
+    "qbi_deduction": 0,
+    "taxable_income": 17070,
+    "tax_before_credits": 1707,
+    "child_tax_credit": 2500,
+    "self_employment_tax": 0,
+    "total_tax": 0,
+    "total_payments": 4789,
+    "refund": 4789,
+    "balance_due": 0
+  },
+  "california_return": {
+    "california_adjustments_additions": 0,
+    "california_adjustments_subtractions": 0,
+    "ca_agi": 46270,
+    "standard_deduction": 11080,
+    "taxable_income": 35190,
+    "tax_before_credits": 504,
+    "exemption_credits": 1220,
+    "total_tax": 0,
+    "total_payments": 929,
+    "refund": 929,
+    "balance_due": 0
+  },
+  "dependent_count": 2
+}

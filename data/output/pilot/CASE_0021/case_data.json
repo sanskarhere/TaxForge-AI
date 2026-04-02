@@ -1,0 +1,113 @@
+{
+  "case_id": "CASE_0021",
+  "tax_year": 2024,
+  "taxpayer": {
+    "first_name": "Sean",
+    "last_name": "Carter",
+    "ssn": "555-66-5818",
+    "dob": "1978-11-09",
+    "occupation": "Graphic Designer",
+    "employer": null,
+    "full_name": "Sean Carter"
+  },
+  "spouse": {
+    "first_name": "Todd",
+    "last_name": "Miller",
+    "ssn": "359-71-2426",
+    "dob": "2000-10-07",
+    "occupation": "Nurse",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "Todd Miller"
+  },
+  "address": {
+    "street": "903 Mark Harbor Apt. 092",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "30359",
+    "county": "Sacramento"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
+    "full_year_resident": true
+  },
+  "dependents": [
+    {
+      "first_name": "Christian",
+      "last_name": "Carter",
+      "ssn": "775-35-5764",
+      "relationship": "son",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Christian Carter"
+    },
+    {
+      "first_name": "Donna",
+      "last_name": "Carter",
+      "ssn": "864-88-1984",
+      "relationship": "son",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Donna Carter"
+    },
+    {
+      "first_name": "Kelly",
+      "last_name": "Carter",
+      "ssn": "436-40-5485",
+      "relationship": "son",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Kelly Carter"
+    }
+  ],
+  "income_documents": {
+    "w2": {
+      "employer_name": "Pacific Health System Inc.",
+      "wages_box1": 43977,
+      "federal_withholding": 6940,
+      "state_wages": 43977,
+      "state_withholding": 2084
+    },
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 383
+    },
+    "dividend_1099_div": null,
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 86086,
+      "total_expenses": 32663,
+      "depreciation": 1478,
+      "other_expenses": 1995
+    }
+  },
+  "federal_return": {
+    "total_income": 97783,
+    "adjustments": 3774,
+    "agi": 94009,
+    "standard_deduction": 29200,
+    "qbi_deduction": 9930,
+    "taxable_income": 54879,
+    "tax_before_credits": 6121,
+    "child_tax_credit": 4500,
+    "self_employment_tax": 7548,
+    "total_tax": 9169,
+    "total_payments": 6940,
+    "refund": 0,
+    "balance_due": 2229
+  },
+  "california_return": {
+    "california_adjustments_additions": 0,
+    "california_adjustments_subtractions": 0,
+    "ca_agi": 94009,
+    "standard_deduction": 11080,
+    "taxable_income": 82929,
+    "tax_before_credits": 2117,
+    "exemption_credits": 1681,
+    "total_tax": 436,
+    "total_payments": 2084,
+    "refund": 1648,
+    "balance_due": 0
+  },
+  "dependent_count": 3
+}

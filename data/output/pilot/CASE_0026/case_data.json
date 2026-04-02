@@ -1,0 +1,111 @@
+{
+  "case_id": "CASE_0026",
+  "tax_year": 2024,
+  "taxpayer": {
+    "first_name": "Judith",
+    "last_name": "Everett",
+    "ssn": "859-69-9204",
+    "dob": "1995-09-06",
+    "occupation": "Graphic Designer",
+    "employer": null,
+    "full_name": "Judith Everett"
+  },
+  "spouse": {
+    "first_name": "Marcia",
+    "last_name": "Mason",
+    "ssn": "213-87-4987",
+    "dob": "1995-11-22",
+    "occupation": "Nurse",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "Marcia Mason"
+  },
+  "address": {
+    "street": "8528 Bobby Street Suite 150",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "12741",
+    "county": "Sacramento"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
+    "full_year_resident": true
+  },
+  "dependents": [
+    {
+      "first_name": "Bethany",
+      "last_name": "Everett",
+      "ssn": "837-96-6396",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Bethany Everett"
+    },
+    {
+      "first_name": "Ryan",
+      "last_name": "Everett",
+      "ssn": "270-80-3029",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Ryan Everett"
+    },
+    {
+      "first_name": "Joseph",
+      "last_name": "Everett",
+      "ssn": "208-53-1908",
+      "relationship": "son",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Joseph Everett"
+    }
+  ],
+  "income_documents": {
+    "w2": null,
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 449
+    },
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 119,
+      "qualified_dividends": 67
+    },
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 87767,
+      "total_expenses": 36051,
+      "depreciation": 2145,
+      "other_expenses": 520
+    }
+  },
+  "federal_return": {
+    "total_income": 52284,
+    "adjustments": 3654,
+    "agi": 48630,
+    "standard_deduction": 29200,
+    "qbi_deduction": 9612,
+    "taxable_income": 9818,
+    "tax_before_credits": 982,
+    "child_tax_credit": 1500,
+    "self_employment_tax": 7307,
+    "total_tax": 7307,
+    "total_payments": 0,
+    "refund": 0,
+    "balance_due": 7307
+  },
+  "california_return": {
+    "california_adjustments_additions": 0,
+    "california_adjustments_subtractions": 0,
+    "ca_agi": 48630,
+    "standard_deduction": 11080,
+    "taxable_income": 37550,
+    "tax_before_credits": 551,
+    "exemption_credits": 1681,
+    "total_tax": 0,
+    "total_payments": 0,
+    "refund": 0,
+    "balance_due": 0
+  },
+  "dependent_count": 3
+}

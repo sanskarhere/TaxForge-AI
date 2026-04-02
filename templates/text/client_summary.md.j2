@@ -1,0 +1,35 @@
+# CLIENT SUMMARY
+
+## Primary Taxpayer
+- Name: {{ case.taxpayer.first_name }} {{ case.taxpayer.last_name }}
+- SSN: {{ case.taxpayer.ssn }}
+- DOB: {{ case.taxpayer.dob }}
+- Occupation: {{ case.taxpayer.occupation }}
+
+## Spouse
+- Name: {% if case.spouse %}{{ case.spouse.first_name }} {{ case.spouse.last_name }}{% else %}N/A{% endif %}
+- SSN: {% if case.spouse %}{{ case.spouse.ssn }}{% else %}N/A{% endif %}
+- DOB: {% if case.spouse %}{{ case.spouse.dob }}{% else %}N/A{% endif %}
+- Occupation: {% if case.spouse %}{{ case.spouse.occupation }}{% else %}N/A{% endif %}
+- Employer: {% if case.spouse %}{{ case.spouse.employer }}{% else %}N/A{% endif %}
+
+## Address
+- Street: {{ case.address.street }}
+- City: {{ case.address.city }}
+- State: {{ case.address.state }}
+- ZIP: {{ case.address.zip_code }}
+- County: {{ case.address.county }}
+
+## Dependents
+{% if case.dependents %}
+{% for d in case.dependents %}
+- {{ d.first_name }} {{ d.last_name }} ({{ d.relationship }}) — SSN: {{ d.ssn }}
+{% endfor %}
+{% else %}
+- None
+{% endif %}
+
+## Filing Details
+- Federal Status: {{ case.filing.federal_status }}
+- State Status: {{ case.filing.state_status }}
+- Residency: {{ case.filing.residency_state }}

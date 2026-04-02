@@ -1,0 +1,109 @@
+{
+  "case_id": "CASE_0025",
+  "tax_year": 2024,
+  "taxpayer": {
+    "first_name": "Charles",
+    "last_name": "Miranda",
+    "ssn": "176-24-7690",
+    "dob": "1986-02-28",
+    "occupation": "Graphic Designer",
+    "employer": null,
+    "full_name": "Charles Miranda"
+  },
+  "spouse": {
+    "first_name": "Robert",
+    "last_name": "Duffy",
+    "ssn": "578-63-5372",
+    "dob": "1989-11-11",
+    "occupation": "Nurse",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "Robert Duffy"
+  },
+  "address": {
+    "street": "240 Scott Crossing",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "89988",
+    "county": "Sacramento"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
+    "full_year_resident": true
+  },
+  "dependents": [
+    {
+      "first_name": "Tony",
+      "last_name": "Miranda",
+      "ssn": "308-92-1651",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Tony Miranda"
+    },
+    {
+      "first_name": "Joshua",
+      "last_name": "Miranda",
+      "ssn": "135-30-8200",
+      "relationship": "son",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Joshua Miranda"
+    },
+    {
+      "first_name": "Pamela",
+      "last_name": "Miranda",
+      "ssn": "799-22-9047",
+      "relationship": "son",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Pamela Miranda"
+    }
+  ],
+  "income_documents": {
+    "w2": {
+      "employer_name": "Pacific Health System Inc.",
+      "wages_box1": 68260,
+      "federal_withholding": 9546,
+      "state_wages": 68260,
+      "state_withholding": 2576
+    },
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 1128
+    },
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 3104,
+      "qualified_dividends": 2886
+    },
+    "schedule_c": null
+  },
+  "federal_return": {
+    "total_income": 72492,
+    "adjustments": 0,
+    "agi": 72492,
+    "standard_deduction": 29200,
+    "qbi_deduction": 0,
+    "taxable_income": 43292,
+    "tax_before_credits": 4731,
+    "child_tax_credit": 3000,
+    "self_employment_tax": 0,
+    "total_tax": 1731,
+    "total_payments": 9546,
+    "refund": 7815,
+    "balance_due": 0
+  },
+  "california_return": {
+    "california_adjustments_additions": 0,
+    "california_adjustments_subtractions": 0,
+    "ca_agi": 72492,
+    "standard_deduction": 11080,
+    "taxable_income": 61412,
+    "tax_before_credits": 1256,
+    "exemption_credits": 1681,
+    "total_tax": 0,
+    "total_payments": 2576,
+    "refund": 2576,
+    "balance_due": 0
+  },
+  "dependent_count": 3
+}

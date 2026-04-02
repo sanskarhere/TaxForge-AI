@@ -1,0 +1,109 @@
+{
+  "case_id": "CASE_0001",
+  "tax_year": 2024,
+  "taxpayer": {
+    "first_name": "Benjamin",
+    "last_name": "Horton",
+    "ssn": "139-46-3358",
+    "dob": "1975-02-23",
+    "occupation": "Graphic Designer",
+    "employer": null,
+    "full_name": "Benjamin Horton"
+  },
+  "spouse": {
+    "first_name": "Susan",
+    "last_name": "Wood",
+    "ssn": "573-57-2577",
+    "dob": "1999-01-05",
+    "occupation": "Nurse",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "Susan Wood"
+  },
+  "address": {
+    "street": "695 Long Centers",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "14565",
+    "county": "Sacramento"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
+    "full_year_resident": true
+  },
+  "dependents": [
+    {
+      "first_name": "Laura",
+      "last_name": "Horton",
+      "ssn": "626-65-7100",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Laura Horton"
+    },
+    {
+      "first_name": "Shawn",
+      "last_name": "Horton",
+      "ssn": "280-17-2758",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Shawn Horton"
+    },
+    {
+      "first_name": "Tyrone",
+      "last_name": "Horton",
+      "ssn": "257-22-3631",
+      "relationship": "son",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Tyrone Horton"
+    }
+  ],
+  "income_documents": {
+    "w2": {
+      "employer_name": "Pacific Health System Inc.",
+      "wages_box1": 74504,
+      "federal_withholding": 6727,
+      "state_wages": 74504,
+      "state_withholding": 2355
+    },
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 606
+    },
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 1643,
+      "qualified_dividends": 130
+    },
+    "schedule_c": null
+  },
+  "federal_return": {
+    "total_income": 76753,
+    "adjustments": 0,
+    "agi": 76753,
+    "standard_deduction": 29200,
+    "qbi_deduction": 0,
+    "taxable_income": 47553,
+    "tax_before_credits": 5242,
+    "child_tax_credit": 3000,
+    "self_employment_tax": 0,
+    "total_tax": 2242,
+    "total_payments": 6727,
+    "refund": 4485,
+    "balance_due": 0
+  },
+  "california_return": {
+    "california_adjustments_additions": 0,
+    "california_adjustments_subtractions": 0,
+    "ca_agi": 76753,
+    "standard_deduction": 11080,
+    "taxable_income": 65673,
+    "tax_before_credits": 1427,
+    "exemption_credits": 1681,
+    "total_tax": 0,
+    "total_payments": 2355,
+    "refund": 2355,
+    "balance_due": 0
+  },
+  "dependent_count": 3
+}

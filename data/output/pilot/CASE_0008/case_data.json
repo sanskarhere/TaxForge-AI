@@ -1,0 +1,109 @@
+{
+  "case_id": "CASE_0008",
+  "tax_year": 2024,
+  "taxpayer": {
+    "first_name": "Tyler",
+    "last_name": "Adams",
+    "ssn": "609-44-6965",
+    "dob": "1991-12-09",
+    "occupation": "Graphic Designer",
+    "employer": null,
+    "full_name": "Tyler Adams"
+  },
+  "spouse": {
+    "first_name": "Patricia",
+    "last_name": "Schwartz",
+    "ssn": "752-41-8752",
+    "dob": "1986-06-24",
+    "occupation": "Nurse",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "Patricia Schwartz"
+  },
+  "address": {
+    "street": "51553 Casey Way",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "43613",
+    "county": "Sacramento"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
+    "full_year_resident": true
+  },
+  "dependents": [
+    {
+      "first_name": "Christopher",
+      "last_name": "Adams",
+      "ssn": "329-96-2396",
+      "relationship": "son",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Christopher Adams"
+    },
+    {
+      "first_name": "Logan",
+      "last_name": "Adams",
+      "ssn": "200-54-6232",
+      "relationship": "son",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Logan Adams"
+    }
+  ],
+  "income_documents": {
+    "w2": {
+      "employer_name": "Pacific Health System Inc.",
+      "wages_box1": 46504,
+      "federal_withholding": 7338,
+      "state_wages": 46504,
+      "state_withholding": 1389
+    },
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 1294
+    },
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 464,
+      "qualified_dividends": 32
+    },
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 73812,
+      "total_expenses": 36031,
+      "depreciation": 1762,
+      "other_expenses": 23
+    }
+  },
+  "federal_return": {
+    "total_income": 86043,
+    "adjustments": 2669,
+    "agi": 83374,
+    "standard_deduction": 29200,
+    "qbi_deduction": 7022,
+    "taxable_income": 47152,
+    "tax_before_credits": 5194,
+    "child_tax_credit": 1000,
+    "self_employment_tax": 5338,
+    "total_tax": 9532,
+    "total_payments": 7338,
+    "refund": 0,
+    "balance_due": 2194
+  },
+  "california_return": {
+    "california_adjustments_additions": 0,
+    "california_adjustments_subtractions": 0,
+    "ca_agi": 83374,
+    "standard_deduction": 11080,
+    "taxable_income": 72294,
+    "tax_before_credits": 1692,
+    "exemption_credits": 1220,
+    "total_tax": 472,
+    "total_payments": 1389,
+    "refund": 917,
+    "balance_due": 0
+  },
+  "dependent_count": 2
+}

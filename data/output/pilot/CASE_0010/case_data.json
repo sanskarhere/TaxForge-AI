@@ -1,0 +1,92 @@
+{
+  "case_id": "CASE_0010",
+  "tax_year": 2024,
+  "taxpayer": {
+    "first_name": "Tiffany",
+    "last_name": "Brown",
+    "ssn": "374-16-9398",
+    "dob": "1994-12-10",
+    "occupation": "Graphic Designer",
+    "employer": null,
+    "full_name": "Tiffany Brown"
+  },
+  "spouse": {
+    "first_name": "William",
+    "last_name": "Wyatt",
+    "ssn": "595-57-7665",
+    "dob": "1987-11-15",
+    "occupation": "Nurse",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "William Wyatt"
+  },
+  "address": {
+    "street": "22625 Mccoy Bypass Suite 703",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "09593",
+    "county": "Sacramento"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
+    "full_year_resident": true
+  },
+  "dependents": [],
+  "income_documents": {
+    "w2": {
+      "employer_name": "Pacific Health System Inc.",
+      "wages_box1": 52429,
+      "federal_withholding": 8315,
+      "state_wages": 52429,
+      "state_withholding": 2305
+    },
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 758
+    },
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 104,
+      "qualified_dividends": 4
+    },
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 87401,
+      "total_expenses": 22141,
+      "depreciation": 284,
+      "other_expenses": 651
+    }
+  },
+  "federal_return": {
+    "total_income": 118551,
+    "adjustments": 4610,
+    "agi": 113941,
+    "standard_deduction": 29200,
+    "qbi_deduction": 12130,
+    "taxable_income": 72611,
+    "tax_before_credits": 8249,
+    "child_tax_credit": 0,
+    "self_employment_tax": 9221,
+    "total_tax": 17470,
+    "total_payments": 8315,
+    "refund": 0,
+    "balance_due": 9155
+  },
+  "california_return": {
+    "california_adjustments_additions": 0,
+    "california_adjustments_subtractions": 0,
+    "ca_agi": 113941,
+    "standard_deduction": 11080,
+    "taxable_income": 102861,
+    "tax_before_credits": 2914,
+    "exemption_credits": 298,
+    "total_tax": 2616,
+    "total_payments": 2305,
+    "refund": 0,
+    "balance_due": 311
+  },
+  "dependent_count": 0
+}

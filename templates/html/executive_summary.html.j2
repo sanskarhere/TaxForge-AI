@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Executive Summary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 32px;
+            color: #222;
+            line-height: 1.5;
+        }
+        h1, h2 {
+            margin-bottom: 8px;
+        }
+        h1 {
+            font-size: 24px;
+            border-bottom: 2px solid #222;
+            padding-bottom: 8px;
+        }
+        h2 {
+            margin-top: 24px;
+            font-size: 18px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 4px;
+        }
+        .meta, .block {
+            margin-bottom: 16px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 8px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Executive Summary</h1>
+
+    <div class="meta">
+        <p><strong>Case ID:</strong> {{ case.case_id }}</p>
+        <p><strong>Tax Year:</strong> {{ case.tax_year }}</p>
+        <p><strong>Taxpayer:</strong> {{ case.taxpayer.full_name }}</p>
+        <p><strong>Spouse:</strong> {{ case.spouse.full_name if case.spouse else "N/A" }}</p>
+        <p><strong>Filing Status:</strong> {{ case.filing.federal_status }}</p>
+    </div>
+
+    <h2>Federal Tax Return Summary</h2>
+    <table>
+        <tr><th>Metric</th><th>Value</th></tr>
+        <tr><td>Total Income</td><td>${{ case.federal_return.total_income }}</td></tr>
+        <tr><td>Adjusted Gross Income (AGI)</td><td>${{ case.federal_return.agi }}</td></tr>
+        <tr><td>Standard Deduction</td><td>${{ case.federal_return.standard_deduction }}</td></tr>
+        <tr><td>QBI Deduction</td><td>${{ case.federal_return.qbi_deduction }}</td></tr>
+        <tr><td>Taxable Income</td><td>${{ case.federal_return.taxable_income }}</td></tr>
+        <tr><td>Tax Before Credits</td><td>${{ case.federal_return.tax_before_credits }}</td></tr>
+        <tr><td>Child Tax Credit</td><td>${{ case.federal_return.child_tax_credit }}</td></tr>
+        <tr><td>Self-Employment Tax</td><td>${{ case.federal_return.self_employment_tax }}</td></tr>
+        <tr><td>Total Tax</td><td>${{ case.federal_return.total_tax }}</td></tr>
+        <tr><td>Total Payments</td><td>${{ case.federal_return.total_payments }}</td></tr>
+        <tr><td>Refund</td><td>${{ case.federal_return.refund }}</td></tr>
+        <tr><td>Balance Due</td><td>${{ case.federal_return.balance_due }}</td></tr>
+    </table>
+
+    <h2>California Tax Return Summary</h2>
+    <table>
+        <tr><th>Metric</th><th>Value</th></tr>
+        <tr><td>California AGI</td><td>${{ case.california_return.ca_agi }}</td></tr>
+        <tr><td>Standard Deduction</td><td>${{ case.california_return.standard_deduction }}</td></tr>
+        <tr><td>Taxable Income</td><td>${{ case.california_return.taxable_income }}</td></tr>
+        <tr><td>Tax Before Credits</td><td>${{ case.california_return.tax_before_credits }}</td></tr>
+        <tr><td>Exemption Credits</td><td>${{ case.california_return.exemption_credits }}</td></tr>
+        <tr><td>Total Tax</td><td>${{ case.california_return.total_tax }}</td></tr>
+        <tr><td>Total Payments</td><td>${{ case.california_return.total_payments }}</td></tr>
+        <tr><td>Refund</td><td>${{ case.california_return.refund }}</td></tr>
+        <tr><td>Balance Due</td><td>${{ case.california_return.balance_due }}</td></tr>
+    </table>
+</body>
+</html>

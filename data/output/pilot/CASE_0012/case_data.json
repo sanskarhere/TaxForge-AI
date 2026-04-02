@@ -1,0 +1,101 @@
+{
+  "case_id": "CASE_0012",
+  "tax_year": 2024,
+  "taxpayer": {
+    "first_name": "Robin",
+    "last_name": "Taylor",
+    "ssn": "240-66-5881",
+    "dob": "1989-03-03",
+    "occupation": "Graphic Designer",
+    "employer": null,
+    "full_name": "Robin Taylor"
+  },
+  "spouse": {
+    "first_name": "Kenneth",
+    "last_name": "Wu",
+    "ssn": "594-72-7232",
+    "dob": "1991-11-02",
+    "occupation": "Nurse",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "Kenneth Wu"
+  },
+  "address": {
+    "street": "9633 Tyler Union Suite 918",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "45079",
+    "county": "Sacramento"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
+    "full_year_resident": true
+  },
+  "dependents": [
+    {
+      "first_name": "Omar",
+      "last_name": "Taylor",
+      "ssn": "691-58-4420",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Omar Taylor"
+    }
+  ],
+  "income_documents": {
+    "w2": {
+      "employer_name": "Pacific Health System Inc.",
+      "wages_box1": 45670,
+      "federal_withholding": 5465,
+      "state_wages": 45670,
+      "state_withholding": 2009
+    },
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 236
+    },
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 2212,
+      "qualified_dividends": 1201
+    },
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 65802,
+      "total_expenses": 27188,
+      "depreciation": 396,
+      "other_expenses": 2644
+    }
+  },
+  "federal_return": {
+    "total_income": 86732,
+    "adjustments": 2728,
+    "agi": 84004,
+    "standard_deduction": 29200,
+    "qbi_deduction": 7177,
+    "taxable_income": 47627,
+    "tax_before_credits": 5251,
+    "child_tax_credit": 500,
+    "self_employment_tax": 5456,
+    "total_tax": 10207,
+    "total_payments": 5465,
+    "refund": 0,
+    "balance_due": 4742
+  },
+  "california_return": {
+    "california_adjustments_additions": 0,
+    "california_adjustments_subtractions": 0,
+    "ca_agi": 84004,
+    "standard_deduction": 11080,
+    "taxable_income": 72924,
+    "tax_before_credits": 1717,
+    "exemption_credits": 759,
+    "total_tax": 958,
+    "total_payments": 2009,
+    "refund": 1051,
+    "balance_due": 0
+  },
+  "dependent_count": 1
+}

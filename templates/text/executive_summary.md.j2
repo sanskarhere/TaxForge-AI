@@ -1,0 +1,27 @@
+# Executive Summary
+
+## Case
+- Case ID: {{ case.case_id }}
+- Tax Year: {{ case.tax_year }}
+- Taxpayer: {{ case.taxpayer.full_name }}
+- Spouse: {{ case.spouse.full_name if case.spouse else "N/A" }}
+
+## Federal Summary
+- Total Income: ${{ case.federal_return.total_income }}
+- AGI: ${{ case.federal_return.agi }}
+- Standard Deduction: ${{ case.federal_return.standard_deduction }}
+- QBI Deduction: ${{ case.federal_return.qbi_deduction }}
+- Taxable Income: ${{ case.federal_return.taxable_income }}
+- Total Tax: ${{ case.federal_return.total_tax }}
+- Total Payments: ${{ case.federal_return.total_payments }}
+- Refund: ${{ case.federal_return.refund }}
+- Balance Due: ${{ case.federal_return.balance_due }}
+
+## California Summary
+- CA AGI: ${{ case.california_return.ca_agi }}
+- Standard Deduction: ${{ case.california_return.standard_deduction }}
+- Taxable Income: ${{ case.california_return.taxable_income }}
+- Total Tax: ${{ case.california_return.total_tax }}
+- Total Payments: ${{ case.california_return.total_payments }}
+- Refund: ${{ case.california_return.refund }}
+- Balance Due: ${{ case.california_return.balance_due }}

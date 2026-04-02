@@ -1,0 +1,88 @@
+{
+  "case_id": "CASE_0011",
+  "tax_year": 2024,
+  "taxpayer": {
+    "first_name": "Christina",
+    "last_name": "Wu",
+    "ssn": "731-37-8479",
+    "dob": "1985-10-13",
+    "occupation": "Graphic Designer",
+    "employer": null,
+    "full_name": "Christina Wu"
+  },
+  "spouse": {
+    "first_name": "Wayne",
+    "last_name": "Webb",
+    "ssn": "614-71-9528",
+    "dob": "1999-09-04",
+    "occupation": "Nurse",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "Wayne Webb"
+  },
+  "address": {
+    "street": "25240 Brandon Forks",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "58292",
+    "county": "Sacramento"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
+    "full_year_resident": true
+  },
+  "dependents": [
+    {
+      "first_name": "Abigail",
+      "last_name": "Wu",
+      "ssn": "137-31-6632",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Abigail Wu"
+    },
+    {
+      "first_name": "Jessica",
+      "last_name": "Wu",
+      "ssn": "860-17-3772",
+      "relationship": "son",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Jessica Wu"
+    }
+  ],
+  "income_documents": {
+    "w2": null,
+    "interest_1099_int": null,
+    "dividend_1099_div": null,
+    "schedule_c": null
+  },
+  "federal_return": {
+    "total_income": 0,
+    "adjustments": 0,
+    "agi": 0,
+    "standard_deduction": 29200,
+    "qbi_deduction": 0,
+    "taxable_income": 0,
+    "tax_before_credits": 0,
+    "child_tax_credit": 2500,
+    "self_employment_tax": 0,
+    "total_tax": 0,
+    "total_payments": 0,
+    "refund": 0,
+    "balance_due": 0
+  },
+  "california_return": {
+    "california_adjustments_additions": 0,
+    "california_adjustments_subtractions": 0,
+    "ca_agi": 0,
+    "standard_deduction": 11080,
+    "taxable_income": 0,
+    "tax_before_credits": 0,
+    "exemption_credits": 1220,
+    "total_tax": 0,
+    "total_payments": 0,
+    "refund": 0,
+    "balance_due": 0
+  },
+  "dependent_count": 2
+}

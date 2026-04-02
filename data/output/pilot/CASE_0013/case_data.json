@@ -1,0 +1,93 @@
+{
+  "case_id": "CASE_0013",
+  "tax_year": 2024,
+  "taxpayer": {
+    "first_name": "Christopher",
+    "last_name": "Sampson",
+    "ssn": "192-35-3457",
+    "dob": "1975-05-09",
+    "occupation": "Graphic Designer",
+    "employer": null,
+    "full_name": "Christopher Sampson"
+  },
+  "spouse": {
+    "first_name": "Yolanda",
+    "last_name": "Turner",
+    "ssn": "857-48-2305",
+    "dob": "1977-12-17",
+    "occupation": "Nurse",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "Yolanda Turner"
+  },
+  "address": {
+    "street": "57866 Flores Meadow Apt. 403",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "67735",
+    "county": "Sacramento"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
+    "full_year_resident": true
+  },
+  "dependents": [
+    {
+      "first_name": "Julie",
+      "last_name": "Sampson",
+      "ssn": "460-94-8732",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Julie Sampson"
+    }
+  ],
+  "income_documents": {
+    "w2": {
+      "employer_name": "Pacific Health System Inc.",
+      "wages_box1": 67421,
+      "federal_withholding": 8109,
+      "state_wages": 67421,
+      "state_withholding": 1992
+    },
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 1144
+    },
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 266,
+      "qualified_dividends": 131
+    },
+    "schedule_c": null
+  },
+  "federal_return": {
+    "total_income": 68831,
+    "adjustments": 0,
+    "agi": 68831,
+    "standard_deduction": 29200,
+    "qbi_deduction": 0,
+    "taxable_income": 39631,
+    "tax_before_credits": 4292,
+    "child_tax_credit": 2000,
+    "self_employment_tax": 0,
+    "total_tax": 2292,
+    "total_payments": 8109,
+    "refund": 5817,
+    "balance_due": 0
+  },
+  "california_return": {
+    "california_adjustments_additions": 0,
+    "california_adjustments_subtractions": 0,
+    "ca_agi": 68831,
+    "standard_deduction": 11080,
+    "taxable_income": 57751,
+    "tax_before_credits": 1110,
+    "exemption_credits": 759,
+    "total_tax": 351,
+    "total_payments": 1992,
+    "refund": 1641,
+    "balance_due": 0
+  },
+  "dependent_count": 1
+}

@@ -1,0 +1,105 @@
+{
+  "case_id": "CASE_0005",
+  "tax_year": 2024,
+  "taxpayer": {
+    "first_name": "Michael",
+    "last_name": "Jordan",
+    "ssn": "460-18-8048",
+    "dob": "1985-09-08",
+    "occupation": "Graphic Designer",
+    "employer": null,
+    "full_name": "Michael Jordan"
+  },
+  "spouse": {
+    "first_name": "Ashley",
+    "last_name": "Scott",
+    "ssn": "666-68-6627",
+    "dob": "1988-05-26",
+    "occupation": "Nurse",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "Ashley Scott"
+  },
+  "address": {
+    "street": "010 Bender Turnpike Suite 805",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "74893",
+    "county": "Sacramento"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
+    "full_year_resident": true
+  },
+  "dependents": [
+    {
+      "first_name": "Philip",
+      "last_name": "Jordan",
+      "ssn": "730-15-7857",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Philip Jordan"
+    },
+    {
+      "first_name": "Blake",
+      "last_name": "Jordan",
+      "ssn": "100-43-8889",
+      "relationship": "son",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Blake Jordan"
+    }
+  ],
+  "income_documents": {
+    "w2": {
+      "employer_name": "Pacific Health System Inc.",
+      "wages_box1": 42598,
+      "federal_withholding": 6534,
+      "state_wages": 42598,
+      "state_withholding": 2000
+    },
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 521
+    },
+    "dividend_1099_div": null,
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 87962,
+      "total_expenses": 47265,
+      "depreciation": 136,
+      "other_expenses": 2297
+    }
+  },
+  "federal_return": {
+    "total_income": 83816,
+    "adjustments": 2875,
+    "agi": 80941,
+    "standard_deduction": 29200,
+    "qbi_deduction": 7564,
+    "taxable_income": 44177,
+    "tax_before_credits": 4837,
+    "child_tax_credit": 2500,
+    "self_employment_tax": 5750,
+    "total_tax": 8087,
+    "total_payments": 6534,
+    "refund": 0,
+    "balance_due": 1553
+  },
+  "california_return": {
+    "california_adjustments_additions": 0,
+    "california_adjustments_subtractions": 0,
+    "ca_agi": 80941,
+    "standard_deduction": 11080,
+    "taxable_income": 69861,
+    "tax_before_credits": 1594,
+    "exemption_credits": 1220,
+    "total_tax": 374,
+    "total_payments": 2000,
+    "refund": 1626,
+    "balance_due": 0
+  },
+  "dependent_count": 2
+}

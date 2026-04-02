@@ -1,0 +1,109 @@
+{
+  "case_id": "CASE_0024",
+  "tax_year": 2024,
+  "taxpayer": {
+    "first_name": "Chad",
+    "last_name": "Hamilton",
+    "ssn": "172-49-8120",
+    "dob": "1978-08-18",
+    "occupation": "Graphic Designer",
+    "employer": null,
+    "full_name": "Chad Hamilton"
+  },
+  "spouse": {
+    "first_name": "Kristin",
+    "last_name": "Carter",
+    "ssn": "352-67-5817",
+    "dob": "1994-04-26",
+    "occupation": "Nurse",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "Kristin Carter"
+  },
+  "address": {
+    "street": "78215 Rick Squares Suite 808",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "15220",
+    "county": "Sacramento"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
+    "full_year_resident": true
+  },
+  "dependents": [
+    {
+      "first_name": "Cody",
+      "last_name": "Hamilton",
+      "ssn": "288-69-9561",
+      "relationship": "son",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Cody Hamilton"
+    },
+    {
+      "first_name": "Michelle",
+      "last_name": "Hamilton",
+      "ssn": "831-56-3739",
+      "relationship": "son",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Michelle Hamilton"
+    }
+  ],
+  "income_documents": {
+    "w2": {
+      "employer_name": "Pacific Health System Inc.",
+      "wages_box1": 88195,
+      "federal_withholding": 10287,
+      "state_wages": 88195,
+      "state_withholding": 3100
+    },
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 836
+    },
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 1617,
+      "qualified_dividends": 48
+    },
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 57023,
+      "total_expenses": 26184,
+      "depreciation": 841,
+      "other_expenses": 2738
+    }
+  },
+  "federal_return": {
+    "total_income": 121487,
+    "adjustments": 2178,
+    "agi": 119309,
+    "standard_deduction": 29200,
+    "qbi_deduction": 5732,
+    "taxable_income": 84377,
+    "tax_before_credits": 9661,
+    "child_tax_credit": 2500,
+    "self_employment_tax": 4357,
+    "total_tax": 11518,
+    "total_payments": 10287,
+    "refund": 0,
+    "balance_due": 1231
+  },
+  "california_return": {
+    "california_adjustments_additions": 0,
+    "california_adjustments_subtractions": 0,
+    "ca_agi": 119309,
+    "standard_deduction": 11080,
+    "taxable_income": 108229,
+    "tax_before_credits": 3129,
+    "exemption_credits": 1220,
+    "total_tax": 1909,
+    "total_payments": 3100,
+    "refund": 1191,
+    "balance_due": 0
+  },
+  "dependent_count": 2
+}

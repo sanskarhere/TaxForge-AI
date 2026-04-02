@@ -1,0 +1,97 @@
+{
+  "case_id": "CASE_0020",
+  "tax_year": 2024,
+  "taxpayer": {
+    "first_name": "Sarah",
+    "last_name": "Thompson",
+    "ssn": "689-32-2067",
+    "dob": "1978-05-09",
+    "occupation": "Graphic Designer",
+    "employer": null,
+    "full_name": "Sarah Thompson"
+  },
+  "spouse": {
+    "first_name": "Patricia",
+    "last_name": "Collins",
+    "ssn": "343-69-6077",
+    "dob": "1998-01-27",
+    "occupation": "Nurse",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "Patricia Collins"
+  },
+  "address": {
+    "street": "42107 Stone Trail",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "45425",
+    "county": "Sacramento"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
+    "full_year_resident": true
+  },
+  "dependents": [
+    {
+      "first_name": "Michael",
+      "last_name": "Thompson",
+      "ssn": "265-10-5269",
+      "relationship": "son",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Michael Thompson"
+    },
+    {
+      "first_name": "William",
+      "last_name": "Thompson",
+      "ssn": "130-70-8718",
+      "relationship": "son",
+      "qualifies_child_tax_credit": true,
+      "full_name": "William Thompson"
+    }
+  ],
+  "income_documents": {
+    "w2": {
+      "employer_name": "Pacific Health System Inc.",
+      "wages_box1": 64462,
+      "federal_withholding": 10065,
+      "state_wages": 64462,
+      "state_withholding": 2539
+    },
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 211
+    },
+    "dividend_1099_div": null,
+    "schedule_c": null
+  },
+  "federal_return": {
+    "total_income": 64673,
+    "adjustments": 0,
+    "agi": 64673,
+    "standard_deduction": 29200,
+    "qbi_deduction": 0,
+    "taxable_income": 35473,
+    "tax_before_credits": 3793,
+    "child_tax_credit": 4000,
+    "self_employment_tax": 0,
+    "total_tax": 0,
+    "total_payments": 10065,
+    "refund": 10065,
+    "balance_due": 0
+  },
+  "california_return": {
+    "california_adjustments_additions": 0,
+    "california_adjustments_subtractions": 0,
+    "ca_agi": 64673,
+    "standard_deduction": 11080,
+    "taxable_income": 53593,
+    "tax_before_credits": 944,
+    "exemption_credits": 1220,
+    "total_tax": 0,
+    "total_payments": 2539,
+    "refund": 2539,
+    "balance_due": 0
+  },
+  "dependent_count": 2
+}

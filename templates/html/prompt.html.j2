@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prompt Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 32px;
+            color: #222;
+            line-height: 1.5;
+        }
+        h1, h2 {
+            margin-bottom: 8px;
+        }
+        h1 {
+            font-size: 24px;
+            border-bottom: 2px solid #222;
+            padding-bottom: 8px;
+        }
+        h2 {
+            margin-top: 24px;
+            font-size: 18px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prompt Data</h1>
+
+    <h2>Primary Taxpayer</h2>
+    <p><strong>Name:</strong> {{ case.taxpayer.full_name }}</p>
+    <p><strong>SSN:</strong> {{ case.taxpayer.ssn }}</p>
+    <p><strong>DOB:</strong> {{ case.taxpayer.dob }}</p>
+
+    <h2>Spouse</h2>
+    <p><strong>Name:</strong> {{ case.spouse.full_name if case.spouse else "N/A" }}</p>
+    <p><strong>SSN:</strong> {{ case.spouse.ssn if case.spouse else "N/A" }}</p>
+    <p><strong>DOB:</strong> {{ case.spouse.dob if case.spouse else "N/A" }}</p>
+
+    <h2>Income Sources</h2>
+    <p><strong>W-2 Wages:</strong> ${{ case.income_documents.w2.wages_box1 if case.income_documents.w2 else 0 }}</p>
+    <p><strong>Taxable Interest:</strong> ${{ case.income_documents.interest_1099_int.taxable_interest if case.income_documents.interest_1099_int else 0 }}</p>
+    <p><strong>Ordinary Dividends:</strong> ${{ case.income_documents.dividend_1099_div.ordinary_dividends if case.income_documents.dividend_1099_div else 0 }}</p>
+    <p><strong>Schedule C Net Profit:</strong> ${{ case.income_documents.schedule_c.net_profit if case.income_documents.schedule_c else 0 }}</p>
+
+    <h2>Return Outputs</h2>
+    <p><strong>Federal AGI:</strong> ${{ case.federal_return.agi }}</p>
+    <p><strong>Federal Taxable Income:</strong> ${{ case.federal_return.taxable_income }}</p>
+    <p><strong>Federal Total Tax:</strong> ${{ case.federal_return.total_tax }}</p>
+    <p><strong>California Taxable Income:</strong> ${{ case.california_return.taxable_income }}</p>
+    <p><strong>California Total Tax:</strong> ${{ case.california_return.total_tax }}</p>
+</body>
+</html>

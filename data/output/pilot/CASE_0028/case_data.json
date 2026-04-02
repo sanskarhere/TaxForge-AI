@@ -1,0 +1,82 @@
+{
+  "case_id": "CASE_0028",
+  "tax_year": 2024,
+  "taxpayer": {
+    "first_name": "Renee",
+    "last_name": "Carter",
+    "ssn": "221-47-8527",
+    "dob": "1985-11-18",
+    "occupation": "Graphic Designer",
+    "employer": null,
+    "full_name": "Renee Carter"
+  },
+  "spouse": {
+    "first_name": "Shannon",
+    "last_name": "Morris",
+    "ssn": "560-27-6278",
+    "dob": "1978-11-20",
+    "occupation": "Nurse",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "Shannon Morris"
+  },
+  "address": {
+    "street": "936 Young Run",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "10010",
+    "county": "Sacramento"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
+    "full_year_resident": true
+  },
+  "dependents": [],
+  "income_documents": {
+    "w2": null,
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 1274
+    },
+    "dividend_1099_div": null,
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 79819,
+      "total_expenses": 25573,
+      "depreciation": 297,
+      "other_expenses": 2067
+    }
+  },
+  "federal_return": {
+    "total_income": 55520,
+    "adjustments": 3832,
+    "agi": 51688,
+    "standard_deduction": 29200,
+    "qbi_deduction": 10083,
+    "taxable_income": 12405,
+    "tax_before_credits": 1240,
+    "child_tax_credit": 0,
+    "self_employment_tax": 7665,
+    "total_tax": 8905,
+    "total_payments": 0,
+    "refund": 0,
+    "balance_due": 8905
+  },
+  "california_return": {
+    "california_adjustments_additions": 0,
+    "california_adjustments_subtractions": 0,
+    "ca_agi": 51688,
+    "standard_deduction": 11080,
+    "taxable_income": 40608,
+    "tax_before_credits": 612,
+    "exemption_credits": 298,
+    "total_tax": 314,
+    "total_payments": 0,
+    "refund": 0,
+    "balance_due": 314
+  },
+  "dependent_count": 0
+}

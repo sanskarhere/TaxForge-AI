@@ -1,0 +1,113 @@
+{
+  "case_id": "CASE_0009",
+  "tax_year": 2024,
+  "taxpayer": {
+    "first_name": "John",
+    "last_name": "Shaw",
+    "ssn": "349-74-3653",
+    "dob": "1975-10-05",
+    "occupation": "Graphic Designer",
+    "employer": null,
+    "full_name": "John Shaw"
+  },
+  "spouse": {
+    "first_name": "John",
+    "last_name": "Chaney",
+    "ssn": "351-39-5191",
+    "dob": "1994-01-16",
+    "occupation": "Nurse",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "John Chaney"
+  },
+  "address": {
+    "street": "885 Hughes Harbors Suite 010",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "71140",
+    "county": "Sacramento"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
+    "full_year_resident": true
+  },
+  "dependents": [
+    {
+      "first_name": "Jonathan",
+      "last_name": "Shaw",
+      "ssn": "700-94-6901",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Jonathan Shaw"
+    },
+    {
+      "first_name": "Michelle",
+      "last_name": "Shaw",
+      "ssn": "513-99-1124",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Michelle Shaw"
+    },
+    {
+      "first_name": "Amy",
+      "last_name": "Shaw",
+      "ssn": "651-43-1533",
+      "relationship": "son",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Amy Shaw"
+    }
+  ],
+  "income_documents": {
+    "w2": {
+      "employer_name": "Pacific Health System Inc.",
+      "wages_box1": 53641,
+      "federal_withholding": 5782,
+      "state_wages": 53641,
+      "state_withholding": 1555
+    },
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 1378
+    },
+    "dividend_1099_div": null,
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 87430,
+      "total_expenses": 46942,
+      "depreciation": 688,
+      "other_expenses": 1925
+    }
+  },
+  "federal_return": {
+    "total_income": 95507,
+    "adjustments": 2860,
+    "agi": 92647,
+    "standard_deduction": 29200,
+    "qbi_deduction": 7526,
+    "taxable_income": 55921,
+    "tax_before_credits": 6247,
+    "child_tax_credit": 3000,
+    "self_employment_tax": 5721,
+    "total_tax": 8968,
+    "total_payments": 5782,
+    "refund": 0,
+    "balance_due": 3186
+  },
+  "california_return": {
+    "california_adjustments_additions": 0,
+    "california_adjustments_subtractions": 0,
+    "ca_agi": 92647,
+    "standard_deduction": 11080,
+    "taxable_income": 81567,
+    "tax_before_credits": 2063,
+    "exemption_credits": 1681,
+    "total_tax": 382,
+    "total_payments": 1555,
+    "refund": 1173,
+    "balance_due": 0
+  },
+  "dependent_count": 3
+}

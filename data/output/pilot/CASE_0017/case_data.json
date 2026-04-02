@@ -1,0 +1,80 @@
+{
+  "case_id": "CASE_0017",
+  "tax_year": 2024,
+  "taxpayer": {
+    "first_name": "Jeffrey",
+    "last_name": "Cantu",
+    "ssn": "329-20-8528",
+    "dob": "1985-11-19",
+    "occupation": "Graphic Designer",
+    "employer": null,
+    "full_name": "Jeffrey Cantu"
+  },
+  "spouse": {
+    "first_name": "Andrew",
+    "last_name": "Bradford",
+    "ssn": "123-27-5913",
+    "dob": "1999-07-22",
+    "occupation": "Nurse",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "Andrew Bradford"
+  },
+  "address": {
+    "street": "907 Washington Plain",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "39512",
+    "county": "Sacramento"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
+    "full_year_resident": true
+  },
+  "dependents": [],
+  "income_documents": {
+    "w2": {
+      "employer_name": "Pacific Health System Inc.",
+      "wages_box1": 42693,
+      "federal_withholding": 6580,
+      "state_wages": 42693,
+      "state_withholding": 1475
+    },
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 1147
+    },
+    "dividend_1099_div": null,
+    "schedule_c": null
+  },
+  "federal_return": {
+    "total_income": 43840,
+    "adjustments": 0,
+    "agi": 43840,
+    "standard_deduction": 29200,
+    "qbi_deduction": 0,
+    "taxable_income": 14640,
+    "tax_before_credits": 1464,
+    "child_tax_credit": 0,
+    "self_employment_tax": 0,
+    "total_tax": 1464,
+    "total_payments": 6580,
+    "refund": 5116,
+    "balance_due": 0
+  },
+  "california_return": {
+    "california_adjustments_additions": 0,
+    "california_adjustments_subtractions": 0,
+    "ca_agi": 43840,
+    "standard_deduction": 11080,
+    "taxable_income": 32760,
+    "tax_before_credits": 455,
+    "exemption_credits": 298,
+    "total_tax": 157,
+    "total_payments": 1475,
+    "refund": 1318,
+    "balance_due": 0
+  },
+  "dependent_count": 0
+}

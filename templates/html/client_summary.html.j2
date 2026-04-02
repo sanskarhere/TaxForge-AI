@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Client Summary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 32px;
+            color: #222;
+            line-height: 1.5;
+        }
+        h1, h2 {
+            margin-bottom: 8px;
+        }
+        h1 {
+            font-size: 24px;
+            border-bottom: 2px solid #222;
+            padding-bottom: 8px;
+        }
+        h2 {
+            margin-top: 24px;
+            font-size: 18px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 4px;
+        }
+        ul {
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Client Summary</h1>
+
+    <h2>Taxpayer Information</h2>
+    <p><strong>Name:</strong> {{ case.taxpayer.full_name }}</p>
+    <p><strong>SSN:</strong> {{ case.taxpayer.ssn }}</p>
+    <p><strong>Date of Birth:</strong> {{ case.taxpayer.dob }}</p>
+    <p><strong>Occupation:</strong> {{ case.taxpayer.occupation or "N/A" }}</p>
+
+    <h2>Spouse Information</h2>
+    <p><strong>Name:</strong> {{ case.spouse.full_name if case.spouse else "N/A" }}</p>
+    <p><strong>SSN:</strong> {{ case.spouse.ssn if case.spouse else "N/A" }}</p>
+    <p><strong>Date of Birth:</strong> {{ case.spouse.dob if case.spouse else "N/A" }}</p>
+    <p><strong>Occupation:</strong> {{ case.spouse.occupation if case.spouse else "N/A" }}</p>
+    <p><strong>Employer:</strong> {{ case.spouse.employer if case.spouse else "N/A" }}</p>
+
+    <h2>Address</h2>
+    <p>{{ case.address.street }}, {{ case.address.city }}, {{ case.address.state }} {{ case.address.zip_code }}</p>
+    <p><strong>County:</strong> {{ case.address.county or "N/A" }}</p>
+
+    <h2>Dependents</h2>
+    {% if case.dependents %}
+    <ul>
+        {% for dep in case.dependents %}
+        <li>
+            {{ dep.full_name }} — {{ dep.relationship }} — SSN: {{ dep.ssn }}
+            {% if dep.qualifies_child_tax_credit %}(Qualifies for Child Tax Credit){% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No dependents.</p>
+    {% endif %}
+
+    <h2>Filing Information</h2>
+    <p><strong>Federal Filing Status:</strong> {{ case.filing.federal_status }}</p>
+    <p><strong>State Filing Status:</strong> {{ case.filing.state_status }}</p>
+    <p><strong>Residency State:</strong> {{ case.filing.residency_state }}</p>
+</body>
+</html>

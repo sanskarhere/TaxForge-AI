@@ -1,0 +1,88 @@
+{
+  "case_id": "CASE_0007",
+  "tax_year": 2024,
+  "taxpayer": {
+    "first_name": "Carl",
+    "last_name": "Gutierrez",
+    "ssn": "168-54-7770",
+    "dob": "1974-01-04",
+    "occupation": "Graphic Designer",
+    "employer": null,
+    "full_name": "Carl Gutierrez"
+  },
+  "spouse": {
+    "first_name": "Marcus",
+    "last_name": "Spencer",
+    "ssn": "213-51-9376",
+    "dob": "1976-12-09",
+    "occupation": "Nurse",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "Marcus Spencer"
+  },
+  "address": {
+    "street": "427 Crystal Parkways",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "29227",
+    "county": "Sacramento"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
+    "full_year_resident": true
+  },
+  "dependents": [],
+  "income_documents": {
+    "w2": {
+      "employer_name": "Pacific Health System Inc.",
+      "wages_box1": 60083,
+      "federal_withholding": 5549,
+      "state_wages": 60083,
+      "state_withholding": 2524
+    },
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 1082
+    },
+    "dividend_1099_div": null,
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 67480,
+      "total_expenses": 28477,
+      "depreciation": 1638,
+      "other_expenses": 124
+    }
+  },
+  "federal_return": {
+    "total_income": 100168,
+    "adjustments": 2756,
+    "agi": 97412,
+    "standard_deduction": 29200,
+    "qbi_deduction": 7249,
+    "taxable_income": 60963,
+    "tax_before_credits": 6852,
+    "child_tax_credit": 0,
+    "self_employment_tax": 5511,
+    "total_tax": 12363,
+    "total_payments": 5549,
+    "refund": 0,
+    "balance_due": 6814
+  },
+  "california_return": {
+    "california_adjustments_additions": 0,
+    "california_adjustments_subtractions": 0,
+    "ca_agi": 97412,
+    "standard_deduction": 11080,
+    "taxable_income": 86332,
+    "tax_before_credits": 2253,
+    "exemption_credits": 298,
+    "total_tax": 1955,
+    "total_payments": 2524,
+    "refund": 569,
+    "balance_due": 0
+  },
+  "dependent_count": 0
+}

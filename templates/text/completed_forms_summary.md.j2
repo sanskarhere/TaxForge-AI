@@ -1,0 +1,43 @@
+# Completed Forms Summary
+
+## Federal Forms (IRS)
+- Form 1040 - U.S. Individual Income Tax Return
+- Schedule 1 - Additional Income & Adjustments
+- Schedule 2 - Additional Taxes
+- Schedule B - Interest & Dividends
+{% if case.income_documents.schedule_c %}
+- Schedule C - Profit or Loss from Business
+- Schedule SE - Self-Employment Tax
+- Form 8995 - Qualified Business Income Deduction
+{% endif %}
+{% if case.dependents|length > 0 %}
+- Schedule 8812 - Credits for Qualifying Children and Other Dependents
+{% endif %}
+
+## State Forms
+- California Form 540 - Resident Income Tax Return
+
+## Federal Return Snapshot
+- Total Income: ${{ case.federal_return.total_income }}
+- AGI: ${{ case.federal_return.agi }}
+- Standard Deduction: ${{ case.federal_return.standard_deduction }}
+- QBI Deduction: ${{ case.federal_return.qbi_deduction }}
+- Taxable Income: ${{ case.federal_return.taxable_income }}
+- Tax Before Credits: ${{ case.federal_return.tax_before_credits }}
+- Child Tax Credit: ${{ case.federal_return.child_tax_credit }}
+- Self-Employment Tax: ${{ case.federal_return.self_employment_tax }}
+- Total Tax: ${{ case.federal_return.total_tax }}
+- Total Payments: ${{ case.federal_return.total_payments }}
+- Refund: ${{ case.federal_return.refund }}
+- Balance Due: ${{ case.federal_return.balance_due }}
+
+## California Return Snapshot
+- California AGI: ${{ case.california_return.ca_agi }}
+- Standard Deduction: ${{ case.california_return.standard_deduction }}
+- Taxable Income: ${{ case.california_return.taxable_income }}
+- Tax Before Credits: ${{ case.california_return.tax_before_credits }}
+- Exemption Credits: ${{ case.california_return.exemption_credits }}
+- Total Tax: ${{ case.california_return.total_tax }}
+- Total Payments: ${{ case.california_return.total_payments }}
+- Refund: ${{ case.california_return.refund }}
+- Balance Due: ${{ case.california_return.balance_due }}

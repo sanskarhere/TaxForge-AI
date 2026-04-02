@@ -1,0 +1,93 @@
+{
+  "case_id": "CASE_0006",
+  "tax_year": 2024,
+  "taxpayer": {
+    "first_name": "Amy",
+    "last_name": "Anderson",
+    "ssn": "661-50-3160",
+    "dob": "1994-06-17",
+    "occupation": "Graphic Designer",
+    "employer": null,
+    "full_name": "Amy Anderson"
+  },
+  "spouse": {
+    "first_name": "Amanda",
+    "last_name": "Mcguire",
+    "ssn": "670-78-5952",
+    "dob": "1992-06-10",
+    "occupation": "Nurse",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "Amanda Mcguire"
+  },
+  "address": {
+    "street": "21733 Thomas Burgs Apt. 612",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "65891",
+    "county": "Sacramento"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
+    "full_year_resident": true
+  },
+  "dependents": [
+    {
+      "first_name": "James",
+      "last_name": "Anderson",
+      "ssn": "258-94-2761",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": true,
+      "full_name": "James Anderson"
+    }
+  ],
+  "income_documents": {
+    "w2": {
+      "employer_name": "Pacific Health System Inc.",
+      "wages_box1": 56444,
+      "federal_withholding": 5500,
+      "state_wages": 56444,
+      "state_withholding": 1995
+    },
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 367
+    },
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 214,
+      "qualified_dividends": 18
+    },
+    "schedule_c": null
+  },
+  "federal_return": {
+    "total_income": 57025,
+    "adjustments": 0,
+    "agi": 57025,
+    "standard_deduction": 29200,
+    "qbi_deduction": 0,
+    "taxable_income": 27825,
+    "tax_before_credits": 2875,
+    "child_tax_credit": 2000,
+    "self_employment_tax": 0,
+    "total_tax": 875,
+    "total_payments": 5500,
+    "refund": 4625,
+    "balance_due": 0
+  },
+  "california_return": {
+    "california_adjustments_additions": 0,
+    "california_adjustments_subtractions": 0,
+    "ca_agi": 57025,
+    "standard_deduction": 11080,
+    "taxable_income": 45945,
+    "tax_before_credits": 719,
+    "exemption_credits": 759,
+    "total_tax": 0,
+    "total_payments": 1995,
+    "refund": 1995,
+    "balance_due": 0
+  },
+  "dependent_count": 1
+}

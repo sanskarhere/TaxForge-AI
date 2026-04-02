@@ -1,0 +1,96 @@
+{
+  "case_id": "CASE_0027",
+  "tax_year": 2024,
+  "taxpayer": {
+    "first_name": "Gabrielle",
+    "last_name": "Davis",
+    "ssn": "800-14-2570",
+    "dob": "1975-12-06",
+    "occupation": "Graphic Designer",
+    "employer": null,
+    "full_name": "Gabrielle Davis"
+  },
+  "spouse": {
+    "first_name": "Carl",
+    "last_name": "Cooper",
+    "ssn": "270-18-6646",
+    "dob": "1993-12-08",
+    "occupation": "Nurse",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "Carl Cooper"
+  },
+  "address": {
+    "street": "588 Thomas Lock Apt. 642",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "26193",
+    "county": "Sacramento"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
+    "full_year_resident": true
+  },
+  "dependents": [
+    {
+      "first_name": "Robert",
+      "last_name": "Davis",
+      "ssn": "538-82-8170",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Robert Davis"
+    },
+    {
+      "first_name": "Maria",
+      "last_name": "Davis",
+      "ssn": "245-62-7424",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Maria Davis"
+    }
+  ],
+  "income_documents": {
+    "w2": null,
+    "interest_1099_int": null,
+    "dividend_1099_div": null,
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 57656,
+      "total_expenses": 26412,
+      "depreciation": 2061,
+      "other_expenses": 850
+    }
+  },
+  "federal_return": {
+    "total_income": 31244,
+    "adjustments": 2208,
+    "agi": 29036,
+    "standard_deduction": 29200,
+    "qbi_deduction": 5807,
+    "taxable_income": 0,
+    "tax_before_credits": 0,
+    "child_tax_credit": 1000,
+    "self_employment_tax": 4415,
+    "total_tax": 4415,
+    "total_payments": 0,
+    "refund": 0,
+    "balance_due": 4415
+  },
+  "california_return": {
+    "california_adjustments_additions": 0,
+    "california_adjustments_subtractions": 0,
+    "ca_agi": 29036,
+    "standard_deduction": 11080,
+    "taxable_income": 17956,
+    "tax_before_credits": 180,
+    "exemption_credits": 1220,
+    "total_tax": 0,
+    "total_payments": 0,
+    "refund": 0,
+    "balance_due": 0
+  },
+  "dependent_count": 2
+}

@@ -1,0 +1,110 @@
+{
+  "case_id": "CASE_0023",
+  "tax_year": 2024,
+  "taxpayer": {
+    "first_name": "Robert",
+    "last_name": "Roberts",
+    "ssn": "524-46-5713",
+    "dob": "1977-09-25",
+    "occupation": "Graphic Designer",
+    "employer": null,
+    "full_name": "Robert Roberts"
+  },
+  "spouse": {
+    "first_name": "Scott",
+    "last_name": "Rice",
+    "ssn": "626-38-8270",
+    "dob": "1994-01-02",
+    "occupation": "Nurse",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "Scott Rice"
+  },
+  "address": {
+    "street": "87437 Jonathan Estate",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "69752",
+    "county": "Sacramento"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
+    "full_year_resident": true
+  },
+  "dependents": [
+    {
+      "first_name": "Sara",
+      "last_name": "Roberts",
+      "ssn": "754-65-4695",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Sara Roberts"
+    },
+    {
+      "first_name": "Margaret",
+      "last_name": "Roberts",
+      "ssn": "370-35-8755",
+      "relationship": "son",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Margaret Roberts"
+    },
+    {
+      "first_name": "Samuel",
+      "last_name": "Roberts",
+      "ssn": "215-30-9656",
+      "relationship": "son",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Samuel Roberts"
+    }
+  ],
+  "income_documents": {
+    "w2": {
+      "employer_name": "Pacific Health System Inc.",
+      "wages_box1": 50866,
+      "federal_withholding": 7315,
+      "state_wages": 50866,
+      "state_withholding": 2275
+    },
+    "interest_1099_int": null,
+    "dividend_1099_div": null,
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 78033,
+      "total_expenses": 33968,
+      "depreciation": 932,
+      "other_expenses": 1630
+    }
+  },
+  "federal_return": {
+    "total_income": 94931,
+    "adjustments": 3113,
+    "agi": 91818,
+    "standard_deduction": 29200,
+    "qbi_deduction": 8190,
+    "taxable_income": 54428,
+    "tax_before_credits": 6067,
+    "child_tax_credit": 1500,
+    "self_employment_tax": 6226,
+    "total_tax": 10793,
+    "total_payments": 7315,
+    "refund": 0,
+    "balance_due": 3478
+  },
+  "california_return": {
+    "california_adjustments_additions": 0,
+    "california_adjustments_subtractions": 0,
+    "ca_agi": 91818,
+    "standard_deduction": 11080,
+    "taxable_income": 80738,
+    "tax_before_credits": 2030,
+    "exemption_credits": 1681,
+    "total_tax": 349,
+    "total_payments": 2275,
+    "refund": 1926,
+    "balance_due": 0
+  },
+  "dependent_count": 3
+}

@@ -46,7 +46,7 @@ Real tax data is:
 
 ## 🧩 System Architecture
 
-ynthetic Profile Generator
+Synthetic Profile Generator
 ↓
 Income Generator (W2 / 1099 / Schedule C)
 ↓

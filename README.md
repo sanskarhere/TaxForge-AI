@@ -6,45 +6,53 @@
 
 ## 🧠 Overview
 
-**TaxForge AI** is a production-style system designed to generate **high-quality synthetic tax datasets** along with **fully structured PDF documents**.
+TaxForge-AI is a production-style system that generates high-quality synthetic tax datasets along with fully structured, IRS-style PDF documents.
 
 It simulates real-world tax scenarios by combining:
-- realistic user profiles  
-- diverse income patterns  
-- rule-based tax calculations  
-- automated document generation  
 
-The system ensures **data consistency across all forms**, making it ideal for:
-- AI/ML training datasets  
-- document automation testing  
-- financial simulation systems  
+realistic taxpayer profiles
 
----
+multiple income streams (W2, 1099, business income)
 
-## 🎯 Problem It Solves
+rule-based federal & state tax calculations
 
-Real tax data is:
-- ❌ sensitive (PII issues)  
-- ❌ hard to access  
-- ❌ legally restricted  
+automated document generation pipelines
 
-👉 TaxForge AI solves this by generating:
+👉 The system ensures end-to-end consistency across all outputs, making it suitable for real-world experimentation and testing.
 
-> **Fully synthetic, privacy-safe, yet realistic tax datasets**
+🎯 Problem Statement
 
----
+Accessing real tax data is challenging due to:
 
-## ⚙️ What This Project Does
+❌ Privacy concerns (PII exposure)
 
-✔ Generates complete synthetic tax cases  
-✔ Simulates multiple income sources (W2, 1099, Business)  
-✔ Applies Federal & State tax logic  
-✔ Produces structured outputs (JSON + Markdown)  
-✔ Converts them into professional PDFs  
+❌ Legal restrictions
 
----
+❌ Limited availability for ML training
 
-## 🧩 System Architecture
+✅ Solution
+
+TaxForge-AI generates:
+
+Fully synthetic, privacy-safe, yet structurally realistic tax datasets
+
+⚙️ Key Features
+
+✔ End-to-end synthetic tax case generation
+
+✔ Supports multiple income types (W2, 1099, Schedule C)
+
+✔ Federal + California tax rule simulation
+
+✔ Structured outputs (JSON + Markdown)
+
+✔ Automated PDF document generation
+
+✔ Conditional form inclusion (e.g., Schedule C, 8812)
+
+✔ Consistent multi-document pipeline
+
+🧩 System Architecture
 
 Synthetic Profile Generator
 ↓
@@ -58,19 +66,21 @@ Markdown → PDF Renderer (ReportLab)
 ↓
 Final Output (Multi-document dataset)
 
-
-## 📂 Output Structure
+📂 Output Structure
 
 Each generated case contains:
-
 
 CASE_0001/
 │
 ├── case_data.json
 ├── client_summary.pdf
-├── prompt.pdf
 ├── executive_summary.pdf
+├── prompt.pdf
 └── completed_forms_summary.pdf
+
+👉 All files are internally consistent and derived from the same generated case.
+
+
 
 ## 🚀 How to Run
 

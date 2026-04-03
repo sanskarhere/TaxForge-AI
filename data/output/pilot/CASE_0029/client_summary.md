@@ -2,24 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Mario Harvey
-- SSN: 431-75-1138
-- DOB: 1970-07-16
+- SSN: 874-35-5314
+- DOB: 1970-07-17
 - Occupation: Graphic Designer
 
 ## Spouse
-- Name: Joseph Moore- SSN: 371-29-4264- DOB: 2000-12-29- Occupation: Nurse- Employer: Pacific Health System Inc.
+- Name: Joseph Moore- SSN: 188-35-9392- DOB: 2000-12-30- Occupation: HR Specialist- Employer: NorthStar Solutions LLC
 ## Address
-- Street: 093 Lisa Pine
-- City: Sacramento
-- State: CA
-- ZIP: 48430
-- County: Sacramento
+- Street: 1380 William Via
+- City: New York
+- State: NY
+- ZIP: 11201
+- County: New York
 
 ## Dependents
-- Yolanda Harvey (son) — SSN: 624-17-4175
-- Jose Harvey (son) — SSN: 568-26-6723
+- None
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: CA
+- Federal Status: head_of_household
+- State Status: head_of_household
+- Residency: NY

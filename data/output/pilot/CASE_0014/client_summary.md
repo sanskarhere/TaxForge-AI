@@ -2,25 +2,24 @@
 
 ## Primary Taxpayer
 - Name: Tammy Castro
-- SSN: 673-11-8760
-- DOB: 1986-05-14
-- Occupation: Graphic Designer
+- SSN: 886-79-7890
+- DOB: 1986-05-15
+- Occupation: Accountant
 
 ## Spouse
-- Name: Denise Turner- SSN: 768-76-5933- DOB: 1993-09-18- Occupation: Nurse- Employer: Pacific Health System Inc.
+- Name: Denise Turner- SSN: 824-39-2548- DOB: 1993-09-19- Occupation: Project Coordinator- Employer: Sunrise Community Hospital
 ## Address
-- Street: 154 Andrew Ports Apt. 098
-- City: Sacramento
-- State: CA
-- ZIP: 18434
-- County: Sacramento
+- Street: 59154 Andrew Ports
+- City: Seattle
+- State: WA
+- ZIP: 98104
+- County: King
 
 ## Dependents
-- Vanessa Castro (son) — SSN: 483-89-2109
-- Robert Castro (daughter) — SSN: 687-36-1366
-- Jerry Castro (son) — SSN: 695-81-3241
+- William Castro (son) — SSN: 758-42-4395
+- Jason Castro (son) — SSN: 155-84-3241
 
 ## Filing Details
 - Federal Status: married_filing_jointly
 - State Status: married_filing_jointly
-- Residency: CA
+- Residency: WA

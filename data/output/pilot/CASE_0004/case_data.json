@@ -1,97 +1,87 @@
 {
   "case_id": "CASE_0004",
-  "tax_year": 2024,
+  "tax_year": 2022,
   "taxpayer": {
     "first_name": "Pamela",
     "last_name": "Ross",
-    "ssn": "178-61-1654",
-    "dob": "1990-04-12",
-    "occupation": "Graphic Designer",
+    "ssn": "749-76-3489",
+    "dob": "1990-04-13",
+    "occupation": "Teacher",
     "employer": null,
     "full_name": "Pamela Ross"
   },
   "spouse": {
     "first_name": "Brenda",
     "last_name": "Clay",
-    "ssn": "702-85-4744",
-    "dob": "1996-11-02",
-    "occupation": "Nurse",
-    "employer": "Pacific Health System Inc.",
+    "ssn": "697-78-1527",
+    "dob": "1996-11-03",
+    "occupation": "Project Coordinator",
+    "employer": "NorthStar Solutions LLC",
     "full_name": "Brenda Clay"
   },
   "address": {
-    "street": "15002 Rose Station",
+    "street": "800 Krista Roads",
     "city": "Sacramento",
     "state": "CA",
-    "zip_code": "12680",
+    "zip_code": "95833",
     "county": "Sacramento"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
+    "federal_status": "single",
+    "state_status": "single",
     "residency_state": "CA",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Zachary",
-      "last_name": "Ross",
-      "ssn": "170-50-1892",
-      "relationship": "son",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Zachary Ross"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
-    "w2": {
-      "employer_name": "Pacific Health System Inc.",
-      "wages_box1": 50872,
-      "federal_withholding": 6303,
-      "state_wages": 50872,
-      "state_withholding": 1468
-    },
+    "w2": null,
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 240
+      "taxable_interest": 161
     },
-    "dividend_1099_div": null,
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 654,
+      "qualified_dividends": 561
+    },
     "schedule_c": {
       "business_name": "Creative Studio LLC",
       "business_code": "541510",
       "business_description": "Freelance Graphic & Web Design",
-      "gross_receipts": 77235,
-      "total_expenses": 22926,
-      "depreciation": 1907,
-      "other_expenses": 304
+      "gross_receipts": 99175,
+      "total_expenses": 34602,
+      "depreciation": 380,
+      "other_expenses": 1630
     }
   },
   "federal_return": {
-    "total_income": 105421,
-    "adjustments": 3837,
-    "agi": 101584,
+    "total_income": 65388,
+    "adjustments": 4562,
+    "agi": 60826,
     "standard_deduction": 29200,
-    "qbi_deduction": 10094,
-    "taxable_income": 62290,
-    "tax_before_credits": 7011,
-    "child_tax_credit": 2000,
-    "self_employment_tax": 7674,
-    "total_tax": 12685,
-    "total_payments": 6303,
+    "qbi_deduction": 12002,
+    "taxable_income": 19624,
+    "tax_before_credits": 1962,
+    "child_tax_credit": 0,
+    "self_employment_tax": 9124,
+    "total_tax": 11086,
+    "total_payments": 0,
     "refund": 0,
-    "balance_due": 6382
+    "balance_due": 11086
   },
-  "california_return": {
-    "california_adjustments_additions": 0,
-    "california_adjustments_subtractions": 0,
-    "ca_agi": 101584,
+  "state_return": {
+    "state_code": "CA",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 60826,
     "standard_deduction": 11080,
-    "taxable_income": 90504,
-    "tax_before_credits": 2420,
-    "exemption_credits": 759,
-    "total_tax": 1661,
-    "total_payments": 1468,
+    "taxable_income": 49746,
+    "tax_before_credits": 795,
+    "exemption_credits": 149,
+    "total_tax": 646,
+    "total_payments": 0,
     "refund": 0,
-    "balance_due": 193
+    "balance_due": 646
   },
-  "dependent_count": 1
+  "dependent_count": 0
 }

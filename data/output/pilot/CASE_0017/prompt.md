@@ -4,13 +4,14 @@
 - Taxpayer: Jeffrey Cantu
 - Spouse: Andrew Bradford
 ## Filing Information
-- Filing Status: married_filing_jointly
-- State: CA
+- Filing Status: head_of_household
+- State: TX
 
 ## Income Sources
-- W-2 Wages: $42693- Interest Income: $1147- Dividend Income: $0- Business Income (Schedule C): $0
+- W-2 Wages: $61999- Interest Income: $0- Dividend Income: $459- Business Income (Schedule C): $0
+
 ## Expected Outputs
-- Federal AGI: $43840
-- Federal Taxable Income: $14640
-- Federal Tax: $1464
-- California Taxable Income: $32760
+- Federal AGI: $62458
+- Federal Taxable Income: $33258
+- Federal Tax: $1027
+- California Taxable Income: $62458

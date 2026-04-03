@@ -2,24 +2,24 @@
 
 ## Primary Taxpayer
 - Name: Charles Wheeler
-- SSN: 175-86-4051
-- DOB: 1976-08-02
-- Occupation: Graphic Designer
+- SSN: 657-89-7133
+- DOB: 1976-08-03
+- Occupation: Software Engineer
 
 ## Spouse
-- Name: Maurice Stephens- SSN: 452-99-9912- DOB: 1987-12-27- Occupation: Nurse- Employer: Pacific Health System Inc.
+- Name: Maurice Stephens- SSN: 414-97-3113- DOB: 1987-12-28- Occupation: HR Specialist- Employer: City Public School District
 ## Address
 - Street: 536 Cynthia Square
 - City: Sacramento
 - State: CA
-- ZIP: 29598
+- ZIP: 95825
 - County: Sacramento
 
 ## Dependents
-- Kurt Wheeler (daughter) — SSN: 819-98-6616
-- Jennifer Wheeler (son) — SSN: 246-91-1443
+- Eric Wheeler (son) — SSN: 246-91-1443
+- Mitchell Wheeler (son) — SSN: 113-67-2130
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
+- Federal Status: head_of_household
+- State Status: head_of_household
 - Residency: CA

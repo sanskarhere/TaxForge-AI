@@ -1,102 +1,79 @@
 {
   "case_id": "CASE_0002",
-  "tax_year": 2024,
+  "tax_year": 2023,
   "taxpayer": {
     "first_name": "Ricky",
     "last_name": "Weaver",
-    "ssn": "518-76-9879",
-    "dob": "1974-03-21",
-    "occupation": "Graphic Designer",
+    "ssn": "488-38-5744",
+    "dob": "1974-03-22",
+    "occupation": "Accountant",
     "employer": null,
     "full_name": "Ricky Weaver"
   },
   "spouse": {
     "first_name": "Gregory",
     "last_name": "Perez",
-    "ssn": "818-24-3894",
-    "dob": "1976-03-28",
+    "ssn": "129-38-2911",
+    "dob": "1976-03-29",
     "occupation": "Nurse",
-    "employer": "Pacific Health System Inc.",
+    "employer": "NorthStar Solutions LLC",
     "full_name": "Gregory Perez"
   },
   "address": {
-    "street": "696 Howard Junction Suite 921",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "67480",
-    "county": "Sacramento"
+    "street": "90128 Steele Lane",
+    "city": "Miami",
+    "state": "FL",
+    "zip_code": "33132",
+    "county": "Miami-Dade"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "CA",
+    "federal_status": "head_of_household",
+    "state_status": "head_of_household",
+    "residency_state": "FL",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Jeffrey",
-      "last_name": "Weaver",
-      "ssn": "129-38-2911",
-      "relationship": "son",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Jeffrey Weaver"
-    },
-    {
-      "first_name": "Ashley",
-      "last_name": "Weaver",
-      "ssn": "260-75-5964",
-      "relationship": "son",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Ashley Weaver"
-    },
-    {
-      "first_name": "Craig",
-      "last_name": "Weaver",
-      "ssn": "884-98-6343",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Craig Weaver"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
-    "w2": {
-      "employer_name": "Pacific Health System Inc.",
-      "wages_box1": 64204,
-      "federal_withholding": 9459,
-      "state_wages": 64204,
-      "state_withholding": 2473
+    "w2": null,
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 1460
     },
-    "interest_1099_int": null,
-    "dividend_1099_div": null,
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 2940,
+      "qualified_dividends": 2596
+    },
     "schedule_c": null
   },
   "federal_return": {
-    "total_income": 64204,
+    "total_income": 4400,
     "adjustments": 0,
-    "agi": 64204,
+    "agi": 4400,
     "standard_deduction": 29200,
     "qbi_deduction": 0,
-    "taxable_income": 35004,
-    "tax_before_credits": 3736,
-    "child_tax_credit": 3000,
+    "taxable_income": 0,
+    "tax_before_credits": 0,
+    "child_tax_credit": 0,
     "self_employment_tax": 0,
-    "total_tax": 736,
-    "total_payments": 9459,
-    "refund": 8723,
-    "balance_due": 0
-  },
-  "california_return": {
-    "california_adjustments_additions": 0,
-    "california_adjustments_subtractions": 0,
-    "ca_agi": 64204,
-    "standard_deduction": 11080,
-    "taxable_income": 53124,
-    "tax_before_credits": 925,
-    "exemption_credits": 1681,
     "total_tax": 0,
-    "total_payments": 2473,
-    "refund": 2473,
+    "total_payments": 0,
+    "refund": 0,
     "balance_due": 0
   },
-  "dependent_count": 3
+  "state_return": {
+    "state_code": "FL",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 4400,
+    "standard_deduction": 0,
+    "taxable_income": 4400,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
+    "total_tax": 0,
+    "total_payments": 0,
+    "refund": 0,
+    "balance_due": 0
+  },
+  "dependent_count": 0
 }

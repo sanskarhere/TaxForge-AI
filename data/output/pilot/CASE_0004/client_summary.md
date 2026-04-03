@@ -2,23 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Pamela Ross
-- SSN: 178-61-1654
-- DOB: 1990-04-12
-- Occupation: Graphic Designer
+- SSN: 749-76-3489
+- DOB: 1990-04-13
+- Occupation: Teacher
 
 ## Spouse
-- Name: Brenda Clay- SSN: 702-85-4744- DOB: 1996-11-02- Occupation: Nurse- Employer: Pacific Health System Inc.
+- Name: Brenda Clay- SSN: 697-78-1527- DOB: 1996-11-03- Occupation: Project Coordinator- Employer: NorthStar Solutions LLC
 ## Address
-- Street: 15002 Rose Station
+- Street: 800 Krista Roads
 - City: Sacramento
 - State: CA
-- ZIP: 12680
+- ZIP: 95833
 - County: Sacramento
 
 ## Dependents
-- Zachary Ross (son) — SSN: 170-50-1892
+- None
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
+- Federal Status: single
+- State Status: single
 - Residency: CA

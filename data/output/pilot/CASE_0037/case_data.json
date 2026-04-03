@@ -1,0 +1,89 @@
+{
+  "case_id": "CASE_0037",
+  "tax_year": 2022,
+  "taxpayer": {
+    "first_name": "Dustin",
+    "last_name": "Bailey",
+    "ssn": "351-98-9101",
+    "dob": "1975-10-18",
+    "occupation": "Teacher",
+    "employer": null,
+    "full_name": "Dustin Bailey"
+  },
+  "spouse": {
+    "first_name": "John",
+    "last_name": "Cummings",
+    "ssn": "258-18-6749",
+    "dob": "1992-01-29",
+    "occupation": "Business Analyst",
+    "employer": "NorthStar Solutions LLC",
+    "full_name": "John Cummings"
+  },
+  "address": {
+    "street": "50317 Thompson Orchard",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78702",
+    "county": "Travis"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "TX",
+    "full_year_resident": true
+  },
+  "dependents": [],
+  "income_documents": {
+    "w2": {
+      "employer_name": "NorthStar Solutions LLC",
+      "wages_box1": 89563,
+      "federal_withholding": 10684,
+      "state_wages": 89563,
+      "state_withholding": 2622
+    },
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 1459
+    },
+    "dividend_1099_div": null,
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 80086,
+      "total_expenses": 22576,
+      "depreciation": 1990,
+      "other_expenses": 168
+    }
+  },
+  "federal_return": {
+    "total_income": 148532,
+    "adjustments": 4063,
+    "agi": 144469,
+    "standard_deduction": 29200,
+    "qbi_deduction": 10689,
+    "taxable_income": 104580,
+    "tax_before_credits": 13114,
+    "child_tax_credit": 0,
+    "self_employment_tax": 8126,
+    "total_tax": 21240,
+    "total_payments": 10684,
+    "refund": 0,
+    "balance_due": 10556
+  },
+  "state_return": {
+    "state_code": "TX",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 144469,
+    "standard_deduction": 0,
+    "taxable_income": 144469,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
+    "total_tax": 0,
+    "total_payments": 2622,
+    "refund": 2622,
+    "balance_due": 0
+  },
+  "dependent_count": 0
+}

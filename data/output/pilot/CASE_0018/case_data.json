@@ -1,113 +1,98 @@
 {
   "case_id": "CASE_0018",
-  "tax_year": 2024,
+  "tax_year": 2021,
   "taxpayer": {
     "first_name": "Kyle",
     "last_name": "Lane",
-    "ssn": "415-46-3525",
-    "dob": "1979-04-15",
-    "occupation": "Graphic Designer",
+    "ssn": "595-69-6448",
+    "dob": "1979-04-16",
+    "occupation": "Software Engineer",
     "employer": null,
     "full_name": "Kyle Lane"
   },
   "spouse": {
     "first_name": "Jerry",
     "last_name": "Webb",
-    "ssn": "371-39-8921",
-    "dob": "1986-07-25",
-    "occupation": "Nurse",
-    "employer": "Pacific Health System Inc.",
+    "ssn": "142-21-4038",
+    "dob": "1986-07-26",
+    "occupation": "HR Specialist",
+    "employer": "NorthStar Solutions LLC",
     "full_name": "Jerry Webb"
   },
   "address": {
-    "street": "226 John Underpass",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "01704",
-    "county": "Sacramento"
+    "street": "22603 Robert Stream",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "11201",
+    "county": "New York"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "CA",
+    "federal_status": "head_of_household",
+    "state_status": "head_of_household",
+    "residency_state": "NY",
     "full_year_resident": true
   },
   "dependents": [
     {
-      "first_name": "Theresa",
+      "first_name": "Vanessa",
       "last_name": "Lane",
-      "ssn": "194-95-4038",
+      "ssn": "345-91-1150",
       "relationship": "daughter",
       "qualifies_child_tax_credit": true,
-      "full_name": "Theresa Lane"
-    },
-    {
-      "first_name": "Blake",
-      "last_name": "Lane",
-      "ssn": "147-40-1150",
-      "relationship": "son",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Blake Lane"
-    },
-    {
-      "first_name": "Samantha",
-      "last_name": "Lane",
-      "ssn": "233-49-3440",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Samantha Lane"
+      "full_name": "Vanessa Lane"
     }
   ],
   "income_documents": {
     "w2": {
-      "employer_name": "Pacific Health System Inc.",
-      "wages_box1": 78452,
-      "federal_withholding": 11373,
-      "state_wages": 78452,
-      "state_withholding": 1683
+      "employer_name": "NorthStar Solutions LLC",
+      "wages_box1": 89593,
+      "federal_withholding": 8363,
+      "state_wages": 89593,
+      "state_withholding": 2615
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 668
+      "taxable_interest": 1432
     },
     "dividend_1099_div": null,
     "schedule_c": {
       "business_name": "Creative Studio LLC",
       "business_code": "541510",
       "business_description": "Freelance Graphic & Web Design",
-      "gross_receipts": 58700,
-      "total_expenses": 19861,
-      "depreciation": 991,
-      "other_expenses": 2239
+      "gross_receipts": 107186,
+      "total_expenses": 28350,
+      "depreciation": 2306,
+      "other_expenses": 443
     }
   },
   "federal_return": {
-    "total_income": 117959,
-    "adjustments": 2744,
-    "agi": 115215,
+    "total_income": 169861,
+    "adjustments": 5570,
+    "agi": 164291,
     "standard_deduction": 29200,
-    "qbi_deduction": 7219,
-    "taxable_income": 78796,
-    "tax_before_credits": 8992,
-    "child_tax_credit": 4500,
-    "self_employment_tax": 5488,
-    "total_tax": 9980,
-    "total_payments": 11373,
-    "refund": 1393,
-    "balance_due": 0
+    "qbi_deduction": 14653,
+    "taxable_income": 120438,
+    "tax_before_credits": 16602,
+    "child_tax_credit": 2000,
+    "self_employment_tax": 11139,
+    "total_tax": 25741,
+    "total_payments": 8363,
+    "refund": 0,
+    "balance_due": 17378
   },
-  "california_return": {
-    "california_adjustments_additions": 0,
-    "california_adjustments_subtractions": 0,
-    "ca_agi": 115215,
-    "standard_deduction": 11080,
-    "taxable_income": 104135,
-    "tax_before_credits": 2965,
-    "exemption_credits": 1681,
-    "total_tax": 1284,
-    "total_payments": 1683,
-    "refund": 399,
-    "balance_due": 0
+  "state_return": {
+    "state_code": "NY",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 164291,
+    "standard_deduction": 8000,
+    "taxable_income": 156291,
+    "tax_before_credits": 7446,
+    "exemption_credits": 200,
+    "total_tax": 7246,
+    "total_payments": 2615,
+    "refund": 0,
+    "balance_due": 4631
   },
-  "dependent_count": 3
+  "dependent_count": 1
 }

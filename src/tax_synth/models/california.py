@@ -1,11 +1,13 @@
 from pydantic import BaseModel, Field
 
 
-class CaliforniaReturn(BaseModel):
-    california_adjustments_additions: int = Field(ge=0, default=0)
-    california_adjustments_subtractions: int = Field(ge=0, default=0)
+class StateReturn(BaseModel):
+    state_code: str = Field(min_length=2, max_length=2)
 
-    ca_agi: int = Field(ge=0)
+    state_adjustments_additions: int = Field(ge=0, default=0)
+    state_adjustments_subtractions: int = Field(ge=0, default=0)
+
+    state_agi: int = Field(ge=0)
     standard_deduction: int = Field(ge=0)
     taxable_income: int = Field(ge=0)
 

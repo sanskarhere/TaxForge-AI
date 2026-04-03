@@ -1,29 +1,29 @@
 {
   "case_id": "CASE_0025",
-  "tax_year": 2024,
+  "tax_year": 2019,
   "taxpayer": {
     "first_name": "Charles",
     "last_name": "Miranda",
-    "ssn": "176-24-7690",
-    "dob": "1986-02-28",
-    "occupation": "Graphic Designer",
+    "ssn": "710-64-8991",
+    "dob": "1986-03-01",
+    "occupation": "Marketing Manager",
     "employer": null,
     "full_name": "Charles Miranda"
   },
   "spouse": {
     "first_name": "Robert",
     "last_name": "Duffy",
-    "ssn": "578-63-5372",
-    "dob": "1989-11-11",
-    "occupation": "Nurse",
-    "employer": "Pacific Health System Inc.",
+    "ssn": "736-45-4338",
+    "dob": "1989-11-12",
+    "occupation": "Teacher",
+    "employer": "Sunrise Community Hospital",
     "full_name": "Robert Duffy"
   },
   "address": {
-    "street": "240 Scott Crossing",
+    "street": "430 Keith Estate Suite 211",
     "city": "Sacramento",
     "state": "CA",
-    "zip_code": "89988",
+    "zip_code": "95833",
     "county": "Sacramento"
   },
   "filing": {
@@ -32,78 +32,47 @@
     "residency_state": "CA",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Tony",
-      "last_name": "Miranda",
-      "ssn": "308-92-1651",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Tony Miranda"
-    },
-    {
-      "first_name": "Joshua",
-      "last_name": "Miranda",
-      "ssn": "135-30-8200",
-      "relationship": "son",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Joshua Miranda"
-    },
-    {
-      "first_name": "Pamela",
-      "last_name": "Miranda",
-      "ssn": "799-22-9047",
-      "relationship": "son",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Pamela Miranda"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "Pacific Health System Inc.",
-      "wages_box1": 68260,
-      "federal_withholding": 9546,
-      "state_wages": 68260,
-      "state_withholding": 2576
+      "employer_name": "Sunrise Community Hospital",
+      "wages_box1": 60872,
+      "federal_withholding": 5040,
+      "state_wages": 60872,
+      "state_withholding": 2020
     },
-    "interest_1099_int": {
-      "payer_name": "Golden State Community Bank",
-      "taxable_interest": 1128
-    },
-    "dividend_1099_div": {
-      "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 3104,
-      "qualified_dividends": 2886
-    },
+    "interest_1099_int": null,
+    "dividend_1099_div": null,
     "schedule_c": null
   },
   "federal_return": {
-    "total_income": 72492,
+    "total_income": 60872,
     "adjustments": 0,
-    "agi": 72492,
+    "agi": 60872,
     "standard_deduction": 29200,
     "qbi_deduction": 0,
-    "taxable_income": 43292,
-    "tax_before_credits": 4731,
-    "child_tax_credit": 3000,
+    "taxable_income": 31672,
+    "tax_before_credits": 3337,
+    "child_tax_credit": 0,
     "self_employment_tax": 0,
-    "total_tax": 1731,
-    "total_payments": 9546,
-    "refund": 7815,
+    "total_tax": 3337,
+    "total_payments": 5040,
+    "refund": 1703,
     "balance_due": 0
   },
-  "california_return": {
-    "california_adjustments_additions": 0,
-    "california_adjustments_subtractions": 0,
-    "ca_agi": 72492,
+  "state_return": {
+    "state_code": "CA",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 60872,
     "standard_deduction": 11080,
-    "taxable_income": 61412,
-    "tax_before_credits": 1256,
-    "exemption_credits": 1681,
-    "total_tax": 0,
-    "total_payments": 2576,
-    "refund": 2576,
+    "taxable_income": 49792,
+    "tax_before_credits": 796,
+    "exemption_credits": 298,
+    "total_tax": 498,
+    "total_payments": 2020,
+    "refund": 1522,
     "balance_due": 0
   },
-  "dependent_count": 3
+  "dependent_count": 0
 }

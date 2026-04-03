@@ -1,92 +1,82 @@
 {
   "case_id": "CASE_0019",
-  "tax_year": 2024,
+  "tax_year": 2020,
   "taxpayer": {
     "first_name": "Troy",
     "last_name": "Hawkins",
-    "ssn": "606-33-4551",
-    "dob": "1981-02-27",
-    "occupation": "Graphic Designer",
+    "ssn": "428-98-1454",
+    "dob": "1981-02-28",
+    "occupation": "Software Engineer",
     "employer": null,
     "full_name": "Troy Hawkins"
   },
   "spouse": {
     "first_name": "Kelly",
     "last_name": "Brock",
-    "ssn": "428-47-6258",
-    "dob": "1976-03-11",
-    "occupation": "Nurse",
-    "employer": "Pacific Health System Inc.",
+    "ssn": "597-55-6887",
+    "dob": "1976-03-12",
+    "occupation": "HR Specialist",
+    "employer": "Sunrise Community Hospital",
     "full_name": "Kelly Brock"
   },
   "address": {
     "street": "5167 Mccann Isle Apt. 812",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "44744",
-    "county": "Sacramento"
+    "city": "Miami",
+    "state": "FL",
+    "zip_code": "33101",
+    "county": "Miami-Dade"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "CA",
+    "federal_status": "head_of_household",
+    "state_status": "head_of_household",
+    "residency_state": "FL",
     "full_year_resident": true
   },
   "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "Pacific Health System Inc.",
-      "wages_box1": 65550,
-      "federal_withholding": 5586,
-      "state_wages": 65550,
-      "state_withholding": 2218
+      "employer_name": "Sunrise Community Hospital",
+      "wages_box1": 63613,
+      "federal_withholding": 10046,
+      "state_wages": 63613,
+      "state_withholding": 1911
     },
-    "interest_1099_int": {
-      "payer_name": "Golden State Community Bank",
-      "taxable_interest": 735
-    },
+    "interest_1099_int": null,
     "dividend_1099_div": {
       "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 3760,
-      "qualified_dividends": 2059
+      "ordinary_dividends": 475,
+      "qualified_dividends": 325
     },
-    "schedule_c": {
-      "business_name": "Creative Studio LLC",
-      "business_code": "541510",
-      "business_description": "Freelance Graphic & Web Design",
-      "gross_receipts": 113201,
-      "total_expenses": 34219,
-      "depreciation": 108,
-      "other_expenses": 1775
-    }
+    "schedule_c": null
   },
   "federal_return": {
-    "total_income": 149027,
-    "adjustments": 5580,
-    "agi": 143447,
+    "total_income": 64088,
+    "adjustments": 0,
+    "agi": 64088,
     "standard_deduction": 29200,
-    "qbi_deduction": 14680,
-    "taxable_income": 99567,
-    "tax_before_credits": 12011,
+    "qbi_deduction": 0,
+    "taxable_income": 34888,
+    "tax_before_credits": 3723,
     "child_tax_credit": 0,
-    "self_employment_tax": 11160,
-    "total_tax": 23171,
-    "total_payments": 5586,
-    "refund": 0,
-    "balance_due": 17585
+    "self_employment_tax": 0,
+    "total_tax": 3723,
+    "total_payments": 10046,
+    "refund": 6323,
+    "balance_due": 0
   },
-  "california_return": {
-    "california_adjustments_additions": 0,
-    "california_adjustments_subtractions": 0,
-    "ca_agi": 143447,
-    "standard_deduction": 11080,
-    "taxable_income": 132367,
-    "tax_before_credits": 4095,
-    "exemption_credits": 298,
-    "total_tax": 3797,
-    "total_payments": 2218,
-    "refund": 0,
-    "balance_due": 1579
+  "state_return": {
+    "state_code": "FL",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 64088,
+    "standard_deduction": 0,
+    "taxable_income": 64088,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
+    "total_tax": 0,
+    "total_payments": 1911,
+    "refund": 1911,
+    "balance_due": 0
   },
   "dependent_count": 0
 }

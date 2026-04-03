@@ -2,23 +2,24 @@
 
 ## Primary Taxpayer
 - Name: Tiffany Brown
-- SSN: 374-16-9398
-- DOB: 1994-12-10
-- Occupation: Graphic Designer
+- SSN: 516-14-3298
+- DOB: 1994-12-11
+- Occupation: Teacher
 
 ## Spouse
-- Name: William Wyatt- SSN: 595-57-7665- DOB: 1987-11-15- Occupation: Nurse- Employer: Pacific Health System Inc.
+- Name: William Wyatt- SSN: 262-62-4000- DOB: 1987-11-16- Occupation: Teacher- Employer: Sunrise Community Hospital
 ## Address
-- Street: 22625 Mccoy Bypass Suite 703
-- City: Sacramento
-- State: CA
-- ZIP: 09593
-- County: Sacramento
+- Street: 2570 Amy Mill
+- City: New York
+- State: NY
+- ZIP: 11354
+- County: New York
 
 ## Dependents
-- None
+- Jennifer Brown (daughter) — SSN: 135-79-7343
+- Tamara Brown (daughter) — SSN: 342-18-3605
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: CA
+- Federal Status: head_of_household
+- State Status: head_of_household
+- Residency: NY

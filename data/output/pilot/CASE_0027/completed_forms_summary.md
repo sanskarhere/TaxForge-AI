@@ -5,35 +5,32 @@
 - Schedule 1 - Additional Income & Adjustments
 - Schedule 2 - Additional Taxes
 - Schedule B - Interest & Dividends
-- Schedule C - Profit or Loss from Business
-- Schedule SE - Self-Employment Tax
-- Form 8995 - Qualified Business Income Deduction
 - Schedule 8812 - Credits for Qualifying Children and Other Dependents
 
 ## State Forms
-- California Form 540 - Resident Income Tax Return
+- State Resident Income Tax Return
 
 ## Federal Return Snapshot
-- Total Income: $31244
-- AGI: $29036
+- Total Income: $57430
+- AGI: $57430
 - Standard Deduction: $29200
-- QBI Deduction: $5807
-- Taxable Income: $0
-- Tax Before Credits: $0
-- Child Tax Credit: $1000
-- Self-Employment Tax: $4415
-- Total Tax: $4415
-- Total Payments: $0
-- Refund: $0
-- Balance Due: $4415
+- QBI Deduction: $0
+- Taxable Income: $28230
+- Tax Before Credits: $2924
+- Child Tax Credit: $2500
+- Self-Employment Tax: $0
+- Total Tax: $424
+- Total Payments: $7564
+- Refund: $7140
+- Balance Due: $0
 
-## California Return Snapshot
-- California AGI: $29036
+## State Return Snapshot
+- State AGI: $57430
 - Standard Deduction: $11080
-- Taxable Income: $17956
-- Tax Before Credits: $180
-- Exemption Credits: $1220
+- Taxable Income: $46350
+- Tax Before Credits: $727
+- Exemption Credits: $1071
 - Total Tax: $0
-- Total Payments: $0
-- Refund: $0
+- Total Payments: $2223
+- Refund: $2223
 - Balance Due: $0

@@ -1,0 +1,98 @@
+{
+  "case_id": "CASE_0036",
+  "tax_year": 2019,
+  "taxpayer": {
+    "first_name": "Lisa",
+    "last_name": "Davis",
+    "ssn": "861-64-1559",
+    "dob": "1992-11-14",
+    "occupation": "Accountant",
+    "employer": null,
+    "full_name": "Lisa Davis"
+  },
+  "spouse": {
+    "first_name": "Jessica",
+    "last_name": "Scott",
+    "ssn": "771-28-7565",
+    "dob": "1989-10-18",
+    "occupation": "Pharmacist",
+    "employer": "Sunrise Community Hospital",
+    "full_name": "Jessica Scott"
+  },
+  "address": {
+    "street": "637 Hester Branch",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78701",
+    "county": "Travis"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "TX",
+    "full_year_resident": true
+  },
+  "dependents": [
+    {
+      "first_name": "Stephanie",
+      "last_name": "Davis",
+      "ssn": "659-11-4860",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Stephanie Davis"
+    }
+  ],
+  "income_documents": {
+    "w2": {
+      "employer_name": "Sunrise Community Hospital",
+      "wages_box1": 64768,
+      "federal_withholding": 7381,
+      "state_wages": 64768,
+      "state_withholding": 3195
+    },
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 430
+    },
+    "dividend_1099_div": null,
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 77240,
+      "total_expenses": 27770,
+      "depreciation": 842,
+      "other_expenses": 414
+    }
+  },
+  "federal_return": {
+    "total_income": 114668,
+    "adjustments": 3495,
+    "agi": 111173,
+    "standard_deduction": 29200,
+    "qbi_deduction": 9195,
+    "taxable_income": 72778,
+    "tax_before_credits": 8269,
+    "child_tax_credit": 500,
+    "self_employment_tax": 6990,
+    "total_tax": 14759,
+    "total_payments": 7381,
+    "refund": 0,
+    "balance_due": 7378
+  },
+  "state_return": {
+    "state_code": "TX",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 111173,
+    "standard_deduction": 0,
+    "taxable_income": 111173,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
+    "total_tax": 0,
+    "total_payments": 3195,
+    "refund": 3195,
+    "balance_due": 0
+  },
+  "dependent_count": 1
+}

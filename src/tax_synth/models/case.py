@@ -1,7 +1,7 @@
 from pydantic import BaseModel, Field, computed_field
 
 from tax_synth.models.address import Address
-from tax_synth.models.california import CaliforniaReturn
+from tax_synth.models.california import StateReturn
 from tax_synth.models.enums import FilingStatus, Relationship
 from tax_synth.models.federal import FederalReturn
 from tax_synth.models.income import DividendIncome, InterestIncome, ScheduleCIncome, W2Income
@@ -48,7 +48,7 @@ class TaxCase(BaseModel):
     income_documents: IncomeDocuments
 
     federal_return: FederalReturn | None = None
-    california_return: CaliforniaReturn | None = None
+    state_return: StateReturn| None = None
 
     @computed_field  # type: ignore[prop-decorator]
     @property

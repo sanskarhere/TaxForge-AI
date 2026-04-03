@@ -1,91 +1,92 @@
 {
   "case_id": "CASE_0022",
-  "tax_year": 2024,
+  "tax_year": 2019,
   "taxpayer": {
     "first_name": "Thomas",
     "last_name": "Mccoy",
-    "ssn": "587-25-7618",
-    "dob": "1983-12-30",
-    "occupation": "Graphic Designer",
+    "ssn": "803-12-4334",
+    "dob": "1983-12-31",
+    "occupation": "Teacher",
     "employer": null,
     "full_name": "Thomas Mccoy"
   },
   "spouse": {
     "first_name": "Amanda",
     "last_name": "Mcdaniel",
-    "ssn": "649-97-1276",
-    "dob": "1982-03-05",
-    "occupation": "Nurse",
-    "employer": "Pacific Health System Inc.",
+    "ssn": "375-90-4299",
+    "dob": "1982-03-06",
+    "occupation": "Teacher",
+    "employer": "Evergreen Retail Group",
     "full_name": "Amanda Mcdaniel"
   },
   "address": {
     "street": "216 Gonzalez Burg",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "11467",
-    "county": "Sacramento"
+    "city": "Miami",
+    "state": "FL",
+    "zip_code": "33101",
+    "county": "Miami-Dade"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "CA",
+    "federal_status": "head_of_household",
+    "state_status": "head_of_household",
+    "residency_state": "FL",
     "full_year_resident": true
   },
   "dependents": [
     {
-      "first_name": "Vanessa",
+      "first_name": "William",
       "last_name": "Mccoy",
-      "ssn": "815-93-3415",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Vanessa Mccoy"
+      "ssn": "550-35-1403",
+      "relationship": "son",
+      "qualifies_child_tax_credit": false,
+      "full_name": "William Mccoy"
     }
   ],
   "income_documents": {
     "w2": null,
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 456
+      "taxable_interest": 60
     },
     "dividend_1099_div": {
       "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 442,
-      "qualified_dividends": 206
+      "ordinary_dividends": 815,
+      "qualified_dividends": 107
     },
     "schedule_c": {
       "business_name": "Creative Studio LLC",
       "business_code": "541510",
       "business_description": "Freelance Graphic & Web Design",
-      "gross_receipts": 30700,
-      "total_expenses": 16219,
-      "depreciation": 715,
-      "other_expenses": 431
+      "gross_receipts": 107185,
+      "total_expenses": 35285,
+      "depreciation": 2208,
+      "other_expenses": 805
     }
   },
   "federal_return": {
-    "total_income": 15379,
-    "adjustments": 1023,
-    "agi": 14356,
+    "total_income": 72775,
+    "adjustments": 5080,
+    "agi": 67695,
     "standard_deduction": 29200,
-    "qbi_deduction": 2692,
-    "taxable_income": 0,
-    "tax_before_credits": 0,
-    "child_tax_credit": 2000,
-    "self_employment_tax": 2046,
-    "total_tax": 2046,
+    "qbi_deduction": 13364,
+    "taxable_income": 25131,
+    "tax_before_credits": 2552,
+    "child_tax_credit": 500,
+    "self_employment_tax": 10159,
+    "total_tax": 12211,
     "total_payments": 0,
     "refund": 0,
-    "balance_due": 2046
+    "balance_due": 12211
   },
-  "california_return": {
-    "california_adjustments_additions": 0,
-    "california_adjustments_subtractions": 0,
-    "ca_agi": 14356,
-    "standard_deduction": 11080,
-    "taxable_income": 3276,
-    "tax_before_credits": 33,
-    "exemption_credits": 759,
+  "state_return": {
+    "state_code": "FL",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 67695,
+    "standard_deduction": 0,
+    "taxable_income": 67695,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
     "total_tax": 0,
     "total_payments": 0,
     "refund": 0,

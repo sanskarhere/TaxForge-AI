@@ -1,109 +1,81 @@
 {
   "case_id": "CASE_0001",
-  "tax_year": 2024,
+  "tax_year": 2021,
   "taxpayer": {
     "first_name": "Benjamin",
     "last_name": "Horton",
-    "ssn": "139-46-3358",
-    "dob": "1975-02-23",
-    "occupation": "Graphic Designer",
+    "ssn": "787-99-2577",
+    "dob": "1975-02-24",
+    "occupation": "Software Engineer",
     "employer": null,
     "full_name": "Benjamin Horton"
   },
   "spouse": {
     "first_name": "Susan",
     "last_name": "Wood",
-    "ssn": "573-57-2577",
-    "dob": "1999-01-05",
-    "occupation": "Nurse",
-    "employer": "Pacific Health System Inc.",
+    "ssn": "564-86-9163",
+    "dob": "1999-01-06",
+    "occupation": "Teacher",
+    "employer": "Sunrise Community Hospital",
     "full_name": "Susan Wood"
   },
   "address": {
-    "street": "695 Long Centers",
+    "street": "9790 Ray Road",
     "city": "Sacramento",
     "state": "CA",
-    "zip_code": "14565",
+    "zip_code": "95814",
     "county": "Sacramento"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
+    "federal_status": "head_of_household",
+    "state_status": "head_of_household",
     "residency_state": "CA",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Laura",
-      "last_name": "Horton",
-      "ssn": "626-65-7100",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Laura Horton"
-    },
-    {
-      "first_name": "Shawn",
-      "last_name": "Horton",
-      "ssn": "280-17-2758",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Shawn Horton"
-    },
-    {
-      "first_name": "Tyrone",
-      "last_name": "Horton",
-      "ssn": "257-22-3631",
-      "relationship": "son",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Tyrone Horton"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "Pacific Health System Inc.",
-      "wages_box1": 74504,
-      "federal_withholding": 6727,
-      "state_wages": 74504,
-      "state_withholding": 2355
+      "employer_name": "Sunrise Community Hospital",
+      "wages_box1": 79789,
+      "federal_withholding": 8760,
+      "state_wages": 79789,
+      "state_withholding": 3636
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 606
+      "taxable_interest": 938
     },
-    "dividend_1099_div": {
-      "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 1643,
-      "qualified_dividends": 130
-    },
+    "dividend_1099_div": null,
     "schedule_c": null
   },
   "federal_return": {
-    "total_income": 76753,
+    "total_income": 80727,
     "adjustments": 0,
-    "agi": 76753,
+    "agi": 80727,
     "standard_deduction": 29200,
     "qbi_deduction": 0,
-    "taxable_income": 47553,
-    "tax_before_credits": 5242,
-    "child_tax_credit": 3000,
+    "taxable_income": 51527,
+    "tax_before_credits": 5719,
+    "child_tax_credit": 0,
     "self_employment_tax": 0,
-    "total_tax": 2242,
-    "total_payments": 6727,
-    "refund": 4485,
+    "total_tax": 5719,
+    "total_payments": 8760,
+    "refund": 3041,
     "balance_due": 0
   },
-  "california_return": {
-    "california_adjustments_additions": 0,
-    "california_adjustments_subtractions": 0,
-    "ca_agi": 76753,
+  "state_return": {
+    "state_code": "CA",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 80727,
     "standard_deduction": 11080,
-    "taxable_income": 65673,
-    "tax_before_credits": 1427,
-    "exemption_credits": 1681,
-    "total_tax": 0,
-    "total_payments": 2355,
-    "refund": 2355,
+    "taxable_income": 69647,
+    "tax_before_credits": 1586,
+    "exemption_credits": 149,
+    "total_tax": 1437,
+    "total_payments": 3636,
+    "refund": 2199,
     "balance_due": 0
   },
-  "dependent_count": 3
+  "dependent_count": 0
 }

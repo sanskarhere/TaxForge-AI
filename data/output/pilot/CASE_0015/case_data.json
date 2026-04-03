@@ -1,109 +1,93 @@
 {
   "case_id": "CASE_0015",
-  "tax_year": 2024,
+  "tax_year": 2021,
   "taxpayer": {
     "first_name": "Brad",
     "last_name": "Lawrence",
-    "ssn": "143-57-1316",
-    "dob": "1970-11-27",
-    "occupation": "Graphic Designer",
+    "ssn": "626-51-8821",
+    "dob": "1970-11-28",
+    "occupation": "Teacher",
     "employer": null,
     "full_name": "Brad Lawrence"
   },
   "spouse": {
     "first_name": "Jeffrey",
     "last_name": "Morris",
-    "ssn": "330-75-6262",
-    "dob": "1991-06-29",
+    "ssn": "397-65-7192",
+    "dob": "1991-06-30",
     "occupation": "Nurse",
-    "employer": "Pacific Health System Inc.",
+    "employer": "NorthStar Solutions LLC",
     "full_name": "Jeffrey Morris"
   },
   "address": {
-    "street": "28956 Rowland Shoal Suite 849",
+    "street": "6028 Gray Coves Suite 849",
     "city": "Sacramento",
     "state": "CA",
-    "zip_code": "18769",
+    "zip_code": "95821",
     "county": "Sacramento"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
+    "federal_status": "head_of_household",
+    "state_status": "head_of_household",
     "residency_state": "CA",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Kelly",
-      "last_name": "Lawrence",
-      "ssn": "751-58-1322",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Kelly Lawrence"
-    },
-    {
-      "first_name": "Terri",
-      "last_name": "Lawrence",
-      "ssn": "487-60-2783",
-      "relationship": "son",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Terri Lawrence"
-    },
-    {
-      "first_name": "Cynthia",
-      "last_name": "Lawrence",
-      "ssn": "763-88-3283",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Cynthia Lawrence"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "Pacific Health System Inc.",
-      "wages_box1": 51137,
-      "federal_withholding": 5647,
-      "state_wages": 51137,
-      "state_withholding": 2547
+      "employer_name": "NorthStar Solutions LLC",
+      "wages_box1": 52835,
+      "federal_withholding": 6411,
+      "state_wages": 52835,
+      "state_withholding": 2015
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 923
+      "taxable_interest": 272
     },
     "dividend_1099_div": {
       "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 824,
-      "qualified_dividends": 603
+      "ordinary_dividends": 3071,
+      "qualified_dividends": 2396
     },
-    "schedule_c": null
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 101612,
+      "total_expenses": 33151,
+      "depreciation": 570,
+      "other_expenses": 2315
+    }
   },
   "federal_return": {
-    "total_income": 52884,
-    "adjustments": 0,
-    "agi": 52884,
+    "total_income": 124639,
+    "adjustments": 4836,
+    "agi": 119803,
     "standard_deduction": 29200,
-    "qbi_deduction": 0,
-    "taxable_income": 23684,
-    "tax_before_credits": 2378,
-    "child_tax_credit": 1500,
-    "self_employment_tax": 0,
-    "total_tax": 878,
-    "total_payments": 5647,
-    "refund": 4769,
-    "balance_due": 0
+    "qbi_deduction": 12725,
+    "taxable_income": 77878,
+    "tax_before_credits": 8881,
+    "child_tax_credit": 0,
+    "self_employment_tax": 9673,
+    "total_tax": 18554,
+    "total_payments": 6411,
+    "refund": 0,
+    "balance_due": 12143
   },
-  "california_return": {
-    "california_adjustments_additions": 0,
-    "california_adjustments_subtractions": 0,
-    "ca_agi": 52884,
+  "state_return": {
+    "state_code": "CA",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 119803,
     "standard_deduction": 11080,
-    "taxable_income": 41804,
-    "tax_before_credits": 636,
-    "exemption_credits": 1681,
-    "total_tax": 0,
-    "total_payments": 2547,
-    "refund": 2547,
-    "balance_due": 0
+    "taxable_income": 108723,
+    "tax_before_credits": 3149,
+    "exemption_credits": 149,
+    "total_tax": 3000,
+    "total_payments": 2015,
+    "refund": 0,
+    "balance_due": 985
   },
-  "dependent_count": 3
+  "dependent_count": 0
 }

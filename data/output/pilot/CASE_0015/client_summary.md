@@ -2,25 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Brad Lawrence
-- SSN: 143-57-1316
-- DOB: 1970-11-27
-- Occupation: Graphic Designer
+- SSN: 626-51-8821
+- DOB: 1970-11-28
+- Occupation: Teacher
 
 ## Spouse
-- Name: Jeffrey Morris- SSN: 330-75-6262- DOB: 1991-06-29- Occupation: Nurse- Employer: Pacific Health System Inc.
+- Name: Jeffrey Morris- SSN: 397-65-7192- DOB: 1991-06-30- Occupation: Nurse- Employer: NorthStar Solutions LLC
 ## Address
-- Street: 28956 Rowland Shoal Suite 849
+- Street: 6028 Gray Coves Suite 849
 - City: Sacramento
 - State: CA
-- ZIP: 18769
+- ZIP: 95821
 - County: Sacramento
 
 ## Dependents
-- Kelly Lawrence (daughter) — SSN: 751-58-1322
-- Terri Lawrence (son) — SSN: 487-60-2783
-- Cynthia Lawrence (daughter) — SSN: 763-88-3283
+- None
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
+- Federal Status: head_of_household
+- State Status: head_of_household
 - Residency: CA

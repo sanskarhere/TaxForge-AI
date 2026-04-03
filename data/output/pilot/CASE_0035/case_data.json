@@ -1,0 +1,85 @@
+{
+  "case_id": "CASE_0035",
+  "tax_year": 2021,
+  "taxpayer": {
+    "first_name": "Lauren",
+    "last_name": "Nguyen",
+    "ssn": "399-70-4896",
+    "dob": "1978-06-08",
+    "occupation": "Software Engineer",
+    "employer": null,
+    "full_name": "Lauren Nguyen"
+  },
+  "spouse": {
+    "first_name": "James",
+    "last_name": "Ayers",
+    "ssn": "248-81-9202",
+    "dob": "1985-03-13",
+    "occupation": "Business Analyst",
+    "employer": "Pacific Health System Inc.",
+    "full_name": "James Ayers"
+  },
+  "address": {
+    "street": "932 Melissa Burgs Suite 238",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "11201",
+    "county": "New York"
+  },
+  "filing": {
+    "federal_status": "single",
+    "state_status": "single",
+    "residency_state": "NY",
+    "full_year_resident": true
+  },
+  "dependents": [],
+  "income_documents": {
+    "w2": {
+      "employer_name": "Pacific Health System Inc.",
+      "wages_box1": 43858,
+      "federal_withholding": 6440,
+      "state_wages": 43858,
+      "state_withholding": 1531
+    },
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 441
+    },
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 3523,
+      "qualified_dividends": 1591
+    },
+    "schedule_c": null
+  },
+  "federal_return": {
+    "total_income": 47822,
+    "adjustments": 0,
+    "agi": 47822,
+    "standard_deduction": 29200,
+    "qbi_deduction": 0,
+    "taxable_income": 18622,
+    "tax_before_credits": 1862,
+    "child_tax_credit": 0,
+    "self_employment_tax": 0,
+    "total_tax": 1862,
+    "total_payments": 6440,
+    "refund": 4578,
+    "balance_due": 0
+  },
+  "state_return": {
+    "state_code": "NY",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 47822,
+    "standard_deduction": 8000,
+    "taxable_income": 39822,
+    "tax_before_credits": 1193,
+    "exemption_credits": 100,
+    "total_tax": 1093,
+    "total_payments": 1531,
+    "refund": 438,
+    "balance_due": 0
+  },
+  "dependent_count": 0
+}

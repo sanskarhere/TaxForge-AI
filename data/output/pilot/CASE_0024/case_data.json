@@ -1,29 +1,29 @@
 {
   "case_id": "CASE_0024",
-  "tax_year": 2024,
+  "tax_year": 2021,
   "taxpayer": {
     "first_name": "Chad",
     "last_name": "Hamilton",
-    "ssn": "172-49-8120",
-    "dob": "1978-08-18",
-    "occupation": "Graphic Designer",
+    "ssn": "362-81-2559",
+    "dob": "1978-08-19",
+    "occupation": "Software Engineer",
     "employer": null,
     "full_name": "Chad Hamilton"
   },
   "spouse": {
     "first_name": "Kristin",
     "last_name": "Carter",
-    "ssn": "352-67-5817",
-    "dob": "1994-04-26",
-    "occupation": "Nurse",
-    "employer": "Pacific Health System Inc.",
+    "ssn": "862-73-4018",
+    "dob": "1994-04-27",
+    "occupation": "Teacher",
+    "employer": "Sunrise Community Hospital",
     "full_name": "Kristin Carter"
   },
   "address": {
-    "street": "78215 Rick Squares Suite 808",
+    "street": "8215 Rick Squares",
     "city": "Sacramento",
     "state": "CA",
-    "zip_code": "15220",
+    "zip_code": "95825",
     "county": "Sacramento"
   },
   "filing": {
@@ -34,76 +34,73 @@
   },
   "dependents": [
     {
-      "first_name": "Cody",
-      "last_name": "Hamilton",
-      "ssn": "288-69-9561",
-      "relationship": "son",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Cody Hamilton"
-    },
-    {
-      "first_name": "Michelle",
+      "first_name": "Brandon",
       "last_name": "Hamilton",
       "ssn": "831-56-3739",
       "relationship": "son",
       "qualifies_child_tax_credit": true,
-      "full_name": "Michelle Hamilton"
+      "full_name": "Brandon Hamilton"
+    },
+    {
+      "first_name": "Sharon",
+      "last_name": "Hamilton",
+      "ssn": "754-74-1507",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Sharon Hamilton"
+    },
+    {
+      "first_name": "Ryan",
+      "last_name": "Hamilton",
+      "ssn": "238-57-1390",
+      "relationship": "son",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Ryan Hamilton"
     }
   ],
   "income_documents": {
     "w2": {
-      "employer_name": "Pacific Health System Inc.",
-      "wages_box1": 88195,
-      "federal_withholding": 10287,
-      "state_wages": 88195,
-      "state_withholding": 3100
+      "employer_name": "Sunrise Community Hospital",
+      "wages_box1": 88529,
+      "federal_withholding": 8542,
+      "state_wages": 88529,
+      "state_withholding": 3014
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 836
+      "taxable_interest": 1419
     },
-    "dividend_1099_div": {
-      "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 1617,
-      "qualified_dividends": 48
-    },
-    "schedule_c": {
-      "business_name": "Creative Studio LLC",
-      "business_code": "541510",
-      "business_description": "Freelance Graphic & Web Design",
-      "gross_receipts": 57023,
-      "total_expenses": 26184,
-      "depreciation": 841,
-      "other_expenses": 2738
-    }
+    "dividend_1099_div": null,
+    "schedule_c": null
   },
   "federal_return": {
-    "total_income": 121487,
-    "adjustments": 2178,
-    "agi": 119309,
+    "total_income": 89948,
+    "adjustments": 0,
+    "agi": 89948,
     "standard_deduction": 29200,
-    "qbi_deduction": 5732,
-    "taxable_income": 84377,
-    "tax_before_credits": 9661,
-    "child_tax_credit": 2500,
-    "self_employment_tax": 4357,
-    "total_tax": 11518,
-    "total_payments": 10287,
-    "refund": 0,
-    "balance_due": 1231
-  },
-  "california_return": {
-    "california_adjustments_additions": 0,
-    "california_adjustments_subtractions": 0,
-    "ca_agi": 119309,
-    "standard_deduction": 11080,
-    "taxable_income": 108229,
-    "tax_before_credits": 3129,
-    "exemption_credits": 1220,
-    "total_tax": 1909,
-    "total_payments": 3100,
-    "refund": 1191,
+    "qbi_deduction": 0,
+    "taxable_income": 60748,
+    "tax_before_credits": 6826,
+    "child_tax_credit": 3000,
+    "self_employment_tax": 0,
+    "total_tax": 3826,
+    "total_payments": 8542,
+    "refund": 4716,
     "balance_due": 0
   },
-  "dependent_count": 2
+  "state_return": {
+    "state_code": "CA",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 89948,
+    "standard_deduction": 11080,
+    "taxable_income": 78868,
+    "tax_before_credits": 1955,
+    "exemption_credits": 1681,
+    "total_tax": 274,
+    "total_payments": 3014,
+    "refund": 2740,
+    "balance_due": 0
+  },
+  "dependent_count": 3
 }

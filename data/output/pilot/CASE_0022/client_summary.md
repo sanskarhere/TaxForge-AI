@@ -2,23 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Thomas Mccoy
-- SSN: 587-25-7618
-- DOB: 1983-12-30
-- Occupation: Graphic Designer
+- SSN: 803-12-4334
+- DOB: 1983-12-31
+- Occupation: Teacher
 
 ## Spouse
-- Name: Amanda Mcdaniel- SSN: 649-97-1276- DOB: 1982-03-05- Occupation: Nurse- Employer: Pacific Health System Inc.
+- Name: Amanda Mcdaniel- SSN: 375-90-4299- DOB: 1982-03-06- Occupation: Teacher- Employer: Evergreen Retail Group
 ## Address
 - Street: 216 Gonzalez Burg
-- City: Sacramento
-- State: CA
-- ZIP: 11467
-- County: Sacramento
+- City: Miami
+- State: FL
+- ZIP: 33101
+- County: Miami-Dade
 
 ## Dependents
-- Vanessa Mccoy (daughter) — SSN: 815-93-3415
+- William Mccoy (son) — SSN: 550-35-1403
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: CA
+- Federal Status: head_of_household
+- State Status: head_of_household
+- Residency: FL

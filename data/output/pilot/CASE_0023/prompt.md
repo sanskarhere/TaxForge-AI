@@ -5,12 +5,13 @@
 - Spouse: Scott Rice
 ## Filing Information
 - Filing Status: married_filing_jointly
-- State: CA
+- State: FL
 
 ## Income Sources
-- W-2 Wages: $50866- Interest Income: $0- Dividend Income: $0- Business Income (Schedule C): $0
+- W-2 Wages: $44997- Interest Income: $327- Dividend Income: $3474- Business Income (Schedule C): $0
+
 ## Expected Outputs
-- Federal AGI: $91818
-- Federal Taxable Income: $54428
-- Federal Tax: $10793
-- California Taxable Income: $80738
+- Federal AGI: $48798
+- Federal Taxable Income: $19598
+- Federal Tax: $1460
+- California Taxable Income: $48798

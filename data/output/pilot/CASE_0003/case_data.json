@@ -1,100 +1,94 @@
 {
   "case_id": "CASE_0003",
-  "tax_year": 2024,
+  "tax_year": 2022,
   "taxpayer": {
     "first_name": "Joseph",
     "last_name": "Freeman",
-    "ssn": "378-63-8995",
-    "dob": "1973-01-13",
-    "occupation": "Graphic Designer",
+    "ssn": "446-12-2185",
+    "dob": "1973-01-14",
+    "occupation": "Data Analyst",
     "employer": null,
     "full_name": "Joseph Freeman"
   },
   "spouse": {
     "first_name": "Kevin",
     "last_name": "Smith",
-    "ssn": "363-20-5967",
-    "dob": "1991-09-23",
+    "ssn": "595-11-2881",
+    "dob": "1991-09-24",
     "occupation": "Nurse",
-    "employer": "Pacific Health System Inc.",
+    "employer": "Sunrise Community Hospital",
     "full_name": "Kevin Smith"
   },
   "address": {
     "street": "0912 Pope Street",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "20702",
-    "county": "Sacramento"
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "11201",
+    "county": "New York"
   },
   "filing": {
     "federal_status": "married_filing_jointly",
     "state_status": "married_filing_jointly",
-    "residency_state": "CA",
+    "residency_state": "NY",
     "full_year_resident": true
   },
   "dependents": [
     {
-      "first_name": "Alex",
+      "first_name": "Adam",
       "last_name": "Freeman",
-      "ssn": "595-11-2881",
+      "ssn": "861-93-1585",
       "relationship": "son",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Alex Freeman"
+      "qualifies_child_tax_credit": false,
+      "full_name": "Adam Freeman"
     },
     {
-      "first_name": "Justin",
+      "first_name": "Drew",
       "last_name": "Freeman",
-      "ssn": "418-93-1585",
-      "relationship": "daughter",
+      "ssn": "378-29-4457",
+      "relationship": "son",
       "qualifies_child_tax_credit": true,
-      "full_name": "Justin Freeman"
+      "full_name": "Drew Freeman"
     }
   ],
   "income_documents": {
     "w2": {
-      "employer_name": "Pacific Health System Inc.",
-      "wages_box1": 46366,
-      "federal_withholding": 4210,
-      "state_wages": 46366,
-      "state_withholding": 2033
+      "employer_name": "Sunrise Community Hospital",
+      "wages_box1": 89009,
+      "federal_withholding": 10171,
+      "state_wages": 89009,
+      "state_withholding": 3417
     },
-    "interest_1099_int": {
-      "payer_name": "Golden State Community Bank",
-      "taxable_interest": 482
-    },
-    "dividend_1099_div": {
-      "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 3215,
-      "qualified_dividends": 2938
-    },
+    "interest_1099_int": null,
+    "dividend_1099_div": null,
     "schedule_c": null
   },
   "federal_return": {
-    "total_income": 50063,
+    "total_income": 89009,
     "adjustments": 0,
-    "agi": 50063,
+    "agi": 89009,
     "standard_deduction": 29200,
     "qbi_deduction": 0,
-    "taxable_income": 20863,
-    "tax_before_credits": 2086,
-    "child_tax_credit": 4000,
+    "taxable_income": 59809,
+    "tax_before_credits": 6713,
+    "child_tax_credit": 2500,
     "self_employment_tax": 0,
-    "total_tax": 0,
-    "total_payments": 4210,
-    "refund": 4210,
+    "total_tax": 4213,
+    "total_payments": 10171,
+    "refund": 5958,
     "balance_due": 0
   },
-  "california_return": {
-    "california_adjustments_additions": 0,
-    "california_adjustments_subtractions": 0,
-    "ca_agi": 50063,
-    "standard_deduction": 11080,
-    "taxable_income": 38983,
-    "tax_before_credits": 580,
-    "exemption_credits": 1220,
-    "total_tax": 0,
-    "total_payments": 2033,
-    "refund": 2033,
+  "state_return": {
+    "state_code": "NY",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 89009,
+    "standard_deduction": 8000,
+    "taxable_income": 81009,
+    "tax_before_credits": 3305,
+    "exemption_credits": 400,
+    "total_tax": 2905,
+    "total_payments": 3417,
+    "refund": 512,
     "balance_due": 0
   },
   "dependent_count": 2

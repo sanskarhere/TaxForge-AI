@@ -13,8 +13,9 @@
 - Interest Income: {% if case.income_documents.interest_1099_int %}${{ case.income_documents.interest_1099_int.taxable_interest }}{% else %}$0{% endif %}
 - Dividend Income: {% if case.income_documents.dividend_1099_div %}${{ case.income_documents.dividend_1099_div.ordinary_dividends }}{% else %}$0{% endif %}
 - Business Income (Schedule C): ${{ case.income_documents.schedule_c.get("net_profit", 0) if case.income_documents.schedule_c else 0 }}
+
 ## Expected Outputs
 - Federal AGI: ${{ case.federal_return.agi }}
 - Federal Taxable Income: ${{ case.federal_return.taxable_income }}
 - Federal Tax: ${{ case.federal_return.total_tax }}
-- California Taxable Income: ${{ case.california_return.taxable_income }}
+- California Taxable Income: ${{ case.state_return.taxable_income }}

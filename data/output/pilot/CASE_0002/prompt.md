@@ -4,13 +4,14 @@
 - Taxpayer: Ricky Weaver
 - Spouse: Gregory Perez
 ## Filing Information
-- Filing Status: married_filing_jointly
-- State: CA
+- Filing Status: head_of_household
+- State: FL
 
 ## Income Sources
-- W-2 Wages: $64204- Interest Income: $0- Dividend Income: $0- Business Income (Schedule C): $0
+- W-2 Wages: $0- Interest Income: $1460- Dividend Income: $2940- Business Income (Schedule C): $0
+
 ## Expected Outputs
-- Federal AGI: $64204
-- Federal Taxable Income: $35004
-- Federal Tax: $736
-- California Taxable Income: $53124
+- Federal AGI: $4400
+- Federal Taxable Income: $0
+- Federal Tax: $0
+- California Taxable Income: $4400

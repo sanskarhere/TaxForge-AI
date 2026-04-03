@@ -2,25 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Robert Roberts
-- SSN: 524-46-5713
-- DOB: 1977-09-25
-- Occupation: Graphic Designer
+- SSN: 569-77-8259
+- DOB: 1977-09-26
+- Occupation: Teacher
 
 ## Spouse
-- Name: Scott Rice- SSN: 626-38-8270- DOB: 1994-01-02- Occupation: Nurse- Employer: Pacific Health System Inc.
+- Name: Scott Rice- SSN: 664-53-8151- DOB: 1994-01-03- Occupation: Business Analyst- Employer: BluePeak Analytics
 ## Address
-- Street: 87437 Jonathan Estate
-- City: Sacramento
-- State: CA
-- ZIP: 69752
-- County: Sacramento
+- Street: 18743 Hanson Cape Suite 128
+- City: Miami
+- State: FL
+- ZIP: 33131
+- County: Miami-Dade
 
 ## Dependents
-- Sara Roberts (daughter) — SSN: 754-65-4695
-- Margaret Roberts (son) — SSN: 370-35-8755
-- Samuel Roberts (son) — SSN: 215-30-9656
+- Timothy Roberts (son) — SSN: 370-35-8755
 
 ## Filing Details
 - Federal Status: married_filing_jointly
 - State Status: married_filing_jointly
-- Residency: CA
+- Residency: FL

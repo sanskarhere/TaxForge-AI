@@ -2,21 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Carl Gutierrez
-- SSN: 168-54-7770
-- DOB: 1974-01-04
+- SSN: 623-16-1734
+- DOB: 1974-01-05
 - Occupation: Graphic Designer
 
 ## Spouse
-- Name: Marcus Spencer- SSN: 213-51-9376- DOB: 1976-12-09- Occupation: Nurse- Employer: Pacific Health System Inc.
+- Name: Marcus Spencer- SSN: 876-45-3528- DOB: 1976-12-10- Occupation: HR Specialist- Employer: Evergreen Retail Group
 ## Address
-- Street: 427 Crystal Parkways
+- Street: 088 Melissa Rapids Suite 956
 - City: Sacramento
 - State: CA
-- ZIP: 29227
+- ZIP: 95825
 - County: Sacramento
 
 ## Dependents
-- None
+- Michael Gutierrez (son) — SSN: 717-46-7081
+- Olivia Gutierrez (daughter) — SSN: 354-27-2568
+- Desiree Gutierrez (daughter) — SSN: 434-55-5397
 
 ## Filing Details
 - Federal Status: married_filing_jointly

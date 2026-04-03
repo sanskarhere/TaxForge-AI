@@ -7,7 +7,8 @@ import orjson
 from tax_synth.models.case import TaxCase
 from tax_synth.renderers.pdf_renderer import PDFRenderer
 from tax_synth.renderers.text_renderer import TextRenderer
-
+from tax_synth.renderers.irs_packet_renderer import IRSPacketRenderer
+from tax_synth.utils.pdf_merge import merge_pdfs
 
 def export_case(case: TaxCase, output_dir: Path, templates_root: Path) -> None:
     case_dir = output_dir / case.case_id
@@ -59,4 +60,18 @@ def export_case(case: TaxCase, output_dir: Path, templates_root: Path) -> None:
         text_content=completed_forms_summary_md,
         output_path=case_dir / "completed_forms_summary.pdf",
         title="Completed Forms Summary",
+    )
+
+
+    packet_renderer = IRSPacketRenderer()
+
+    page1_path = case_dir / "filled_return_page1.pdf"
+    page2_path = case_dir / "filled_return_page2.pdf"
+
+    packet_renderer.render_form_1040_page1(case, page1_path)
+    packet_renderer.render_form_1040_page2(case, page2_path)
+
+    merge_pdfs(
+        [page1_path, page2_path],
+        case_dir / "filled_tax_return.pdf",
     )

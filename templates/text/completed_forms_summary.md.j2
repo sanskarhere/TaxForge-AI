@@ -15,7 +15,7 @@
 {% endif %}
 
 ## State Forms
-- California Form 540 - Resident Income Tax Return
+- State Resident Income Tax Return
 
 ## Federal Return Snapshot
 - Total Income: ${{ case.federal_return.total_income }}
@@ -31,13 +31,13 @@
 - Refund: ${{ case.federal_return.refund }}
 - Balance Due: ${{ case.federal_return.balance_due }}
 
-## California Return Snapshot
-- California AGI: ${{ case.california_return.ca_agi }}
-- Standard Deduction: ${{ case.california_return.standard_deduction }}
-- Taxable Income: ${{ case.california_return.taxable_income }}
-- Tax Before Credits: ${{ case.california_return.tax_before_credits }}
-- Exemption Credits: ${{ case.california_return.exemption_credits }}
-- Total Tax: ${{ case.california_return.total_tax }}
-- Total Payments: ${{ case.california_return.total_payments }}
-- Refund: ${{ case.california_return.refund }}
-- Balance Due: ${{ case.california_return.balance_due }}
+## State Return Snapshot
+- State AGI: ${{ case.state_return.state_agi }}
+- Standard Deduction: ${{ case.state_return.standard_deduction }}
+- Taxable Income: ${{ case.state_return.taxable_income }}
+- Tax Before Credits: ${{ case.state_return.tax_before_credits }}
+- Exemption Credits: ${{ case.state_return.exemption_credits }}
+- Total Tax: ${{ case.state_return.total_tax }}
+- Total Payments: ${{ case.state_return.total_payments }}
+- Refund: ${{ case.state_return.refund }}
+- Balance Due: ${{ case.state_return.balance_due }}

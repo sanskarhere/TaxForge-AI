@@ -1,86 +1,99 @@
 {
   "case_id": "CASE_0016",
-  "tax_year": 2024,
+  "tax_year": 2020,
   "taxpayer": {
     "first_name": "Beverly",
     "last_name": "Harris",
-    "ssn": "694-35-4370",
-    "dob": "1992-02-04",
-    "occupation": "Graphic Designer",
+    "ssn": "142-34-8362",
+    "dob": "1992-02-05",
+    "occupation": "Accountant",
     "employer": null,
     "full_name": "Beverly Harris"
   },
   "spouse": {
     "first_name": "Toni",
     "last_name": "Harris",
-    "ssn": "856-92-4295",
-    "dob": "1981-10-18",
-    "occupation": "Nurse",
-    "employer": "Pacific Health System Inc.",
+    "ssn": "515-55-5717",
+    "dob": "1981-10-19",
+    "occupation": "Pharmacist",
+    "employer": "NorthStar Solutions LLC",
     "full_name": "Toni Harris"
   },
   "address": {
-    "street": "5447 Campbell Prairie Apt. 073",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "62099",
-    "county": "Sacramento"
+    "street": "7964 Alexander Forest Suite 178",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98109",
+    "county": "King"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "CA",
+    "federal_status": "single",
+    "state_status": "single",
+    "residency_state": "WA",
     "full_year_resident": true
   },
-  "dependents": [],
-  "income_documents": {
-    "w2": null,
-    "interest_1099_int": {
-      "payer_name": "Golden State Community Bank",
-      "taxable_interest": 639
+  "dependents": [
+    {
+      "first_name": "Joanna",
+      "last_name": "Harris",
+      "ssn": "390-84-2713",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Joanna Harris"
     },
+    {
+      "first_name": "Hayden",
+      "last_name": "Harris",
+      "ssn": "318-70-2203",
+      "relationship": "son",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Hayden Harris"
+    }
+  ],
+  "income_documents": {
+    "w2": {
+      "employer_name": "NorthStar Solutions LLC",
+      "wages_box1": 85236,
+      "federal_withholding": 9387,
+      "state_wages": 85236,
+      "state_withholding": 2645
+    },
+    "interest_1099_int": null,
     "dividend_1099_div": {
       "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 1166,
-      "qualified_dividends": 921
+      "ordinary_dividends": 651,
+      "qualified_dividends": 309
     },
-    "schedule_c": {
-      "business_name": "Creative Studio LLC",
-      "business_code": "541510",
-      "business_description": "Freelance Graphic & Web Design",
-      "gross_receipts": 84923,
-      "total_expenses": 28464,
-      "depreciation": 2375,
-      "other_expenses": 428
-    }
+    "schedule_c": null
   },
   "federal_return": {
-    "total_income": 58264,
-    "adjustments": 3988,
-    "agi": 54276,
+    "total_income": 85887,
+    "adjustments": 0,
+    "agi": 85887,
     "standard_deduction": 29200,
-    "qbi_deduction": 10494,
-    "taxable_income": 14582,
-    "tax_before_credits": 1458,
-    "child_tax_credit": 0,
-    "self_employment_tax": 7977,
-    "total_tax": 9435,
-    "total_payments": 0,
-    "refund": 0,
-    "balance_due": 9435
+    "qbi_deduction": 0,
+    "taxable_income": 56687,
+    "tax_before_credits": 6338,
+    "child_tax_credit": 1000,
+    "self_employment_tax": 0,
+    "total_tax": 5338,
+    "total_payments": 9387,
+    "refund": 4049,
+    "balance_due": 0
   },
-  "california_return": {
-    "california_adjustments_additions": 0,
-    "california_adjustments_subtractions": 0,
-    "ca_agi": 54276,
-    "standard_deduction": 11080,
-    "taxable_income": 43196,
-    "tax_before_credits": 664,
-    "exemption_credits": 298,
-    "total_tax": 366,
-    "total_payments": 0,
-    "refund": 0,
-    "balance_due": 366
+  "state_return": {
+    "state_code": "WA",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 85887,
+    "standard_deduction": 0,
+    "taxable_income": 85887,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
+    "total_tax": 0,
+    "total_payments": 2645,
+    "refund": 2645,
+    "balance_due": 0
   },
-  "dependent_count": 0
+  "dependent_count": 2
 }

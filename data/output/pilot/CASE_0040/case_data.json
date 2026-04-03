@@ -1,0 +1,110 @@
+{
+  "case_id": "CASE_0040",
+  "tax_year": 2022,
+  "taxpayer": {
+    "first_name": "Duane",
+    "last_name": "Burns",
+    "ssn": "796-43-3565",
+    "dob": "1987-06-10",
+    "occupation": "Data Analyst",
+    "employer": null,
+    "full_name": "Duane Burns"
+  },
+  "spouse": {
+    "first_name": "Kelly",
+    "last_name": "Summers",
+    "ssn": "881-14-8102",
+    "dob": "1981-05-12",
+    "occupation": "Business Analyst",
+    "employer": "NorthStar Solutions LLC",
+    "full_name": "Kelly Summers"
+  },
+  "address": {
+    "street": "7913 Castro Dale",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78702",
+    "county": "Travis"
+  },
+  "filing": {
+    "federal_status": "head_of_household",
+    "state_status": "head_of_household",
+    "residency_state": "TX",
+    "full_year_resident": true
+  },
+  "dependents": [
+    {
+      "first_name": "Richard",
+      "last_name": "Burns",
+      "ssn": "414-81-3212",
+      "relationship": "son",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Richard Burns"
+    },
+    {
+      "first_name": "Michael",
+      "last_name": "Burns",
+      "ssn": "187-90-6335",
+      "relationship": "son",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Michael Burns"
+    },
+    {
+      "first_name": "Brooke",
+      "last_name": "Burns",
+      "ssn": "189-72-3975",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Brooke Burns"
+    }
+  ],
+  "income_documents": {
+    "w2": {
+      "employer_name": "NorthStar Solutions LLC",
+      "wages_box1": 57864,
+      "federal_withholding": 6283,
+      "state_wages": 57864,
+      "state_withholding": 1684
+    },
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 1197
+    },
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 3438,
+      "qualified_dividends": 1807
+    },
+    "schedule_c": null
+  },
+  "federal_return": {
+    "total_income": 62499,
+    "adjustments": 0,
+    "agi": 62499,
+    "standard_deduction": 29200,
+    "qbi_deduction": 0,
+    "taxable_income": 33299,
+    "tax_before_credits": 3532,
+    "child_tax_credit": 3000,
+    "self_employment_tax": 0,
+    "total_tax": 532,
+    "total_payments": 6283,
+    "refund": 5751,
+    "balance_due": 0
+  },
+  "state_return": {
+    "state_code": "TX",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 62499,
+    "standard_deduction": 0,
+    "taxable_income": 62499,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
+    "total_tax": 0,
+    "total_payments": 1684,
+    "refund": 1684,
+    "balance_due": 0
+  },
+  "dependent_count": 3
+}

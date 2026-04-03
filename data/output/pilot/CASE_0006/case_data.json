@@ -1,92 +1,86 @@
 {
   "case_id": "CASE_0006",
-  "tax_year": 2024,
+  "tax_year": 2021,
   "taxpayer": {
     "first_name": "Amy",
     "last_name": "Anderson",
-    "ssn": "661-50-3160",
-    "dob": "1994-06-17",
-    "occupation": "Graphic Designer",
+    "ssn": "409-74-4157",
+    "dob": "1994-06-18",
+    "occupation": "Teacher",
     "employer": null,
     "full_name": "Amy Anderson"
   },
   "spouse": {
     "first_name": "Amanda",
     "last_name": "Mcguire",
-    "ssn": "670-78-5952",
-    "dob": "1992-06-10",
-    "occupation": "Nurse",
-    "employer": "Pacific Health System Inc.",
+    "ssn": "831-65-3713",
+    "dob": "1992-06-11",
+    "occupation": "Pharmacist",
+    "employer": "Evergreen Retail Group",
     "full_name": "Amanda Mcguire"
   },
   "address": {
     "street": "21733 Thomas Burgs Apt. 612",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "65891",
-    "county": "Sacramento"
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98004",
+    "county": "King"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "CA",
+    "federal_status": "single",
+    "state_status": "single",
+    "residency_state": "WA",
     "full_year_resident": true
   },
   "dependents": [
     {
-      "first_name": "James",
+      "first_name": "Corey",
       "last_name": "Anderson",
-      "ssn": "258-94-2761",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": true,
-      "full_name": "James Anderson"
+      "ssn": "764-38-4572",
+      "relationship": "son",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Corey Anderson"
     }
   ],
   "income_documents": {
     "w2": {
-      "employer_name": "Pacific Health System Inc.",
-      "wages_box1": 56444,
-      "federal_withholding": 5500,
-      "state_wages": 56444,
-      "state_withholding": 1995
+      "employer_name": "Evergreen Retail Group",
+      "wages_box1": 78474,
+      "federal_withholding": 11616,
+      "state_wages": 78474,
+      "state_withholding": 1934
     },
-    "interest_1099_int": {
-      "payer_name": "Golden State Community Bank",
-      "taxable_interest": 367
-    },
-    "dividend_1099_div": {
-      "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 214,
-      "qualified_dividends": 18
-    },
+    "interest_1099_int": null,
+    "dividend_1099_div": null,
     "schedule_c": null
   },
   "federal_return": {
-    "total_income": 57025,
+    "total_income": 78474,
     "adjustments": 0,
-    "agi": 57025,
+    "agi": 78474,
     "standard_deduction": 29200,
     "qbi_deduction": 0,
-    "taxable_income": 27825,
-    "tax_before_credits": 2875,
-    "child_tax_credit": 2000,
+    "taxable_income": 49274,
+    "tax_before_credits": 5449,
+    "child_tax_credit": 500,
     "self_employment_tax": 0,
-    "total_tax": 875,
-    "total_payments": 5500,
-    "refund": 4625,
+    "total_tax": 4949,
+    "total_payments": 11616,
+    "refund": 6667,
     "balance_due": 0
   },
-  "california_return": {
-    "california_adjustments_additions": 0,
-    "california_adjustments_subtractions": 0,
-    "ca_agi": 57025,
-    "standard_deduction": 11080,
-    "taxable_income": 45945,
-    "tax_before_credits": 719,
-    "exemption_credits": 759,
+  "state_return": {
+    "state_code": "WA",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 78474,
+    "standard_deduction": 0,
+    "taxable_income": 78474,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
     "total_tax": 0,
-    "total_payments": 1995,
-    "refund": 1995,
+    "total_payments": 1934,
+    "refund": 1934,
     "balance_due": 0
   },
   "dependent_count": 1

@@ -2,24 +2,24 @@
 
 ## Primary Taxpayer
 - Name: Gabrielle Davis
-- SSN: 800-14-2570
-- DOB: 1975-12-06
+- SSN: 435-80-7791
+- DOB: 1975-12-07
 - Occupation: Graphic Designer
 
 ## Spouse
-- Name: Carl Cooper- SSN: 270-18-6646- DOB: 1993-12-08- Occupation: Nurse- Employer: Pacific Health System Inc.
+- Name: Carl Cooper- SSN: 575-64-8170- DOB: 1993-12-09- Occupation: Project Coordinator- Employer: Sunrise Community Hospital
 ## Address
 - Street: 588 Thomas Lock Apt. 642
 - City: Sacramento
 - State: CA
-- ZIP: 26193
+- ZIP: 95814
 - County: Sacramento
 
 ## Dependents
-- Robert Davis (daughter) — SSN: 538-82-8170
-- Maria Davis (daughter) — SSN: 245-62-7424
+- Jennifer Davis (daughter) — SSN: 522-60-2054
+- Sandra Davis (daughter) — SSN: 250-35-3333
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
+- Federal Status: single
+- State Status: single
 - Residency: CA

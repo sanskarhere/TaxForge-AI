@@ -1,0 +1,90 @@
+{
+  "case_id": "CASE_0031",
+  "tax_year": 2019,
+  "taxpayer": {
+    "first_name": "Joshua",
+    "last_name": "Shaw",
+    "ssn": "572-48-2206",
+    "dob": "1989-06-12",
+    "occupation": "Marketing Manager",
+    "employer": null,
+    "full_name": "Joshua Shaw"
+  },
+  "spouse": {
+    "first_name": "Isaac",
+    "last_name": "Evans",
+    "ssn": "598-61-9485",
+    "dob": "1977-10-04",
+    "occupation": "Project Coordinator",
+    "employer": "NorthStar Solutions LLC",
+    "full_name": "Isaac Evans"
+  },
+  "address": {
+    "street": "1046 Robert Point",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "11201",
+    "county": "New York"
+  },
+  "filing": {
+    "federal_status": "head_of_household",
+    "state_status": "head_of_household",
+    "residency_state": "NY",
+    "full_year_resident": true
+  },
+  "dependents": [
+    {
+      "first_name": "Katelyn",
+      "last_name": "Shaw",
+      "ssn": "122-42-7743",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Katelyn Shaw"
+    }
+  ],
+  "income_documents": {
+    "w2": {
+      "employer_name": "NorthStar Solutions LLC",
+      "wages_box1": 43665,
+      "federal_withholding": 4945,
+      "state_wages": 43665,
+      "state_withholding": 1604
+    },
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 937
+    },
+    "dividend_1099_div": null,
+    "schedule_c": null
+  },
+  "federal_return": {
+    "total_income": 44602,
+    "adjustments": 0,
+    "agi": 44602,
+    "standard_deduction": 29200,
+    "qbi_deduction": 0,
+    "taxable_income": 15402,
+    "tax_before_credits": 1540,
+    "child_tax_credit": 2000,
+    "self_employment_tax": 0,
+    "total_tax": 0,
+    "total_payments": 4945,
+    "refund": 4945,
+    "balance_due": 0
+  },
+  "state_return": {
+    "state_code": "NY",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 44602,
+    "standard_deduction": 8000,
+    "taxable_income": 36602,
+    "tax_before_credits": 1064,
+    "exemption_credits": 200,
+    "total_tax": 864,
+    "total_payments": 1604,
+    "refund": 740,
+    "balance_due": 0
+  },
+  "dependent_count": 1
+}

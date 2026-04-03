@@ -1,66 +1,58 @@
 {
   "case_id": "CASE_0021",
-  "tax_year": 2024,
+  "tax_year": 2022,
   "taxpayer": {
     "first_name": "Sean",
     "last_name": "Carter",
-    "ssn": "555-66-5818",
-    "dob": "1978-11-09",
-    "occupation": "Graphic Designer",
+    "ssn": "189-59-2286",
+    "dob": "1978-11-10",
+    "occupation": "Data Analyst",
     "employer": null,
     "full_name": "Sean Carter"
   },
   "spouse": {
     "first_name": "Todd",
     "last_name": "Miller",
-    "ssn": "359-71-2426",
-    "dob": "2000-10-07",
-    "occupation": "Nurse",
-    "employer": "Pacific Health System Inc.",
+    "ssn": "177-94-4317",
+    "dob": "2000-10-08",
+    "occupation": "Teacher",
+    "employer": "City Public School District",
     "full_name": "Todd Miller"
   },
   "address": {
-    "street": "903 Mark Harbor Apt. 092",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "30359",
-    "county": "Sacramento"
+    "street": "49032 Young Rapid Apt. 092",
+    "city": "Miami",
+    "state": "FL",
+    "zip_code": "33130",
+    "county": "Miami-Dade"
   },
   "filing": {
     "federal_status": "married_filing_jointly",
     "state_status": "married_filing_jointly",
-    "residency_state": "CA",
+    "residency_state": "FL",
     "full_year_resident": true
   },
   "dependents": [
     {
-      "first_name": "Christian",
-      "last_name": "Carter",
-      "ssn": "775-35-5764",
-      "relationship": "son",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Christian Carter"
-    },
-    {
-      "first_name": "Donna",
+      "first_name": "Blake",
       "last_name": "Carter",
       "ssn": "864-88-1984",
       "relationship": "son",
       "qualifies_child_tax_credit": false,
-      "full_name": "Donna Carter"
+      "full_name": "Blake Carter"
     },
     {
-      "first_name": "Kelly",
+      "first_name": "Matthew",
       "last_name": "Carter",
       "ssn": "436-40-5485",
       "relationship": "son",
       "qualifies_child_tax_credit": true,
-      "full_name": "Kelly Carter"
+      "full_name": "Matthew Carter"
     }
   ],
   "income_documents": {
     "w2": {
-      "employer_name": "Pacific Health System Inc.",
+      "employer_name": "City Public School District",
       "wages_box1": 43977,
       "federal_withholding": 6940,
       "state_wages": 43977,
@@ -89,25 +81,26 @@
     "qbi_deduction": 9930,
     "taxable_income": 54879,
     "tax_before_credits": 6121,
-    "child_tax_credit": 4500,
+    "child_tax_credit": 2500,
     "self_employment_tax": 7548,
-    "total_tax": 9169,
+    "total_tax": 11169,
     "total_payments": 6940,
     "refund": 0,
-    "balance_due": 2229
+    "balance_due": 4229
   },
-  "california_return": {
-    "california_adjustments_additions": 0,
-    "california_adjustments_subtractions": 0,
-    "ca_agi": 94009,
-    "standard_deduction": 11080,
-    "taxable_income": 82929,
-    "tax_before_credits": 2117,
-    "exemption_credits": 1681,
-    "total_tax": 436,
+  "state_return": {
+    "state_code": "FL",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 94009,
+    "standard_deduction": 0,
+    "taxable_income": 94009,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
+    "total_tax": 0,
     "total_payments": 2084,
-    "refund": 1648,
+    "refund": 2084,
     "balance_due": 0
   },
-  "dependent_count": 3
+  "dependent_count": 2
 }

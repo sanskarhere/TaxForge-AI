@@ -5,12 +5,13 @@
 - Spouse: Kevin Smith
 ## Filing Information
 - Filing Status: married_filing_jointly
-- State: CA
+- State: NY
 
 ## Income Sources
-- W-2 Wages: $46366- Interest Income: $482- Dividend Income: $3215- Business Income (Schedule C): $0
+- W-2 Wages: $89009- Interest Income: $0- Dividend Income: $0- Business Income (Schedule C): $0
+
 ## Expected Outputs
-- Federal AGI: $50063
-- Federal Taxable Income: $20863
-- Federal Tax: $0
-- California Taxable Income: $38983
+- Federal AGI: $89009
+- Federal Taxable Income: $59809
+- Federal Tax: $4213
+- California Taxable Income: $81009

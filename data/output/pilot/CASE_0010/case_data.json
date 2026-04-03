@@ -1,92 +1,97 @@
 {
   "case_id": "CASE_0010",
-  "tax_year": 2024,
+  "tax_year": 2019,
   "taxpayer": {
     "first_name": "Tiffany",
     "last_name": "Brown",
-    "ssn": "374-16-9398",
-    "dob": "1994-12-10",
-    "occupation": "Graphic Designer",
+    "ssn": "516-14-3298",
+    "dob": "1994-12-11",
+    "occupation": "Teacher",
     "employer": null,
     "full_name": "Tiffany Brown"
   },
   "spouse": {
     "first_name": "William",
     "last_name": "Wyatt",
-    "ssn": "595-57-7665",
-    "dob": "1987-11-15",
-    "occupation": "Nurse",
-    "employer": "Pacific Health System Inc.",
+    "ssn": "262-62-4000",
+    "dob": "1987-11-16",
+    "occupation": "Teacher",
+    "employer": "Sunrise Community Hospital",
     "full_name": "William Wyatt"
   },
   "address": {
-    "street": "22625 Mccoy Bypass Suite 703",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "09593",
-    "county": "Sacramento"
+    "street": "2570 Amy Mill",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "11354",
+    "county": "New York"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "CA",
+    "federal_status": "head_of_household",
+    "state_status": "head_of_household",
+    "residency_state": "NY",
     "full_year_resident": true
   },
-  "dependents": [],
+  "dependents": [
+    {
+      "first_name": "Jennifer",
+      "last_name": "Brown",
+      "ssn": "135-79-7343",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Jennifer Brown"
+    },
+    {
+      "first_name": "Tamara",
+      "last_name": "Brown",
+      "ssn": "342-18-3605",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Tamara Brown"
+    }
+  ],
   "income_documents": {
-    "w2": {
-      "employer_name": "Pacific Health System Inc.",
-      "wages_box1": 52429,
-      "federal_withholding": 8315,
-      "state_wages": 52429,
-      "state_withholding": 2305
-    },
-    "interest_1099_int": {
-      "payer_name": "Golden State Community Bank",
-      "taxable_interest": 758
-    },
-    "dividend_1099_div": {
-      "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 104,
-      "qualified_dividends": 4
-    },
+    "w2": null,
+    "interest_1099_int": null,
+    "dividend_1099_div": null,
     "schedule_c": {
       "business_name": "Creative Studio LLC",
       "business_code": "541510",
       "business_description": "Freelance Graphic & Web Design",
-      "gross_receipts": 87401,
-      "total_expenses": 22141,
-      "depreciation": 284,
-      "other_expenses": 651
+      "gross_receipts": 84526,
+      "total_expenses": 24246,
+      "depreciation": 137,
+      "other_expenses": 2534
     }
   },
   "federal_return": {
-    "total_income": 118551,
-    "adjustments": 4610,
-    "agi": 113941,
+    "total_income": 60280,
+    "adjustments": 4258,
+    "agi": 56022,
     "standard_deduction": 29200,
-    "qbi_deduction": 12130,
-    "taxable_income": 72611,
-    "tax_before_credits": 8249,
-    "child_tax_credit": 0,
-    "self_employment_tax": 9221,
-    "total_tax": 17470,
-    "total_payments": 8315,
+    "qbi_deduction": 11204,
+    "taxable_income": 15618,
+    "tax_before_credits": 1562,
+    "child_tax_credit": 4000,
+    "self_employment_tax": 8517,
+    "total_tax": 8517,
+    "total_payments": 0,
     "refund": 0,
-    "balance_due": 9155
+    "balance_due": 8517
   },
-  "california_return": {
-    "california_adjustments_additions": 0,
-    "california_adjustments_subtractions": 0,
-    "ca_agi": 113941,
-    "standard_deduction": 11080,
-    "taxable_income": 102861,
-    "tax_before_credits": 2914,
-    "exemption_credits": 298,
-    "total_tax": 2616,
-    "total_payments": 2305,
+  "state_return": {
+    "state_code": "NY",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 56022,
+    "standard_deduction": 8000,
+    "taxable_income": 48022,
+    "tax_before_credits": 1521,
+    "exemption_credits": 300,
+    "total_tax": 1221,
+    "total_payments": 0,
     "refund": 0,
-    "balance_due": 311
+    "balance_due": 1221
   },
-  "dependent_count": 0
+  "dependent_count": 2
 }

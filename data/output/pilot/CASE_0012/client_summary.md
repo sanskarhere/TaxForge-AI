@@ -2,23 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Robin Taylor
-- SSN: 240-66-5881
-- DOB: 1989-03-03
-- Occupation: Graphic Designer
+- SSN: 489-38-8315
+- DOB: 1989-03-04
+- Occupation: Data Analyst
 
 ## Spouse
-- Name: Kenneth Wu- SSN: 594-72-7232- DOB: 1991-11-02- Occupation: Nurse- Employer: Pacific Health System Inc.
+- Name: Kenneth Wu- SSN: 437-83-7260- DOB: 1991-11-03- Occupation: Teacher- Employer: BluePeak Analytics
 ## Address
 - Street: 9633 Tyler Union Suite 918
-- City: Sacramento
-- State: CA
-- ZIP: 45079
-- County: Sacramento
+- City: Austin
+- State: TX
+- ZIP: 73301
+- County: Travis
 
 ## Dependents
-- Omar Taylor (daughter) — SSN: 691-58-4420
+- James Taylor (son) — SSN: 607-80-8419
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: CA
+- Federal Status: head_of_household
+- State Status: head_of_household
+- Residency: TX

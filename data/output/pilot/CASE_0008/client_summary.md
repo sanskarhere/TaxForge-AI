@@ -2,24 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Tyler Adams
-- SSN: 609-44-6965
-- DOB: 1991-12-09
-- Occupation: Graphic Designer
+- SSN: 584-52-2395
+- DOB: 1991-12-10
+- Occupation: Accountant
 
 ## Spouse
-- Name: Patricia Schwartz- SSN: 752-41-8752- DOB: 1986-06-24- Occupation: Nurse- Employer: Pacific Health System Inc.
+- Name: Patricia Schwartz- SSN: 651-50-4676- DOB: 1986-06-25- Occupation: Business Analyst- Employer: City Public School District
 ## Address
-- Street: 51553 Casey Way
-- City: Sacramento
-- State: CA
-- ZIP: 43613
-- County: Sacramento
+- Street: 538 Sarah Key
+- City: Miami
+- State: FL
+- ZIP: 33101
+- County: Miami-Dade
 
 ## Dependents
-- Christopher Adams (son) — SSN: 329-96-2396
-- Logan Adams (son) — SSN: 200-54-6232
+- None
 
 ## Filing Details
 - Federal Status: married_filing_jointly
 - State Status: married_filing_jointly
-- Residency: CA
+- Residency: FL

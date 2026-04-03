@@ -4,13 +4,14 @@
 - Taxpayer: Judith Everett
 - Spouse: Marcia Mason
 ## Filing Information
-- Filing Status: married_filing_jointly
-- State: CA
+- Filing Status: head_of_household
+- State: FL
 
 ## Income Sources
-- W-2 Wages: $0- Interest Income: $449- Dividend Income: $119- Business Income (Schedule C): $0
+- W-2 Wages: $69792- Interest Income: $0- Dividend Income: $2391- Business Income (Schedule C): $0
+
 ## Expected Outputs
-- Federal AGI: $48630
-- Federal Taxable Income: $9818
-- Federal Tax: $7307
-- California Taxable Income: $37550
+- Federal AGI: $145646
+- Federal Taxable Income: $101753
+- Federal Tax: $19161
+- California Taxable Income: $145646

@@ -2,25 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Benjamin Horton
-- SSN: 139-46-3358
-- DOB: 1975-02-23
-- Occupation: Graphic Designer
+- SSN: 787-99-2577
+- DOB: 1975-02-24
+- Occupation: Software Engineer
 
 ## Spouse
-- Name: Susan Wood- SSN: 573-57-2577- DOB: 1999-01-05- Occupation: Nurse- Employer: Pacific Health System Inc.
+- Name: Susan Wood- SSN: 564-86-9163- DOB: 1999-01-06- Occupation: Teacher- Employer: Sunrise Community Hospital
 ## Address
-- Street: 695 Long Centers
+- Street: 9790 Ray Road
 - City: Sacramento
 - State: CA
-- ZIP: 14565
+- ZIP: 95814
 - County: Sacramento
 
 ## Dependents
-- Laura Horton (daughter) — SSN: 626-65-7100
-- Shawn Horton (daughter) — SSN: 280-17-2758
-- Tyrone Horton (son) — SSN: 257-22-3631
+- None
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
+- Federal Status: head_of_household
+- State Status: head_of_household
 - Residency: CA

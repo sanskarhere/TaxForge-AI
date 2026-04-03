@@ -2,25 +2,24 @@
 
 ## Primary Taxpayer
 - Name: Sean Carter
-- SSN: 555-66-5818
-- DOB: 1978-11-09
-- Occupation: Graphic Designer
+- SSN: 189-59-2286
+- DOB: 1978-11-10
+- Occupation: Data Analyst
 
 ## Spouse
-- Name: Todd Miller- SSN: 359-71-2426- DOB: 2000-10-07- Occupation: Nurse- Employer: Pacific Health System Inc.
+- Name: Todd Miller- SSN: 177-94-4317- DOB: 2000-10-08- Occupation: Teacher- Employer: City Public School District
 ## Address
-- Street: 903 Mark Harbor Apt. 092
-- City: Sacramento
-- State: CA
-- ZIP: 30359
-- County: Sacramento
+- Street: 49032 Young Rapid Apt. 092
+- City: Miami
+- State: FL
+- ZIP: 33130
+- County: Miami-Dade
 
 ## Dependents
-- Christian Carter (son) — SSN: 775-35-5764
-- Donna Carter (son) — SSN: 864-88-1984
-- Kelly Carter (son) — SSN: 436-40-5485
+- Blake Carter (son) — SSN: 864-88-1984
+- Matthew Carter (son) — SSN: 436-40-5485
 
 ## Filing Details
 - Federal Status: married_filing_jointly
 - State Status: married_filing_jointly
-- Residency: CA
+- Residency: FL

@@ -2,23 +2,21 @@
 
 ## Primary Taxpayer
 - Name: Charles Miranda
-- SSN: 176-24-7690
-- DOB: 1986-02-28
-- Occupation: Graphic Designer
+- SSN: 710-64-8991
+- DOB: 1986-03-01
+- Occupation: Marketing Manager
 
 ## Spouse
-- Name: Robert Duffy- SSN: 578-63-5372- DOB: 1989-11-11- Occupation: Nurse- Employer: Pacific Health System Inc.
+- Name: Robert Duffy- SSN: 736-45-4338- DOB: 1989-11-12- Occupation: Teacher- Employer: Sunrise Community Hospital
 ## Address
-- Street: 240 Scott Crossing
+- Street: 430 Keith Estate Suite 211
 - City: Sacramento
 - State: CA
-- ZIP: 89988
+- ZIP: 95833
 - County: Sacramento
 
 ## Dependents
-- Tony Miranda (daughter) — SSN: 308-92-1651
-- Joshua Miranda (son) — SSN: 135-30-8200
-- Pamela Miranda (son) — SSN: 799-22-9047
+- None
 
 ## Filing Details
 - Federal Status: married_filing_jointly

@@ -8,9 +8,10 @@
 - State: CA
 
 ## Income Sources
-- W-2 Wages: $68260- Interest Income: $1128- Dividend Income: $3104- Business Income (Schedule C): $0
+- W-2 Wages: $60872- Interest Income: $0- Dividend Income: $0- Business Income (Schedule C): $0
+
 ## Expected Outputs
-- Federal AGI: $72492
-- Federal Taxable Income: $43292
-- Federal Tax: $1731
-- California Taxable Income: $61412
+- Federal AGI: $60872
+- Federal Taxable Income: $31672
+- Federal Tax: $3337
+- California Taxable Income: $49792

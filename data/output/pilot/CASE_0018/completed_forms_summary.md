@@ -11,29 +11,29 @@
 - Schedule 8812 - Credits for Qualifying Children and Other Dependents
 
 ## State Forms
-- California Form 540 - Resident Income Tax Return
+- State Resident Income Tax Return
 
 ## Federal Return Snapshot
-- Total Income: $117959
-- AGI: $115215
+- Total Income: $169861
+- AGI: $164291
 - Standard Deduction: $29200
-- QBI Deduction: $7219
-- Taxable Income: $78796
-- Tax Before Credits: $8992
-- Child Tax Credit: $4500
-- Self-Employment Tax: $5488
-- Total Tax: $9980
-- Total Payments: $11373
-- Refund: $1393
-- Balance Due: $0
+- QBI Deduction: $14653
+- Taxable Income: $120438
+- Tax Before Credits: $16602
+- Child Tax Credit: $2000
+- Self-Employment Tax: $11139
+- Total Tax: $25741
+- Total Payments: $8363
+- Refund: $0
+- Balance Due: $17378
 
-## California Return Snapshot
-- California AGI: $115215
-- Standard Deduction: $11080
-- Taxable Income: $104135
-- Tax Before Credits: $2965
-- Exemption Credits: $1681
-- Total Tax: $1284
-- Total Payments: $1683
-- Refund: $399
-- Balance Due: $0
+## State Return Snapshot
+- State AGI: $164291
+- Standard Deduction: $8000
+- Taxable Income: $156291
+- Tax Before Credits: $7446
+- Exemption Credits: $200
+- Total Tax: $7246
+- Total Payments: $2615
+- Refund: $0
+- Balance Due: $4631

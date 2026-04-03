@@ -4,107 +4,111 @@
   "taxpayer": {
     "first_name": "Judith",
     "last_name": "Everett",
-    "ssn": "859-69-9204",
-    "dob": "1995-09-06",
-    "occupation": "Graphic Designer",
+    "ssn": "693-41-8075",
+    "dob": "1995-09-07",
+    "occupation": "Teacher",
     "employer": null,
     "full_name": "Judith Everett"
   },
   "spouse": {
     "first_name": "Marcia",
     "last_name": "Mason",
-    "ssn": "213-87-4987",
-    "dob": "1995-11-22",
+    "ssn": "580-43-6396",
+    "dob": "1995-11-23",
     "occupation": "Nurse",
-    "employer": "Pacific Health System Inc.",
+    "employer": "Evergreen Retail Group",
     "full_name": "Marcia Mason"
   },
   "address": {
     "street": "8528 Bobby Street Suite 150",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "12741",
-    "county": "Sacramento"
+    "city": "Miami",
+    "state": "FL",
+    "zip_code": "33130",
+    "county": "Miami-Dade"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "CA",
+    "federal_status": "head_of_household",
+    "state_status": "head_of_household",
+    "residency_state": "FL",
     "full_year_resident": true
   },
   "dependents": [
     {
-      "first_name": "Bethany",
+      "first_name": "Lauren",
       "last_name": "Everett",
-      "ssn": "837-96-6396",
+      "ssn": "666-93-3029",
       "relationship": "daughter",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Bethany Everett"
+      "qualifies_child_tax_credit": true,
+      "full_name": "Lauren Everett"
     },
     {
-      "first_name": "Ryan",
-      "last_name": "Everett",
-      "ssn": "270-80-3029",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Ryan Everett"
-    },
-    {
-      "first_name": "Joseph",
+      "first_name": "Jeffrey",
       "last_name": "Everett",
       "ssn": "208-53-1908",
       "relationship": "son",
       "qualifies_child_tax_credit": false,
-      "full_name": "Joseph Everett"
+      "full_name": "Jeffrey Everett"
+    },
+    {
+      "first_name": "Derek",
+      "last_name": "Everett",
+      "ssn": "299-34-1077",
+      "relationship": "son",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Derek Everett"
     }
   ],
   "income_documents": {
-    "w2": null,
-    "interest_1099_int": {
-      "payer_name": "Golden State Community Bank",
-      "taxable_interest": 449
+    "w2": {
+      "employer_name": "Evergreen Retail Group",
+      "wages_box1": 69792,
+      "federal_withholding": 8044,
+      "state_wages": 69792,
+      "state_withholding": 2181
     },
+    "interest_1099_int": null,
     "dividend_1099_div": {
       "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 119,
-      "qualified_dividends": 67
+      "ordinary_dividends": 2391,
+      "qualified_dividends": 101
     },
     "schedule_c": {
       "business_name": "Creative Studio LLC",
       "business_code": "541510",
       "business_description": "Freelance Graphic & Web Design",
-      "gross_receipts": 87767,
-      "total_expenses": 36051,
-      "depreciation": 2145,
-      "other_expenses": 520
+      "gross_receipts": 112036,
+      "total_expenses": 32989,
+      "depreciation": 2321,
+      "other_expenses": 1417
     }
   },
   "federal_return": {
-    "total_income": 52284,
-    "adjustments": 3654,
-    "agi": 48630,
+    "total_income": 151230,
+    "adjustments": 5584,
+    "agi": 145646,
     "standard_deduction": 29200,
-    "qbi_deduction": 9612,
-    "taxable_income": 9818,
-    "tax_before_credits": 982,
-    "child_tax_credit": 1500,
-    "self_employment_tax": 7307,
-    "total_tax": 7307,
-    "total_payments": 0,
+    "qbi_deduction": 14693,
+    "taxable_income": 101753,
+    "tax_before_credits": 12492,
+    "child_tax_credit": 4500,
+    "self_employment_tax": 11169,
+    "total_tax": 19161,
+    "total_payments": 8044,
     "refund": 0,
-    "balance_due": 7307
+    "balance_due": 11117
   },
-  "california_return": {
-    "california_adjustments_additions": 0,
-    "california_adjustments_subtractions": 0,
-    "ca_agi": 48630,
-    "standard_deduction": 11080,
-    "taxable_income": 37550,
-    "tax_before_credits": 551,
-    "exemption_credits": 1681,
+  "state_return": {
+    "state_code": "FL",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 145646,
+    "standard_deduction": 0,
+    "taxable_income": 145646,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
     "total_tax": 0,
-    "total_payments": 0,
-    "refund": 0,
+    "total_payments": 2181,
+    "refund": 2181,
     "balance_due": 0
   },
   "dependent_count": 3

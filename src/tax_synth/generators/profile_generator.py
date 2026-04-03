@@ -16,7 +16,6 @@ class ProfileGenerator:
         random.seed(seed)
 
     def fake_ssn(self) -> str:
-        # Synthetic only; format match for downstream docs
         return f"{random.randint(100, 899):03d}-{random.randint(10, 99):02d}-{random.randint(1000, 9999):04d}"
 
     def build_person(
@@ -40,11 +39,35 @@ class ProfileGenerator:
             employer=employer,
         )
 
-    def build_address(self) -> Address:
+    def build_address(self, state: str = "CA") -> Address:
+        city_map = {
+            "CA": "Sacramento",
+            "TX": "Austin",
+            "NY": "New York",
+            "FL": "Miami",
+            "WA": "Seattle",
+        }
+
+        county_map = {
+            "CA": "Sacramento",
+            "TX": "Travis",
+            "NY": "New York",
+            "FL": "Miami-Dade",
+            "WA": "King",
+        }
+
+        zip_map = {
+            "CA": ["95814", "95821", "95825", "95833"],
+            "TX": ["73301", "78701", "78702", "78704"],
+            "NY": ["10001", "10011", "11201", "11354"],
+            "FL": ["33101", "33130", "33131", "33132"],
+            "WA": ["98101", "98104", "98109", "98004"],
+        }
+
         return Address(
             street=self.fake.street_address(),
-            city="Sacramento",
-            state="CA",
-            zip_code=self.fake.postcode(),
-            county="Sacramento",
+            city=city_map[state],
+            state=state,
+            zip_code=random.choice(zip_map[state]),
+            county=county_map[state],
         )

@@ -2,23 +2,24 @@
 
 ## Primary Taxpayer
 - Name: Jeffrey Cantu
-- SSN: 329-20-8528
-- DOB: 1985-11-19
-- Occupation: Graphic Designer
+- SSN: 407-12-1173
+- DOB: 1985-11-20
+- Occupation: Marketing Manager
 
 ## Spouse
-- Name: Andrew Bradford- SSN: 123-27-5913- DOB: 1999-07-22- Occupation: Nurse- Employer: Pacific Health System Inc.
+- Name: Andrew Bradford- SSN: 596-58-8945- DOB: 1999-07-23- Occupation: Nurse- Employer: NorthStar Solutions LLC
 ## Address
-- Street: 907 Washington Plain
-- City: Sacramento
-- State: CA
-- ZIP: 39512
-- County: Sacramento
+- Street: 7842 Mcneil Fall Apt. 150
+- City: Austin
+- State: TX
+- ZIP: 73301
+- County: Travis
 
 ## Dependents
-- None
+- Alexander Cantu (son) — SSN: 785-32-9615
+- Marc Cantu (son) — SSN: 481-92-1668
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: CA
+- Federal Status: head_of_household
+- State Status: head_of_household
+- Residency: TX

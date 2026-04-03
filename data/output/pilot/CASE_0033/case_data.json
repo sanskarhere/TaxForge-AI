@@ -1,0 +1,90 @@
+{
+  "case_id": "CASE_0033",
+  "tax_year": 2023,
+  "taxpayer": {
+    "first_name": "Shannon",
+    "last_name": "Kim",
+    "ssn": "886-75-8744",
+    "dob": "1971-09-02",
+    "occupation": "Marketing Manager",
+    "employer": null,
+    "full_name": "Shannon Kim"
+  },
+  "spouse": {
+    "first_name": "Jessica",
+    "last_name": "Palmer",
+    "ssn": "788-96-6663",
+    "dob": "1998-01-29",
+    "occupation": "Nurse",
+    "employer": "City Public School District",
+    "full_name": "Jessica Palmer"
+  },
+  "address": {
+    "street": "515 Katherine Harbor Suite 597",
+    "city": "Miami",
+    "state": "FL",
+    "zip_code": "33132",
+    "county": "Miami-Dade"
+  },
+  "filing": {
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "FL",
+    "full_year_resident": true
+  },
+  "dependents": [],
+  "income_documents": {
+    "w2": {
+      "employer_name": "City Public School District",
+      "wages_box1": 62774,
+      "federal_withholding": 9677,
+      "state_wages": 62774,
+      "state_withholding": 2682
+    },
+    "interest_1099_int": null,
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 2821,
+      "qualified_dividends": 1424
+    },
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 93670,
+      "total_expenses": 30950,
+      "depreciation": 112,
+      "other_expenses": 1549
+    }
+  },
+  "federal_return": {
+    "total_income": 128315,
+    "adjustments": 4431,
+    "agi": 123884,
+    "standard_deduction": 29200,
+    "qbi_deduction": 11658,
+    "taxable_income": 83026,
+    "tax_before_credits": 9499,
+    "child_tax_credit": 0,
+    "self_employment_tax": 8862,
+    "total_tax": 18361,
+    "total_payments": 9677,
+    "refund": 0,
+    "balance_due": 8684
+  },
+  "state_return": {
+    "state_code": "FL",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 123884,
+    "standard_deduction": 0,
+    "taxable_income": 123884,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
+    "total_tax": 0,
+    "total_payments": 2682,
+    "refund": 2682,
+    "balance_due": 0
+  },
+  "dependent_count": 0
+}

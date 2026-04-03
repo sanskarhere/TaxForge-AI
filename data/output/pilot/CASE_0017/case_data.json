@@ -1,80 +1,99 @@
 {
   "case_id": "CASE_0017",
-  "tax_year": 2024,
+  "tax_year": 2019,
   "taxpayer": {
     "first_name": "Jeffrey",
     "last_name": "Cantu",
-    "ssn": "329-20-8528",
-    "dob": "1985-11-19",
-    "occupation": "Graphic Designer",
+    "ssn": "407-12-1173",
+    "dob": "1985-11-20",
+    "occupation": "Marketing Manager",
     "employer": null,
     "full_name": "Jeffrey Cantu"
   },
   "spouse": {
     "first_name": "Andrew",
     "last_name": "Bradford",
-    "ssn": "123-27-5913",
-    "dob": "1999-07-22",
+    "ssn": "596-58-8945",
+    "dob": "1999-07-23",
     "occupation": "Nurse",
-    "employer": "Pacific Health System Inc.",
+    "employer": "NorthStar Solutions LLC",
     "full_name": "Andrew Bradford"
   },
   "address": {
-    "street": "907 Washington Plain",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "39512",
-    "county": "Sacramento"
+    "street": "7842 Mcneil Fall Apt. 150",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "73301",
+    "county": "Travis"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "CA",
+    "federal_status": "head_of_household",
+    "state_status": "head_of_household",
+    "residency_state": "TX",
     "full_year_resident": true
   },
-  "dependents": [],
+  "dependents": [
+    {
+      "first_name": "Alexander",
+      "last_name": "Cantu",
+      "ssn": "785-32-9615",
+      "relationship": "son",
+      "qualifies_child_tax_credit": false,
+      "full_name": "Alexander Cantu"
+    },
+    {
+      "first_name": "Marc",
+      "last_name": "Cantu",
+      "ssn": "481-92-1668",
+      "relationship": "son",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Marc Cantu"
+    }
+  ],
   "income_documents": {
     "w2": {
-      "employer_name": "Pacific Health System Inc.",
-      "wages_box1": 42693,
-      "federal_withholding": 6580,
-      "state_wages": 42693,
-      "state_withholding": 1475
+      "employer_name": "NorthStar Solutions LLC",
+      "wages_box1": 61999,
+      "federal_withholding": 5397,
+      "state_wages": 61999,
+      "state_withholding": 1600
     },
-    "interest_1099_int": {
-      "payer_name": "Golden State Community Bank",
-      "taxable_interest": 1147
+    "interest_1099_int": null,
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 459,
+      "qualified_dividends": 129
     },
-    "dividend_1099_div": null,
     "schedule_c": null
   },
   "federal_return": {
-    "total_income": 43840,
+    "total_income": 62458,
     "adjustments": 0,
-    "agi": 43840,
+    "agi": 62458,
     "standard_deduction": 29200,
     "qbi_deduction": 0,
-    "taxable_income": 14640,
-    "tax_before_credits": 1464,
-    "child_tax_credit": 0,
+    "taxable_income": 33258,
+    "tax_before_credits": 3527,
+    "child_tax_credit": 2500,
     "self_employment_tax": 0,
-    "total_tax": 1464,
-    "total_payments": 6580,
-    "refund": 5116,
+    "total_tax": 1027,
+    "total_payments": 5397,
+    "refund": 4370,
     "balance_due": 0
   },
-  "california_return": {
-    "california_adjustments_additions": 0,
-    "california_adjustments_subtractions": 0,
-    "ca_agi": 43840,
-    "standard_deduction": 11080,
-    "taxable_income": 32760,
-    "tax_before_credits": 455,
-    "exemption_credits": 298,
-    "total_tax": 157,
-    "total_payments": 1475,
-    "refund": 1318,
+  "state_return": {
+    "state_code": "TX",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 62458,
+    "standard_deduction": 0,
+    "taxable_income": 62458,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
+    "total_tax": 0,
+    "total_payments": 1600,
+    "refund": 1600,
     "balance_due": 0
   },
-  "dependent_count": 0
+  "dependent_count": 2
 }

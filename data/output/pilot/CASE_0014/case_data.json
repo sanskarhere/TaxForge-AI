@@ -1,66 +1,58 @@
 {
   "case_id": "CASE_0014",
-  "tax_year": 2024,
+  "tax_year": 2019,
   "taxpayer": {
     "first_name": "Tammy",
     "last_name": "Castro",
-    "ssn": "673-11-8760",
-    "dob": "1986-05-14",
-    "occupation": "Graphic Designer",
+    "ssn": "886-79-7890",
+    "dob": "1986-05-15",
+    "occupation": "Accountant",
     "employer": null,
     "full_name": "Tammy Castro"
   },
   "spouse": {
     "first_name": "Denise",
     "last_name": "Turner",
-    "ssn": "768-76-5933",
-    "dob": "1993-09-18",
-    "occupation": "Nurse",
-    "employer": "Pacific Health System Inc.",
+    "ssn": "824-39-2548",
+    "dob": "1993-09-19",
+    "occupation": "Project Coordinator",
+    "employer": "Sunrise Community Hospital",
     "full_name": "Denise Turner"
   },
   "address": {
-    "street": "154 Andrew Ports Apt. 098",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "18434",
-    "county": "Sacramento"
+    "street": "59154 Andrew Ports",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98104",
+    "county": "King"
   },
   "filing": {
     "federal_status": "married_filing_jointly",
     "state_status": "married_filing_jointly",
-    "residency_state": "CA",
+    "residency_state": "WA",
     "full_year_resident": true
   },
   "dependents": [
     {
-      "first_name": "Vanessa",
+      "first_name": "William",
       "last_name": "Castro",
-      "ssn": "483-89-2109",
+      "ssn": "758-42-4395",
       "relationship": "son",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Vanessa Castro"
-    },
-    {
-      "first_name": "Robert",
-      "last_name": "Castro",
-      "ssn": "687-36-1366",
-      "relationship": "daughter",
       "qualifies_child_tax_credit": false,
-      "full_name": "Robert Castro"
+      "full_name": "William Castro"
     },
     {
-      "first_name": "Jerry",
+      "first_name": "Jason",
       "last_name": "Castro",
-      "ssn": "695-81-3241",
+      "ssn": "155-84-3241",
       "relationship": "son",
       "qualifies_child_tax_credit": true,
-      "full_name": "Jerry Castro"
+      "full_name": "Jason Castro"
     }
   ],
   "income_documents": {
     "w2": {
-      "employer_name": "Pacific Health System Inc.",
+      "employer_name": "Sunrise Community Hospital",
       "wages_box1": 43988,
       "federal_withholding": 6784,
       "state_wages": 43988,
@@ -78,25 +70,26 @@
     "qbi_deduction": 0,
     "taxable_income": 14788,
     "tax_before_credits": 1479,
-    "child_tax_credit": 4500,
+    "child_tax_credit": 2500,
     "self_employment_tax": 0,
     "total_tax": 0,
     "total_payments": 6784,
     "refund": 6784,
     "balance_due": 0
   },
-  "california_return": {
-    "california_adjustments_additions": 0,
-    "california_adjustments_subtractions": 0,
-    "ca_agi": 43988,
-    "standard_deduction": 11080,
-    "taxable_income": 32908,
-    "tax_before_credits": 458,
-    "exemption_credits": 1681,
+  "state_return": {
+    "state_code": "WA",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 43988,
+    "standard_deduction": 0,
+    "taxable_income": 43988,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
     "total_tax": 0,
     "total_payments": 1388,
     "refund": 1388,
     "balance_due": 0
   },
-  "dependent_count": 3
+  "dependent_count": 2
 }

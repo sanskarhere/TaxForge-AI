@@ -20,7 +20,7 @@ automated document generation pipelines
 
 👉 The system ensures end-to-end consistency across all outputs, making it suitable for real-world experimentation and testing.
 
-🎯 Problem Statement
+## 🎯 Problem Statement
 
 Accessing real tax data is challenging due to:
 
@@ -30,13 +30,13 @@ Accessing real tax data is challenging due to:
 
 ❌ Limited availability for ML training
 
-✅ Solution
+## ✅ Solution
 
 TaxForge-AI generates:
 
 Fully synthetic, privacy-safe, yet structurally realistic tax datasets
 
-⚙️ Key Features
+## ⚙️ Key Features
 
 ✔ End-to-end synthetic tax case generation
 
@@ -52,7 +52,7 @@ Fully synthetic, privacy-safe, yet structurally realistic tax datasets
 
 ✔ Consistent multi-document pipeline
 
-🧩 System Architecture
+## 🧩 System Architecture
 
 Synthetic Profile Generator
 ↓
@@ -66,7 +66,7 @@ Markdown → PDF Renderer (ReportLab)
 ↓
 Final Output (Multi-document dataset)
 
-📂 Output Structure
+## 📂 Output Structure
 
 Each generated case contains:
 

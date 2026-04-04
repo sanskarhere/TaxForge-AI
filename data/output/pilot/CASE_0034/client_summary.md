@@ -2,23 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Mitchell Clements
-- SSN: 528-40-5614
-- DOB: 1977-01-22
-- Occupation: Software Engineer
+- SSN: 479-69-7383
+- DOB: 1980-11-13
+- Occupation: Teacher
 
 ## Spouse
-- Name: Regina Brown- SSN: 408-66-9023- DOB: 1983-04-30- Occupation: HR Specialist- Employer: Pacific Health System Inc.
+- Name: N/A- SSN: N/A- DOB: N/A- Occupation: N/A- Employer: N/A
 ## Address
-- Street: 3154 Marvin Place Apt. 069
-- City: New York
-- State: NY
-- ZIP: 10001
-- County: New York
+- Street: 63447 Hall Isle Suite 358
+- City: Miami
+- State: FL
+- ZIP: 33130
+- County: Miami-Dade
 
 ## Dependents
-- Douglas Clements (son) — SSN: 409-39-6451
+- Bruce Hopkins (daughter) — SSN: 404-16-7850
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: NY
+- Federal Status: head_of_household
+- State Status: head_of_household
+- Residency: FL

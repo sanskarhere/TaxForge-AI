@@ -4,14 +4,14 @@
 - Taxpayer: Thomas Mccoy
 - Spouse: Amanda Mcdaniel
 ## Filing Information
-- Filing Status: head_of_household
-- State: FL
+- Filing Status: married_filing_jointly
+- State: CA
 
 ## Income Sources
-- W-2 Wages: $0- Interest Income: $60- Dividend Income: $815- Business Income (Schedule C): $0
+- W-2 Wages: $88144- Interest Income: $1480- Dividend Income: $2774- Business Income (Schedule C): $0
 
 ## Expected Outputs
-- Federal AGI: $67695
-- Federal Taxable Income: $25131
-- Federal Tax: $12211
-- California Taxable Income: $67695
+- Federal AGI: $92398
+- Federal Taxable Income: $64698
+- Federal Tax: $7364
+- California Taxable Income: $81318

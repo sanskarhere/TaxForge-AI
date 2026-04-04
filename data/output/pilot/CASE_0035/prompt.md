@@ -2,16 +2,16 @@
 
 ## Personal Information
 - Taxpayer: Lauren Nguyen
-- Spouse: James Ayers
+- Spouse: N/A
 ## Filing Information
 - Filing Status: single
-- State: NY
+- State: TX
 
 ## Income Sources
-- W-2 Wages: $43858- Interest Income: $441- Dividend Income: $3523- Business Income (Schedule C): $0
+- W-2 Wages: $0- Interest Income: $648- Dividend Income: $2385- Business Income (Schedule C): $0
 
 ## Expected Outputs
-- Federal AGI: $47822
-- Federal Taxable Income: $18622
-- Federal Tax: $1862
-- California Taxable Income: $39822
+- Federal AGI: $3033
+- Federal Taxable Income: $0
+- Federal Tax: $0
+- California Taxable Income: $3033

@@ -4,14 +4,14 @@
 - Taxpayer: Renee Carter
 - Spouse: Shannon Morris
 ## Filing Information
-- Filing Status: head_of_household
-- State: CA
+- Filing Status: married_filing_jointly
+- State: TX
 
 ## Income Sources
-- W-2 Wages: $43666- Interest Income: $1071- Dividend Income: $3720- Business Income (Schedule C): $0
+- W-2 Wages: $68904- Interest Income: $1083- Dividend Income: $0- Business Income (Schedule C): $0
 
 ## Expected Outputs
-- Federal AGI: $76835
-- Federal Taxable Income: $41959
-- Federal Tax: $4386
-- California Taxable Income: $65755
+- Federal AGI: $69987
+- Federal Taxable Income: $45187
+- Federal Tax: $3022
+- California Taxable Income: $69987

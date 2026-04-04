@@ -2,18 +2,18 @@
 
 ## Primary Taxpayer
 - Name: Sarah Thompson
-- SSN: 786-55-3803
-- DOB: 1978-05-10
-- Occupation: Software Engineer
+- SSN: 689-32-2067
+- DOB: 1983-06-17
+- Occupation: Teacher
 
 ## Spouse
-- Name: Patricia Collins- SSN: 620-33-3646- DOB: 1998-01-28- Occupation: Teacher- Employer: Sunrise Community Hospital
+- Name: N/A- SSN: N/A- DOB: N/A- Occupation: N/A- Employer: N/A
 ## Address
-- Street: 82204 Michelle Burgs Suite 780
-- City: Seattle
-- State: WA
-- ZIP: 98101
-- County: King
+- Street: 5282 Alan Green Apt. 107
+- City: New York
+- State: NY
+- ZIP: 10011
+- County: New York
 
 ## Dependents
 - None
@@ -21,4 +21,4 @@
 ## Filing Details
 - Federal Status: single
 - State Status: single
-- Residency: WA
+- Residency: NY

@@ -2,16 +2,16 @@
 
 ## Personal Information
 - Taxpayer: Mitchell Clements
-- Spouse: Regina Brown
+- Spouse: N/A
 ## Filing Information
-- Filing Status: married_filing_jointly
-- State: NY
+- Filing Status: head_of_household
+- State: FL
 
 ## Income Sources
-- W-2 Wages: $45958- Interest Income: $837- Dividend Income: $1459- Business Income (Schedule C): $0
+- W-2 Wages: $60456- Interest Income: $220- Dividend Income: $0- Business Income (Schedule C): $0
 
 ## Expected Outputs
-- Federal AGI: $48254
-- Federal Taxable Income: $19054
-- Federal Tax: $1405
-- California Taxable Income: $40254
+- Federal AGI: $60676
+- Federal Taxable Income: $41276
+- Federal Tax: $2653
+- California Taxable Income: $60676

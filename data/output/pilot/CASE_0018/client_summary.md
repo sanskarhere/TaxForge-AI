@@ -2,23 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Kyle Lane
-- SSN: 595-69-6448
-- DOB: 1979-04-16
-- Occupation: Software Engineer
+- SSN: 415-46-3525
+- DOB: 1985-04-30
+- Occupation: Nurse
 
 ## Spouse
-- Name: Jerry Webb- SSN: 142-21-4038- DOB: 1986-07-26- Occupation: HR Specialist- Employer: NorthStar Solutions LLC
+- Name: Jerry Webb- SSN: 371-39-8921- DOB: 1989-11-18- Occupation: Designer- Employer: Nexa Services
 ## Address
 - Street: 22603 Robert Stream
-- City: New York
-- State: NY
-- ZIP: 11201
-- County: New York
+- City: Austin
+- State: TX
+- ZIP: 78704
+- County: Travis
 
 ## Dependents
-- Vanessa Lane (daughter) — SSN: 345-91-1150
+- None
 
 ## Filing Details
-- Federal Status: head_of_household
-- State Status: head_of_household
-- Residency: NY
+- Federal Status: married_filing_jointly
+- State Status: married_filing_jointly
+- Residency: TX

@@ -1,97 +1,74 @@
 {
   "case_id": "CASE_0010",
-  "tax_year": 2019,
+  "tax_year": 2022,
   "taxpayer": {
     "first_name": "Tiffany",
     "last_name": "Brown",
-    "ssn": "516-14-3298",
-    "dob": "1994-12-11",
-    "occupation": "Teacher",
-    "employer": null,
+    "ssn": "374-16-9398",
+    "dob": "2002-02-19",
+    "occupation": "Sales Executive",
+    "employer": "Vertex Solutions",
     "full_name": "Tiffany Brown"
   },
-  "spouse": {
-    "first_name": "William",
-    "last_name": "Wyatt",
-    "ssn": "262-62-4000",
-    "dob": "1987-11-16",
-    "occupation": "Teacher",
-    "employer": "Sunrise Community Hospital",
-    "full_name": "William Wyatt"
-  },
+  "spouse": null,
   "address": {
-    "street": "2570 Amy Mill",
-    "city": "New York",
-    "state": "NY",
-    "zip_code": "11354",
-    "county": "New York"
+    "street": "6022 Rivas Key Suite 008",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "95833",
+    "county": "Sacramento"
   },
   "filing": {
     "federal_status": "head_of_household",
     "state_status": "head_of_household",
-    "residency_state": "NY",
+    "residency_state": "CA",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Jennifer",
-      "last_name": "Brown",
-      "ssn": "135-79-7343",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Jennifer Brown"
-    },
-    {
-      "first_name": "Tamara",
-      "last_name": "Brown",
-      "ssn": "342-18-3605",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Tamara Brown"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
-    "w2": null,
+    "w2": {
+      "employer_name": "Vertex Solutions",
+      "wages_box1": 66315,
+      "federal_withholding": 7464,
+      "state_wages": 66315,
+      "state_withholding": 3155
+    },
     "interest_1099_int": null,
-    "dividend_1099_div": null,
-    "schedule_c": {
-      "business_name": "Creative Studio LLC",
-      "business_code": "541510",
-      "business_description": "Freelance Graphic & Web Design",
-      "gross_receipts": 84526,
-      "total_expenses": 24246,
-      "depreciation": 137,
-      "other_expenses": 2534
-    }
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 1791,
+      "qualified_dividends": 1700
+    },
+    "schedule_c": null
   },
   "federal_return": {
-    "total_income": 60280,
-    "adjustments": 4258,
-    "agi": 56022,
-    "standard_deduction": 29200,
-    "qbi_deduction": 11204,
-    "taxable_income": 15618,
-    "tax_before_credits": 1562,
-    "child_tax_credit": 4000,
-    "self_employment_tax": 8517,
-    "total_tax": 8517,
-    "total_payments": 0,
-    "refund": 0,
-    "balance_due": 8517
+    "total_income": 68106,
+    "adjustments": 0,
+    "agi": 68106,
+    "standard_deduction": 19400,
+    "qbi_deduction": 0,
+    "taxable_income": 48706,
+    "tax_before_credits": 5545,
+    "child_tax_credit": 0,
+    "self_employment_tax": 0,
+    "total_tax": 5545,
+    "total_payments": 7464,
+    "refund": 1919,
+    "balance_due": 0
   },
   "state_return": {
-    "state_code": "NY",
+    "state_code": "CA",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 56022,
-    "standard_deduction": 8000,
-    "taxable_income": 48022,
-    "tax_before_credits": 1521,
-    "exemption_credits": 300,
-    "total_tax": 1221,
-    "total_payments": 0,
-    "refund": 0,
-    "balance_due": 1221
+    "state_agi": 68106,
+    "standard_deduction": 11080,
+    "taxable_income": 57026,
+    "tax_before_credits": 1081,
+    "exemption_credits": 149,
+    "total_tax": 932,
+    "total_payments": 3155,
+    "refund": 2223,
+    "balance_due": 0
   },
-  "dependent_count": 2
+  "dependent_count": 0
 }

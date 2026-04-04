@@ -2,16 +2,16 @@
 
 ## Personal Information
 - Taxpayer: Lisa Davis
-- Spouse: Jessica Scott
+- Spouse: N/A
 ## Filing Information
-- Filing Status: married_filing_jointly
-- State: TX
+- Filing Status: single
+- State: CA
 
 ## Income Sources
-- W-2 Wages: $64768- Interest Income: $430- Dividend Income: $0- Business Income (Schedule C): $0
+- W-2 Wages: $44237- Interest Income: $1408- Dividend Income: $0- Business Income (Schedule C): $0
 
 ## Expected Outputs
-- Federal AGI: $111173
-- Federal Taxable Income: $72778
-- Federal Tax: $14759
-- California Taxable Income: $111173
+- Federal AGI: $79504
+- Federal Taxable Income: $60182
+- Federal Tax: $13668
+- California Taxable Income: $68424

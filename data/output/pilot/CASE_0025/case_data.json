@@ -1,78 +1,87 @@
 {
   "case_id": "CASE_0025",
-  "tax_year": 2019,
+  "tax_year": 2020,
   "taxpayer": {
     "first_name": "Charles",
     "last_name": "Miranda",
-    "ssn": "710-64-8991",
-    "dob": "1986-03-01",
-    "occupation": "Marketing Manager",
-    "employer": null,
+    "ssn": "176-24-7690",
+    "dob": "1999-01-29",
+    "occupation": "Project Coordinator",
+    "employer": "Vertex Solutions",
     "full_name": "Charles Miranda"
   },
-  "spouse": {
-    "first_name": "Robert",
-    "last_name": "Duffy",
-    "ssn": "736-45-4338",
-    "dob": "1989-11-12",
-    "occupation": "Teacher",
-    "employer": "Sunrise Community Hospital",
-    "full_name": "Robert Duffy"
-  },
+  "spouse": null,
   "address": {
-    "street": "430 Keith Estate Suite 211",
+    "street": "9679 Calhoun Ford Apt. 240",
     "city": "Sacramento",
     "state": "CA",
     "zip_code": "95833",
     "county": "Sacramento"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
+    "federal_status": "head_of_household",
+    "state_status": "head_of_household",
     "residency_state": "CA",
     "full_year_resident": true
   },
-  "dependents": [],
+  "dependents": [
+    {
+      "first_name": "Eric",
+      "last_name": "White",
+      "ssn": "525-44-8036",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Eric White"
+    },
+    {
+      "first_name": "Cody",
+      "last_name": "Parker",
+      "ssn": "599-89-5555",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Cody Parker"
+    }
+  ],
   "income_documents": {
     "w2": {
-      "employer_name": "Sunrise Community Hospital",
-      "wages_box1": 60872,
-      "federal_withholding": 5040,
-      "state_wages": 60872,
-      "state_withholding": 2020
+      "employer_name": "Vertex Solutions",
+      "wages_box1": 55353,
+      "federal_withholding": 7279,
+      "state_wages": 55353,
+      "state_withholding": 2212
     },
     "interest_1099_int": null,
     "dividend_1099_div": null,
     "schedule_c": null
   },
   "federal_return": {
-    "total_income": 60872,
+    "total_income": 55353,
     "adjustments": 0,
-    "agi": 60872,
-    "standard_deduction": 29200,
+    "agi": 55353,
+    "standard_deduction": 18650,
     "qbi_deduction": 0,
-    "taxable_income": 31672,
-    "tax_before_credits": 3337,
-    "child_tax_credit": 0,
+    "taxable_income": 36703,
+    "tax_before_credits": 4104,
+    "child_tax_credit": 4000,
     "self_employment_tax": 0,
-    "total_tax": 3337,
-    "total_payments": 5040,
-    "refund": 1703,
+    "total_tax": 104,
+    "total_payments": 7279,
+    "refund": 7175,
     "balance_due": 0
   },
   "state_return": {
     "state_code": "CA",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 60872,
+    "state_agi": 55353,
     "standard_deduction": 11080,
-    "taxable_income": 49792,
-    "tax_before_credits": 796,
-    "exemption_credits": 298,
-    "total_tax": 498,
-    "total_payments": 2020,
-    "refund": 1522,
+    "taxable_income": 44273,
+    "tax_before_credits": 685,
+    "exemption_credits": 1071,
+    "total_tax": 0,
+    "total_payments": 2212,
+    "refund": 2212,
     "balance_due": 0
   },
-  "dependent_count": 0
+  "dependent_count": 2
 }

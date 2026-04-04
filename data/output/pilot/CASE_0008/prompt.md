@@ -2,16 +2,16 @@
 
 ## Personal Information
 - Taxpayer: Tyler Adams
-- Spouse: Patricia Schwartz
+- Spouse: N/A
 ## Filing Information
-- Filing Status: married_filing_jointly
-- State: FL
+- Filing Status: single
+- State: TX
 
 ## Income Sources
-- W-2 Wages: $64752- Interest Income: $437- Dividend Income: $0- Business Income (Schedule C): $0
+- W-2 Wages: $63630- Interest Income: $224- Dividend Income: $1522- Business Income (Schedule C): $0
 
 ## Expected Outputs
-- Federal AGI: $114082
-- Federal Taxable Income: $75103
-- Federal Tax: $15982
-- California Taxable Income: $114082
+- Federal AGI: $111006
+- Federal Taxable Income: $88030
+- Federal Tax: $21584
+- California Taxable Income: $111006

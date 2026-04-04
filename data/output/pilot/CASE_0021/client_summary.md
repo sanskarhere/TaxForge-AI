@@ -2,24 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Sean Carter
-- SSN: 189-59-2286
-- DOB: 1978-11-10
-- Occupation: Data Analyst
+- SSN: 555-66-5818
+- DOB: 1984-06-19
+- Occupation: Nurse
 
 ## Spouse
-- Name: Todd Miller- SSN: 177-94-4317- DOB: 2000-10-08- Occupation: Teacher- Employer: City Public School District
+- Name: N/A- SSN: N/A- DOB: N/A- Occupation: N/A- Employer: N/A
 ## Address
-- Street: 49032 Young Rapid Apt. 092
+- Street: 161 Donna Highway Apt. 490
 - City: Miami
 - State: FL
-- ZIP: 33130
+- ZIP: 33131
 - County: Miami-Dade
 
 ## Dependents
-- Blake Carter (son) — SSN: 864-88-1984
-- Matthew Carter (son) — SSN: 436-40-5485
+- None
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
+- Federal Status: single
+- State Status: single
 - Residency: FL

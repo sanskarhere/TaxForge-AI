@@ -2,24 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Beverly Harris
-- SSN: 142-34-8362
-- DOB: 1992-02-05
-- Occupation: Accountant
+- SSN: 694-35-4370
+- DOB: 1980-12-11
+- Occupation: Operations Associate
 
 ## Spouse
-- Name: Toni Harris- SSN: 515-55-5717- DOB: 1981-10-19- Occupation: Pharmacist- Employer: NorthStar Solutions LLC
+- Name: N/A- SSN: N/A- DOB: N/A- Occupation: N/A- Employer: N/A
 ## Address
-- Street: 7964 Alexander Forest Suite 178
-- City: Seattle
-- State: WA
-- ZIP: 98109
-- County: King
+- Street: 76544 Lara Manor
+- City: New York
+- State: NY
+- ZIP: 10011
+- County: New York
 
 ## Dependents
-- Joanna Harris (daughter) — SSN: 390-84-2713
-- Hayden Harris (son) — SSN: 318-70-2203
+- None
 
 ## Filing Details
 - Federal Status: single
 - State Status: single
-- Residency: WA
+- Residency: NY

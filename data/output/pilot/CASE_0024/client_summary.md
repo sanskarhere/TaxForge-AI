@@ -2,25 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Chad Hamilton
-- SSN: 362-81-2559
-- DOB: 1978-08-19
-- Occupation: Software Engineer
+- SSN: 172-49-8120
+- DOB: 1984-01-05
+- Occupation: Teacher
 
 ## Spouse
-- Name: Kristin Carter- SSN: 862-73-4018- DOB: 1994-04-27- Occupation: Teacher- Employer: Sunrise Community Hospital
+- Name: N/A- SSN: N/A- DOB: N/A- Occupation: N/A- Employer: N/A
 ## Address
-- Street: 8215 Rick Squares
-- City: Sacramento
-- State: CA
-- ZIP: 95825
-- County: Sacramento
+- Street: 4817 Taylor Crossroad Apt. 526
+- City: Austin
+- State: TX
+- ZIP: 78701
+- County: Travis
 
 ## Dependents
-- Brandon Hamilton (son) — SSN: 831-56-3739
-- Sharon Hamilton (daughter) — SSN: 754-74-1507
-- Ryan Hamilton (son) — SSN: 238-57-1390
+- None
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: CA
+- Federal Status: single
+- State Status: single
+- Residency: TX

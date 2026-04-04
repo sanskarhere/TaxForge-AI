@@ -2,23 +2,24 @@
 
 ## Primary Taxpayer
 - Name: Joseph Weaver
-- SSN: 473-78-7574
-- DOB: 1994-05-07
-- Occupation: Accountant
+- SSN: 378-60-9878
+- DOB: 1995-11-21
+- Occupation: Operations Associate
 
 ## Spouse
-- Name: Michelle Fisher- SSN: 483-13-7280- DOB: 1987-09-04- Occupation: Teacher- Employer: Sunrise Community Hospital
+- Name: Miguel Patel- SSN: 825-63-7046- DOB: 1992-10-02- Occupation: Accountant- Employer: CarePoint Health
 ## Address
-- Street: 86390 Allen Pines Apt. 279
-- City: New York
-- State: NY
-- ZIP: 11201
-- County: New York
+- Street: 639 Paul Extension
+- City: Miami
+- State: FL
+- ZIP: 33131
+- County: Miami-Dade
 
 ## Dependents
-- Joseph Weaver (son) — SSN: 347-31-9674
+- Sophia Hart (son) — SSN: 645-61-7139
+- Shannon Anderson (daughter) — SSN: 125-80-7280
 
 ## Filing Details
-- Federal Status: head_of_household
-- State Status: head_of_household
-- Residency: NY
+- Federal Status: married_filing_jointly
+- State Status: married_filing_jointly
+- Residency: FL

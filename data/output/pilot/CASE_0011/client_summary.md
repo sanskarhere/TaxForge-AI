@@ -2,18 +2,18 @@
 
 ## Primary Taxpayer
 - Name: Christina Wu
-- SSN: 835-76-6909
-- DOB: 1985-10-14
-- Occupation: Teacher
+- SSN: 731-37-8479
+- DOB: 1998-04-27
+- Occupation: Operations Associate
 
 ## Spouse
-- Name: Wayne Webb- SSN: 851-68-1511- DOB: 1999-09-05- Occupation: Pharmacist- Employer: BluePeak Analytics
+- Name: Wayne Webb- SSN: 614-71-9528- DOB: 1991-10-20- Occupation: Operations Executive- Employer: CarePoint Health
 ## Address
-- Street: 700 Tiffany Key Apt. 402
-- City: Seattle
-- State: WA
-- ZIP: 98104
-- County: King
+- Street: 002 Francis Green Apt. 205
+- City: New York
+- State: NY
+- ZIP: 11201
+- County: New York
 
 ## Dependents
 - None
@@ -21,4 +21,4 @@
 ## Filing Details
 - Federal Status: married_filing_jointly
 - State Status: married_filing_jointly
-- Residency: WA
+- Residency: NY

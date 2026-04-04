@@ -2,16 +2,16 @@
 
 ## Personal Information
 - Taxpayer: Robin Taylor
-- Spouse: Kenneth Wu
+- Spouse: Timothy Haley
 ## Filing Information
-- Filing Status: head_of_household
-- State: TX
+- Filing Status: married_filing_jointly
+- State: FL
 
 ## Income Sources
-- W-2 Wages: $77528- Interest Income: $1164- Dividend Income: $0- Business Income (Schedule C): $0
+- W-2 Wages: $77972- Interest Income: $650- Dividend Income: $1218- Business Income (Schedule C): $0
 
 ## Expected Outputs
-- Federal AGI: $106520
-- Federal Taxable Income: $71754
-- Federal Tax: $10377
-- California Taxable Income: $106520
+- Federal AGI: $79840
+- Federal Taxable Income: $54740
+- Federal Tax: $2169
+- California Taxable Income: $79840

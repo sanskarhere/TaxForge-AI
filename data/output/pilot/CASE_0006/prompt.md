@@ -2,16 +2,15 @@
 
 ## Personal Information
 - Taxpayer: Amy Anderson
-- Spouse: Amanda Mcguire
+- Spouse: N/A
 ## Filing Information
 - Filing Status: single
-- State: WA
+- State: TX
 
 ## Income Sources
-- W-2 Wages: $78474- Interest Income: $0- Dividend Income: $0- Business Income (Schedule C): $0
-
+- W-2 Wages: $75116- Interest Income: $0- Dividend Income: $3678- Business Income (Schedule C): $0
 ## Expected Outputs
-- Federal AGI: $78474
-- Federal Taxable Income: $49274
-- Federal Tax: $4949
-- California Taxable Income: $78474
+- Federal AGI: $78794
+- Federal Taxable Income: $64194
+- Federal Tax: $9403
+- TX Taxable Income: $78794

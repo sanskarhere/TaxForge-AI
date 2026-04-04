@@ -1,8 +1,16 @@
 ## State Summary
-- State AGI: $60872
+
+- State Code: CA
+
+- State AGI: $55353
 - Standard Deduction: $11080
-- Taxable Income: $49792
-- Total Tax: $498
-- Total Payments: $2020
-- Refund: $1522
+- Taxable Income: $44273
+
+- Tax Before Credits: $685
+- Exemption Credits: $1071
+
+- Total Tax: $0
+- Total Payments: $2212
+
+- Refund: $2212
 - Balance Due: $0

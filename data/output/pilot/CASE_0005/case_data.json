@@ -1,114 +1,74 @@
 {
   "case_id": "CASE_0005",
-  "tax_year": 2019,
+  "tax_year": 2022,
   "taxpayer": {
     "first_name": "Michael",
     "last_name": "Jordan",
-    "ssn": "451-42-9395",
-    "dob": "1985-09-09",
-    "occupation": "Teacher",
-    "employer": null,
+    "ssn": "460-18-8048",
+    "dob": "1998-02-16",
+    "occupation": "Project Coordinator",
+    "employer": "BlueWave Inc",
     "full_name": "Michael Jordan"
   },
-  "spouse": {
-    "first_name": "Ashley",
-    "last_name": "Scott",
-    "ssn": "495-60-1670",
-    "dob": "1988-05-27",
-    "occupation": "Teacher",
-    "employer": "Evergreen Retail Group",
-    "full_name": "Ashley Scott"
-  },
+  "spouse": null,
   "address": {
-    "street": "04780 Bradley Forks",
-    "city": "New York",
-    "state": "NY",
-    "zip_code": "11354",
-    "county": "New York"
+    "street": "8669 Laura Shoals Apt. 104",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "95833",
+    "county": "Sacramento"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "NY",
+    "federal_status": "single",
+    "state_status": "single",
+    "residency_state": "CA",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "James",
-      "last_name": "Jordan",
-      "ssn": "100-43-8889",
-      "relationship": "son",
-      "qualifies_child_tax_credit": true,
-      "full_name": "James Jordan"
-    },
-    {
-      "first_name": "Andrew",
-      "last_name": "Jordan",
-      "ssn": "681-64-4769",
-      "relationship": "son",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Andrew Jordan"
-    },
-    {
-      "first_name": "Jason",
-      "last_name": "Jordan",
-      "ssn": "552-40-1544",
-      "relationship": "son",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Jason Jordan"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "Evergreen Retail Group",
-      "wages_box1": 88971,
-      "federal_withholding": 12012,
-      "state_wages": 88971,
-      "state_withholding": 3384
+      "employer_name": "BlueWave Inc",
+      "wages_box1": 58870,
+      "federal_withholding": 7123,
+      "state_wages": 58870,
+      "state_withholding": 1870
     },
-    "interest_1099_int": {
-      "payer_name": "Golden State Community Bank",
-      "taxable_interest": 451
+    "interest_1099_int": null,
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 196,
+      "qualified_dividends": 26
     },
-    "dividend_1099_div": null,
-    "schedule_c": {
-      "business_name": "Creative Studio LLC",
-      "business_code": "541510",
-      "business_description": "Freelance Graphic & Web Design",
-      "gross_receipts": 34624,
-      "total_expenses": 9960,
-      "depreciation": 401,
-      "other_expenses": 1486
-    }
+    "schedule_c": null
   },
   "federal_return": {
-    "total_income": 114086,
-    "adjustments": 1742,
-    "agi": 112344,
-    "standard_deduction": 29200,
-    "qbi_deduction": 4584,
-    "taxable_income": 78560,
-    "tax_before_credits": 8963,
-    "child_tax_credit": 3000,
-    "self_employment_tax": 3485,
-    "total_tax": 9448,
-    "total_payments": 12012,
-    "refund": 2564,
+    "total_income": 59066,
+    "adjustments": 0,
+    "agi": 59066,
+    "standard_deduction": 12950,
+    "qbi_deduction": 0,
+    "taxable_income": 46116,
+    "tax_before_credits": 5426,
+    "child_tax_credit": 0,
+    "self_employment_tax": 0,
+    "total_tax": 5426,
+    "total_payments": 7123,
+    "refund": 1697,
     "balance_due": 0
   },
   "state_return": {
-    "state_code": "NY",
+    "state_code": "CA",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 112344,
-    "standard_deduction": 8000,
-    "taxable_income": 104344,
-    "tax_before_credits": 4589,
-    "exemption_credits": 500,
-    "total_tax": 4089,
-    "total_payments": 3384,
-    "refund": 0,
-    "balance_due": 705
+    "state_agi": 59066,
+    "standard_deduction": 11080,
+    "taxable_income": 47986,
+    "tax_before_credits": 760,
+    "exemption_credits": 149,
+    "total_tax": 611,
+    "total_payments": 1870,
+    "refund": 1259,
+    "balance_due": 0
   },
-  "dependent_count": 3
+  "dependent_count": 0
 }

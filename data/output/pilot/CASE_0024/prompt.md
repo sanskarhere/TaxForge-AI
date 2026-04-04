@@ -2,16 +2,16 @@
 
 ## Personal Information
 - Taxpayer: Chad Hamilton
-- Spouse: Kristin Carter
+- Spouse: N/A
 ## Filing Information
-- Filing Status: married_filing_jointly
-- State: CA
+- Filing Status: single
+- State: TX
 
 ## Income Sources
-- W-2 Wages: $88529- Interest Income: $1419- Dividend Income: $0- Business Income (Schedule C): $0
+- W-2 Wages: $61270- Interest Income: $1063- Dividend Income: $0- Business Income (Schedule C): $0
 
 ## Expected Outputs
-- Federal AGI: $89948
-- Federal Taxable Income: $60748
-- Federal Tax: $3826
-- California Taxable Income: $78868
+- Federal AGI: $81802
+- Federal Taxable Income: $65508
+- Federal Tax: $12652
+- California Taxable Income: $81802

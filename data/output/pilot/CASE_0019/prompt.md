@@ -4,14 +4,14 @@
 - Taxpayer: Troy Hawkins
 - Spouse: Kelly Brock
 ## Filing Information
-- Filing Status: head_of_household
-- State: FL
+- Filing Status: married_filing_jointly
+- State: NY
 
 ## Income Sources
-- W-2 Wages: $63613- Interest Income: $0- Dividend Income: $475- Business Income (Schedule C): $0
+- W-2 Wages: $52983- Interest Income: $237- Dividend Income: $1482- Business Income (Schedule C): $0
 
 ## Expected Outputs
-- Federal AGI: $64088
-- Federal Taxable Income: $34888
-- Federal Tax: $3723
-- California Taxable Income: $64088
+- Federal AGI: $54702
+- Federal Taxable Income: $27002
+- Federal Tax: $0
+- California Taxable Income: $46702

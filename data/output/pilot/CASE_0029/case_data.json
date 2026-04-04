@@ -1,85 +1,89 @@
 {
   "case_id": "CASE_0029",
-  "tax_year": 2023,
+  "tax_year": 2022,
   "taxpayer": {
     "first_name": "Mario",
     "last_name": "Harvey",
-    "ssn": "874-35-5314",
-    "dob": "1970-07-17",
-    "occupation": "Graphic Designer",
-    "employer": null,
+    "ssn": "431-75-1138",
+    "dob": "1967-10-31",
+    "occupation": "Software Analyst",
+    "employer": "BrightPath Systems",
     "full_name": "Mario Harvey"
   },
   "spouse": {
     "first_name": "Joseph",
     "last_name": "Moore",
-    "ssn": "188-35-9392",
-    "dob": "2000-12-30",
+    "ssn": "371-29-4264",
+    "dob": "1980-10-24",
     "occupation": "HR Specialist",
-    "employer": "NorthStar Solutions LLC",
+    "employer": "Brooks Consulting",
     "full_name": "Joseph Moore"
   },
   "address": {
-    "street": "1380 William Via",
-    "city": "New York",
-    "state": "NY",
-    "zip_code": "11201",
-    "county": "New York"
+    "street": "38093 Lisa Pine Suite 725",
+    "city": "Chicago",
+    "state": "IL",
+    "zip_code": "60610",
+    "county": "Cook"
   },
   "filing": {
-    "federal_status": "head_of_household",
-    "state_status": "head_of_household",
-    "residency_state": "NY",
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "IL",
     "full_year_resident": true
   },
-  "dependents": [],
+  "dependents": [
+    {
+      "first_name": "Deborah",
+      "last_name": "Johnson",
+      "ssn": "188-35-9392",
+      "relationship": "son",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Deborah Johnson"
+    }
+  ],
   "income_documents": {
-    "w2": {
-      "employer_name": "NorthStar Solutions LLC",
-      "wages_box1": 75079,
-      "federal_withholding": 6152,
-      "state_wages": 75079,
-      "state_withholding": 3060
-    },
-    "interest_1099_int": {
-      "payer_name": "Golden State Community Bank",
-      "taxable_interest": 986
-    },
-    "dividend_1099_div": {
-      "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 1530,
-      "qualified_dividends": 1324
-    },
-    "schedule_c": null
+    "w2": null,
+    "interest_1099_int": null,
+    "dividend_1099_div": null,
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 77929,
+      "total_expenses": 41248,
+      "depreciation": 1872,
+      "other_expenses": 532
+    }
   },
   "federal_return": {
-    "total_income": 77595,
-    "adjustments": 0,
-    "agi": 77595,
-    "standard_deduction": 29200,
-    "qbi_deduction": 0,
-    "taxable_income": 48395,
-    "tax_before_credits": 5343,
-    "child_tax_credit": 0,
-    "self_employment_tax": 0,
-    "total_tax": 5343,
-    "total_payments": 6152,
-    "refund": 809,
-    "balance_due": 0
+    "total_income": 36681,
+    "adjustments": 2592,
+    "agi": 34089,
+    "standard_deduction": 25900,
+    "qbi_deduction": 6818,
+    "taxable_income": 1371,
+    "tax_before_credits": 137,
+    "child_tax_credit": 2000,
+    "self_employment_tax": 5183,
+    "total_tax": 5183,
+    "total_payments": 0,
+    "refund": 0,
+    "balance_due": 5183
   },
   "state_return": {
-    "state_code": "NY",
+    "state_code": "IL",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 77595,
-    "standard_deduction": 8000,
-    "taxable_income": 69595,
-    "tax_before_credits": 2678,
-    "exemption_credits": 100,
-    "total_tax": 2578,
-    "total_payments": 3060,
-    "refund": 482,
-    "balance_due": 0
+    "state_agi": 34089,
+    "standard_deduction": 0,
+    "taxable_income": 34089,
+    "tax_before_credits": 1687,
+    "exemption_credits": 0,
+    "total_tax": 1687,
+    "total_payments": 0,
+    "refund": 0,
+    "balance_due": 1687
   },
-  "dependent_count": 0
+  "dependent_count": 1
 }

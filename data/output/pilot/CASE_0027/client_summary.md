@@ -2,24 +2,24 @@
 
 ## Primary Taxpayer
 - Name: Gabrielle Davis
-- SSN: 435-80-7791
-- DOB: 1975-12-07
-- Occupation: Graphic Designer
+- SSN: 800-14-2570
+- DOB: 1978-08-12
+- Occupation: Software Analyst
 
 ## Spouse
-- Name: Carl Cooper- SSN: 575-64-8170- DOB: 1993-12-09- Occupation: Project Coordinator- Employer: Sunrise Community Hospital
+- Name: N/A- SSN: N/A- DOB: N/A- Occupation: N/A- Employer: N/A
 ## Address
-- Street: 588 Thomas Lock Apt. 642
+- Street: 558 Marshall Meadow
 - City: Sacramento
 - State: CA
-- ZIP: 95814
+- ZIP: 95821
 - County: Sacramento
 
 ## Dependents
-- Jennifer Davis (daughter) — SSN: 522-60-2054
-- Sandra Davis (daughter) — SSN: 250-35-3333
+- Ashley Rivas (daughter) — SSN: 168-87-6646
+- Ann Stokes (daughter) — SSN: 435-80-7791
 
 ## Filing Details
-- Federal Status: single
-- State Status: single
+- Federal Status: head_of_household
+- State Status: head_of_household
 - Residency: CA

@@ -5,13 +5,22 @@
 - SSN: {{ case.taxpayer.ssn }}
 - DOB: {{ case.taxpayer.dob }}
 - Occupation: {{ case.taxpayer.occupation }}
+- Employer: {{ case.taxpayer.employer }}
 
 ## Spouse
-- Name: {% if case.spouse %}{{ case.spouse.first_name }} {{ case.spouse.last_name }}{% else %}N/A{% endif %}
-- SSN: {% if case.spouse %}{{ case.spouse.ssn }}{% else %}N/A{% endif %}
-- DOB: {% if case.spouse %}{{ case.spouse.dob }}{% else %}N/A{% endif %}
-- Occupation: {% if case.spouse %}{{ case.spouse.occupation }}{% else %}N/A{% endif %}
-- Employer: {% if case.spouse %}{{ case.spouse.employer }}{% else %}N/A{% endif %}
+{% if case.spouse %}
+- Name: {{ case.spouse.first_name }} {{ case.spouse.last_name }}
+- SSN: {{ case.spouse.ssn }}
+- DOB: {{ case.spouse.dob }}
+- Occupation: {{ case.spouse.occupation }}
+- Employer: {{ case.spouse.employer }}
+{% else %}
+- Name: N/A
+- SSN: N/A
+- DOB: N/A
+- Occupation: N/A
+- Employer: N/A
+{% endif %}
 
 ## Address
 - Street: {{ case.address.street }}

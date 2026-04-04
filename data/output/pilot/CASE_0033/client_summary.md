@@ -2,23 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Shannon Kim
-- SSN: 886-75-8744
-- DOB: 1971-09-02
-- Occupation: Marketing Manager
+- SSN: 561-84-8153
+- DOB: 1970-02-01
+- Occupation: Software Analyst
 
 ## Spouse
-- Name: Jessica Palmer- SSN: 788-96-6663- DOB: 1998-01-29- Occupation: Nurse- Employer: City Public School District
+- Name: N/A- SSN: N/A- DOB: N/A- Occupation: N/A- Employer: N/A
 ## Address
 - Street: 515 Katherine Harbor Suite 597
-- City: Miami
-- State: FL
-- ZIP: 33132
-- County: Miami-Dade
+- City: Chicago
+- State: IL
+- ZIP: 60614
+- County: Cook
 
 ## Dependents
 - None
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: FL
+- Federal Status: single
+- State Status: single
+- Residency: IL

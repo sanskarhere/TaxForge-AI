@@ -2,24 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Tammy Castro
-- SSN: 886-79-7890
-- DOB: 1986-05-15
-- Occupation: Accountant
+- SSN: 673-11-8760
+- DOB: 1999-06-28
+- Occupation: Sales Executive
 
 ## Spouse
-- Name: Denise Turner- SSN: 824-39-2548- DOB: 1993-09-19- Occupation: Project Coordinator- Employer: Sunrise Community Hospital
+- Name: Denise Turner- SSN: 768-76-5933- DOB: 1995-11-16- Occupation: Operations Executive- Employer: Nexa Services
 ## Address
 - Street: 59154 Andrew Ports
-- City: Seattle
-- State: WA
-- ZIP: 98104
-- County: King
+- City: Sacramento
+- State: CA
+- ZIP: 95833
+- County: Sacramento
 
 ## Dependents
-- William Castro (son) — SSN: 758-42-4395
-- Jason Castro (son) — SSN: 155-84-3241
+- None
 
 ## Filing Details
 - Federal Status: married_filing_jointly
 - State Status: married_filing_jointly
-- Residency: WA
+- Residency: CA

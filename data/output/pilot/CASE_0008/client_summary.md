@@ -2,23 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Tyler Adams
-- SSN: 584-52-2395
-- DOB: 1991-12-10
-- Occupation: Accountant
+- SSN: 609-44-6965
+- DOB: 1983-10-03
+- Occupation: Teacher
 
 ## Spouse
-- Name: Patricia Schwartz- SSN: 651-50-4676- DOB: 1986-06-25- Occupation: Business Analyst- Employer: City Public School District
+- Name: N/A- SSN: N/A- DOB: N/A- Occupation: N/A- Employer: N/A
 ## Address
-- Street: 538 Sarah Key
-- City: Miami
-- State: FL
-- ZIP: 33101
-- County: Miami-Dade
+- Street: 1853 Sarah Key Apt. 553
+- City: Austin
+- State: TX
+- ZIP: 78701
+- County: Travis
 
 ## Dependents
 - None
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: FL
+- Federal Status: single
+- State Status: single
+- Residency: TX

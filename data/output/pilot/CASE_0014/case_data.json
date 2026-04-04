@@ -1,95 +1,89 @@
 {
   "case_id": "CASE_0014",
-  "tax_year": 2019,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Tammy",
     "last_name": "Castro",
-    "ssn": "886-79-7890",
-    "dob": "1986-05-15",
-    "occupation": "Accountant",
-    "employer": null,
+    "ssn": "673-11-8760",
+    "dob": "1999-06-28",
+    "occupation": "Sales Executive",
+    "employer": "BrightPath Systems",
     "full_name": "Tammy Castro"
   },
   "spouse": {
     "first_name": "Denise",
     "last_name": "Turner",
-    "ssn": "824-39-2548",
-    "dob": "1993-09-19",
-    "occupation": "Project Coordinator",
-    "employer": "Sunrise Community Hospital",
+    "ssn": "768-76-5933",
+    "dob": "1995-11-16",
+    "occupation": "Operations Executive",
+    "employer": "Nexa Services",
     "full_name": "Denise Turner"
   },
   "address": {
     "street": "59154 Andrew Ports",
-    "city": "Seattle",
-    "state": "WA",
-    "zip_code": "98104",
-    "county": "King"
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "95833",
+    "county": "Sacramento"
   },
   "filing": {
     "federal_status": "married_filing_jointly",
     "state_status": "married_filing_jointly",
-    "residency_state": "WA",
+    "residency_state": "CA",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "William",
-      "last_name": "Castro",
-      "ssn": "758-42-4395",
-      "relationship": "son",
-      "qualifies_child_tax_credit": false,
-      "full_name": "William Castro"
-    },
-    {
-      "first_name": "Jason",
-      "last_name": "Castro",
-      "ssn": "155-84-3241",
-      "relationship": "son",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Jason Castro"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "Sunrise Community Hospital",
-      "wages_box1": 43988,
-      "federal_withholding": 6784,
-      "state_wages": 43988,
-      "state_withholding": 1388
+      "employer_name": "BrightPath Systems",
+      "wages_box1": 48193,
+      "federal_withholding": 5300,
+      "state_wages": 48193,
+      "state_withholding": 1062
     },
-    "interest_1099_int": null,
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 1225
+    },
     "dividend_1099_div": null,
-    "schedule_c": null
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 57644,
+      "total_expenses": 15352,
+      "depreciation": 2383,
+      "other_expenses": 2281
+    }
   },
   "federal_return": {
-    "total_income": 43988,
-    "adjustments": 0,
-    "agi": 43988,
+    "total_income": 91710,
+    "adjustments": 2988,
+    "agi": 88722,
     "standard_deduction": 29200,
-    "qbi_deduction": 0,
-    "taxable_income": 14788,
-    "tax_before_credits": 1479,
-    "child_tax_credit": 2500,
-    "self_employment_tax": 0,
-    "total_tax": 0,
-    "total_payments": 6784,
-    "refund": 6784,
-    "balance_due": 0
+    "qbi_deduction": 7861,
+    "taxable_income": 51661,
+    "tax_before_credits": 5799,
+    "child_tax_credit": 0,
+    "self_employment_tax": 5976,
+    "total_tax": 11775,
+    "total_payments": 5300,
+    "refund": 0,
+    "balance_due": 6475
   },
   "state_return": {
-    "state_code": "WA",
+    "state_code": "CA",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 43988,
-    "standard_deduction": 0,
-    "taxable_income": 43988,
-    "tax_before_credits": 0,
-    "exemption_credits": 0,
-    "total_tax": 0,
-    "total_payments": 1388,
-    "refund": 1388,
-    "balance_due": 0
+    "state_agi": 88722,
+    "standard_deduction": 11080,
+    "taxable_income": 77642,
+    "tax_before_credits": 1906,
+    "exemption_credits": 298,
+    "total_tax": 1608,
+    "total_payments": 1062,
+    "refund": 0,
+    "balance_due": 546
   },
-  "dependent_count": 2
+  "dependent_count": 0
 }

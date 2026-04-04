@@ -2,16 +2,16 @@
 
 ## Personal Information
 - Taxpayer: Shannon Kim
-- Spouse: Jessica Palmer
+- Spouse: N/A
 ## Filing Information
-- Filing Status: married_filing_jointly
-- State: FL
+- Filing Status: single
+- State: IL
 
 ## Income Sources
-- W-2 Wages: $62774- Interest Income: $0- Dividend Income: $2821- Business Income (Schedule C): $0
+- W-2 Wages: $0- Interest Income: $1429- Dividend Income: $3893- Business Income (Schedule C): $0
 
 ## Expected Outputs
-- Federal AGI: $123884
-- Federal Taxable Income: $83026
-- Federal Tax: $18361
-- California Taxable Income: $123884
+- Federal AGI: $59006
+- Federal Taxable Income: $34419
+- Federal Tax: $12072
+- California Taxable Income: $59006

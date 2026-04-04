@@ -1,88 +1,72 @@
 {
   "case_id": "CASE_0020",
-  "tax_year": 2020,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Sarah",
     "last_name": "Thompson",
-    "ssn": "786-55-3803",
-    "dob": "1978-05-10",
-    "occupation": "Software Engineer",
-    "employer": null,
+    "ssn": "689-32-2067",
+    "dob": "1983-06-17",
+    "occupation": "Teacher",
+    "employer": "Vertex Solutions",
     "full_name": "Sarah Thompson"
   },
-  "spouse": {
-    "first_name": "Patricia",
-    "last_name": "Collins",
-    "ssn": "620-33-3646",
-    "dob": "1998-01-28",
-    "occupation": "Teacher",
-    "employer": "Sunrise Community Hospital",
-    "full_name": "Patricia Collins"
-  },
+  "spouse": null,
   "address": {
-    "street": "82204 Michelle Burgs Suite 780",
-    "city": "Seattle",
-    "state": "WA",
-    "zip_code": "98101",
-    "county": "King"
+    "street": "5282 Alan Green Apt. 107",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "10011",
+    "county": "New York"
   },
   "filing": {
     "federal_status": "single",
     "state_status": "single",
-    "residency_state": "WA",
+    "residency_state": "NY",
     "full_year_resident": true
   },
   "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "Sunrise Community Hospital",
-      "wages_box1": 83748,
-      "federal_withholding": 7850,
-      "state_wages": 83748,
-      "state_withholding": 1983
+      "employer_name": "Vertex Solutions",
+      "wages_box1": 62308,
+      "federal_withholding": 9460,
+      "state_wages": 62308,
+      "state_withholding": 1911
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 1112
+      "taxable_interest": 380
     },
     "dividend_1099_div": null,
-    "schedule_c": {
-      "business_name": "Creative Studio LLC",
-      "business_code": "541510",
-      "business_description": "Freelance Graphic & Web Design",
-      "gross_receipts": 107345,
-      "total_expenses": 47641,
-      "depreciation": 870,
-      "other_expenses": 2943
-    }
+    "schedule_c": null
   },
   "federal_return": {
-    "total_income": 144564,
-    "adjustments": 4218,
-    "agi": 140346,
-    "standard_deduction": 29200,
-    "qbi_deduction": 11097,
-    "taxable_income": 100049,
-    "tax_before_credits": 12117,
+    "total_income": 62688,
+    "adjustments": 0,
+    "agi": 62688,
+    "standard_deduction": 14600,
+    "qbi_deduction": 0,
+    "taxable_income": 48088,
+    "tax_before_credits": 5859,
     "child_tax_credit": 0,
-    "self_employment_tax": 8436,
-    "total_tax": 20553,
-    "total_payments": 7850,
-    "refund": 0,
-    "balance_due": 12703
+    "self_employment_tax": 0,
+    "total_tax": 5859,
+    "total_payments": 9460,
+    "refund": 3601,
+    "balance_due": 0
   },
   "state_return": {
-    "state_code": "WA",
+    "state_code": "NY",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 140346,
-    "standard_deduction": 0,
-    "taxable_income": 140346,
-    "tax_before_credits": 0,
-    "exemption_credits": 0,
-    "total_tax": 0,
-    "total_payments": 1983,
-    "refund": 1983,
+    "state_agi": 62688,
+    "standard_deduction": 8000,
+    "taxable_income": 54688,
+    "tax_before_credits": 1858,
+    "exemption_credits": 100,
+    "total_tax": 1758,
+    "total_payments": 1911,
+    "refund": 153,
     "balance_due": 0
   },
   "dependent_count": 0

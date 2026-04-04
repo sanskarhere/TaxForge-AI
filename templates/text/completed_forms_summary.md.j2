@@ -4,18 +4,35 @@
 - Form 1040 - U.S. Individual Income Tax Return
 - Schedule 1 - Additional Income & Adjustments
 - Schedule 2 - Additional Taxes
+
+{% if case.income_documents.interest_1099_int or case.income_documents.dividend_1099_div %}
 - Schedule B - Interest & Dividends
+{% endif %}
+
 {% if case.income_documents.schedule_c %}
 - Schedule C - Profit or Loss from Business
 - Schedule SE - Self-Employment Tax
 - Form 8995 - Qualified Business Income Deduction
 {% endif %}
+
 {% if case.dependents|length > 0 %}
 - Schedule 8812 - Credits for Qualifying Children and Other Dependents
 {% endif %}
 
 ## State Forms
+{% if case.state_return.state_code == "CA" %}
+- California Form 540 - Resident Income Tax Return
+{% elif case.state_return.state_code == "NY" %}
+- New York IT-201 - Resident Income Tax Return
+{% elif case.state_return.state_code == "IL" %}
+- Illinois IL-1040 - Individual Income Tax Return
+{% elif case.state_return.state_code == "TX" %}
+- No State Income Tax Return Required
+{% elif case.state_return.state_code == "FL" %}
+- No State Income Tax Return Required
+{% else %}
 - State Resident Income Tax Return
+{% endif %}
 
 ## Federal Return Snapshot
 - Total Income: ${{ case.federal_return.total_income }}
@@ -32,6 +49,7 @@
 - Balance Due: ${{ case.federal_return.balance_due }}
 
 ## State Return Snapshot
+- State Code: {{ case.state_return.state_code }}
 - State AGI: ${{ case.state_return.state_agi }}
 - Standard Deduction: ${{ case.state_return.standard_deduction }}
 - Taxable Income: ${{ case.state_return.taxable_income }}

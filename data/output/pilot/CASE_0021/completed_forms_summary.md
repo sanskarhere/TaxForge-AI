@@ -8,32 +8,31 @@
 - Schedule C - Profit or Loss from Business
 - Schedule SE - Self-Employment Tax
 - Form 8995 - Qualified Business Income Deduction
-- Schedule 8812 - Credits for Qualifying Children and Other Dependents
 
 ## State Forms
 - State Resident Income Tax Return
 
 ## Federal Return Snapshot
-- Total Income: $97783
-- AGI: $94009
-- Standard Deduction: $29200
-- QBI Deduction: $9930
-- Taxable Income: $54879
-- Tax Before Credits: $6121
-- Child Tax Credit: $2500
-- Self-Employment Tax: $7548
-- Total Tax: $11169
-- Total Payments: $6940
+- Total Income: $128947
+- AGI: $123253
+- Standard Deduction: $13850
+- QBI Deduction: $14981
+- Taxable Income: $94422
+- Tax Before Credits: $16053
+- Child Tax Credit: $0
+- Self-Employment Tax: $11388
+- Total Tax: $27441
+- Total Payments: $5292
 - Refund: $0
-- Balance Due: $4229
+- Balance Due: $22149
 
 ## State Return Snapshot
-- State AGI: $94009
+- State AGI: $123253
 - Standard Deduction: $0
-- Taxable Income: $94009
+- Taxable Income: $123253
 - Tax Before Credits: $0
 - Exemption Credits: $0
 - Total Tax: $0
-- Total Payments: $2084
-- Refund: $2084
+- Total Payments: $0
+- Refund: $0
 - Balance Due: $0

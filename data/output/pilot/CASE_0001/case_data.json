@@ -1,81 +1,102 @@
 {
   "case_id": "CASE_0001",
-  "tax_year": 2021,
+  "tax_year": 2020,
   "taxpayer": {
     "first_name": "Benjamin",
     "last_name": "Horton",
-    "ssn": "787-99-2577",
-    "dob": "1975-02-24",
-    "occupation": "Software Engineer",
-    "employer": null,
+    "ssn": "139-46-3358",
+    "dob": "1977-01-18",
+    "occupation": "Teacher",
+    "employer": "Vertex Solutions",
     "full_name": "Benjamin Horton"
   },
   "spouse": {
     "first_name": "Susan",
     "last_name": "Wood",
-    "ssn": "564-86-9163",
-    "dob": "1999-01-06",
-    "occupation": "Teacher",
-    "employer": "Sunrise Community Hospital",
+    "ssn": "573-57-2577",
+    "dob": "1973-10-22",
+    "occupation": "Accountant",
+    "employer": "Public School District",
     "full_name": "Susan Wood"
   },
   "address": {
-    "street": "9790 Ray Road",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "95814",
-    "county": "Sacramento"
+    "street": "790 Ray Road Suite 620",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78704",
+    "county": "Travis"
   },
   "filing": {
-    "federal_status": "head_of_household",
-    "state_status": "head_of_household",
-    "residency_state": "CA",
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "TX",
     "full_year_resident": true
   },
-  "dependents": [],
+  "dependents": [
+    {
+      "first_name": "Melissa",
+      "last_name": "Wilkins",
+      "ssn": "713-73-1313",
+      "relationship": "son",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Melissa Wilkins"
+    },
+    {
+      "first_name": "Eric",
+      "last_name": "Martin",
+      "ssn": "626-65-7100",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Eric Martin"
+    }
+  ],
   "income_documents": {
     "w2": {
-      "employer_name": "Sunrise Community Hospital",
-      "wages_box1": 79789,
-      "federal_withholding": 8760,
-      "state_wages": 79789,
-      "state_withholding": 3636
+      "employer_name": "Vertex Solutions",
+      "wages_box1": 77847,
+      "federal_withholding": 11749,
+      "state_wages": 77847,
+      "state_withholding": 0
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 938
+      "taxable_interest": 168
     },
-    "dividend_1099_div": null,
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 3459,
+      "qualified_dividends": 510
+    },
     "schedule_c": null
   },
   "federal_return": {
-    "total_income": 80727,
+    "total_income": 81474,
     "adjustments": 0,
-    "agi": 80727,
-    "standard_deduction": 29200,
+    "agi": 81474,
+    "standard_deduction": 24800,
     "qbi_deduction": 0,
-    "taxable_income": 51527,
-    "tax_before_credits": 5719,
-    "child_tax_credit": 0,
+    "taxable_income": 56674,
+    "tax_before_credits": 6401,
+    "child_tax_credit": 4000,
     "self_employment_tax": 0,
-    "total_tax": 5719,
-    "total_payments": 8760,
-    "refund": 3041,
+    "total_tax": 2401,
+    "total_payments": 11749,
+    "refund": 9348,
     "balance_due": 0
   },
   "state_return": {
-    "state_code": "CA",
+    "state_code": "TX",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 80727,
-    "standard_deduction": 11080,
-    "taxable_income": 69647,
-    "tax_before_credits": 1586,
-    "exemption_credits": 149,
-    "total_tax": 1437,
-    "total_payments": 3636,
-    "refund": 2199,
+    "state_agi": 81474,
+    "standard_deduction": 0,
+    "taxable_income": 81474,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
+    "total_tax": 0,
+    "total_payments": 0,
+    "refund": 0,
     "balance_due": 0
   },
-  "dependent_count": 0
+  "dependent_count": 2
 }

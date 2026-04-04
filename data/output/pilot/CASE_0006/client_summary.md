@@ -2,23 +2,29 @@
 
 ## Primary Taxpayer
 - Name: Amy Anderson
-- SSN: 409-74-4157
-- DOB: 1994-06-18
-- Occupation: Teacher
+- SSN: 661-50-3160
+- DOB: 1987-10-28
+- Occupation: Operations Associate
+- Employer: BlueWave Inc
 
 ## Spouse
-- Name: Amanda Mcguire- SSN: 831-65-3713- DOB: 1992-06-11- Occupation: Pharmacist- Employer: Evergreen Retail Group
+- Name: N/A
+- SSN: N/A
+- DOB: N/A
+- Occupation: N/A
+- Employer: N/A
+
 ## Address
-- Street: 21733 Thomas Burgs Apt. 612
-- City: Seattle
-- State: WA
-- ZIP: 98004
-- County: King
+- Street: 622 Trevor Forges
+- City: Austin
+- State: TX
+- ZIP: 78702
+- County: Travis
 
 ## Dependents
-- Corey Anderson (son) — SSN: 764-38-4572
+- None
 
 ## Filing Details
 - Federal Status: single
 - State Status: single
-- Residency: WA
+- Residency: TX

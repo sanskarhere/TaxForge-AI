@@ -1,90 +1,102 @@
 {
   "case_id": "CASE_0031",
-  "tax_year": 2019,
+  "tax_year": 2022,
   "taxpayer": {
     "first_name": "Joshua",
     "last_name": "Shaw",
-    "ssn": "572-48-2206",
-    "dob": "1989-06-12",
-    "occupation": "Marketing Manager",
-    "employer": null,
+    "ssn": "386-25-9227",
+    "dob": "1979-09-19",
+    "occupation": "Sales Executive",
+    "employer": "Northwind LLC",
     "full_name": "Joshua Shaw"
   },
   "spouse": {
-    "first_name": "Isaac",
-    "last_name": "Evans",
-    "ssn": "598-61-9485",
-    "dob": "1977-10-04",
-    "occupation": "Project Coordinator",
-    "employer": "NorthStar Solutions LLC",
-    "full_name": "Isaac Evans"
+    "first_name": "Steven",
+    "last_name": "Willis",
+    "ssn": "591-82-4000",
+    "dob": "2000-05-30",
+    "occupation": "Designer",
+    "employer": "CarePoint Health",
+    "full_name": "Steven Willis"
   },
   "address": {
-    "street": "1046 Robert Point",
-    "city": "New York",
-    "state": "NY",
-    "zip_code": "11201",
-    "county": "New York"
+    "street": "837 Andrew Loop Apt. 658",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "95833",
+    "county": "Sacramento"
   },
   "filing": {
-    "federal_status": "head_of_household",
-    "state_status": "head_of_household",
-    "residency_state": "NY",
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "CA",
     "full_year_resident": true
   },
   "dependents": [
     {
-      "first_name": "Katelyn",
-      "last_name": "Shaw",
-      "ssn": "122-42-7743",
+      "first_name": "Robert",
+      "last_name": "Tran",
+      "ssn": "404-85-2206",
       "relationship": "daughter",
       "qualifies_child_tax_credit": true,
-      "full_name": "Katelyn Shaw"
+      "full_name": "Robert Tran"
+    },
+    {
+      "first_name": "Henry",
+      "last_name": "Brown",
+      "ssn": "598-61-9485",
+      "relationship": "son",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Henry Brown"
     }
   ],
   "income_documents": {
     "w2": {
-      "employer_name": "NorthStar Solutions LLC",
-      "wages_box1": 43665,
-      "federal_withholding": 4945,
-      "state_wages": 43665,
-      "state_withholding": 1604
+      "employer_name": "Northwind LLC",
+      "wages_box1": 71549,
+      "federal_withholding": 6356,
+      "state_wages": 71549,
+      "state_withholding": 1979
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 937
+      "taxable_interest": 102
     },
-    "dividend_1099_div": null,
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 2384,
+      "qualified_dividends": 1729
+    },
     "schedule_c": null
   },
   "federal_return": {
-    "total_income": 44602,
+    "total_income": 74035,
     "adjustments": 0,
-    "agi": 44602,
-    "standard_deduction": 29200,
+    "agi": 74035,
+    "standard_deduction": 25900,
     "qbi_deduction": 0,
-    "taxable_income": 15402,
-    "tax_before_credits": 1540,
-    "child_tax_credit": 2000,
+    "taxable_income": 48135,
+    "tax_before_credits": 5376,
+    "child_tax_credit": 4000,
     "self_employment_tax": 0,
-    "total_tax": 0,
-    "total_payments": 4945,
-    "refund": 4945,
+    "total_tax": 1376,
+    "total_payments": 6356,
+    "refund": 4980,
     "balance_due": 0
   },
   "state_return": {
-    "state_code": "NY",
+    "state_code": "CA",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 44602,
-    "standard_deduction": 8000,
-    "taxable_income": 36602,
-    "tax_before_credits": 1064,
-    "exemption_credits": 200,
-    "total_tax": 864,
-    "total_payments": 1604,
-    "refund": 740,
+    "state_agi": 74035,
+    "standard_deduction": 11080,
+    "taxable_income": 62955,
+    "tax_before_credits": 1318,
+    "exemption_credits": 1220,
+    "total_tax": 98,
+    "total_payments": 1979,
+    "refund": 1881,
     "balance_due": 0
   },
-  "dependent_count": 1
+  "dependent_count": 2
 }

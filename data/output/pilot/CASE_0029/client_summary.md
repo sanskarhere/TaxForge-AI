@@ -2,23 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Mario Harvey
-- SSN: 874-35-5314
-- DOB: 1970-07-17
-- Occupation: Graphic Designer
+- SSN: 431-75-1138
+- DOB: 1967-10-31
+- Occupation: Software Analyst
 
 ## Spouse
-- Name: Joseph Moore- SSN: 188-35-9392- DOB: 2000-12-30- Occupation: HR Specialist- Employer: NorthStar Solutions LLC
+- Name: Joseph Moore- SSN: 371-29-4264- DOB: 1980-10-24- Occupation: HR Specialist- Employer: Brooks Consulting
 ## Address
-- Street: 1380 William Via
-- City: New York
-- State: NY
-- ZIP: 11201
-- County: New York
+- Street: 38093 Lisa Pine Suite 725
+- City: Chicago
+- State: IL
+- ZIP: 60610
+- County: Cook
 
 ## Dependents
-- None
+- Deborah Johnson (son) — SSN: 188-35-9392
 
 ## Filing Details
-- Federal Status: head_of_household
-- State Status: head_of_household
-- Residency: NY
+- Federal Status: married_filing_jointly
+- State Status: married_filing_jointly
+- Residency: IL

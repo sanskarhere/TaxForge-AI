@@ -4,14 +4,14 @@
 - Taxpayer: John Shaw
 - Spouse: John Chaney
 ## Filing Information
-- Filing Status: head_of_household
-- State: TX
+- Filing Status: married_filing_jointly
+- State: IL
 
 ## Income Sources
-- W-2 Wages: $53641- Interest Income: $1378- Dividend Income: $0- Business Income (Schedule C): $0
+- W-2 Wages: $72383- Interest Income: $1250- Dividend Income: $1684- Business Income (Schedule C): $0
 
 ## Expected Outputs
-- Federal AGI: $92647
-- Federal Taxable Income: $55921
-- Federal Tax: $9468
-- California Taxable Income: $92647
+- Federal AGI: $75317
+- Federal Taxable Income: $50217
+- Federal Tax: $5626
+- California Taxable Income: $75317

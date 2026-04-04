@@ -11,26 +11,26 @@
 - State Resident Income Tax Return
 
 ## Federal Return Snapshot
-- Total Income: $44602
-- AGI: $44602
-- Standard Deduction: $29200
+- Total Income: $74035
+- AGI: $74035
+- Standard Deduction: $25900
 - QBI Deduction: $0
-- Taxable Income: $15402
-- Tax Before Credits: $1540
-- Child Tax Credit: $2000
+- Taxable Income: $48135
+- Tax Before Credits: $5376
+- Child Tax Credit: $4000
 - Self-Employment Tax: $0
-- Total Tax: $0
-- Total Payments: $4945
-- Refund: $4945
+- Total Tax: $1376
+- Total Payments: $6356
+- Refund: $4980
 - Balance Due: $0
 
 ## State Return Snapshot
-- State AGI: $44602
-- Standard Deduction: $8000
-- Taxable Income: $36602
-- Tax Before Credits: $1064
-- Exemption Credits: $200
-- Total Tax: $864
-- Total Payments: $1604
-- Refund: $740
+- State AGI: $74035
+- Standard Deduction: $11080
+- Taxable Income: $62955
+- Tax Before Credits: $1318
+- Exemption Credits: $1220
+- Total Tax: $98
+- Total Payments: $1979
+- Refund: $1881
 - Balance Due: $0

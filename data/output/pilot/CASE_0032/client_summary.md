@@ -2,24 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Michele Robertson
-- SSN: 286-37-6757
-- DOB: 1974-02-12
-- Occupation: Data Analyst
+- SSN: 725-75-2861
+- DOB: 1974-12-26
+- Occupation: Nurse
 
 ## Spouse
-- Name: Luis Marsh- SSN: 222-66-8482- DOB: 1981-06-10- Occupation: Nurse- Employer: Sunrise Community Hospital
+- Name: N/A- SSN: N/A- DOB: N/A- Occupation: N/A- Employer: N/A
 ## Address
-- Street: 77847 Lawrence Parkway Apt. 802
-- City: Seattle
-- State: WA
-- ZIP: 98104
-- County: King
+- Street: 42351 Solis Pine Suite 725
+- City: Chicago
+- State: IL
+- ZIP: 60610
+- County: Cook
 
 ## Dependents
-- Sheri Robertson (daughter) — SSN: 420-45-9236
-- Timothy Robertson (son) — SSN: 230-39-8183
+- None
 
 ## Filing Details
-- Federal Status: single
-- State Status: single
-- Residency: WA
+- Federal Status: head_of_household
+- State Status: head_of_household
+- Residency: IL

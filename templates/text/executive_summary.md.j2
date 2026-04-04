@@ -1,8 +1,13 @@
+# EXECUTIVE SUMMARY
+
 ## State Summary
-- State AGI: ${{ case.state_return["state_agi"] }}
-- Standard Deduction: ${{ case.state_return["standard_deduction"] }}
-- Taxable Income: ${{ case.state_return["taxable_income"] }}
-- Total Tax: ${{ case.state_return["total_tax"] }}
-- Total Payments: ${{ case.state_return["total_payments"] }}
-- Refund: ${{ case.state_return["refund"] }}
-- Balance Due: ${{ case.state_return["balance_due"] }}
+- State Code: {{ case.state_return.state_code }}
+- State AGI: ${{ case.state_return.state_agi }}
+- Standard Deduction: ${{ case.state_return.standard_deduction }}
+- Taxable Income: ${{ case.state_return.taxable_income }}
+- Tax Before Credits: ${{ case.state_return.tax_before_credits }}
+- Exemption Credits: ${{ case.state_return.exemption_credits }}
+- Total Tax: ${{ case.state_return.total_tax }}
+- Total Payments: ${{ case.state_return.total_payments }}
+- Refund: ${{ case.state_return.refund }}
+- Balance Due: ${{ case.state_return.balance_due }}

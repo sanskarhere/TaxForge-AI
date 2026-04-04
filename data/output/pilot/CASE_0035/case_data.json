@@ -1,84 +1,70 @@
 {
   "case_id": "CASE_0035",
-  "tax_year": 2021,
+  "tax_year": 2022,
   "taxpayer": {
     "first_name": "Lauren",
     "last_name": "Nguyen",
-    "ssn": "399-70-4896",
-    "dob": "1978-06-08",
-    "occupation": "Software Engineer",
-    "employer": null,
+    "ssn": "358-51-4232",
+    "dob": "1983-08-15",
+    "occupation": "Teacher",
+    "employer": "Acme Corp",
     "full_name": "Lauren Nguyen"
   },
-  "spouse": {
-    "first_name": "James",
-    "last_name": "Ayers",
-    "ssn": "248-81-9202",
-    "dob": "1985-03-13",
-    "occupation": "Business Analyst",
-    "employer": "Pacific Health System Inc.",
-    "full_name": "James Ayers"
-  },
+  "spouse": null,
   "address": {
-    "street": "932 Melissa Burgs Suite 238",
-    "city": "New York",
-    "state": "NY",
-    "zip_code": "11201",
-    "county": "New York"
+    "street": "47893 Angela Shore",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78701",
+    "county": "Travis"
   },
   "filing": {
     "federal_status": "single",
     "state_status": "single",
-    "residency_state": "NY",
+    "residency_state": "TX",
     "full_year_resident": true
   },
   "dependents": [],
   "income_documents": {
-    "w2": {
-      "employer_name": "Pacific Health System Inc.",
-      "wages_box1": 43858,
-      "federal_withholding": 6440,
-      "state_wages": 43858,
-      "state_withholding": 1531
-    },
+    "w2": null,
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 441
+      "taxable_interest": 648
     },
     "dividend_1099_div": {
       "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 3523,
-      "qualified_dividends": 1591
+      "ordinary_dividends": 2385,
+      "qualified_dividends": 974
     },
     "schedule_c": null
   },
   "federal_return": {
-    "total_income": 47822,
+    "total_income": 3033,
     "adjustments": 0,
-    "agi": 47822,
-    "standard_deduction": 29200,
+    "agi": 3033,
+    "standard_deduction": 12950,
     "qbi_deduction": 0,
-    "taxable_income": 18622,
-    "tax_before_credits": 1862,
+    "taxable_income": 0,
+    "tax_before_credits": 0,
     "child_tax_credit": 0,
     "self_employment_tax": 0,
-    "total_tax": 1862,
-    "total_payments": 6440,
-    "refund": 4578,
+    "total_tax": 0,
+    "total_payments": 0,
+    "refund": 0,
     "balance_due": 0
   },
   "state_return": {
-    "state_code": "NY",
+    "state_code": "TX",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 47822,
-    "standard_deduction": 8000,
-    "taxable_income": 39822,
-    "tax_before_credits": 1193,
-    "exemption_credits": 100,
-    "total_tax": 1093,
-    "total_payments": 1531,
-    "refund": 438,
+    "state_agi": 3033,
+    "standard_deduction": 0,
+    "taxable_income": 3033,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
+    "total_tax": 0,
+    "total_payments": 0,
+    "refund": 0,
     "balance_due": 0
   },
   "dependent_count": 0

@@ -4,90 +4,78 @@
   "taxpayer": {
     "first_name": "Mitchell",
     "last_name": "Clements",
-    "ssn": "528-40-5614",
-    "dob": "1977-01-22",
-    "occupation": "Software Engineer",
-    "employer": null,
+    "ssn": "479-69-7383",
+    "dob": "1980-11-13",
+    "occupation": "Teacher",
+    "employer": "BrightPath Systems",
     "full_name": "Mitchell Clements"
   },
-  "spouse": {
-    "first_name": "Regina",
-    "last_name": "Brown",
-    "ssn": "408-66-9023",
-    "dob": "1983-04-30",
-    "occupation": "HR Specialist",
-    "employer": "Pacific Health System Inc.",
-    "full_name": "Regina Brown"
-  },
+  "spouse": null,
   "address": {
-    "street": "3154 Marvin Place Apt. 069",
-    "city": "New York",
-    "state": "NY",
-    "zip_code": "10001",
-    "county": "New York"
+    "street": "63447 Hall Isle Suite 358",
+    "city": "Miami",
+    "state": "FL",
+    "zip_code": "33130",
+    "county": "Miami-Dade"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "NY",
+    "federal_status": "head_of_household",
+    "state_status": "head_of_household",
+    "residency_state": "FL",
     "full_year_resident": true
   },
   "dependents": [
     {
-      "first_name": "Douglas",
-      "last_name": "Clements",
-      "ssn": "409-39-6451",
-      "relationship": "son",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Douglas Clements"
+      "first_name": "Bruce",
+      "last_name": "Hopkins",
+      "ssn": "404-16-7850",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Bruce Hopkins"
     }
   ],
   "income_documents": {
     "w2": {
-      "employer_name": "Pacific Health System Inc.",
-      "wages_box1": 45958,
-      "federal_withholding": 3705,
-      "state_wages": 45958,
-      "state_withholding": 1489
+      "employer_name": "BrightPath Systems",
+      "wages_box1": 60456,
+      "federal_withholding": 6294,
+      "state_wages": 60456,
+      "state_withholding": 0
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 837
+      "taxable_interest": 220
     },
-    "dividend_1099_div": {
-      "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 1459,
-      "qualified_dividends": 1110
-    },
+    "dividend_1099_div": null,
     "schedule_c": null
   },
   "federal_return": {
-    "total_income": 48254,
+    "total_income": 60676,
     "adjustments": 0,
-    "agi": 48254,
-    "standard_deduction": 29200,
+    "agi": 60676,
+    "standard_deduction": 19400,
     "qbi_deduction": 0,
-    "taxable_income": 19054,
-    "tax_before_credits": 1905,
-    "child_tax_credit": 500,
+    "taxable_income": 41276,
+    "tax_before_credits": 4653,
+    "child_tax_credit": 2000,
     "self_employment_tax": 0,
-    "total_tax": 1405,
-    "total_payments": 3705,
-    "refund": 2300,
+    "total_tax": 2653,
+    "total_payments": 6294,
+    "refund": 3641,
     "balance_due": 0
   },
   "state_return": {
-    "state_code": "NY",
+    "state_code": "FL",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 48254,
-    "standard_deduction": 8000,
-    "taxable_income": 40254,
-    "tax_before_credits": 1210,
-    "exemption_credits": 300,
-    "total_tax": 910,
-    "total_payments": 1489,
-    "refund": 579,
+    "state_agi": 60676,
+    "standard_deduction": 0,
+    "taxable_income": 60676,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
+    "total_tax": 0,
+    "total_payments": 0,
+    "refund": 0,
     "balance_due": 0
   },
   "dependent_count": 1

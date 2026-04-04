@@ -1,101 +1,101 @@
 {
   "case_id": "CASE_0027",
-  "tax_year": 2019,
+  "tax_year": 2020,
   "taxpayer": {
     "first_name": "Gabrielle",
     "last_name": "Davis",
-    "ssn": "435-80-7791",
-    "dob": "1975-12-07",
-    "occupation": "Graphic Designer",
-    "employer": null,
+    "ssn": "800-14-2570",
+    "dob": "1978-08-12",
+    "occupation": "Software Analyst",
+    "employer": "BlueWave Inc",
     "full_name": "Gabrielle Davis"
   },
-  "spouse": {
-    "first_name": "Carl",
-    "last_name": "Cooper",
-    "ssn": "575-64-8170",
-    "dob": "1993-12-09",
-    "occupation": "Project Coordinator",
-    "employer": "Sunrise Community Hospital",
-    "full_name": "Carl Cooper"
-  },
+  "spouse": null,
   "address": {
-    "street": "588 Thomas Lock Apt. 642",
+    "street": "558 Marshall Meadow",
     "city": "Sacramento",
     "state": "CA",
-    "zip_code": "95814",
+    "zip_code": "95821",
     "county": "Sacramento"
   },
   "filing": {
-    "federal_status": "single",
-    "state_status": "single",
+    "federal_status": "head_of_household",
+    "state_status": "head_of_household",
     "residency_state": "CA",
     "full_year_resident": true
   },
   "dependents": [
     {
-      "first_name": "Jennifer",
-      "last_name": "Davis",
-      "ssn": "522-60-2054",
+      "first_name": "Ashley",
+      "last_name": "Rivas",
+      "ssn": "168-87-6646",
       "relationship": "daughter",
       "qualifies_child_tax_credit": true,
-      "full_name": "Jennifer Davis"
+      "full_name": "Ashley Rivas"
     },
     {
-      "first_name": "Sandra",
-      "last_name": "Davis",
-      "ssn": "250-35-3333",
+      "first_name": "Ann",
+      "last_name": "Stokes",
+      "ssn": "435-80-7791",
       "relationship": "daughter",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Sandra Davis"
+      "qualifies_child_tax_credit": true,
+      "full_name": "Ann Stokes"
     }
   ],
   "income_documents": {
     "w2": {
-      "employer_name": "Sunrise Community Hospital",
-      "wages_box1": 55828,
-      "federal_withholding": 7564,
-      "state_wages": 55828,
-      "state_withholding": 2223
+      "employer_name": "BlueWave Inc",
+      "wages_box1": 70072,
+      "federal_withholding": 8784,
+      "state_wages": 70072,
+      "state_withholding": 3148
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 1080
+      "taxable_interest": 1172
     },
     "dividend_1099_div": {
       "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 522,
-      "qualified_dividends": 101
+      "ordinary_dividends": 681,
+      "qualified_dividends": 422
     },
-    "schedule_c": null
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 38434,
+      "total_expenses": 14386,
+      "depreciation": 602,
+      "other_expenses": 802
+    }
   },
   "federal_return": {
-    "total_income": 57430,
-    "adjustments": 0,
-    "agi": 57430,
-    "standard_deduction": 29200,
-    "qbi_deduction": 0,
-    "taxable_income": 28230,
-    "tax_before_credits": 2924,
-    "child_tax_credit": 2500,
-    "self_employment_tax": 0,
-    "total_tax": 424,
-    "total_payments": 7564,
-    "refund": 7140,
+    "total_income": 95973,
+    "adjustments": 1699,
+    "agi": 94274,
+    "standard_deduction": 18650,
+    "qbi_deduction": 4470,
+    "taxable_income": 71154,
+    "tax_before_credits": 9354,
+    "child_tax_credit": 4000,
+    "self_employment_tax": 3398,
+    "total_tax": 8752,
+    "total_payments": 8784,
+    "refund": 32,
     "balance_due": 0
   },
   "state_return": {
     "state_code": "CA",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 57430,
+    "state_agi": 94274,
     "standard_deduction": 11080,
-    "taxable_income": 46350,
-    "tax_before_credits": 727,
+    "taxable_income": 83194,
+    "tax_before_credits": 2128,
     "exemption_credits": 1071,
-    "total_tax": 0,
-    "total_payments": 2223,
-    "refund": 2223,
+    "total_tax": 1057,
+    "total_payments": 3148,
+    "refund": 2091,
     "balance_due": 0
   },
   "dependent_count": 2

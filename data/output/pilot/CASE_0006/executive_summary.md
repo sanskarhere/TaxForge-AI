@@ -1,8 +1,13 @@
+# EXECUTIVE SUMMARY
+
 ## State Summary
-- State AGI: $78474
+- State Code: TX
+- State AGI: $78794
 - Standard Deduction: $0
-- Taxable Income: $78474
+- Taxable Income: $78794
+- Tax Before Credits: $0
+- Exemption Credits: $0
 - Total Tax: $0
-- Total Payments: $1934
-- Refund: $1934
+- Total Payments: $0
+- Refund: $0
 - Balance Due: $0

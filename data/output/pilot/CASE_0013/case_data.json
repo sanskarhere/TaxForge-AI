@@ -4,100 +4,82 @@
   "taxpayer": {
     "first_name": "Christopher",
     "last_name": "Sampson",
-    "ssn": "865-33-5946",
-    "dob": "1975-05-10",
-    "occupation": "Accountant",
-    "employer": null,
+    "ssn": "192-35-3457",
+    "dob": "1977-06-17",
+    "occupation": "Operations Associate",
+    "employer": "BrightPath Systems",
     "full_name": "Christopher Sampson"
   },
-  "spouse": {
-    "first_name": "Yolanda",
-    "last_name": "Turner",
-    "ssn": "190-55-8732",
-    "dob": "1977-12-18",
-    "occupation": "HR Specialist",
-    "employer": "Pacific Health System Inc.",
-    "full_name": "Yolanda Turner"
-  },
+  "spouse": null,
   "address": {
-    "street": "668 Flores Meadow Apt. 403",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "95825",
-    "county": "Sacramento"
+    "street": "24157 Hughes Lodge Suite 680",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "11201",
+    "county": "New York"
   },
   "filing": {
     "federal_status": "single",
     "state_status": "single",
-    "residency_state": "CA",
+    "residency_state": "NY",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Nicole",
-      "last_name": "Sampson",
-      "ssn": "425-64-9752",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Nicole Sampson"
-    },
-    {
-      "first_name": "Eric",
-      "last_name": "Sampson",
-      "ssn": "142-39-9404",
-      "relationship": "son",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Eric Sampson"
-    },
-    {
-      "first_name": "Guy",
-      "last_name": "Sampson",
-      "ssn": "329-16-7203",
-      "relationship": "son",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Guy Sampson"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "Pacific Health System Inc.",
-      "wages_box1": 74897,
-      "federal_withholding": 9852,
-      "state_wages": 74897,
-      "state_withholding": 2460
+      "employer_name": "BrightPath Systems",
+      "wages_box1": 54043,
+      "federal_withholding": 5629,
+      "state_wages": 54043,
+      "state_withholding": 1651
     },
-    "interest_1099_int": null,
-    "dividend_1099_div": null,
-    "schedule_c": null
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 1407
+    },
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 1678,
+      "qualified_dividends": 794
+    },
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 71711,
+      "total_expenses": 33398,
+      "depreciation": 1756,
+      "other_expenses": 2188
+    }
   },
   "federal_return": {
-    "total_income": 74897,
-    "adjustments": 0,
-    "agi": 74897,
-    "standard_deduction": 29200,
-    "qbi_deduction": 0,
-    "taxable_income": 45697,
-    "tax_before_credits": 5020,
-    "child_tax_credit": 1500,
-    "self_employment_tax": 0,
-    "total_tax": 3520,
-    "total_payments": 9852,
-    "refund": 6332,
-    "balance_due": 0
+    "total_income": 95441,
+    "adjustments": 2706,
+    "agi": 92735,
+    "standard_deduction": 12400,
+    "qbi_deduction": 7121,
+    "taxable_income": 73214,
+    "tax_before_credits": 11387,
+    "child_tax_credit": 0,
+    "self_employment_tax": 5413,
+    "total_tax": 16800,
+    "total_payments": 5629,
+    "refund": 0,
+    "balance_due": 11171
   },
   "state_return": {
-    "state_code": "CA",
+    "state_code": "NY",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 74897,
-    "standard_deduction": 11080,
-    "taxable_income": 63817,
-    "tax_before_credits": 1353,
-    "exemption_credits": 1532,
-    "total_tax": 0,
-    "total_payments": 2460,
-    "refund": 2460,
-    "balance_due": 0
+    "state_agi": 92735,
+    "standard_deduction": 8000,
+    "taxable_income": 84735,
+    "tax_before_credits": 3510,
+    "exemption_credits": 100,
+    "total_tax": 3410,
+    "total_payments": 1651,
+    "refund": 0,
+    "balance_due": 1759
   },
-  "dependent_count": 3
+  "dependent_count": 0
 }

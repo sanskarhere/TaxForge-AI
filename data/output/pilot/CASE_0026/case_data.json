@@ -1,115 +1,77 @@
 {
   "case_id": "CASE_0026",
-  "tax_year": 2024,
+  "tax_year": 2023,
   "taxpayer": {
     "first_name": "Judith",
     "last_name": "Everett",
-    "ssn": "693-41-8075",
-    "dob": "1995-09-07",
-    "occupation": "Teacher",
-    "employer": null,
+    "ssn": "859-69-9204",
+    "dob": "2001-05-01",
+    "occupation": "Sales Executive",
+    "employer": "Northwind LLC",
     "full_name": "Judith Everett"
   },
-  "spouse": {
-    "first_name": "Marcia",
-    "last_name": "Mason",
-    "ssn": "580-43-6396",
-    "dob": "1995-11-23",
-    "occupation": "Nurse",
-    "employer": "Evergreen Retail Group",
-    "full_name": "Marcia Mason"
-  },
+  "spouse": null,
   "address": {
-    "street": "8528 Bobby Street Suite 150",
-    "city": "Miami",
-    "state": "FL",
-    "zip_code": "33130",
-    "county": "Miami-Dade"
+    "street": "936 Baker Wall",
+    "city": "Chicago",
+    "state": "IL",
+    "zip_code": "60601",
+    "county": "Cook"
   },
   "filing": {
-    "federal_status": "head_of_household",
-    "state_status": "head_of_household",
-    "residency_state": "FL",
+    "federal_status": "single",
+    "state_status": "single",
+    "residency_state": "IL",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Lauren",
-      "last_name": "Everett",
-      "ssn": "666-93-3029",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Lauren Everett"
-    },
-    {
-      "first_name": "Jeffrey",
-      "last_name": "Everett",
-      "ssn": "208-53-1908",
-      "relationship": "son",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Jeffrey Everett"
-    },
-    {
-      "first_name": "Derek",
-      "last_name": "Everett",
-      "ssn": "299-34-1077",
-      "relationship": "son",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Derek Everett"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "Evergreen Retail Group",
-      "wages_box1": 69792,
-      "federal_withholding": 8044,
-      "state_wages": 69792,
-      "state_withholding": 2181
+      "employer_name": "Northwind LLC",
+      "wages_box1": 57949,
+      "federal_withholding": 6638,
+      "state_wages": 57949,
+      "state_withholding": 1621
     },
-    "interest_1099_int": null,
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 724
+    },
     "dividend_1099_div": {
       "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 2391,
-      "qualified_dividends": 101
+      "ordinary_dividends": 2366,
+      "qualified_dividends": 1479
     },
-    "schedule_c": {
-      "business_name": "Creative Studio LLC",
-      "business_code": "541510",
-      "business_description": "Freelance Graphic & Web Design",
-      "gross_receipts": 112036,
-      "total_expenses": 32989,
-      "depreciation": 2321,
-      "other_expenses": 1417
-    }
+    "schedule_c": null
   },
   "federal_return": {
-    "total_income": 151230,
-    "adjustments": 5584,
-    "agi": 145646,
-    "standard_deduction": 29200,
-    "qbi_deduction": 14693,
-    "taxable_income": 101753,
-    "tax_before_credits": 12492,
-    "child_tax_credit": 4500,
-    "self_employment_tax": 11169,
-    "total_tax": 19161,
-    "total_payments": 8044,
-    "refund": 0,
-    "balance_due": 11117
-  },
-  "state_return": {
-    "state_code": "FL",
-    "state_adjustments_additions": 0,
-    "state_adjustments_subtractions": 0,
-    "state_agi": 145646,
-    "standard_deduction": 0,
-    "taxable_income": 145646,
-    "tax_before_credits": 0,
-    "exemption_credits": 0,
-    "total_tax": 0,
-    "total_payments": 2181,
-    "refund": 2181,
+    "total_income": 61039,
+    "adjustments": 0,
+    "agi": 61039,
+    "standard_deduction": 13850,
+    "qbi_deduction": 0,
+    "taxable_income": 47189,
+    "tax_before_credits": 5662,
+    "child_tax_credit": 0,
+    "self_employment_tax": 0,
+    "total_tax": 5662,
+    "total_payments": 6638,
+    "refund": 976,
     "balance_due": 0
   },
-  "dependent_count": 3
+  "state_return": {
+    "state_code": "IL",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 61039,
+    "standard_deduction": 0,
+    "taxable_income": 61039,
+    "tax_before_credits": 3021,
+    "exemption_credits": 0,
+    "total_tax": 3021,
+    "total_payments": 1621,
+    "refund": 0,
+    "balance_due": 1400
+  },
+  "dependent_count": 0
 }

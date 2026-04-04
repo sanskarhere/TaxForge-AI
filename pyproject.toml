@@ -21,6 +21,7 @@ dependencies = [
   "rich>=14.0.0",
   "python-dotenv>=1.1.0",
   "orjson>=3.10.0",
+  "reportlab>=4.0.0",
 ]
 
 [project.optional-dependencies]

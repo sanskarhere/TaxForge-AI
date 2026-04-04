@@ -1,82 +1,102 @@
 {
   "case_id": "CASE_0019",
-  "tax_year": 2020,
+  "tax_year": 2023,
   "taxpayer": {
     "first_name": "Troy",
     "last_name": "Hawkins",
-    "ssn": "428-98-1454",
-    "dob": "1981-02-28",
-    "occupation": "Software Engineer",
-    "employer": null,
+    "ssn": "606-33-4551",
+    "dob": "1989-01-26",
+    "occupation": "Nurse",
+    "employer": "BrightPath Systems",
     "full_name": "Troy Hawkins"
   },
   "spouse": {
     "first_name": "Kelly",
     "last_name": "Brock",
-    "ssn": "597-55-6887",
-    "dob": "1976-03-12",
-    "occupation": "HR Specialist",
-    "employer": "Sunrise Community Hospital",
+    "ssn": "428-47-6258",
+    "dob": "1969-02-21",
+    "occupation": "Accountant",
+    "employer": "Public School District",
     "full_name": "Kelly Brock"
   },
   "address": {
     "street": "5167 Mccann Isle Apt. 812",
-    "city": "Miami",
-    "state": "FL",
-    "zip_code": "33101",
-    "county": "Miami-Dade"
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "10001",
+    "county": "New York"
   },
   "filing": {
-    "federal_status": "head_of_household",
-    "state_status": "head_of_household",
-    "residency_state": "FL",
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "NY",
     "full_year_resident": true
   },
-  "dependents": [],
+  "dependents": [
+    {
+      "first_name": "Matthew",
+      "last_name": "Hamilton",
+      "ssn": "597-55-6887",
+      "relationship": "son",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Matthew Hamilton"
+    },
+    {
+      "first_name": "David",
+      "last_name": "Powell",
+      "ssn": "166-61-8558",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": true,
+      "full_name": "David Powell"
+    }
+  ],
   "income_documents": {
     "w2": {
-      "employer_name": "Sunrise Community Hospital",
-      "wages_box1": 63613,
-      "federal_withholding": 10046,
-      "state_wages": 63613,
-      "state_withholding": 1911
+      "employer_name": "BrightPath Systems",
+      "wages_box1": 52983,
+      "federal_withholding": 5657,
+      "state_wages": 52983,
+      "state_withholding": 1070
     },
-    "interest_1099_int": null,
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 237
+    },
     "dividend_1099_div": {
       "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 475,
-      "qualified_dividends": 325
+      "ordinary_dividends": 1482,
+      "qualified_dividends": 54
     },
     "schedule_c": null
   },
   "federal_return": {
-    "total_income": 64088,
+    "total_income": 54702,
     "adjustments": 0,
-    "agi": 64088,
-    "standard_deduction": 29200,
+    "agi": 54702,
+    "standard_deduction": 27700,
     "qbi_deduction": 0,
-    "taxable_income": 34888,
-    "tax_before_credits": 3723,
-    "child_tax_credit": 0,
+    "taxable_income": 27002,
+    "tax_before_credits": 2840,
+    "child_tax_credit": 4000,
     "self_employment_tax": 0,
-    "total_tax": 3723,
-    "total_payments": 10046,
-    "refund": 6323,
+    "total_tax": 0,
+    "total_payments": 5657,
+    "refund": 5657,
     "balance_due": 0
   },
   "state_return": {
-    "state_code": "FL",
+    "state_code": "NY",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 64088,
-    "standard_deduction": 0,
-    "taxable_income": 64088,
-    "tax_before_credits": 0,
-    "exemption_credits": 0,
-    "total_tax": 0,
-    "total_payments": 1911,
-    "refund": 1911,
+    "state_agi": 54702,
+    "standard_deduction": 8000,
+    "taxable_income": 46702,
+    "tax_before_credits": 1468,
+    "exemption_credits": 400,
+    "total_tax": 1068,
+    "total_payments": 1070,
+    "refund": 2,
     "balance_due": 0
   },
-  "dependent_count": 0
+  "dependent_count": 2
 }

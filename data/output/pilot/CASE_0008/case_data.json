@@ -1,88 +1,84 @@
 {
   "case_id": "CASE_0008",
-  "tax_year": 2021,
+  "tax_year": 2023,
   "taxpayer": {
     "first_name": "Tyler",
     "last_name": "Adams",
-    "ssn": "584-52-2395",
-    "dob": "1991-12-10",
-    "occupation": "Accountant",
-    "employer": null,
+    "ssn": "609-44-6965",
+    "dob": "1983-10-03",
+    "occupation": "Teacher",
+    "employer": "Vertex Solutions",
     "full_name": "Tyler Adams"
   },
-  "spouse": {
-    "first_name": "Patricia",
-    "last_name": "Schwartz",
-    "ssn": "651-50-4676",
-    "dob": "1986-06-25",
-    "occupation": "Business Analyst",
-    "employer": "City Public School District",
-    "full_name": "Patricia Schwartz"
-  },
+  "spouse": null,
   "address": {
-    "street": "538 Sarah Key",
-    "city": "Miami",
-    "state": "FL",
-    "zip_code": "33101",
-    "county": "Miami-Dade"
+    "street": "1853 Sarah Key Apt. 553",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78701",
+    "county": "Travis"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "FL",
+    "federal_status": "single",
+    "state_status": "single",
+    "residency_state": "TX",
     "full_year_resident": true
   },
   "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "City Public School District",
-      "wages_box1": 64752,
-      "federal_withholding": 9455,
-      "state_wages": 64752,
-      "state_withholding": 3198
+      "employer_name": "Vertex Solutions",
+      "wages_box1": 63630,
+      "federal_withholding": 5524,
+      "state_wages": 63630,
+      "state_withholding": 0
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 437
+      "taxable_interest": 224
     },
-    "dividend_1099_div": null,
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 1522,
+      "qualified_dividends": 201
+    },
     "schedule_c": {
       "business_name": "Creative Studio LLC",
       "business_code": "541510",
       "business_description": "Freelance Graphic & Web Design",
-      "gross_receipts": 109139,
-      "total_expenses": 56529,
-      "depreciation": 1756,
-      "other_expenses": 2600
+      "gross_receipts": 71856,
+      "total_expenses": 22758,
+      "depreciation": 281,
+      "other_expenses": 1347
     }
   },
   "federal_return": {
-    "total_income": 117799,
-    "adjustments": 3717,
-    "agi": 114082,
-    "standard_deduction": 29200,
-    "qbi_deduction": 9779,
-    "taxable_income": 75103,
-    "tax_before_credits": 8548,
+    "total_income": 114474,
+    "adjustments": 3468,
+    "agi": 111006,
+    "standard_deduction": 13850,
+    "qbi_deduction": 9126,
+    "taxable_income": 88030,
+    "tax_before_credits": 14647,
     "child_tax_credit": 0,
-    "self_employment_tax": 7434,
-    "total_tax": 15982,
-    "total_payments": 9455,
+    "self_employment_tax": 6937,
+    "total_tax": 21584,
+    "total_payments": 5524,
     "refund": 0,
-    "balance_due": 6527
+    "balance_due": 16060
   },
   "state_return": {
-    "state_code": "FL",
+    "state_code": "TX",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 114082,
+    "state_agi": 111006,
     "standard_deduction": 0,
-    "taxable_income": 114082,
+    "taxable_income": 111006,
     "tax_before_credits": 0,
     "exemption_credits": 0,
     "total_tax": 0,
-    "total_payments": 3198,
-    "refund": 3198,
+    "total_payments": 0,
+    "refund": 0,
     "balance_due": 0
   },
   "dependent_count": 0

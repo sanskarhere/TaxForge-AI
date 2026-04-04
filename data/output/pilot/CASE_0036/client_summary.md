@@ -2,23 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Lisa Davis
-- SSN: 861-64-1559
-- DOB: 1992-11-14
-- Occupation: Accountant
+- SSN: 292-22-5918
+- DOB: 1984-10-07
+- Occupation: Operations Associate
 
 ## Spouse
-- Name: Jessica Scott- SSN: 771-28-7565- DOB: 1989-10-18- Occupation: Pharmacist- Employer: Sunrise Community Hospital
+- Name: N/A- SSN: N/A- DOB: N/A- Occupation: N/A- Employer: N/A
 ## Address
-- Street: 637 Hester Branch
-- City: Austin
-- State: TX
-- ZIP: 78701
-- County: Travis
+- Street: 26376 Mary Freeway Apt. 565
+- City: Sacramento
+- State: CA
+- ZIP: 95825
+- County: Sacramento
 
 ## Dependents
-- Stephanie Davis (daughter) — SSN: 659-11-4860
+- None
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: TX
+- Federal Status: single
+- State Status: single
+- Residency: CA

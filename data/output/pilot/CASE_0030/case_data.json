@@ -1,98 +1,95 @@
 {
   "case_id": "CASE_0030",
-  "tax_year": 2023,
+  "tax_year": 2020,
   "taxpayer": {
     "first_name": "Charles",
     "last_name": "Wheeler",
-    "ssn": "657-89-7133",
-    "dob": "1976-08-03",
-    "occupation": "Software Engineer",
-    "employer": null,
+    "ssn": "175-86-4051",
+    "dob": "1979-12-06",
+    "occupation": "Teacher",
+    "employer": "BrightPath Systems",
     "full_name": "Charles Wheeler"
   },
   "spouse": {
     "first_name": "Maurice",
     "last_name": "Stephens",
-    "ssn": "414-97-3113",
-    "dob": "1987-12-28",
-    "occupation": "HR Specialist",
-    "employer": "City Public School District",
+    "ssn": "452-99-9912",
+    "dob": "1992-09-23",
+    "occupation": "Operations Executive",
+    "employer": "CarePoint Health",
     "full_name": "Maurice Stephens"
   },
   "address": {
-    "street": "536 Cynthia Square",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "95825",
-    "county": "Sacramento"
+    "street": "925 Norman Roads Apt. 370",
+    "city": "Chicago",
+    "state": "IL",
+    "zip_code": "60610",
+    "county": "Cook"
   },
   "filing": {
-    "federal_status": "head_of_household",
-    "state_status": "head_of_household",
-    "residency_state": "CA",
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "IL",
     "full_year_resident": true
   },
   "dependents": [
     {
-      "first_name": "Eric",
-      "last_name": "Wheeler",
-      "ssn": "246-91-1443",
-      "relationship": "son",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Eric Wheeler"
-    },
-    {
-      "first_name": "Mitchell",
-      "last_name": "Wheeler",
-      "ssn": "113-67-2130",
-      "relationship": "son",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Mitchell Wheeler"
+      "first_name": "Sergio",
+      "last_name": "Barton",
+      "ssn": "414-97-3113",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Sergio Barton"
     }
   ],
   "income_documents": {
     "w2": {
-      "employer_name": "City Public School District",
-      "wages_box1": 47968,
-      "federal_withholding": 5778,
-      "state_wages": 47968,
-      "state_withholding": 2004
+      "employer_name": "BrightPath Systems",
+      "wages_box1": 88066,
+      "federal_withholding": 11944,
+      "state_wages": 88066,
+      "state_withholding": 2376
     },
-    "interest_1099_int": {
-      "payer_name": "Golden State Community Bank",
-      "taxable_interest": 570
-    },
+    "interest_1099_int": null,
     "dividend_1099_div": null,
-    "schedule_c": null
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 89671,
+      "total_expenses": 44182,
+      "depreciation": 1830,
+      "other_expenses": 282
+    }
   },
   "federal_return": {
-    "total_income": 48538,
-    "adjustments": 0,
-    "agi": 48538,
-    "standard_deduction": 29200,
-    "qbi_deduction": 0,
-    "taxable_income": 19338,
-    "tax_before_credits": 1934,
-    "child_tax_credit": 1000,
-    "self_employment_tax": 0,
-    "total_tax": 934,
-    "total_payments": 5778,
-    "refund": 4844,
-    "balance_due": 0
+    "total_income": 133555,
+    "adjustments": 3214,
+    "agi": 130341,
+    "standard_deduction": 24800,
+    "qbi_deduction": 8455,
+    "taxable_income": 97086,
+    "tax_before_credits": 12959,
+    "child_tax_credit": 2000,
+    "self_employment_tax": 6427,
+    "total_tax": 17386,
+    "total_payments": 11944,
+    "refund": 0,
+    "balance_due": 5442
   },
   "state_return": {
-    "state_code": "CA",
+    "state_code": "IL",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 48538,
-    "standard_deduction": 11080,
-    "taxable_income": 37458,
-    "tax_before_credits": 549,
-    "exemption_credits": 1071,
-    "total_tax": 0,
-    "total_payments": 2004,
-    "refund": 2004,
-    "balance_due": 0
+    "state_agi": 130341,
+    "standard_deduction": 0,
+    "taxable_income": 130341,
+    "tax_before_credits": 6452,
+    "exemption_credits": 0,
+    "total_tax": 6452,
+    "total_payments": 2376,
+    "refund": 0,
+    "balance_due": 4076
   },
-  "dependent_count": 2
+  "dependent_count": 1
 }

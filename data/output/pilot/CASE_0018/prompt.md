@@ -4,14 +4,14 @@
 - Taxpayer: Kyle Lane
 - Spouse: Jerry Webb
 ## Filing Information
-- Filing Status: head_of_household
-- State: NY
+- Filing Status: married_filing_jointly
+- State: TX
 
 ## Income Sources
-- W-2 Wages: $89593- Interest Income: $1432- Dividend Income: $0- Business Income (Schedule C): $0
+- W-2 Wages: $44698- Interest Income: $429- Dividend Income: $0- Business Income (Schedule C): $0
 
 ## Expected Outputs
-- Federal AGI: $164291
-- Federal Taxable Income: $120438
-- Federal Tax: $25741
-- California Taxable Income: $156291
+- Federal AGI: $45127
+- Federal Taxable Income: $19227
+- Federal Tax: $1923
+- California Taxable Income: $45127

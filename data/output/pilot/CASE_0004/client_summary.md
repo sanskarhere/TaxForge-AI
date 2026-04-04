@@ -2,18 +2,24 @@
 
 ## Primary Taxpayer
 - Name: Pamela Ross
-- SSN: 749-76-3489
-- DOB: 1990-04-13
-- Occupation: Teacher
+- SSN: 178-61-1654
+- DOB: 1982-10-22
+- Occupation: Sales Executive
+- Employer: Northwind LLC
 
 ## Spouse
-- Name: Brenda Clay- SSN: 697-78-1527- DOB: 1996-11-03- Occupation: Project Coordinator- Employer: NorthStar Solutions LLC
+- Name: N/A
+- SSN: N/A
+- DOB: N/A
+- Occupation: N/A
+- Employer: N/A
+
 ## Address
 - Street: 800 Krista Roads
-- City: Sacramento
-- State: CA
-- ZIP: 95833
-- County: Sacramento
+- City: Miami
+- State: FL
+- ZIP: 33130
+- County: Miami-Dade
 
 ## Dependents
 - None
@@ -21,4 +27,4 @@
 ## Filing Details
 - Federal Status: single
 - State Status: single
-- Residency: CA
+- Residency: FL

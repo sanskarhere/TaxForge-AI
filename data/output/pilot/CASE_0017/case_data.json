@@ -1,98 +1,93 @@
 {
   "case_id": "CASE_0017",
-  "tax_year": 2019,
+  "tax_year": 2021,
   "taxpayer": {
     "first_name": "Jeffrey",
     "last_name": "Cantu",
-    "ssn": "407-12-1173",
-    "dob": "1985-11-20",
-    "occupation": "Marketing Manager",
-    "employer": null,
+    "ssn": "329-20-8528",
+    "dob": "1998-07-11",
+    "occupation": "Project Coordinator",
+    "employer": "Acme Corp",
     "full_name": "Jeffrey Cantu"
   },
-  "spouse": {
-    "first_name": "Andrew",
-    "last_name": "Bradford",
-    "ssn": "596-58-8945",
-    "dob": "1999-07-23",
-    "occupation": "Nurse",
-    "employer": "NorthStar Solutions LLC",
-    "full_name": "Andrew Bradford"
-  },
+  "spouse": null,
   "address": {
-    "street": "7842 Mcneil Fall Apt. 150",
-    "city": "Austin",
-    "state": "TX",
-    "zip_code": "73301",
-    "county": "Travis"
+    "street": "40907 Washington Plain",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "95814",
+    "county": "Sacramento"
   },
   "filing": {
     "federal_status": "head_of_household",
     "state_status": "head_of_household",
-    "residency_state": "TX",
+    "residency_state": "CA",
     "full_year_resident": true
   },
   "dependents": [
     {
-      "first_name": "Alexander",
-      "last_name": "Cantu",
-      "ssn": "785-32-9615",
-      "relationship": "son",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Alexander Cantu"
-    },
-    {
-      "first_name": "Marc",
-      "last_name": "Cantu",
-      "ssn": "481-92-1668",
+      "first_name": "Kenneth",
+      "last_name": "Moore",
+      "ssn": "239-48-1381",
       "relationship": "son",
       "qualifies_child_tax_credit": true,
-      "full_name": "Marc Cantu"
+      "full_name": "Kenneth Moore"
+    },
+    {
+      "first_name": "Matthew",
+      "last_name": "Santiago",
+      "ssn": "796-89-1173",
+      "relationship": "son",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Matthew Santiago"
     }
   ],
   "income_documents": {
     "w2": {
-      "employer_name": "NorthStar Solutions LLC",
-      "wages_box1": 61999,
-      "federal_withholding": 5397,
-      "state_wages": 61999,
-      "state_withholding": 1600
+      "employer_name": "Acme Corp",
+      "wages_box1": 73780,
+      "federal_withholding": 8135,
+      "state_wages": 73780,
+      "state_withholding": 3261
     },
-    "interest_1099_int": null,
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 372
+    },
     "dividend_1099_div": {
       "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 459,
-      "qualified_dividends": 129
+      "ordinary_dividends": 1488,
+      "qualified_dividends": 1371
     },
     "schedule_c": null
   },
   "federal_return": {
-    "total_income": 62458,
+    "total_income": 75640,
     "adjustments": 0,
-    "agi": 62458,
-    "standard_deduction": 29200,
+    "agi": 75640,
+    "standard_deduction": 18800,
     "qbi_deduction": 0,
-    "taxable_income": 33258,
-    "tax_before_credits": 3527,
-    "child_tax_credit": 2500,
+    "taxable_income": 56840,
+    "tax_before_credits": 6521,
+    "child_tax_credit": 4000,
     "self_employment_tax": 0,
-    "total_tax": 1027,
-    "total_payments": 5397,
-    "refund": 4370,
+    "total_tax": 2521,
+    "total_payments": 8135,
+    "refund": 5614,
     "balance_due": 0
   },
   "state_return": {
-    "state_code": "TX",
+    "state_code": "CA",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 62458,
-    "standard_deduction": 0,
-    "taxable_income": 62458,
-    "tax_before_credits": 0,
-    "exemption_credits": 0,
-    "total_tax": 0,
-    "total_payments": 1600,
-    "refund": 1600,
+    "state_agi": 75640,
+    "standard_deduction": 11080,
+    "taxable_income": 64560,
+    "tax_before_credits": 1382,
+    "exemption_credits": 1071,
+    "total_tax": 311,
+    "total_payments": 3261,
+    "refund": 2950,
     "balance_due": 0
   },
   "dependent_count": 2

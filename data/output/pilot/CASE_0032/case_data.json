@@ -1,100 +1,67 @@
 {
   "case_id": "CASE_0032",
-  "tax_year": 2023,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Michele",
     "last_name": "Robertson",
-    "ssn": "286-37-6757",
-    "dob": "1974-02-12",
-    "occupation": "Data Analyst",
-    "employer": null,
+    "ssn": "725-75-2861",
+    "dob": "1974-12-26",
+    "occupation": "Nurse",
+    "employer": "Acme Corp",
     "full_name": "Michele Robertson"
   },
-  "spouse": {
-    "first_name": "Luis",
-    "last_name": "Marsh",
-    "ssn": "222-66-8482",
-    "dob": "1981-06-10",
-    "occupation": "Nurse",
-    "employer": "Sunrise Community Hospital",
-    "full_name": "Luis Marsh"
-  },
+  "spouse": null,
   "address": {
-    "street": "77847 Lawrence Parkway Apt. 802",
-    "city": "Seattle",
-    "state": "WA",
-    "zip_code": "98104",
-    "county": "King"
+    "street": "42351 Solis Pine Suite 725",
+    "city": "Chicago",
+    "state": "IL",
+    "zip_code": "60610",
+    "county": "Cook"
   },
   "filing": {
-    "federal_status": "single",
-    "state_status": "single",
-    "residency_state": "WA",
+    "federal_status": "head_of_household",
+    "state_status": "head_of_household",
+    "residency_state": "IL",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Sheri",
-      "last_name": "Robertson",
-      "ssn": "420-45-9236",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Sheri Robertson"
-    },
-    {
-      "first_name": "Timothy",
-      "last_name": "Robertson",
-      "ssn": "230-39-8183",
-      "relationship": "son",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Timothy Robertson"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
     "w2": null,
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 531
+      "taxable_interest": 493
     },
     "dividend_1099_div": null,
-    "schedule_c": {
-      "business_name": "Creative Studio LLC",
-      "business_code": "541510",
-      "business_description": "Freelance Graphic & Web Design",
-      "gross_receipts": 87278,
-      "total_expenses": 21821,
-      "depreciation": 829,
-      "other_expenses": 2716
-    }
+    "schedule_c": null
   },
   "federal_return": {
-    "total_income": 65988,
-    "adjustments": 4624,
-    "agi": 61364,
-    "standard_deduction": 29200,
-    "qbi_deduction": 12167,
-    "taxable_income": 19997,
-    "tax_before_credits": 2000,
-    "child_tax_credit": 4000,
-    "self_employment_tax": 9249,
-    "total_tax": 9249,
-    "total_payments": 0,
-    "refund": 0,
-    "balance_due": 9249
-  },
-  "state_return": {
-    "state_code": "WA",
-    "state_adjustments_additions": 0,
-    "state_adjustments_subtractions": 0,
-    "state_agi": 61364,
-    "standard_deduction": 0,
-    "taxable_income": 61364,
+    "total_income": 493,
+    "adjustments": 0,
+    "agi": 493,
+    "standard_deduction": 21900,
+    "qbi_deduction": 0,
+    "taxable_income": 0,
     "tax_before_credits": 0,
-    "exemption_credits": 0,
+    "child_tax_credit": 0,
+    "self_employment_tax": 0,
     "total_tax": 0,
     "total_payments": 0,
     "refund": 0,
     "balance_due": 0
   },
-  "dependent_count": 2
+  "state_return": {
+    "state_code": "IL",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 493,
+    "standard_deduction": 0,
+    "taxable_income": 493,
+    "tax_before_credits": 24,
+    "exemption_credits": 0,
+    "total_tax": 24,
+    "total_payments": 0,
+    "refund": 0,
+    "balance_due": 24
+  },
+  "dependent_count": 0
 }

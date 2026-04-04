@@ -4,87 +4,76 @@
   "taxpayer": {
     "first_name": "Shannon",
     "last_name": "Kim",
-    "ssn": "886-75-8744",
-    "dob": "1971-09-02",
-    "occupation": "Marketing Manager",
-    "employer": null,
+    "ssn": "561-84-8153",
+    "dob": "1970-02-01",
+    "occupation": "Software Analyst",
+    "employer": "BlueWave Inc",
     "full_name": "Shannon Kim"
   },
-  "spouse": {
-    "first_name": "Jessica",
-    "last_name": "Palmer",
-    "ssn": "788-96-6663",
-    "dob": "1998-01-29",
-    "occupation": "Nurse",
-    "employer": "City Public School District",
-    "full_name": "Jessica Palmer"
-  },
+  "spouse": null,
   "address": {
     "street": "515 Katherine Harbor Suite 597",
-    "city": "Miami",
-    "state": "FL",
-    "zip_code": "33132",
-    "county": "Miami-Dade"
+    "city": "Chicago",
+    "state": "IL",
+    "zip_code": "60614",
+    "county": "Cook"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "FL",
+    "federal_status": "single",
+    "state_status": "single",
+    "residency_state": "IL",
     "full_year_resident": true
   },
   "dependents": [],
   "income_documents": {
-    "w2": {
-      "employer_name": "City Public School District",
-      "wages_box1": 62774,
-      "federal_withholding": 9677,
-      "state_wages": 62774,
-      "state_withholding": 2682
+    "w2": null,
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 1429
     },
-    "interest_1099_int": null,
     "dividend_1099_div": {
       "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 2821,
-      "qualified_dividends": 1424
+      "ordinary_dividends": 3893,
+      "qualified_dividends": 1936
     },
     "schedule_c": {
       "business_name": "Creative Studio LLC",
       "business_code": "541510",
       "business_description": "Freelance Graphic & Web Design",
-      "gross_receipts": 93670,
-      "total_expenses": 30950,
-      "depreciation": 112,
-      "other_expenses": 1549
+      "gross_receipts": 119040,
+      "total_expenses": 61275,
+      "depreciation": 1415,
+      "other_expenses": 409
     }
   },
   "federal_return": {
-    "total_income": 128315,
-    "adjustments": 4431,
-    "agi": 123884,
-    "standard_deduction": 29200,
-    "qbi_deduction": 11658,
-    "taxable_income": 83026,
-    "tax_before_credits": 9499,
+    "total_income": 63087,
+    "adjustments": 4081,
+    "agi": 59006,
+    "standard_deduction": 13850,
+    "qbi_deduction": 10737,
+    "taxable_income": 34419,
+    "tax_before_credits": 3910,
     "child_tax_credit": 0,
-    "self_employment_tax": 8862,
-    "total_tax": 18361,
-    "total_payments": 9677,
+    "self_employment_tax": 8162,
+    "total_tax": 12072,
+    "total_payments": 0,
     "refund": 0,
-    "balance_due": 8684
+    "balance_due": 12072
   },
   "state_return": {
-    "state_code": "FL",
+    "state_code": "IL",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 123884,
+    "state_agi": 59006,
     "standard_deduction": 0,
-    "taxable_income": 123884,
-    "tax_before_credits": 0,
+    "taxable_income": 59006,
+    "tax_before_credits": 2921,
     "exemption_credits": 0,
-    "total_tax": 0,
-    "total_payments": 2682,
-    "refund": 2682,
-    "balance_due": 0
+    "total_tax": 2921,
+    "total_payments": 0,
+    "refund": 0,
+    "balance_due": 2921
   },
   "dependent_count": 0
 }

@@ -2,16 +2,16 @@
 
 ## Personal Information
 - Taxpayer: Beverly Harris
-- Spouse: Toni Harris
+- Spouse: N/A
 ## Filing Information
 - Filing Status: single
-- State: WA
+- State: NY
 
 ## Income Sources
-- W-2 Wages: $85236- Interest Income: $0- Dividend Income: $651- Business Income (Schedule C): $0
+- W-2 Wages: $0- Interest Income: $773- Dividend Income: $3398- Business Income (Schedule C): $0
 
 ## Expected Outputs
-- Federal AGI: $85887
-- Federal Taxable Income: $56687
-- Federal Tax: $5338
-- California Taxable Income: $85887
+- Federal AGI: $68370
+- Federal Taxable Income: $40930
+- Federal Tax: $14452
+- California Taxable Income: $60370

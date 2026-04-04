@@ -11,10 +11,4 @@ class TextRenderer:
 
     def render_template(self, template_name: str, case: TaxCase) -> str:
         template = self.env.get_template(template_name)
-        rendered = template.render(case=case.model_dump(mode="json"))
-
-        print(f"[DEBUG] templates_root = {self.templates_root}")
-        print(f"[DEBUG] template_name = {template_name}")
-        print(f"[DEBUG] rendered_length = {len(rendered)}")
-
-        return rendered
+        return template.render(case=case.model_dump(mode="json"))

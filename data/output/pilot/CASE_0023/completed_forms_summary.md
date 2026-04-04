@@ -5,32 +5,31 @@
 - Schedule 1 - Additional Income & Adjustments
 - Schedule 2 - Additional Taxes
 - Schedule B - Interest & Dividends
-- Schedule 8812 - Credits for Qualifying Children and Other Dependents
 
 ## State Forms
 - State Resident Income Tax Return
 
 ## Federal Return Snapshot
-- Total Income: $48798
-- AGI: $48798
-- Standard Deduction: $29200
+- Total Income: $77987
+- AGI: $77987
+- Standard Deduction: $13850
 - QBI Deduction: $0
-- Taxable Income: $19598
-- Tax Before Credits: $1960
-- Child Tax Credit: $500
+- Taxable Income: $64137
+- Tax Before Credits: $9390
+- Child Tax Credit: $0
 - Self-Employment Tax: $0
-- Total Tax: $1460
-- Total Payments: $4524
-- Refund: $3064
-- Balance Due: $0
+- Total Tax: $9390
+- Total Payments: $8849
+- Refund: $0
+- Balance Due: $541
 
 ## State Return Snapshot
-- State AGI: $48798
+- State AGI: $77987
 - Standard Deduction: $0
-- Taxable Income: $48798
+- Taxable Income: $77987
 - Tax Before Credits: $0
 - Exemption Credits: $0
 - Total Tax: $0
-- Total Payments: $1115
-- Refund: $1115
+- Total Payments: $0
+- Refund: $0
 - Balance Due: $0

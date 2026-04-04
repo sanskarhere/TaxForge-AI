@@ -2,16 +2,16 @@
 
 ## Personal Information
 - Taxpayer: Duane Burns
-- Spouse: Kelly Summers
+- Spouse: N/A
 ## Filing Information
 - Filing Status: head_of_household
-- State: TX
+- State: FL
 
 ## Income Sources
-- W-2 Wages: $57864- Interest Income: $1197- Dividend Income: $3438- Business Income (Schedule C): $0
+- W-2 Wages: $53770- Interest Income: $0- Dividend Income: $1875- Business Income (Schedule C): $0
 
 ## Expected Outputs
-- Federal AGI: $62499
-- Federal Taxable Income: $33299
-- Federal Tax: $532
-- California Taxable Income: $62499
+- Federal AGI: $83270
+- Federal Taxable Income: $58945
+- Federal Tax: $10973
+- California Taxable Income: $83270

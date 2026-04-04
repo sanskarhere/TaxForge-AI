@@ -4,14 +4,14 @@
 - Taxpayer: Brad Lawrence
 - Spouse: Jeffrey Morris
 ## Filing Information
-- Filing Status: head_of_household
-- State: CA
+- Filing Status: married_filing_jointly
+- State: TX
 
 ## Income Sources
-- W-2 Wages: $52835- Interest Income: $272- Dividend Income: $3071- Business Income (Schedule C): $0
+- W-2 Wages: $70641- Interest Income: $0- Dividend Income: $2216- Business Income (Schedule C): $0
 
 ## Expected Outputs
-- Federal AGI: $119803
-- Federal Taxable Income: $77878
-- Federal Tax: $18554
-- California Taxable Income: $108723
+- Federal AGI: $72857
+- Federal Taxable Income: $48057
+- Federal Tax: $5367
+- California Taxable Income: $72857

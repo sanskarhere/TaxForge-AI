@@ -2,16 +2,16 @@
 
 ## Personal Information
 - Taxpayer: William Chavez
-- Spouse: Amanda Mendoza
+- Spouse: N/A
 ## Filing Information
-- Filing Status: married_filing_jointly
-- State: WA
+- Filing Status: single
+- State: FL
 
 ## Income Sources
-- W-2 Wages: $89070- Interest Income: $529- Dividend Income: $1936- Business Income (Schedule C): $0
+- W-2 Wages: $43137- Interest Income: $1291- Dividend Income: $0- Business Income (Schedule C): $0
 
 ## Expected Outputs
-- Federal AGI: $109050
-- Federal Taxable Income: $76347
-- Federal Tax: $8861
-- California Taxable Income: $109050
+- Federal AGI: $44428
+- Federal Taxable Income: $29828
+- Federal Tax: $3359
+- California Taxable Income: $44428

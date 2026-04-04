@@ -2,23 +2,29 @@
 
 ## Primary Taxpayer
 - Name: Ricky Weaver
-- SSN: 488-38-5744
-- DOB: 1974-03-22
-- Occupation: Accountant
+- SSN: 518-76-9879
+- DOB: 1975-03-12
+- Occupation: Software Analyst
+- Employer: Northwind LLC
 
 ## Spouse
-- Name: Gregory Perez- SSN: 129-38-2911- DOB: 1976-03-29- Occupation: Nurse- Employer: NorthStar Solutions LLC
+- Name: Gregory Perez
+- SSN: 818-24-3894
+- DOB: 1969-03-27
+- Occupation: Designer
+- Employer: Brooks Consulting
+
 ## Address
 - Street: 90128 Steele Lane
-- City: Miami
-- State: FL
-- ZIP: 33132
-- County: Miami-Dade
+- City: Chicago
+- State: IL
+- ZIP: 60614
+- County: Cook
 
 ## Dependents
-- None
+- Brittany Miranda (son) — SSN: 330-47-1476
 
 ## Filing Details
-- Federal Status: head_of_household
-- State Status: head_of_household
-- Residency: FL
+- Federal Status: married_filing_jointly
+- State Status: married_filing_jointly
+- Residency: IL

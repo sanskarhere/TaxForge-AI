@@ -1,8 +1,16 @@
 ## State Summary
-- State AGI: $144469
+
+- State Code: FL
+
+- State AGI: $135639
 - Standard Deduction: $0
-- Taxable Income: $144469
+- Taxable Income: $135639
+
+- Tax Before Credits: $0
+- Exemption Credits: $0
+
 - Total Tax: $0
-- Total Payments: $2622
-- Refund: $2622
+- Total Payments: $0
+
+- Refund: $0
 - Balance Due: $0

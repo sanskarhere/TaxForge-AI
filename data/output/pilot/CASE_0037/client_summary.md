@@ -2,23 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Dustin Bailey
-- SSN: 351-98-9101
-- DOB: 1975-10-18
+- SSN: 248-66-6726
+- DOB: 1978-05-05
 - Occupation: Teacher
 
 ## Spouse
-- Name: John Cummings- SSN: 258-18-6749- DOB: 1992-01-29- Occupation: Business Analyst- Employer: NorthStar Solutions LLC
+- Name: N/A- SSN: N/A- DOB: N/A- Occupation: N/A- Employer: N/A
 ## Address
-- Street: 50317 Thompson Orchard
-- City: Austin
-- State: TX
-- ZIP: 78702
-- County: Travis
+- Street: 72150 Daniel Stream
+- City: Miami
+- State: FL
+- ZIP: 33130
+- County: Miami-Dade
 
 ## Dependents
 - None
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: TX
+- Federal Status: single
+- State Status: single
+- Residency: FL

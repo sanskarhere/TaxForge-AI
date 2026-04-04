@@ -1,98 +1,102 @@
 {
   "case_id": "CASE_0012",
-  "tax_year": 2022,
+  "tax_year": 2021,
   "taxpayer": {
     "first_name": "Robin",
     "last_name": "Taylor",
-    "ssn": "489-38-8315",
-    "dob": "1989-03-04",
-    "occupation": "Data Analyst",
-    "employer": null,
+    "ssn": "240-66-5881",
+    "dob": "1987-07-12",
+    "occupation": "Project Coordinator",
+    "employer": "Vertex Solutions",
     "full_name": "Robin Taylor"
   },
   "spouse": {
-    "first_name": "Kenneth",
-    "last_name": "Wu",
-    "ssn": "437-83-7260",
-    "dob": "1991-11-03",
-    "occupation": "Teacher",
-    "employer": "BluePeak Analytics",
-    "full_name": "Kenneth Wu"
+    "first_name": "Timothy",
+    "last_name": "Haley",
+    "ssn": "594-72-7232",
+    "dob": "1993-02-20",
+    "occupation": "Designer",
+    "employer": "Brooks Consulting",
+    "full_name": "Timothy Haley"
   },
   "address": {
-    "street": "9633 Tyler Union Suite 918",
-    "city": "Austin",
-    "state": "TX",
-    "zip_code": "73301",
-    "county": "Travis"
+    "street": "5963 Brian Union",
+    "city": "Miami",
+    "state": "FL",
+    "zip_code": "33130",
+    "county": "Miami-Dade"
   },
   "filing": {
-    "federal_status": "head_of_household",
-    "state_status": "head_of_household",
-    "residency_state": "TX",
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "FL",
     "full_year_resident": true
   },
   "dependents": [
     {
-      "first_name": "James",
-      "last_name": "Taylor",
-      "ssn": "607-80-8419",
+      "first_name": "Ana",
+      "last_name": "Harper",
+      "ssn": "557-52-7260",
       "relationship": "son",
       "qualifies_child_tax_credit": true,
-      "full_name": "James Taylor"
+      "full_name": "Ana Harper"
+    },
+    {
+      "first_name": "Matthew",
+      "last_name": "Carter",
+      "ssn": "313-35-1917",
+      "relationship": "son",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Matthew Carter"
     }
   ],
   "income_documents": {
     "w2": {
-      "employer_name": "BluePeak Analytics",
-      "wages_box1": 77528,
-      "federal_withholding": 8312,
-      "state_wages": 77528,
-      "state_withholding": 2233
+      "employer_name": "Vertex Solutions",
+      "wages_box1": 77972,
+      "federal_withholding": 9062,
+      "state_wages": 77972,
+      "state_withholding": 0
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 1164
+      "taxable_interest": 650
     },
-    "dividend_1099_div": null,
-    "schedule_c": {
-      "business_name": "Creative Studio LLC",
-      "business_code": "541510",
-      "business_description": "Freelance Graphic & Web Design",
-      "gross_receipts": 64229,
-      "total_expenses": 34285,
-      "depreciation": 1793,
-      "other_expenses": 2402
-    }
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 1218,
+      "qualified_dividends": 1114
+    },
+    "schedule_c": null
   },
   "federal_return": {
-    "total_income": 108636,
-    "adjustments": 2116,
-    "agi": 106520,
-    "standard_deduction": 29200,
-    "qbi_deduction": 5566,
-    "taxable_income": 71754,
-    "tax_before_credits": 8146,
-    "child_tax_credit": 2000,
-    "self_employment_tax": 4231,
-    "total_tax": 10377,
-    "total_payments": 8312,
-    "refund": 0,
-    "balance_due": 2065
+    "total_income": 79840,
+    "adjustments": 0,
+    "agi": 79840,
+    "standard_deduction": 25100,
+    "qbi_deduction": 0,
+    "taxable_income": 54740,
+    "tax_before_credits": 6169,
+    "child_tax_credit": 4000,
+    "self_employment_tax": 0,
+    "total_tax": 2169,
+    "total_payments": 9062,
+    "refund": 6893,
+    "balance_due": 0
   },
   "state_return": {
-    "state_code": "TX",
+    "state_code": "FL",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 106520,
+    "state_agi": 79840,
     "standard_deduction": 0,
-    "taxable_income": 106520,
+    "taxable_income": 79840,
     "tax_before_credits": 0,
     "exemption_credits": 0,
     "total_tax": 0,
-    "total_payments": 2233,
-    "refund": 2233,
+    "total_payments": 0,
+    "refund": 0,
     "balance_due": 0
   },
-  "dependent_count": 1
+  "dependent_count": 2
 }

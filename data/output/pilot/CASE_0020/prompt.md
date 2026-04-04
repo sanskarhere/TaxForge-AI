@@ -2,16 +2,16 @@
 
 ## Personal Information
 - Taxpayer: Sarah Thompson
-- Spouse: Patricia Collins
+- Spouse: N/A
 ## Filing Information
 - Filing Status: single
-- State: WA
+- State: NY
 
 ## Income Sources
-- W-2 Wages: $83748- Interest Income: $1112- Dividend Income: $0- Business Income (Schedule C): $0
+- W-2 Wages: $62308- Interest Income: $380- Dividend Income: $0- Business Income (Schedule C): $0
 
 ## Expected Outputs
-- Federal AGI: $140346
-- Federal Taxable Income: $100049
-- Federal Tax: $20553
-- California Taxable Income: $140346
+- Federal AGI: $62688
+- Federal Taxable Income: $48088
+- Federal Tax: $5859
+- California Taxable Income: $54688

@@ -40,34 +40,34 @@ class ProfileGenerator:
         )
 
     def build_address(self, state: str = "CA") -> Address:
-        city_map = {
-            "CA": "Sacramento",
-            "TX": "Austin",
-            "NY": "New York",
-            "FL": "Miami",
-            "WA": "Seattle",
-        }
+     city_map = {
+        "CA": "Sacramento",
+        "NY": "New York",
+        "TX": "Austin",
+        "FL": "Miami",
+        "IL": "Chicago",
+    }
 
-        county_map = {
-            "CA": "Sacramento",
-            "TX": "Travis",
-            "NY": "New York",
-            "FL": "Miami-Dade",
-            "WA": "King",
-        }
+     county_map = {
+        "CA": "Sacramento",
+        "NY": "New York",
+        "TX": "Travis",
+        "FL": "Miami-Dade",
+        "IL": "Cook",
+    }
 
-        zip_map = {
-            "CA": ["95814", "95821", "95825", "95833"],
-            "TX": ["73301", "78701", "78702", "78704"],
-            "NY": ["10001", "10011", "11201", "11354"],
-            "FL": ["33101", "33130", "33131", "33132"],
-            "WA": ["98101", "98104", "98109", "98004"],
-        }
+     zip_map = {
+        "CA": ["95814", "95821", "95825", "95833"],
+        "NY": ["10001", "10011", "11201", "11354"],
+        "TX": ["73301", "78701", "78702", "78704"],
+        "FL": ["33101", "33130", "33131", "33132"],
+        "IL": ["60601", "60607", "60610", "60614"],
+    }
 
-        return Address(
-            street=self.fake.street_address(),
-            city=city_map[state],
-            state=state,
-            zip_code=random.choice(zip_map[state]),
-            county=county_map[state],
-        )
+     return Address(
+        street=self.fake.street_address(),
+        city=city_map[state],
+        state=state,
+        zip_code=random.choice(zip_map[state]),
+        county=county_map[state],
+    )

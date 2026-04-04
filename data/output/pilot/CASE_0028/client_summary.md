@@ -2,25 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Renee Carter
-- SSN: 429-23-3533
-- DOB: 1985-11-19
-- Occupation: Marketing Manager
+- SSN: 221-47-8527
+- DOB: 1998-07-09
+- Occupation: Project Coordinator
 
 ## Spouse
-- Name: Shannon Morris- SSN: 790-96-4547- DOB: 1978-11-21- Occupation: Teacher- Employer: NorthStar Solutions LLC
+- Name: Shannon Morris- SSN: 560-27-6278- DOB: 1974-07-13- Occupation: Accountant- Employer: Public School District
 ## Address
-- Street: 3618 Ingram Lane Suite 110
-- City: Sacramento
-- State: CA
-- ZIP: 95814
-- County: Sacramento
+- Street: 936 Young Run
+- City: Austin
+- State: TX
+- ZIP: 73301
+- County: Travis
 
 ## Dependents
-- Brittney Carter (daughter) — SSN: 509-93-2188
-- Megan Carter (daughter) — SSN: 485-67-2578
-- Kyle Carter (son) — SSN: 602-54-5631
+- Charles Flores (daughter) — SSN: 258-96-4547
 
 ## Filing Details
-- Federal Status: head_of_household
-- State Status: head_of_household
-- Residency: CA
+- Federal Status: married_filing_jointly
+- State Status: married_filing_jointly
+- Residency: TX

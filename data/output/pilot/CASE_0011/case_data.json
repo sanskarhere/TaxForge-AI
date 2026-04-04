@@ -1,80 +1,84 @@
 {
   "case_id": "CASE_0011",
-  "tax_year": 2020,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Christina",
     "last_name": "Wu",
-    "ssn": "835-76-6909",
-    "dob": "1985-10-14",
-    "occupation": "Teacher",
-    "employer": null,
+    "ssn": "731-37-8479",
+    "dob": "1998-04-27",
+    "occupation": "Operations Associate",
+    "employer": "Vertex Solutions",
     "full_name": "Christina Wu"
   },
   "spouse": {
     "first_name": "Wayne",
     "last_name": "Webb",
-    "ssn": "851-68-1511",
-    "dob": "1999-09-05",
-    "occupation": "Pharmacist",
-    "employer": "BluePeak Analytics",
+    "ssn": "614-71-9528",
+    "dob": "1991-10-20",
+    "occupation": "Operations Executive",
+    "employer": "CarePoint Health",
     "full_name": "Wayne Webb"
   },
   "address": {
-    "street": "700 Tiffany Key Apt. 402",
-    "city": "Seattle",
-    "state": "WA",
-    "zip_code": "98104",
-    "county": "King"
+    "street": "002 Francis Green Apt. 205",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "11201",
+    "county": "New York"
   },
   "filing": {
     "federal_status": "married_filing_jointly",
     "state_status": "married_filing_jointly",
-    "residency_state": "WA",
+    "residency_state": "NY",
     "full_year_resident": true
   },
   "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "BluePeak Analytics",
-      "wages_box1": 64528,
-      "federal_withholding": 9017,
-      "state_wages": 64528,
-      "state_withholding": 1796
+      "employer_name": "Vertex Solutions",
+      "wages_box1": 89712,
+      "federal_withholding": 7401,
+      "state_wages": 89712,
+      "state_withholding": 4295
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 396
+      "taxable_interest": 754
     },
-    "dividend_1099_div": null,
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 1169,
+      "qualified_dividends": 114
+    },
     "schedule_c": null
   },
   "federal_return": {
-    "total_income": 64924,
+    "total_income": 91635,
     "adjustments": 0,
-    "agi": 64924,
+    "agi": 91635,
     "standard_deduction": 29200,
     "qbi_deduction": 0,
-    "taxable_income": 35724,
-    "tax_before_credits": 3823,
+    "taxable_income": 62435,
+    "tax_before_credits": 7092,
     "child_tax_credit": 0,
     "self_employment_tax": 0,
-    "total_tax": 3823,
-    "total_payments": 9017,
-    "refund": 5194,
+    "total_tax": 7092,
+    "total_payments": 7401,
+    "refund": 309,
     "balance_due": 0
   },
   "state_return": {
-    "state_code": "WA",
+    "state_code": "NY",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 64924,
-    "standard_deduction": 0,
-    "taxable_income": 64924,
-    "tax_before_credits": 0,
-    "exemption_credits": 0,
-    "total_tax": 0,
-    "total_payments": 1796,
-    "refund": 1796,
+    "state_agi": 91635,
+    "standard_deduction": 8000,
+    "taxable_income": 83635,
+    "tax_before_credits": 3450,
+    "exemption_credits": 200,
+    "total_tax": 3250,
+    "total_payments": 4295,
+    "refund": 1045,
     "balance_due": 0
   },
   "dependent_count": 0

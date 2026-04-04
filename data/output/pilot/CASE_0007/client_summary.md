@@ -2,25 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Carl Gutierrez
-- SSN: 623-16-1734
-- DOB: 1974-01-05
-- Occupation: Graphic Designer
+- SSN: 168-54-7770
+- DOB: 1974-10-10
+- Occupation: Software Analyst
 
 ## Spouse
-- Name: Marcus Spencer- SSN: 876-45-3528- DOB: 1976-12-10- Occupation: HR Specialist- Employer: Evergreen Retail Group
+- Name: N/A- SSN: N/A- DOB: N/A- Occupation: N/A- Employer: N/A
 ## Address
-- Street: 088 Melissa Rapids Suite 956
-- City: Sacramento
-- State: CA
-- ZIP: 95825
-- County: Sacramento
+- Street: 800 Moore Street Apt. 883
+- City: Austin
+- State: TX
+- ZIP: 73301
+- County: Travis
 
 ## Dependents
-- Michael Gutierrez (son) — SSN: 717-46-7081
-- Olivia Gutierrez (daughter) — SSN: 354-27-2568
-- Desiree Gutierrez (daughter) — SSN: 434-55-5397
+- None
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: CA
+- Federal Status: single
+- State Status: single
+- Residency: TX

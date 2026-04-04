@@ -1,93 +1,82 @@
 {
   "case_id": "CASE_0015",
-  "tax_year": 2021,
+  "tax_year": 2020,
   "taxpayer": {
     "first_name": "Brad",
     "last_name": "Lawrence",
-    "ssn": "626-51-8821",
-    "dob": "1970-11-28",
-    "occupation": "Teacher",
-    "employer": null,
+    "ssn": "143-57-1316",
+    "dob": "1968-07-26",
+    "occupation": "Software Analyst",
+    "employer": "Northwind LLC",
     "full_name": "Brad Lawrence"
   },
   "spouse": {
     "first_name": "Jeffrey",
     "last_name": "Morris",
-    "ssn": "397-65-7192",
-    "dob": "1991-06-30",
-    "occupation": "Nurse",
-    "employer": "NorthStar Solutions LLC",
+    "ssn": "330-75-6262",
+    "dob": "1999-09-27",
+    "occupation": "Operations Executive",
+    "employer": "CarePoint Health",
     "full_name": "Jeffrey Morris"
   },
   "address": {
     "street": "6028 Gray Coves Suite 849",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "95821",
-    "county": "Sacramento"
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78704",
+    "county": "Travis"
   },
   "filing": {
-    "federal_status": "head_of_household",
-    "state_status": "head_of_household",
-    "residency_state": "CA",
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "TX",
     "full_year_resident": true
   },
   "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "NorthStar Solutions LLC",
-      "wages_box1": 52835,
-      "federal_withholding": 6411,
-      "state_wages": 52835,
-      "state_withholding": 2015
+      "employer_name": "Northwind LLC",
+      "wages_box1": 70641,
+      "federal_withholding": 9246,
+      "state_wages": 70641,
+      "state_withholding": 0
     },
-    "interest_1099_int": {
-      "payer_name": "Golden State Community Bank",
-      "taxable_interest": 272
-    },
+    "interest_1099_int": null,
     "dividend_1099_div": {
       "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 3071,
-      "qualified_dividends": 2396
+      "ordinary_dividends": 2216,
+      "qualified_dividends": 1527
     },
-    "schedule_c": {
-      "business_name": "Creative Studio LLC",
-      "business_code": "541510",
-      "business_description": "Freelance Graphic & Web Design",
-      "gross_receipts": 101612,
-      "total_expenses": 33151,
-      "depreciation": 570,
-      "other_expenses": 2315
-    }
+    "schedule_c": null
   },
   "federal_return": {
-    "total_income": 124639,
-    "adjustments": 4836,
-    "agi": 119803,
-    "standard_deduction": 29200,
-    "qbi_deduction": 12725,
-    "taxable_income": 77878,
-    "tax_before_credits": 8881,
+    "total_income": 72857,
+    "adjustments": 0,
+    "agi": 72857,
+    "standard_deduction": 24800,
+    "qbi_deduction": 0,
+    "taxable_income": 48057,
+    "tax_before_credits": 5367,
     "child_tax_credit": 0,
-    "self_employment_tax": 9673,
-    "total_tax": 18554,
-    "total_payments": 6411,
-    "refund": 0,
-    "balance_due": 12143
+    "self_employment_tax": 0,
+    "total_tax": 5367,
+    "total_payments": 9246,
+    "refund": 3879,
+    "balance_due": 0
   },
   "state_return": {
-    "state_code": "CA",
+    "state_code": "TX",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 119803,
-    "standard_deduction": 11080,
-    "taxable_income": 108723,
-    "tax_before_credits": 3149,
-    "exemption_credits": 149,
-    "total_tax": 3000,
-    "total_payments": 2015,
+    "state_agi": 72857,
+    "standard_deduction": 0,
+    "taxable_income": 72857,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
+    "total_tax": 0,
+    "total_payments": 0,
     "refund": 0,
-    "balance_due": 985
+    "balance_due": 0
   },
   "dependent_count": 0
 }

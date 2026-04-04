@@ -2,23 +2,24 @@
 
 ## Primary Taxpayer
 - Name: Robin Taylor
-- SSN: 489-38-8315
-- DOB: 1989-03-04
-- Occupation: Data Analyst
+- SSN: 240-66-5881
+- DOB: 1987-07-12
+- Occupation: Project Coordinator
 
 ## Spouse
-- Name: Kenneth Wu- SSN: 437-83-7260- DOB: 1991-11-03- Occupation: Teacher- Employer: BluePeak Analytics
+- Name: Timothy Haley- SSN: 594-72-7232- DOB: 1993-02-20- Occupation: Designer- Employer: Brooks Consulting
 ## Address
-- Street: 9633 Tyler Union Suite 918
-- City: Austin
-- State: TX
-- ZIP: 73301
-- County: Travis
+- Street: 5963 Brian Union
+- City: Miami
+- State: FL
+- ZIP: 33130
+- County: Miami-Dade
 
 ## Dependents
-- James Taylor (son) — SSN: 607-80-8419
+- Ana Harper (son) — SSN: 557-52-7260
+- Matthew Carter (son) — SSN: 313-35-1917
 
 ## Filing Details
-- Federal Status: head_of_household
-- State Status: head_of_household
-- Residency: TX
+- Federal Status: married_filing_jointly
+- State Status: married_filing_jointly
+- Residency: FL

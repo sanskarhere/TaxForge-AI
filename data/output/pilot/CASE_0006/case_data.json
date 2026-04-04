@@ -1,87 +1,74 @@
 {
   "case_id": "CASE_0006",
-  "tax_year": 2021,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Amy",
     "last_name": "Anderson",
-    "ssn": "409-74-4157",
-    "dob": "1994-06-18",
-    "occupation": "Teacher",
-    "employer": null,
+    "ssn": "661-50-3160",
+    "dob": "1987-10-28",
+    "occupation": "Operations Associate",
+    "employer": "BlueWave Inc",
     "full_name": "Amy Anderson"
   },
-  "spouse": {
-    "first_name": "Amanda",
-    "last_name": "Mcguire",
-    "ssn": "831-65-3713",
-    "dob": "1992-06-11",
-    "occupation": "Pharmacist",
-    "employer": "Evergreen Retail Group",
-    "full_name": "Amanda Mcguire"
-  },
+  "spouse": null,
   "address": {
-    "street": "21733 Thomas Burgs Apt. 612",
-    "city": "Seattle",
-    "state": "WA",
-    "zip_code": "98004",
-    "county": "King"
+    "street": "622 Trevor Forges",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78702",
+    "county": "Travis"
   },
   "filing": {
     "federal_status": "single",
     "state_status": "single",
-    "residency_state": "WA",
+    "residency_state": "TX",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Corey",
-      "last_name": "Anderson",
-      "ssn": "764-38-4572",
-      "relationship": "son",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Corey Anderson"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "Evergreen Retail Group",
-      "wages_box1": 78474,
-      "federal_withholding": 11616,
-      "state_wages": 78474,
-      "state_withholding": 1934
+      "employer_name": "BlueWave Inc",
+      "wages_box1": 75116,
+      "federal_withholding": 7167,
+      "state_wages": 75116,
+      "state_withholding": 0
     },
     "interest_1099_int": null,
-    "dividend_1099_div": null,
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 3678,
+      "qualified_dividends": 2692
+    },
     "schedule_c": null
   },
   "federal_return": {
-    "total_income": 78474,
+    "total_income": 78794,
     "adjustments": 0,
-    "agi": 78474,
-    "standard_deduction": 29200,
+    "agi": 78794,
+    "standard_deduction": 14600,
     "qbi_deduction": 0,
-    "taxable_income": 49274,
-    "tax_before_credits": 5449,
-    "child_tax_credit": 500,
+    "taxable_income": 64194,
+    "tax_before_credits": 9403,
+    "child_tax_credit": 0,
     "self_employment_tax": 0,
-    "total_tax": 4949,
-    "total_payments": 11616,
-    "refund": 6667,
-    "balance_due": 0
+    "total_tax": 9403,
+    "total_payments": 7167,
+    "refund": 0,
+    "balance_due": 2236
   },
   "state_return": {
-    "state_code": "WA",
+    "state_code": "TX",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 78474,
+    "state_agi": 78794,
     "standard_deduction": 0,
-    "taxable_income": 78474,
+    "taxable_income": 78794,
     "tax_before_credits": 0,
     "exemption_credits": 0,
     "total_tax": 0,
-    "total_payments": 1934,
-    "refund": 1934,
+    "total_payments": 0,
+    "refund": 0,
     "balance_due": 0
   },
-  "dependent_count": 1
+  "dependent_count": 0
 }

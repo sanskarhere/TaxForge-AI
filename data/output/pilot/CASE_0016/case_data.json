@@ -1,99 +1,79 @@
 {
   "case_id": "CASE_0016",
-  "tax_year": 2020,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Beverly",
     "last_name": "Harris",
-    "ssn": "142-34-8362",
-    "dob": "1992-02-05",
-    "occupation": "Accountant",
-    "employer": null,
+    "ssn": "694-35-4370",
+    "dob": "1980-12-11",
+    "occupation": "Operations Associate",
+    "employer": "Northwind LLC",
     "full_name": "Beverly Harris"
   },
-  "spouse": {
-    "first_name": "Toni",
-    "last_name": "Harris",
-    "ssn": "515-55-5717",
-    "dob": "1981-10-19",
-    "occupation": "Pharmacist",
-    "employer": "NorthStar Solutions LLC",
-    "full_name": "Toni Harris"
-  },
+  "spouse": null,
   "address": {
-    "street": "7964 Alexander Forest Suite 178",
-    "city": "Seattle",
-    "state": "WA",
-    "zip_code": "98109",
-    "county": "King"
+    "street": "76544 Lara Manor",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "10011",
+    "county": "New York"
   },
   "filing": {
     "federal_status": "single",
     "state_status": "single",
-    "residency_state": "WA",
+    "residency_state": "NY",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Joanna",
-      "last_name": "Harris",
-      "ssn": "390-84-2713",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Joanna Harris"
-    },
-    {
-      "first_name": "Hayden",
-      "last_name": "Harris",
-      "ssn": "318-70-2203",
-      "relationship": "son",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Hayden Harris"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
-    "w2": {
-      "employer_name": "NorthStar Solutions LLC",
-      "wages_box1": 85236,
-      "federal_withholding": 9387,
-      "state_wages": 85236,
-      "state_withholding": 2645
+    "w2": null,
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 773
     },
-    "interest_1099_int": null,
     "dividend_1099_div": {
       "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 651,
-      "qualified_dividends": 309
+      "ordinary_dividends": 3398,
+      "qualified_dividends": 1066
     },
-    "schedule_c": null
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 110652,
+      "total_expenses": 41573,
+      "depreciation": 2375,
+      "other_expenses": 428
+    }
   },
   "federal_return": {
-    "total_income": 85887,
-    "adjustments": 0,
-    "agi": 85887,
-    "standard_deduction": 29200,
-    "qbi_deduction": 0,
-    "taxable_income": 56687,
-    "tax_before_credits": 6338,
-    "child_tax_credit": 1000,
-    "self_employment_tax": 0,
-    "total_tax": 5338,
-    "total_payments": 9387,
-    "refund": 4049,
-    "balance_due": 0
+    "total_income": 73250,
+    "adjustments": 4880,
+    "agi": 68370,
+    "standard_deduction": 14600,
+    "qbi_deduction": 12840,
+    "taxable_income": 40930,
+    "tax_before_credits": 4692,
+    "child_tax_credit": 0,
+    "self_employment_tax": 9760,
+    "total_tax": 14452,
+    "total_payments": 0,
+    "refund": 0,
+    "balance_due": 14452
   },
   "state_return": {
-    "state_code": "WA",
+    "state_code": "NY",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 85887,
-    "standard_deduction": 0,
-    "taxable_income": 85887,
-    "tax_before_credits": 0,
-    "exemption_credits": 0,
-    "total_tax": 0,
-    "total_payments": 2645,
-    "refund": 2645,
-    "balance_due": 0
+    "state_agi": 68370,
+    "standard_deduction": 8000,
+    "taxable_income": 60370,
+    "tax_before_credits": 2170,
+    "exemption_credits": 100,
+    "total_tax": 2070,
+    "total_payments": 0,
+    "refund": 0,
+    "balance_due": 2070
   },
-  "dependent_count": 2
+  "dependent_count": 0
 }

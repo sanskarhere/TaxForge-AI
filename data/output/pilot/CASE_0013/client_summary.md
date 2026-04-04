@@ -2,25 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Christopher Sampson
-- SSN: 865-33-5946
-- DOB: 1975-05-10
-- Occupation: Accountant
+- SSN: 192-35-3457
+- DOB: 1977-06-17
+- Occupation: Operations Associate
 
 ## Spouse
-- Name: Yolanda Turner- SSN: 190-55-8732- DOB: 1977-12-18- Occupation: HR Specialist- Employer: Pacific Health System Inc.
+- Name: N/A- SSN: N/A- DOB: N/A- Occupation: N/A- Employer: N/A
 ## Address
-- Street: 668 Flores Meadow Apt. 403
-- City: Sacramento
-- State: CA
-- ZIP: 95825
-- County: Sacramento
+- Street: 24157 Hughes Lodge Suite 680
+- City: New York
+- State: NY
+- ZIP: 11201
+- County: New York
 
 ## Dependents
-- Nicole Sampson (daughter) — SSN: 425-64-9752
-- Eric Sampson (son) — SSN: 142-39-9404
-- Guy Sampson (son) — SSN: 329-16-7203
+- None
 
 ## Filing Details
 - Federal Status: single
 - State Status: single
-- Residency: CA
+- Residency: NY

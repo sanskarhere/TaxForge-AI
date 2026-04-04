@@ -4,14 +4,13 @@
 - Taxpayer: Benjamin Horton
 - Spouse: Susan Wood
 ## Filing Information
-- Filing Status: head_of_household
-- State: CA
+- Filing Status: married_filing_jointly
+- State: TX
 
 ## Income Sources
-- W-2 Wages: $79789- Interest Income: $938- Dividend Income: $0- Business Income (Schedule C): $0
-
+- W-2 Wages: $77847- Interest Income: $168- Dividend Income: $3459- Business Income (Schedule C): $0
 ## Expected Outputs
-- Federal AGI: $80727
-- Federal Taxable Income: $51527
-- Federal Tax: $5719
-- California Taxable Income: $69647
+- Federal AGI: $81474
+- Federal Taxable Income: $56674
+- Federal Tax: $2401
+- TX Taxable Income: $81474

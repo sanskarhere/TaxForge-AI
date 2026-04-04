@@ -2,24 +2,29 @@
 
 ## Primary Taxpayer
 - Name: Joseph Freeman
-- SSN: 446-12-2185
-- DOB: 1973-01-14
-- Occupation: Data Analyst
+- SSN: 378-63-8995
+- DOB: 1972-10-29
+- Occupation: Software Analyst
+- Employer: BrightPath Systems
 
 ## Spouse
-- Name: Kevin Smith- SSN: 595-11-2881- DOB: 1991-09-24- Occupation: Nurse- Employer: Sunrise Community Hospital
+- Name: Kevin Smith
+- SSN: 363-20-5967
+- DOB: 2000-03-17
+- Occupation: Accountant
+- Employer: Public School District
+
 ## Address
-- Street: 0912 Pope Street
-- City: New York
-- State: NY
-- ZIP: 11201
-- County: New York
+- Street: 41409 Derek Underpass
+- City: Miami
+- State: FL
+- ZIP: 33131
+- County: Miami-Dade
 
 ## Dependents
-- Adam Freeman (son) — SSN: 861-93-1585
-- Drew Freeman (son) — SSN: 378-29-4457
+- Paula Moore (son) — SSN: 122-19-8934
 
 ## Filing Details
 - Federal Status: married_filing_jointly
 - State Status: married_filing_jointly
-- Residency: NY
+- Residency: FL

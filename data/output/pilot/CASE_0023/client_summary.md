@@ -2,23 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Robert Roberts
-- SSN: 569-77-8259
-- DOB: 1977-09-26
+- SSN: 524-46-5713
+- DOB: 1982-03-22
 - Occupation: Teacher
 
 ## Spouse
-- Name: Scott Rice- SSN: 664-53-8151- DOB: 1994-01-03- Occupation: Business Analyst- Employer: BluePeak Analytics
+- Name: N/A- SSN: N/A- DOB: N/A- Occupation: N/A- Employer: N/A
 ## Address
-- Street: 18743 Hanson Cape Suite 128
-- City: Miami
-- State: FL
-- ZIP: 33131
-- County: Miami-Dade
+- Street: 8785 Yoder Cliffs Suite 437
+- City: Austin
+- State: TX
+- ZIP: 78701
+- County: Travis
 
 ## Dependents
-- Timothy Roberts (son) — SSN: 370-35-8755
+- None
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: FL
+- Federal Status: single
+- State Status: single
+- Residency: TX

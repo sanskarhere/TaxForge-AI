@@ -2,16 +2,16 @@
 
 ## Personal Information
 - Taxpayer: Christopher Sampson
-- Spouse: Yolanda Turner
+- Spouse: N/A
 ## Filing Information
 - Filing Status: single
-- State: CA
+- State: NY
 
 ## Income Sources
-- W-2 Wages: $74897- Interest Income: $0- Dividend Income: $0- Business Income (Schedule C): $0
+- W-2 Wages: $54043- Interest Income: $1407- Dividend Income: $1678- Business Income (Schedule C): $0
 
 ## Expected Outputs
-- Federal AGI: $74897
-- Federal Taxable Income: $45697
-- Federal Tax: $3520
-- California Taxable Income: $63817
+- Federal AGI: $92735
+- Federal Taxable Income: $73214
+- Federal Tax: $16800
+- California Taxable Income: $84735

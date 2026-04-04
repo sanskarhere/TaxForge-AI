@@ -2,24 +2,23 @@
 
 ## Primary Taxpayer
 - Name: John Shaw
-- SSN: 665-42-7510
-- DOB: 1975-10-06
-- Occupation: Software Engineer
+- SSN: 349-74-3653
+- DOB: 1978-04-10
+- Occupation: Teacher
 
 ## Spouse
-- Name: John Chaney- SSN: 661-69-9980- DOB: 1994-01-17- Occupation: Business Analyst- Employer: NorthStar Solutions LLC
+- Name: John Chaney- SSN: 351-39-5191- DOB: 1984-08-30- Occupation: Operations Executive- Employer: CarePoint Health
 ## Address
-- Street: 885 Hughes Harbors Suite 010
-- City: Austin
-- State: TX
-- ZIP: 73301
-- County: Travis
+- Street: 788 Willis Lake Suite 460
+- City: Chicago
+- State: IL
+- ZIP: 60614
+- County: Cook
 
 ## Dependents
-- Dawn Shaw (daughter) — SSN: 384-61-1124
-- Sean Shaw (son) — SSN: 651-43-1533
+- None
 
 ## Filing Details
-- Federal Status: head_of_household
-- State Status: head_of_household
-- Residency: TX
+- Federal Status: married_filing_jointly
+- State Status: married_filing_jointly
+- Residency: IL

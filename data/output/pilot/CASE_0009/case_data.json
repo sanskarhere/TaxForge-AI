@@ -1,106 +1,85 @@
 {
   "case_id": "CASE_0009",
-  "tax_year": 2023,
+  "tax_year": 2021,
   "taxpayer": {
     "first_name": "John",
     "last_name": "Shaw",
-    "ssn": "665-42-7510",
-    "dob": "1975-10-06",
-    "occupation": "Software Engineer",
-    "employer": null,
+    "ssn": "349-74-3653",
+    "dob": "1978-04-10",
+    "occupation": "Teacher",
+    "employer": "Northwind LLC",
     "full_name": "John Shaw"
   },
   "spouse": {
     "first_name": "John",
     "last_name": "Chaney",
-    "ssn": "661-69-9980",
-    "dob": "1994-01-17",
-    "occupation": "Business Analyst",
-    "employer": "NorthStar Solutions LLC",
+    "ssn": "351-39-5191",
+    "dob": "1984-08-30",
+    "occupation": "Operations Executive",
+    "employer": "CarePoint Health",
     "full_name": "John Chaney"
   },
   "address": {
-    "street": "885 Hughes Harbors Suite 010",
-    "city": "Austin",
-    "state": "TX",
-    "zip_code": "73301",
-    "county": "Travis"
+    "street": "788 Willis Lake Suite 460",
+    "city": "Chicago",
+    "state": "IL",
+    "zip_code": "60614",
+    "county": "Cook"
   },
   "filing": {
-    "federal_status": "head_of_household",
-    "state_status": "head_of_household",
-    "residency_state": "TX",
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "IL",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Dawn",
-      "last_name": "Shaw",
-      "ssn": "384-61-1124",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Dawn Shaw"
-    },
-    {
-      "first_name": "Sean",
-      "last_name": "Shaw",
-      "ssn": "651-43-1533",
-      "relationship": "son",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Sean Shaw"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "NorthStar Solutions LLC",
-      "wages_box1": 53641,
-      "federal_withholding": 5782,
-      "state_wages": 53641,
-      "state_withholding": 1555
+      "employer_name": "Northwind LLC",
+      "wages_box1": 72383,
+      "federal_withholding": 10026,
+      "state_wages": 72383,
+      "state_withholding": 2638
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 1378
+      "taxable_interest": 1250
     },
-    "dividend_1099_div": null,
-    "schedule_c": {
-      "business_name": "Creative Studio LLC",
-      "business_code": "541510",
-      "business_description": "Freelance Graphic & Web Design",
-      "gross_receipts": 87430,
-      "total_expenses": 46942,
-      "depreciation": 688,
-      "other_expenses": 1925
-    }
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 1684,
+      "qualified_dividends": 568
+    },
+    "schedule_c": null
   },
   "federal_return": {
-    "total_income": 95507,
-    "adjustments": 2860,
-    "agi": 92647,
-    "standard_deduction": 29200,
-    "qbi_deduction": 7526,
-    "taxable_income": 55921,
-    "tax_before_credits": 6247,
-    "child_tax_credit": 2500,
-    "self_employment_tax": 5721,
-    "total_tax": 9468,
-    "total_payments": 5782,
-    "refund": 0,
-    "balance_due": 3686
-  },
-  "state_return": {
-    "state_code": "TX",
-    "state_adjustments_additions": 0,
-    "state_adjustments_subtractions": 0,
-    "state_agi": 92647,
-    "standard_deduction": 0,
-    "taxable_income": 92647,
-    "tax_before_credits": 0,
-    "exemption_credits": 0,
-    "total_tax": 0,
-    "total_payments": 1555,
-    "refund": 1555,
+    "total_income": 75317,
+    "adjustments": 0,
+    "agi": 75317,
+    "standard_deduction": 25100,
+    "qbi_deduction": 0,
+    "taxable_income": 50217,
+    "tax_before_credits": 5626,
+    "child_tax_credit": 0,
+    "self_employment_tax": 0,
+    "total_tax": 5626,
+    "total_payments": 10026,
+    "refund": 4400,
     "balance_due": 0
   },
-  "dependent_count": 2
+  "state_return": {
+    "state_code": "IL",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 75317,
+    "standard_deduction": 0,
+    "taxable_income": 75317,
+    "tax_before_credits": 3728,
+    "exemption_credits": 0,
+    "total_tax": 3728,
+    "total_payments": 2638,
+    "refund": 0,
+    "balance_due": 1090
+  },
+  "dependent_count": 0
 }

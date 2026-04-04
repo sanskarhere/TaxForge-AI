@@ -1,94 +1,77 @@
 {
   "case_id": "CASE_0023",
-  "tax_year": 2021,
+  "tax_year": 2023,
   "taxpayer": {
     "first_name": "Robert",
     "last_name": "Roberts",
-    "ssn": "569-77-8259",
-    "dob": "1977-09-26",
+    "ssn": "524-46-5713",
+    "dob": "1982-03-22",
     "occupation": "Teacher",
-    "employer": null,
+    "employer": "Vertex Solutions",
     "full_name": "Robert Roberts"
   },
-  "spouse": {
-    "first_name": "Scott",
-    "last_name": "Rice",
-    "ssn": "664-53-8151",
-    "dob": "1994-01-03",
-    "occupation": "Business Analyst",
-    "employer": "BluePeak Analytics",
-    "full_name": "Scott Rice"
-  },
+  "spouse": null,
   "address": {
-    "street": "18743 Hanson Cape Suite 128",
-    "city": "Miami",
-    "state": "FL",
-    "zip_code": "33131",
-    "county": "Miami-Dade"
+    "street": "8785 Yoder Cliffs Suite 437",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78701",
+    "county": "Travis"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "FL",
+    "federal_status": "single",
+    "state_status": "single",
+    "residency_state": "TX",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Timothy",
-      "last_name": "Roberts",
-      "ssn": "370-35-8755",
-      "relationship": "son",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Timothy Roberts"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "BluePeak Analytics",
-      "wages_box1": 44997,
-      "federal_withholding": 4524,
-      "state_wages": 44997,
-      "state_withholding": 1115
+      "employer_name": "Vertex Solutions",
+      "wages_box1": 76650,
+      "federal_withholding": 8849,
+      "state_wages": 76650,
+      "state_withholding": 0
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 327
+      "taxable_interest": 943
     },
     "dividend_1099_div": {
       "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 3474,
-      "qualified_dividends": 510
+      "ordinary_dividends": 394,
+      "qualified_dividends": 287
     },
     "schedule_c": null
   },
   "federal_return": {
-    "total_income": 48798,
+    "total_income": 77987,
     "adjustments": 0,
-    "agi": 48798,
-    "standard_deduction": 29200,
+    "agi": 77987,
+    "standard_deduction": 13850,
     "qbi_deduction": 0,
-    "taxable_income": 19598,
-    "tax_before_credits": 1960,
-    "child_tax_credit": 500,
+    "taxable_income": 64137,
+    "tax_before_credits": 9390,
+    "child_tax_credit": 0,
     "self_employment_tax": 0,
-    "total_tax": 1460,
-    "total_payments": 4524,
-    "refund": 3064,
-    "balance_due": 0
+    "total_tax": 9390,
+    "total_payments": 8849,
+    "refund": 0,
+    "balance_due": 541
   },
   "state_return": {
-    "state_code": "FL",
+    "state_code": "TX",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 48798,
+    "state_agi": 77987,
     "standard_deduction": 0,
-    "taxable_income": 48798,
+    "taxable_income": 77987,
     "tax_before_credits": 0,
     "exemption_credits": 0,
     "total_tax": 0,
-    "total_payments": 1115,
-    "refund": 1115,
+    "total_payments": 0,
+    "refund": 0,
     "balance_due": 0
   },
-  "dependent_count": 1
+  "dependent_count": 0
 }

@@ -1,106 +1,81 @@
 {
   "case_id": "CASE_0024",
-  "tax_year": 2021,
+  "tax_year": 2020,
   "taxpayer": {
     "first_name": "Chad",
     "last_name": "Hamilton",
-    "ssn": "362-81-2559",
-    "dob": "1978-08-19",
-    "occupation": "Software Engineer",
-    "employer": null,
+    "ssn": "172-49-8120",
+    "dob": "1984-01-05",
+    "occupation": "Teacher",
+    "employer": "Vertex Solutions",
     "full_name": "Chad Hamilton"
   },
-  "spouse": {
-    "first_name": "Kristin",
-    "last_name": "Carter",
-    "ssn": "862-73-4018",
-    "dob": "1994-04-27",
-    "occupation": "Teacher",
-    "employer": "Sunrise Community Hospital",
-    "full_name": "Kristin Carter"
-  },
+  "spouse": null,
   "address": {
-    "street": "8215 Rick Squares",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "95825",
-    "county": "Sacramento"
+    "street": "4817 Taylor Crossroad Apt. 526",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78701",
+    "county": "Travis"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "CA",
+    "federal_status": "single",
+    "state_status": "single",
+    "residency_state": "TX",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Brandon",
-      "last_name": "Hamilton",
-      "ssn": "831-56-3739",
-      "relationship": "son",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Brandon Hamilton"
-    },
-    {
-      "first_name": "Sharon",
-      "last_name": "Hamilton",
-      "ssn": "754-74-1507",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Sharon Hamilton"
-    },
-    {
-      "first_name": "Ryan",
-      "last_name": "Hamilton",
-      "ssn": "238-57-1390",
-      "relationship": "son",
-      "qualifies_child_tax_credit": false,
-      "full_name": "Ryan Hamilton"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "Sunrise Community Hospital",
-      "wages_box1": 88529,
-      "federal_withholding": 8542,
-      "state_wages": 88529,
-      "state_withholding": 3014
+      "employer_name": "Vertex Solutions",
+      "wages_box1": 61270,
+      "federal_withholding": 6157,
+      "state_wages": 61270,
+      "state_withholding": 0
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 1419
+      "taxable_interest": 1063
     },
     "dividend_1099_div": null,
-    "schedule_c": null
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 39109,
+      "total_expenses": 18160,
+      "depreciation": 684,
+      "other_expenses": 1668
+    }
   },
   "federal_return": {
-    "total_income": 89948,
-    "adjustments": 0,
-    "agi": 89948,
-    "standard_deduction": 29200,
-    "qbi_deduction": 0,
-    "taxable_income": 60748,
-    "tax_before_credits": 6826,
-    "child_tax_credit": 3000,
-    "self_employment_tax": 0,
-    "total_tax": 3826,
-    "total_payments": 8542,
-    "refund": 4716,
-    "balance_due": 0
+    "total_income": 83282,
+    "adjustments": 1480,
+    "agi": 81802,
+    "standard_deduction": 12400,
+    "qbi_deduction": 3894,
+    "taxable_income": 65508,
+    "tax_before_credits": 9692,
+    "child_tax_credit": 0,
+    "self_employment_tax": 2960,
+    "total_tax": 12652,
+    "total_payments": 6157,
+    "refund": 0,
+    "balance_due": 6495
   },
   "state_return": {
-    "state_code": "CA",
+    "state_code": "TX",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 89948,
-    "standard_deduction": 11080,
-    "taxable_income": 78868,
-    "tax_before_credits": 1955,
-    "exemption_credits": 1681,
-    "total_tax": 274,
-    "total_payments": 3014,
-    "refund": 2740,
+    "state_agi": 81802,
+    "standard_deduction": 0,
+    "taxable_income": 81802,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
+    "total_tax": 0,
+    "total_payments": 0,
+    "refund": 0,
     "balance_due": 0
   },
-  "dependent_count": 3
+  "dependent_count": 0
 }

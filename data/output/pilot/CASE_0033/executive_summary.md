@@ -1,8 +1,16 @@
 ## State Summary
-- State AGI: $123884
+
+- State Code: IL
+
+- State AGI: $59006
 - Standard Deduction: $0
-- Taxable Income: $123884
-- Total Tax: $0
-- Total Payments: $2682
-- Refund: $2682
-- Balance Due: $0
+- Taxable Income: $59006
+
+- Tax Before Credits: $2921
+- Exemption Credits: $0
+
+- Total Tax: $2921
+- Total Payments: $0
+
+- Refund: $0
+- Balance Due: $2921

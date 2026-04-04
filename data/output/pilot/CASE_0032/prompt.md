@@ -2,16 +2,16 @@
 
 ## Personal Information
 - Taxpayer: Michele Robertson
-- Spouse: Luis Marsh
+- Spouse: N/A
 ## Filing Information
-- Filing Status: single
-- State: WA
+- Filing Status: head_of_household
+- State: IL
 
 ## Income Sources
-- W-2 Wages: $0- Interest Income: $531- Dividend Income: $0- Business Income (Schedule C): $0
+- W-2 Wages: $0- Interest Income: $493- Dividend Income: $0- Business Income (Schedule C): $0
 
 ## Expected Outputs
-- Federal AGI: $61364
-- Federal Taxable Income: $19997
-- Federal Tax: $9249
-- California Taxable Income: $61364
+- Federal AGI: $493
+- Federal Taxable Income: $0
+- Federal Tax: $0
+- California Taxable Income: $493

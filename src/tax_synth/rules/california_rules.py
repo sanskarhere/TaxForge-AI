@@ -2,29 +2,30 @@ from __future__ import annotations
 
 from tax_synth.models.california import StateReturn
 from tax_synth.models.case import TaxCase
+from tax_synth.models.enums import FilingStatus
 
 STATE_STANDARD_DEDUCTION = {
-    "CA": 11_080,
+    "CA": 11080,
+    "NY": 8000,
     "TX": 0,
-    "NY": 8_000,
     "FL": 0,
-    "WA": 0,
+    "IL": 0,
 }
 
 STATE_PERSONAL_EXEMPTION_CREDIT = {
     "CA": 149,
-    "TX": 0,
     "NY": 100,
+    "TX": 0,
     "FL": 0,
-    "WA": 0,
+    "IL": 0,
 }
 
 STATE_DEPENDENT_EXEMPTION_CREDIT = {
     "CA": 461,
-    "TX": 0,
     "NY": 100,
+    "TX": 0,
     "FL": 0,
-    "WA": 0,
+    "IL": 0,
 }
 
 
@@ -32,7 +33,8 @@ def simple_state_tax(state_code: str, taxable_income: int) -> int:
     if taxable_income <= 0:
         return 0
 
-    if state_code in {"TX", "FL", "WA"}:
+    # No state income tax
+    if state_code in {"TX", "FL"}:
         return 0
 
     if state_code == "CA":
@@ -49,15 +51,21 @@ def simple_state_tax(state_code: str, taxable_income: int) -> int:
             return round(20_000 * 0.02 + (taxable_income - 20_000) * 0.04)
         return round(20_000 * 0.02 + 30_000 * 0.04 + (taxable_income - 50_000) * 0.055)
 
+    if state_code == "IL":
+        return round(taxable_income * 0.0495)
+
     return 0
 
 
 def build_california_return(case: TaxCase) -> StateReturn:
+    """
+    Compatibility name retained so existing imports don't break.
+    This now builds a generic state return based on residency_state.
+    """
     if case.federal_return is None:
         raise ValueError("Federal return must be computed before state return")
 
     state_code = case.filing.residency_state
-
     additions = 0
     subtractions = 0
 
@@ -71,21 +79,26 @@ def build_california_return(case: TaxCase) -> StateReturn:
     dependent_credit = STATE_DEPENDENT_EXEMPTION_CREDIT.get(state_code, 0)
 
     exemption_credits = 0
-    if case.filing.federal_status.value == "married_filing_jointly":
+    if case.filing.federal_status == FilingStatus.MFJ:
         exemption_credits += personal_credit * 2
     else:
         exemption_credits += personal_credit
 
     exemption_credits += len(case.dependents) * dependent_credit
-
     total_tax = max(0, tax_before_credits - exemption_credits)
 
-    total_payments = 0
-    if case.income_documents.w2:
-        total_payments += case.income_documents.w2.state_withholding
-
-    refund = max(0, total_payments - total_tax)
-    balance_due = max(0, total_tax - total_payments)
+    if state_code in {"TX", "FL"}:
+        total_payments = 0
+        refund = 0
+        balance_due = 0
+    else:
+        total_payments = (
+            case.income_documents.w2.state_withholding
+            if case.income_documents.w2
+            else 0
+        )
+        refund = max(0, total_payments - total_tax)
+        balance_due = max(0, total_tax - total_payments)
 
     return StateReturn(
         state_code=state_code,

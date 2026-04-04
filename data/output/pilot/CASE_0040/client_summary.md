@@ -2,25 +2,23 @@
 
 ## Primary Taxpayer
 - Name: Duane Burns
-- SSN: 796-43-3565
-- DOB: 1987-06-10
-- Occupation: Data Analyst
+- SSN: 248-72-9275
+- DOB: 2001-08-17
+- Occupation: Nurse
 
 ## Spouse
-- Name: Kelly Summers- SSN: 881-14-8102- DOB: 1981-05-12- Occupation: Business Analyst- Employer: NorthStar Solutions LLC
+- Name: N/A- SSN: N/A- DOB: N/A- Occupation: N/A- Employer: N/A
 ## Address
-- Street: 7913 Castro Dale
-- City: Austin
-- State: TX
-- ZIP: 78702
-- County: Travis
+- Street: 24206 Aguilar Courts Apt. 482
+- City: Miami
+- State: FL
+- ZIP: 33131
+- County: Miami-Dade
 
 ## Dependents
-- Richard Burns (son) — SSN: 414-81-3212
-- Michael Burns (son) — SSN: 187-90-6335
-- Brooke Burns (daughter) — SSN: 189-72-3975
+- None
 
 ## Filing Details
 - Federal Status: head_of_household
 - State Status: head_of_household
-- Residency: TX
+- Residency: FL

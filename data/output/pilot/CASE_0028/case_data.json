@@ -1,90 +1,71 @@
 {
   "case_id": "CASE_0028",
-  "tax_year": 2020,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Renee",
     "last_name": "Carter",
     "ssn": "221-47-8527",
     "dob": "1998-07-09",
     "occupation": "Project Coordinator",
-    "employer": "Northwind LLC",
+    "employer": "Vertex Solutions",
     "full_name": "Renee Carter"
   },
-  "spouse": {
-    "first_name": "Shannon",
-    "last_name": "Morris",
-    "ssn": "560-27-6278",
-    "dob": "1974-07-13",
-    "occupation": "Accountant",
-    "employer": "Public School District",
-    "full_name": "Shannon Morris"
-  },
+  "spouse": null,
   "address": {
-    "street": "936 Young Run",
-    "city": "Austin",
-    "state": "TX",
-    "zip_code": "73301",
-    "county": "Travis"
+    "street": "51293 Shaffer Freeway Suite 185",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "95833",
+    "county": "Sacramento"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "TX",
+    "federal_status": "single",
+    "state_status": "single",
+    "residency_state": "CA",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Charles",
-      "last_name": "Flores",
-      "ssn": "258-96-4547",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Charles Flores"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
-    "w2": {
-      "employer_name": "Northwind LLC",
-      "wages_box1": 68904,
-      "federal_withholding": 9955,
-      "state_wages": 68904,
-      "state_withholding": 0
-    },
+    "w2": null,
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 1083
+      "taxable_interest": 366
     },
-    "dividend_1099_div": null,
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 2865,
+      "qualified_dividends": 2449
+    },
     "schedule_c": null
   },
   "federal_return": {
-    "total_income": 69987,
+    "total_income": 3231,
     "adjustments": 0,
-    "agi": 69987,
-    "standard_deduction": 24800,
+    "agi": 3231,
+    "standard_deduction": 14600,
     "qbi_deduction": 0,
-    "taxable_income": 45187,
-    "tax_before_credits": 5022,
-    "child_tax_credit": 2000,
-    "self_employment_tax": 0,
-    "total_tax": 3022,
-    "total_payments": 9955,
-    "refund": 6933,
-    "balance_due": 0
-  },
-  "state_return": {
-    "state_code": "TX",
-    "state_adjustments_additions": 0,
-    "state_adjustments_subtractions": 0,
-    "state_agi": 69987,
-    "standard_deduction": 0,
-    "taxable_income": 69987,
+    "taxable_income": 0,
     "tax_before_credits": 0,
-    "exemption_credits": 0,
+    "child_tax_credit": 0,
+    "self_employment_tax": 0,
     "total_tax": 0,
     "total_payments": 0,
     "refund": 0,
     "balance_due": 0
   },
-  "dependent_count": 1
+  "state_return": {
+    "state_code": "CA",
+    "state_adjustments_additions": 0,
+    "state_adjustments_subtractions": 0,
+    "state_agi": 3231,
+    "standard_deduction": 11080,
+    "taxable_income": 0,
+    "tax_before_credits": 0,
+    "exemption_credits": 149,
+    "total_tax": 0,
+    "total_payments": 0,
+    "refund": 0,
+    "balance_due": 0
+  },
+  "dependent_count": 0
 }

@@ -4,32 +4,40 @@
 - Form 1040 - U.S. Individual Income Tax Return
 - Schedule 1 - Additional Income & Adjustments
 - Schedule 2 - Additional Taxes
+
 - Schedule B - Interest & Dividends
 
+- Schedule C - Profit or Loss from Business
+- Schedule SE - Self-Employment Tax
+- Form 8995 - Qualified Business Income Deduction
+
+- Schedule 8812 - Credits for Qualifying Children and Other Dependents
+
 ## State Forms
-- State Resident Income Tax Return
+- No State Income Tax Return Required
 
 ## Federal Return Snapshot
-- Total Income: $61039
-- AGI: $61039
-- Standard Deduction: $13850
-- QBI Deduction: $0
-- Taxable Income: $47189
-- Tax Before Credits: $5662
-- Child Tax Credit: $0
-- Self-Employment Tax: $0
-- Total Tax: $5662
-- Total Payments: $6638
-- Refund: $976
-- Balance Due: $0
+- Total Income: $94680
+- AGI: $92271
+- Standard Deduction: $21900
+- QBI Deduction: $6338
+- Taxable Income: $64033
+- Tax Before Credits: $7787
+- Child Tax Credit: $2000
+- Self-Employment Tax: $4818
+- Total Tax: $10605
+- Total Payments: $8173
+- Refund: $0
+- Balance Due: $2432
 
 ## State Return Snapshot
-- State AGI: $61039
+- State Code: FL
+- State AGI: $92271
 - Standard Deduction: $0
-- Taxable Income: $61039
-- Tax Before Credits: $3021
+- Taxable Income: $92271
+- Tax Before Credits: $0
 - Exemption Credits: $0
-- Total Tax: $3021
-- Total Payments: $1621
+- Total Tax: $0
+- Total Payments: $0
 - Refund: $0
-- Balance Due: $1400
+- Balance Due: $0

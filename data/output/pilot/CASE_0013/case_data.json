@@ -1,33 +1,33 @@
 {
   "case_id": "CASE_0013",
-  "tax_year": 2020,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Christopher",
     "last_name": "Sampson",
     "ssn": "192-35-3457",
     "dob": "1977-06-17",
-    "occupation": "Operations Associate",
-    "employer": "BrightPath Systems",
+    "occupation": "Teacher",
+    "employer": "Northwind LLC",
     "full_name": "Christopher Sampson"
   },
   "spouse": null,
   "address": {
     "street": "24157 Hughes Lodge Suite 680",
-    "city": "New York",
-    "state": "NY",
-    "zip_code": "11201",
-    "county": "New York"
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "95825",
+    "county": "Sacramento"
   },
   "filing": {
-    "federal_status": "single",
-    "state_status": "single",
-    "residency_state": "NY",
+    "federal_status": "head_of_household",
+    "state_status": "head_of_household",
+    "residency_state": "CA",
     "full_year_resident": true
   },
   "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "BrightPath Systems",
+      "employer_name": "Northwind LLC",
       "wages_box1": 54043,
       "federal_withholding": 5629,
       "state_wages": 54043,
@@ -56,30 +56,30 @@
     "total_income": 95441,
     "adjustments": 2706,
     "agi": 92735,
-    "standard_deduction": 12400,
+    "standard_deduction": 21900,
     "qbi_deduction": 7121,
-    "taxable_income": 73214,
-    "tax_before_credits": 11387,
+    "taxable_income": 63714,
+    "tax_before_credits": 7717,
     "child_tax_credit": 0,
     "self_employment_tax": 5413,
-    "total_tax": 16800,
+    "total_tax": 13130,
     "total_payments": 5629,
     "refund": 0,
-    "balance_due": 11171
+    "balance_due": 7501
   },
   "state_return": {
-    "state_code": "NY",
+    "state_code": "CA",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
     "state_agi": 92735,
-    "standard_deduction": 8000,
-    "taxable_income": 84735,
-    "tax_before_credits": 3510,
-    "exemption_credits": 100,
-    "total_tax": 3410,
+    "standard_deduction": 11080,
+    "taxable_income": 81655,
+    "tax_before_credits": 2066,
+    "exemption_credits": 149,
+    "total_tax": 1917,
     "total_payments": 1651,
     "refund": 0,
-    "balance_due": 1759
+    "balance_due": 266
   },
   "dependent_count": 0
 }

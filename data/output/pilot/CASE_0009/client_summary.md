@@ -4,21 +4,27 @@
 - Name: John Shaw
 - SSN: 349-74-3653
 - DOB: 1978-04-10
-- Occupation: Teacher
+- Occupation: Sales Executive
+- Employer: Northwind LLC
 
 ## Spouse
-- Name: John Chaney- SSN: 351-39-5191- DOB: 1984-08-30- Occupation: Operations Executive- Employer: CarePoint Health
+- Name: N/A
+- SSN: N/A
+- DOB: N/A
+- Occupation: N/A
+- Employer: N/A
+
 ## Address
-- Street: 788 Willis Lake Suite 460
-- City: Chicago
-- State: IL
-- ZIP: 60614
-- County: Cook
+- Street: 84687 Willis Lake
+- City: New York
+- State: NY
+- ZIP: 10011
+- County: New York
 
 ## Dependents
-- None
+- Paul Ramirez (daughter) — SSN: 336-80-5191
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: IL
+- Federal Status: head_of_household
+- State Status: head_of_household
+- Residency: NY

@@ -5,7 +5,7 @@
 - SSN: 178-61-1654
 - DOB: 1982-10-22
 - Occupation: Sales Executive
-- Employer: Northwind LLC
+- Employer: BlueWave Inc
 
 ## Spouse
 - Name: N/A
@@ -16,10 +16,10 @@
 
 ## Address
 - Street: 800 Krista Roads
-- City: Miami
-- State: FL
-- ZIP: 33130
-- County: Miami-Dade
+- City: Sacramento
+- State: CA
+- ZIP: 95821
+- County: Sacramento
 
 ## Dependents
 - None
@@ -27,4 +27,4 @@
 ## Filing Details
 - Federal Status: single
 - State Status: single
-- Residency: FL
+- Residency: CA

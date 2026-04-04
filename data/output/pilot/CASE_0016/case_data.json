@@ -13,15 +13,15 @@
   "spouse": null,
   "address": {
     "street": "76544 Lara Manor",
-    "city": "New York",
-    "state": "NY",
-    "zip_code": "10011",
-    "county": "New York"
+    "city": "Chicago",
+    "state": "IL",
+    "zip_code": "60607",
+    "county": "Cook"
   },
   "filing": {
     "federal_status": "single",
     "state_status": "single",
-    "residency_state": "NY",
+    "residency_state": "IL",
     "full_year_resident": true
   },
   "dependents": [],
@@ -62,18 +62,18 @@
     "balance_due": 14452
   },
   "state_return": {
-    "state_code": "NY",
+    "state_code": "IL",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
     "state_agi": 68370,
-    "standard_deduction": 8000,
-    "taxable_income": 60370,
-    "tax_before_credits": 2170,
-    "exemption_credits": 100,
-    "total_tax": 2070,
+    "standard_deduction": 0,
+    "taxable_income": 68370,
+    "tax_before_credits": 3384,
+    "exemption_credits": 0,
+    "total_tax": 3384,
     "total_payments": 0,
     "refund": 0,
-    "balance_due": 2070
+    "balance_due": 3384
   },
   "dependent_count": 0
 }

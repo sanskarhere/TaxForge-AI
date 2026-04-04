@@ -1,6 +1,6 @@
 {
   "case_id": "CASE_0036",
-  "tax_year": 2021,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Lisa",
     "last_name": "Davis",
@@ -13,15 +13,15 @@
   "spouse": null,
   "address": {
     "street": "26376 Mary Freeway Apt. 565",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "95825",
-    "county": "Sacramento"
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "11201",
+    "county": "New York"
   },
   "filing": {
     "federal_status": "single",
     "state_status": "single",
-    "residency_state": "CA",
+    "residency_state": "NY",
     "full_year_resident": true
   },
   "dependents": [],
@@ -52,30 +52,30 @@
     "total_income": 82078,
     "adjustments": 2574,
     "agi": 79504,
-    "standard_deduction": 12550,
+    "standard_deduction": 14600,
     "qbi_deduction": 6772,
-    "taxable_income": 60182,
-    "tax_before_credits": 8520,
+    "taxable_income": 58132,
+    "tax_before_credits": 8069,
     "child_tax_credit": 0,
     "self_employment_tax": 5148,
-    "total_tax": 13668,
+    "total_tax": 13217,
     "total_payments": 5859,
     "refund": 0,
-    "balance_due": 7809
+    "balance_due": 7358
   },
   "state_return": {
-    "state_code": "CA",
+    "state_code": "NY",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
     "state_agi": 79504,
-    "standard_deduction": 11080,
-    "taxable_income": 68424,
-    "tax_before_credits": 1537,
-    "exemption_credits": 149,
-    "total_tax": 1388,
+    "standard_deduction": 8000,
+    "taxable_income": 71504,
+    "tax_before_credits": 2783,
+    "exemption_credits": 100,
+    "total_tax": 2683,
     "total_payments": 2059,
-    "refund": 671,
-    "balance_due": 0
+    "refund": 0,
+    "balance_due": 624
   },
   "dependent_count": 0
 }

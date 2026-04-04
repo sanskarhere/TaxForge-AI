@@ -1,6 +1,6 @@
 {
   "case_id": "CASE_0038",
-  "tax_year": 2022,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Joseph",
     "last_name": "Weaver",
@@ -10,83 +10,62 @@
     "employer": "Vertex Solutions",
     "full_name": "Joseph Weaver"
   },
-  "spouse": {
-    "first_name": "Miguel",
-    "last_name": "Patel",
-    "ssn": "825-63-7046",
-    "dob": "1992-10-02",
-    "occupation": "Accountant",
-    "employer": "CarePoint Health",
-    "full_name": "Miguel Patel"
-  },
+  "spouse": null,
   "address": {
-    "street": "639 Paul Extension",
-    "city": "Miami",
-    "state": "FL",
-    "zip_code": "33131",
-    "county": "Miami-Dade"
+    "street": "8650 Mcfarland River Apt. 632",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78704",
+    "county": "Travis"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "FL",
+    "federal_status": "single",
+    "state_status": "single",
+    "residency_state": "TX",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Sophia",
-      "last_name": "Hart",
-      "ssn": "645-61-7139",
-      "relationship": "son",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Sophia Hart"
-    },
-    {
-      "first_name": "Shannon",
-      "last_name": "Anderson",
-      "ssn": "125-80-7280",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Shannon Anderson"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
     "w2": {
       "employer_name": "Vertex Solutions",
-      "wages_box1": 82502,
-      "federal_withholding": 6959,
-      "state_wages": 82502,
+      "wages_box1": 76917,
+      "federal_withholding": 8623,
+      "state_wages": 76917,
       "state_withholding": 0
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 1202
+      "taxable_interest": 835
     },
-    "dividend_1099_div": null,
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 3943,
+      "qualified_dividends": 2531
+    },
     "schedule_c": null
   },
   "federal_return": {
-    "total_income": 83704,
+    "total_income": 81695,
     "adjustments": 0,
-    "agi": 83704,
-    "standard_deduction": 25900,
+    "agi": 81695,
+    "standard_deduction": 14600,
     "qbi_deduction": 0,
-    "taxable_income": 57804,
-    "tax_before_credits": 6536,
-    "child_tax_credit": 4000,
+    "taxable_income": 67095,
+    "tax_before_credits": 10041,
+    "child_tax_credit": 0,
     "self_employment_tax": 0,
-    "total_tax": 2536,
-    "total_payments": 6959,
-    "refund": 4423,
-    "balance_due": 0
+    "total_tax": 10041,
+    "total_payments": 8623,
+    "refund": 0,
+    "balance_due": 1418
   },
   "state_return": {
-    "state_code": "FL",
+    "state_code": "TX",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 83704,
+    "state_agi": 81695,
     "standard_deduction": 0,
-    "taxable_income": 83704,
+    "taxable_income": 81695,
     "tax_before_credits": 0,
     "exemption_credits": 0,
     "total_tax": 0,
@@ -94,5 +73,5 @@
     "refund": 0,
     "balance_due": 0
   },
-  "dependent_count": 2
+  "dependent_count": 0
 }

@@ -1,37 +1,37 @@
 {
   "case_id": "CASE_0004",
-  "tax_year": 2020,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Pamela",
     "last_name": "Ross",
     "ssn": "178-61-1654",
     "dob": "1982-10-22",
     "occupation": "Sales Executive",
-    "employer": "Northwind LLC",
+    "employer": "BlueWave Inc",
     "full_name": "Pamela Ross"
   },
   "spouse": null,
   "address": {
     "street": "800 Krista Roads",
-    "city": "Miami",
-    "state": "FL",
-    "zip_code": "33130",
-    "county": "Miami-Dade"
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "95821",
+    "county": "Sacramento"
   },
   "filing": {
     "federal_status": "single",
     "state_status": "single",
-    "residency_state": "FL",
+    "residency_state": "CA",
     "full_year_resident": true
   },
   "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "Northwind LLC",
+      "employer_name": "BlueWave Inc",
       "wages_box1": 51959,
       "federal_withholding": 6583,
       "state_wages": 51959,
-      "state_withholding": 0
+      "state_withholding": 2516
     },
     "interest_1099_int": null,
     "dividend_1099_div": null,
@@ -41,29 +41,29 @@
     "total_income": 51959,
     "adjustments": 0,
     "agi": 51959,
-    "standard_deduction": 12400,
+    "standard_deduction": 14600,
     "qbi_deduction": 0,
-    "taxable_income": 39559,
-    "tax_before_credits": 4527,
+    "taxable_income": 37359,
+    "tax_before_credits": 4263,
     "child_tax_credit": 0,
     "self_employment_tax": 0,
-    "total_tax": 4527,
+    "total_tax": 4263,
     "total_payments": 6583,
-    "refund": 2056,
+    "refund": 2320,
     "balance_due": 0
   },
   "state_return": {
-    "state_code": "FL",
+    "state_code": "CA",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
     "state_agi": 51959,
-    "standard_deduction": 0,
-    "taxable_income": 51959,
-    "tax_before_credits": 0,
-    "exemption_credits": 0,
-    "total_tax": 0,
-    "total_payments": 0,
-    "refund": 0,
+    "standard_deduction": 11080,
+    "taxable_income": 40879,
+    "tax_before_credits": 618,
+    "exemption_credits": 149,
+    "total_tax": 469,
+    "total_payments": 2516,
+    "refund": 2047,
     "balance_due": 0
   },
   "dependent_count": 0

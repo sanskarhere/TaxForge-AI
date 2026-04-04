@@ -4,21 +4,27 @@
 - Name: Thomas Mccoy
 - SSN: 587-25-7618
 - DOB: 1994-09-29
-- Occupation: Project Coordinator
+- Occupation: Sales Executive
+- Employer: Vertex Solutions
 
 ## Spouse
-- Name: Amanda Mcdaniel- SSN: 649-97-1276- DOB: 1981-02-07- Occupation: Teacher- Employer: Brooks Consulting
+- Name: N/A
+- SSN: N/A
+- DOB: N/A
+- Occupation: N/A
+- Employer: N/A
+
 ## Address
-- Street: 321 Alexander Stravenue Apt. 160
-- City: Sacramento
-- State: CA
-- ZIP: 95821
-- County: Sacramento
+- Street: 43216 Gonzalez Burg
+- City: Miami
+- State: FL
+- ZIP: 33101
+- County: Miami-Dade
 
 ## Dependents
 - None
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: CA
+- Federal Status: single
+- State Status: single
+- Residency: FL

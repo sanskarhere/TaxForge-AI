@@ -6,84 +6,72 @@
     "last_name": "Castro",
     "ssn": "673-11-8760",
     "dob": "1999-06-28",
-    "occupation": "Sales Executive",
-    "employer": "BrightPath Systems",
+    "occupation": "Operations Associate",
+    "employer": "BlueWave Inc",
     "full_name": "Tammy Castro"
   },
-  "spouse": {
-    "first_name": "Denise",
-    "last_name": "Turner",
-    "ssn": "768-76-5933",
-    "dob": "1995-11-16",
-    "occupation": "Operations Executive",
-    "employer": "Nexa Services",
-    "full_name": "Denise Turner"
-  },
+  "spouse": null,
   "address": {
-    "street": "59154 Andrew Ports",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "95833",
-    "county": "Sacramento"
+    "street": "631 Montgomery Junction Suite 930",
+    "city": "Chicago",
+    "state": "IL",
+    "zip_code": "60610",
+    "county": "Cook"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "CA",
+    "federal_status": "single",
+    "state_status": "single",
+    "residency_state": "IL",
     "full_year_resident": true
   },
   "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "BrightPath Systems",
-      "wages_box1": 48193,
-      "federal_withholding": 5300,
-      "state_wages": 48193,
-      "state_withholding": 1062
+      "employer_name": "BlueWave Inc",
+      "wages_box1": 69562,
+      "federal_withholding": 9501,
+      "state_wages": 69562,
+      "state_withholding": 1588
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 1225
+      "taxable_interest": 740
     },
-    "dividend_1099_div": null,
-    "schedule_c": {
-      "business_name": "Creative Studio LLC",
-      "business_code": "541510",
-      "business_description": "Freelance Graphic & Web Design",
-      "gross_receipts": 57644,
-      "total_expenses": 15352,
-      "depreciation": 2383,
-      "other_expenses": 2281
-    }
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 2450,
+      "qualified_dividends": 848
+    },
+    "schedule_c": null
   },
   "federal_return": {
-    "total_income": 91710,
-    "adjustments": 2988,
-    "agi": 88722,
-    "standard_deduction": 29200,
-    "qbi_deduction": 7861,
-    "taxable_income": 51661,
-    "tax_before_credits": 5799,
+    "total_income": 72752,
+    "adjustments": 0,
+    "agi": 72752,
+    "standard_deduction": 14600,
+    "qbi_deduction": 0,
+    "taxable_income": 58152,
+    "tax_before_credits": 8073,
     "child_tax_credit": 0,
-    "self_employment_tax": 5976,
-    "total_tax": 11775,
-    "total_payments": 5300,
-    "refund": 0,
-    "balance_due": 6475
+    "self_employment_tax": 0,
+    "total_tax": 8073,
+    "total_payments": 9501,
+    "refund": 1428,
+    "balance_due": 0
   },
   "state_return": {
-    "state_code": "CA",
+    "state_code": "IL",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 88722,
-    "standard_deduction": 11080,
-    "taxable_income": 77642,
-    "tax_before_credits": 1906,
-    "exemption_credits": 298,
-    "total_tax": 1608,
-    "total_payments": 1062,
+    "state_agi": 72752,
+    "standard_deduction": 0,
+    "taxable_income": 72752,
+    "tax_before_credits": 3601,
+    "exemption_credits": 0,
+    "total_tax": 3601,
+    "total_payments": 1588,
     "refund": 0,
-    "balance_due": 546
+    "balance_due": 2013
   },
   "dependent_count": 0
 }

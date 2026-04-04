@@ -4,21 +4,27 @@
 - Name: Tammy Castro
 - SSN: 673-11-8760
 - DOB: 1999-06-28
-- Occupation: Sales Executive
+- Occupation: Operations Associate
+- Employer: BlueWave Inc
 
 ## Spouse
-- Name: Denise Turner- SSN: 768-76-5933- DOB: 1995-11-16- Occupation: Operations Executive- Employer: Nexa Services
+- Name: N/A
+- SSN: N/A
+- DOB: N/A
+- Occupation: N/A
+- Employer: N/A
+
 ## Address
-- Street: 59154 Andrew Ports
-- City: Sacramento
-- State: CA
-- ZIP: 95833
-- County: Sacramento
+- Street: 631 Montgomery Junction Suite 930
+- City: Chicago
+- State: IL
+- ZIP: 60610
+- County: Cook
 
 ## Dependents
 - None
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: CA
+- Federal Status: single
+- State Status: single
+- Residency: IL

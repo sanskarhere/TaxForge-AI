@@ -1,16 +1,13 @@
+# EXECUTIVE SUMMARY
+
 ## State Summary
-
-- State Code: IL
-
+- State Code: CA
 - State AGI: $130341
-- Standard Deduction: $0
-- Taxable Income: $130341
-
-- Tax Before Credits: $6452
-- Exemption Credits: $0
-
-- Total Tax: $6452
+- Standard Deduction: $11080
+- Taxable Income: $119261
+- Tax Before Credits: $3570
+- Exemption Credits: $1071
+- Total Tax: $2499
 - Total Payments: $2376
-
 - Refund: $0
-- Balance Due: $4076
+- Balance Due: $123

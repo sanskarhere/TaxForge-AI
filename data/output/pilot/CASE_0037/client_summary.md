@@ -4,16 +4,22 @@
 - Name: Dustin Bailey
 - SSN: 248-66-6726
 - DOB: 1978-05-05
-- Occupation: Teacher
+- Occupation: Sales Executive
+- Employer: Northwind LLC
 
 ## Spouse
-- Name: N/A- SSN: N/A- DOB: N/A- Occupation: N/A- Employer: N/A
+- Name: N/A
+- SSN: N/A
+- DOB: N/A
+- Occupation: N/A
+- Employer: N/A
+
 ## Address
 - Street: 72150 Daniel Stream
-- City: Miami
-- State: FL
-- ZIP: 33130
-- County: Miami-Dade
+- City: New York
+- State: NY
+- ZIP: 10011
+- County: New York
 
 ## Dependents
 - None
@@ -21,4 +27,4 @@
 ## Filing Details
 - Federal Status: single
 - State Status: single
-- Residency: FL
+- Residency: NY

@@ -1,16 +1,13 @@
+# EXECUTIVE SUMMARY
+
 ## State Summary
-
-- State Code: IL
-
-- State AGI: $61039
+- State Code: FL
+- State AGI: $92271
 - Standard Deduction: $0
-- Taxable Income: $61039
-
-- Tax Before Credits: $3021
+- Taxable Income: $92271
+- Tax Before Credits: $0
 - Exemption Credits: $0
-
-- Total Tax: $3021
-- Total Payments: $1621
-
+- Total Tax: $0
+- Total Payments: $0
 - Refund: $0
-- Balance Due: $1400
+- Balance Due: $0

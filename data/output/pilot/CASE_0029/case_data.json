@@ -1,6 +1,6 @@
 {
   "case_id": "CASE_0029",
-  "tax_year": 2022,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Mario",
     "last_name": "Harvey",
@@ -21,15 +21,15 @@
   },
   "address": {
     "street": "38093 Lisa Pine Suite 725",
-    "city": "Chicago",
-    "state": "IL",
-    "zip_code": "60610",
-    "county": "Cook"
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78702",
+    "county": "Travis"
   },
   "filing": {
     "federal_status": "married_filing_jointly",
     "state_status": "married_filing_jointly",
-    "residency_state": "IL",
+    "residency_state": "TX",
     "full_year_resident": true
   },
   "dependents": [
@@ -60,10 +60,10 @@
     "total_income": 36681,
     "adjustments": 2592,
     "agi": 34089,
-    "standard_deduction": 25900,
+    "standard_deduction": 29200,
     "qbi_deduction": 6818,
-    "taxable_income": 1371,
-    "tax_before_credits": 137,
+    "taxable_income": 0,
+    "tax_before_credits": 0,
     "child_tax_credit": 2000,
     "self_employment_tax": 5183,
     "total_tax": 5183,
@@ -72,18 +72,18 @@
     "balance_due": 5183
   },
   "state_return": {
-    "state_code": "IL",
+    "state_code": "TX",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
     "state_agi": 34089,
     "standard_deduction": 0,
     "taxable_income": 34089,
-    "tax_before_credits": 1687,
+    "tax_before_credits": 0,
     "exemption_credits": 0,
-    "total_tax": 1687,
+    "total_tax": 0,
     "total_payments": 0,
     "refund": 0,
-    "balance_due": 1687
+    "balance_due": 0
   },
   "dependent_count": 1
 }

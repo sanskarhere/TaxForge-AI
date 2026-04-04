@@ -11,30 +11,30 @@
 - Schedule 8812 - Credits for Qualifying Children and Other Dependents
 
 ## State Forms
-- Illinois IL-1040 - Individual Income Tax Return
+- No State Income Tax Return Required
 
 ## Federal Return Snapshot
 - Total Income: $81589
 - AGI: $81589
-- Standard Deduction: $27700
+- Standard Deduction: $29200
 - QBI Deduction: $0
-- Taxable Income: $53889
-- Tax Before Credits: $6067
+- Taxable Income: $52389
+- Tax Before Credits: $5887
 - Child Tax Credit: $2000
 - Self-Employment Tax: $0
-- Total Tax: $4067
+- Total Tax: $3887
 - Total Payments: $6397
-- Refund: $2330
+- Refund: $2510
 - Balance Due: $0
 
 ## State Return Snapshot
-- State Code: IL
+- State Code: FL
 - State AGI: $81589
 - Standard Deduction: $0
 - Taxable Income: $81589
-- Tax Before Credits: $4039
+- Tax Before Credits: $0
 - Exemption Credits: $0
-- Total Tax: $4039
-- Total Payments: $1958
+- Total Tax: $0
+- Total Payments: $0
 - Refund: $0
-- Balance Due: $2081
+- Balance Due: $0

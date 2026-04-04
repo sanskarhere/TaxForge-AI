@@ -1,102 +1,73 @@
 {
   "case_id": "CASE_0031",
-  "tax_year": 2022,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Joshua",
     "last_name": "Shaw",
     "ssn": "386-25-9227",
     "dob": "1979-09-19",
-    "occupation": "Sales Executive",
-    "employer": "Northwind LLC",
+    "occupation": "Project Coordinator",
+    "employer": "BlueWave Inc",
     "full_name": "Joshua Shaw"
   },
-  "spouse": {
-    "first_name": "Steven",
-    "last_name": "Willis",
-    "ssn": "591-82-4000",
-    "dob": "2000-05-30",
-    "occupation": "Designer",
-    "employer": "CarePoint Health",
-    "full_name": "Steven Willis"
-  },
+  "spouse": null,
   "address": {
-    "street": "837 Andrew Loop Apt. 658",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "95833",
-    "county": "Sacramento"
+    "street": "9176 Shannon Brooks Suite 606",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78704",
+    "county": "Travis"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "CA",
+    "federal_status": "single",
+    "state_status": "single",
+    "residency_state": "TX",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Robert",
-      "last_name": "Tran",
-      "ssn": "404-85-2206",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Robert Tran"
-    },
-    {
-      "first_name": "Henry",
-      "last_name": "Brown",
-      "ssn": "598-61-9485",
-      "relationship": "son",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Henry Brown"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "Northwind LLC",
-      "wages_box1": 71549,
-      "federal_withholding": 6356,
-      "state_wages": 71549,
-      "state_withholding": 1979
+      "employer_name": "BlueWave Inc",
+      "wages_box1": 72209,
+      "federal_withholding": 7496,
+      "state_wages": 72209,
+      "state_withholding": 0
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 102
+      "taxable_interest": 1075
     },
-    "dividend_1099_div": {
-      "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 2384,
-      "qualified_dividends": 1729
-    },
+    "dividend_1099_div": null,
     "schedule_c": null
   },
   "federal_return": {
-    "total_income": 74035,
+    "total_income": 73284,
     "adjustments": 0,
-    "agi": 74035,
-    "standard_deduction": 25900,
+    "agi": 73284,
+    "standard_deduction": 14600,
     "qbi_deduction": 0,
-    "taxable_income": 48135,
-    "tax_before_credits": 5376,
-    "child_tax_credit": 4000,
+    "taxable_income": 58684,
+    "tax_before_credits": 8190,
+    "child_tax_credit": 0,
     "self_employment_tax": 0,
-    "total_tax": 1376,
-    "total_payments": 6356,
-    "refund": 4980,
-    "balance_due": 0
+    "total_tax": 8190,
+    "total_payments": 7496,
+    "refund": 0,
+    "balance_due": 694
   },
   "state_return": {
-    "state_code": "CA",
+    "state_code": "TX",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 74035,
-    "standard_deduction": 11080,
-    "taxable_income": 62955,
-    "tax_before_credits": 1318,
-    "exemption_credits": 1220,
-    "total_tax": 98,
-    "total_payments": 1979,
-    "refund": 1881,
+    "state_agi": 73284,
+    "standard_deduction": 0,
+    "taxable_income": 73284,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
+    "total_tax": 0,
+    "total_payments": 0,
+    "refund": 0,
     "balance_due": 0
   },
-  "dependent_count": 2
+  "dependent_count": 0
 }

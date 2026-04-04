@@ -1,16 +1,13 @@
+# EXECUTIVE SUMMARY
+
 ## State Summary
-
-- State Code: TX
-
+- State Code: CA
 - State AGI: $81802
-- Standard Deduction: $0
-- Taxable Income: $81802
-
-- Tax Before Credits: $0
-- Exemption Credits: $0
-
-- Total Tax: $0
-- Total Payments: $0
-
-- Refund: $0
+- Standard Deduction: $11080
+- Taxable Income: $70722
+- Tax Before Credits: $1629
+- Exemption Credits: $149
+- Total Tax: $1480
+- Total Payments: $2809
+- Refund: $1329
 - Balance Due: $0

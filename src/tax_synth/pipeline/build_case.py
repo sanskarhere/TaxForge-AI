@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import random
-
+from tax_synth.config import settings
 from tax_synth.generators.income_generator import IncomeGenerator
 from tax_synth.generators.profile_generator import ProfileGenerator
 from tax_synth.models.case import Dependent, FilingInfo, IncomeDocuments, TaxCase
@@ -56,7 +56,8 @@ def build_one_case(case_id: str, seed: int) -> TaxCase:
     profile_gen = ProfileGenerator(seed=seed)
     income_gen = IncomeGenerator(seed=seed)
 
-    tax_year = rng.choice([2020, 2021, 2022, 2023, 2024])
+    
+    tax_year = settings. tax_year
     state = _pick_state(rng)
     filing_status = _pick_filing_status(rng)
 

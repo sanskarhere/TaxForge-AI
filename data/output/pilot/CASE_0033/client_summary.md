@@ -4,21 +4,27 @@
 - Name: Shannon Kim
 - SSN: 561-84-8153
 - DOB: 1970-02-01
-- Occupation: Software Analyst
+- Occupation: Project Coordinator
+- Employer: Acme Corp
 
 ## Spouse
-- Name: N/A- SSN: N/A- DOB: N/A- Occupation: N/A- Employer: N/A
+- Name: Jessica Palmer
+- SSN: 565-15-9422
+- DOB: 1999-06-03
+- Occupation: Operations Executive
+- Employer: Nexa Services
+
 ## Address
-- Street: 515 Katherine Harbor Suite 597
-- City: Chicago
-- State: IL
-- ZIP: 60614
-- County: Cook
+- Street: 51447 Lawson Oval Suite 606
+- City: Miami
+- State: FL
+- ZIP: 33132
+- County: Miami-Dade
 
 ## Dependents
 - None
 
 ## Filing Details
-- Federal Status: single
-- State Status: single
-- Residency: IL
+- Federal Status: married_filing_jointly
+- State Status: married_filing_jointly
+- Residency: FL

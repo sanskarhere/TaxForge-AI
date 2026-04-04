@@ -4,32 +4,35 @@
 - Form 1040 - U.S. Individual Income Tax Return
 - Schedule 1 - Additional Income & Adjustments
 - Schedule 2 - Additional Taxes
+
 - Schedule B - Interest & Dividends
-- Schedule 8812 - Credits for Qualifying Children and Other Dependents
+
+
 
 ## State Forms
-- State Resident Income Tax Return
+- California Form 540 - Resident Income Tax Return
 
 ## Federal Return Snapshot
-- Total Income: $69987
-- AGI: $69987
-- Standard Deduction: $24800
+- Total Income: $3231
+- AGI: $3231
+- Standard Deduction: $14600
 - QBI Deduction: $0
-- Taxable Income: $45187
-- Tax Before Credits: $5022
-- Child Tax Credit: $2000
+- Taxable Income: $0
+- Tax Before Credits: $0
+- Child Tax Credit: $0
 - Self-Employment Tax: $0
-- Total Tax: $3022
-- Total Payments: $9955
-- Refund: $6933
+- Total Tax: $0
+- Total Payments: $0
+- Refund: $0
 - Balance Due: $0
 
 ## State Return Snapshot
-- State AGI: $69987
-- Standard Deduction: $0
-- Taxable Income: $69987
+- State Code: CA
+- State AGI: $3231
+- Standard Deduction: $11080
+- Taxable Income: $0
 - Tax Before Credits: $0
-- Exemption Credits: $0
+- Exemption Credits: $149
 - Total Tax: $0
 - Total Payments: $0
 - Refund: $0

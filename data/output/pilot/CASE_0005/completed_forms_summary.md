@@ -10,30 +10,30 @@
 
 
 ## State Forms
-- California Form 540 - Resident Income Tax Return
+- No State Income Tax Return Required
 
 ## Federal Return Snapshot
 - Total Income: $59066
 - AGI: $59066
-- Standard Deduction: $12950
+- Standard Deduction: $14600
 - QBI Deduction: $0
-- Taxable Income: $46116
-- Tax Before Credits: $5426
+- Taxable Income: $44466
+- Tax Before Credits: $5116
 - Child Tax Credit: $0
 - Self-Employment Tax: $0
-- Total Tax: $5426
+- Total Tax: $5116
 - Total Payments: $7123
-- Refund: $1697
+- Refund: $2007
 - Balance Due: $0
 
 ## State Return Snapshot
-- State Code: CA
+- State Code: TX
 - State AGI: $59066
-- Standard Deduction: $11080
-- Taxable Income: $47986
-- Tax Before Credits: $760
-- Exemption Credits: $149
-- Total Tax: $611
-- Total Payments: $1870
-- Refund: $1259
+- Standard Deduction: $0
+- Taxable Income: $59066
+- Tax Before Credits: $0
+- Exemption Credits: $0
+- Total Tax: $0
+- Total Payments: $0
+- Refund: $0
 - Balance Due: $0

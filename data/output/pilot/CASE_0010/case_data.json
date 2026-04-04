@@ -1,37 +1,37 @@
 {
   "case_id": "CASE_0010",
-  "tax_year": 2022,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Tiffany",
     "last_name": "Brown",
     "ssn": "374-16-9398",
     "dob": "2002-02-19",
-    "occupation": "Sales Executive",
-    "employer": "Vertex Solutions",
+    "occupation": "Operations Associate",
+    "employer": "BlueWave Inc",
     "full_name": "Tiffany Brown"
   },
   "spouse": null,
   "address": {
     "street": "6022 Rivas Key Suite 008",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "95833",
-    "county": "Sacramento"
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78704",
+    "county": "Travis"
   },
   "filing": {
-    "federal_status": "head_of_household",
-    "state_status": "head_of_household",
-    "residency_state": "CA",
+    "federal_status": "single",
+    "state_status": "single",
+    "residency_state": "TX",
     "full_year_resident": true
   },
   "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "Vertex Solutions",
+      "employer_name": "BlueWave Inc",
       "wages_box1": 66315,
       "federal_withholding": 7464,
       "state_wages": 66315,
-      "state_withholding": 3155
+      "state_withholding": 0
     },
     "interest_1099_int": null,
     "dividend_1099_div": {
@@ -45,29 +45,29 @@
     "total_income": 68106,
     "adjustments": 0,
     "agi": 68106,
-    "standard_deduction": 19400,
+    "standard_deduction": 14600,
     "qbi_deduction": 0,
-    "taxable_income": 48706,
-    "tax_before_credits": 5545,
+    "taxable_income": 53506,
+    "tax_before_credits": 7051,
     "child_tax_credit": 0,
     "self_employment_tax": 0,
-    "total_tax": 5545,
+    "total_tax": 7051,
     "total_payments": 7464,
-    "refund": 1919,
+    "refund": 413,
     "balance_due": 0
   },
   "state_return": {
-    "state_code": "CA",
+    "state_code": "TX",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
     "state_agi": 68106,
-    "standard_deduction": 11080,
-    "taxable_income": 57026,
-    "tax_before_credits": 1081,
-    "exemption_credits": 149,
-    "total_tax": 932,
-    "total_payments": 3155,
-    "refund": 2223,
+    "standard_deduction": 0,
+    "taxable_income": 68106,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
+    "total_tax": 0,
+    "total_payments": 0,
+    "refund": 0,
     "balance_due": 0
   },
   "dependent_count": 0

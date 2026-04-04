@@ -1,37 +1,37 @@
 {
   "case_id": "CASE_0005",
-  "tax_year": 2022,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Michael",
     "last_name": "Jordan",
     "ssn": "460-18-8048",
     "dob": "1998-02-16",
-    "occupation": "Project Coordinator",
-    "employer": "BlueWave Inc",
+    "occupation": "Sales Executive",
+    "employer": "Vertex Solutions",
     "full_name": "Michael Jordan"
   },
   "spouse": null,
   "address": {
     "street": "8669 Laura Shoals Apt. 104",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "95833",
-    "county": "Sacramento"
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78704",
+    "county": "Travis"
   },
   "filing": {
     "federal_status": "single",
     "state_status": "single",
-    "residency_state": "CA",
+    "residency_state": "TX",
     "full_year_resident": true
   },
   "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "BlueWave Inc",
+      "employer_name": "Vertex Solutions",
       "wages_box1": 58870,
       "federal_withholding": 7123,
       "state_wages": 58870,
-      "state_withholding": 1870
+      "state_withholding": 0
     },
     "interest_1099_int": null,
     "dividend_1099_div": {
@@ -45,29 +45,29 @@
     "total_income": 59066,
     "adjustments": 0,
     "agi": 59066,
-    "standard_deduction": 12950,
+    "standard_deduction": 14600,
     "qbi_deduction": 0,
-    "taxable_income": 46116,
-    "tax_before_credits": 5426,
+    "taxable_income": 44466,
+    "tax_before_credits": 5116,
     "child_tax_credit": 0,
     "self_employment_tax": 0,
-    "total_tax": 5426,
+    "total_tax": 5116,
     "total_payments": 7123,
-    "refund": 1697,
+    "refund": 2007,
     "balance_due": 0
   },
   "state_return": {
-    "state_code": "CA",
+    "state_code": "TX",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
     "state_agi": 59066,
-    "standard_deduction": 11080,
-    "taxable_income": 47986,
-    "tax_before_credits": 760,
-    "exemption_credits": 149,
-    "total_tax": 611,
-    "total_payments": 1870,
-    "refund": 1259,
+    "standard_deduction": 0,
+    "taxable_income": 59066,
+    "tax_before_credits": 0,
+    "exemption_credits": 0,
+    "total_tax": 0,
+    "total_payments": 0,
+    "refund": 0,
     "balance_due": 0
   },
   "dependent_count": 0

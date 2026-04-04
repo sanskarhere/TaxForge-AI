@@ -1,76 +1,92 @@
 {
   "case_id": "CASE_0034",
-  "tax_year": 2022,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Mitchell",
     "last_name": "Clements",
     "ssn": "479-69-7383",
     "dob": "1980-11-13",
-    "occupation": "Teacher",
-    "employer": "BrightPath Systems",
+    "occupation": "Project Coordinator",
+    "employer": "Northwind LLC",
     "full_name": "Mitchell Clements"
   },
-  "spouse": null,
+  "spouse": {
+    "first_name": "Regina",
+    "last_name": "Brown",
+    "ssn": "304-48-1864",
+    "dob": "1983-05-28",
+    "occupation": "Accountant",
+    "employer": "Public School District",
+    "full_name": "Regina Brown"
+  },
   "address": {
-    "street": "63447 Hall Isle Suite 358",
-    "city": "Miami",
-    "state": "FL",
-    "zip_code": "33130",
-    "county": "Miami-Dade"
+    "street": "7731 Boone Forks Suite 800",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78704",
+    "county": "Travis"
   },
   "filing": {
-    "federal_status": "head_of_household",
-    "state_status": "head_of_household",
-    "residency_state": "FL",
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
+    "residency_state": "TX",
     "full_year_resident": true
   },
   "dependents": [
     {
-      "first_name": "Bruce",
-      "last_name": "Hopkins",
-      "ssn": "404-16-7850",
+      "first_name": "Donna",
+      "last_name": "Lawrence",
+      "ssn": "343-46-5937",
       "relationship": "daughter",
       "qualifies_child_tax_credit": true,
-      "full_name": "Bruce Hopkins"
+      "full_name": "Donna Lawrence"
     }
   ],
   "income_documents": {
     "w2": {
-      "employer_name": "BrightPath Systems",
-      "wages_box1": 60456,
-      "federal_withholding": 6294,
-      "state_wages": 60456,
+      "employer_name": "Northwind LLC",
+      "wages_box1": 70717,
+      "federal_withholding": 8428,
+      "state_wages": 70717,
       "state_withholding": 0
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 220
+      "taxable_interest": 515
     },
     "dividend_1099_div": null,
-    "schedule_c": null
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 30999,
+      "total_expenses": 13879,
+      "depreciation": 2417,
+      "other_expenses": 2485
+    }
   },
   "federal_return": {
-    "total_income": 60676,
-    "adjustments": 0,
-    "agi": 60676,
-    "standard_deduction": 19400,
-    "qbi_deduction": 0,
-    "taxable_income": 41276,
-    "tax_before_credits": 4653,
+    "total_income": 88352,
+    "adjustments": 1210,
+    "agi": 87142,
+    "standard_deduction": 29200,
+    "qbi_deduction": 3182,
+    "taxable_income": 54760,
+    "tax_before_credits": 6171,
     "child_tax_credit": 2000,
-    "self_employment_tax": 0,
-    "total_tax": 2653,
-    "total_payments": 6294,
-    "refund": 3641,
+    "self_employment_tax": 2419,
+    "total_tax": 6590,
+    "total_payments": 8428,
+    "refund": 1838,
     "balance_due": 0
   },
   "state_return": {
-    "state_code": "FL",
+    "state_code": "TX",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 60676,
+    "state_agi": 87142,
     "standard_deduction": 0,
-    "taxable_income": 60676,
+    "taxable_income": 87142,
     "tax_before_credits": 0,
     "exemption_credits": 0,
     "total_tax": 0,

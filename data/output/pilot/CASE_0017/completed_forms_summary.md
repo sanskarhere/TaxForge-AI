@@ -4,33 +4,38 @@
 - Form 1040 - U.S. Individual Income Tax Return
 - Schedule 1 - Additional Income & Adjustments
 - Schedule 2 - Additional Taxes
-- Schedule B - Interest & Dividends
-- Schedule 8812 - Credits for Qualifying Children and Other Dependents
+
+
+- Schedule C - Profit or Loss from Business
+- Schedule SE - Self-Employment Tax
+- Form 8995 - Qualified Business Income Deduction
+
 
 ## State Forms
-- State Resident Income Tax Return
+- New York IT-201 - Resident Income Tax Return
 
 ## Federal Return Snapshot
-- Total Income: $75640
-- AGI: $75640
-- Standard Deduction: $18800
-- QBI Deduction: $0
-- Taxable Income: $56840
-- Tax Before Credits: $6521
-- Child Tax Credit: $4000
-- Self-Employment Tax: $0
-- Total Tax: $2521
-- Total Payments: $8135
-- Refund: $5614
-- Balance Due: $0
+- Total Income: $59554
+- AGI: $55346
+- Standard Deduction: $14600
+- QBI Deduction: $11069
+- Taxable Income: $29677
+- Tax Before Credits: $3341
+- Child Tax Credit: $0
+- Self-Employment Tax: $8415
+- Total Tax: $11756
+- Total Payments: $0
+- Refund: $0
+- Balance Due: $11756
 
 ## State Return Snapshot
-- State AGI: $75640
-- Standard Deduction: $11080
-- Taxable Income: $64560
-- Tax Before Credits: $1382
-- Exemption Credits: $1071
-- Total Tax: $311
-- Total Payments: $3261
-- Refund: $2950
-- Balance Due: $0
+- State Code: NY
+- State AGI: $55346
+- Standard Deduction: $8000
+- Taxable Income: $47346
+- Tax Before Credits: $1494
+- Exemption Credits: $100
+- Total Tax: $1394
+- Total Payments: $0
+- Refund: $0
+- Balance Due: $1394

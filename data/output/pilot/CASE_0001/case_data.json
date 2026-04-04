@@ -1,6 +1,6 @@
 {
   "case_id": "CASE_0001",
-  "tax_year": 2020,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Benjamin",
     "last_name": "Horton",
@@ -10,93 +10,76 @@
     "employer": "Vertex Solutions",
     "full_name": "Benjamin Horton"
   },
-  "spouse": {
-    "first_name": "Susan",
-    "last_name": "Wood",
-    "ssn": "573-57-2577",
-    "dob": "1973-10-22",
-    "occupation": "Accountant",
-    "employer": "Public School District",
-    "full_name": "Susan Wood"
-  },
+  "spouse": null,
   "address": {
-    "street": "790 Ray Road Suite 620",
-    "city": "Austin",
-    "state": "TX",
-    "zip_code": "78704",
-    "county": "Travis"
+    "street": "1797 Willie Ports Suite 986",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "95833",
+    "county": "Sacramento"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "TX",
+    "federal_status": "single",
+    "state_status": "single",
+    "residency_state": "CA",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Melissa",
-      "last_name": "Wilkins",
-      "ssn": "713-73-1313",
-      "relationship": "son",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Melissa Wilkins"
-    },
-    {
-      "first_name": "Eric",
-      "last_name": "Martin",
-      "ssn": "626-65-7100",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Eric Martin"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
     "w2": {
       "employer_name": "Vertex Solutions",
-      "wages_box1": 77847,
-      "federal_withholding": 11749,
-      "state_wages": 77847,
-      "state_withholding": 0
+      "wages_box1": 87772,
+      "federal_withholding": 12590,
+      "state_wages": 87772,
+      "state_withholding": 2949
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 168
+      "taxable_interest": 89
     },
     "dividend_1099_div": {
       "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 3459,
-      "qualified_dividends": 510
+      "ordinary_dividends": 2461,
+      "qualified_dividends": 1525
     },
-    "schedule_c": null
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 101694,
+      "total_expenses": 52469,
+      "depreciation": 1777,
+      "other_expenses": 1613
+    }
   },
   "federal_return": {
-    "total_income": 81474,
-    "adjustments": 0,
-    "agi": 81474,
-    "standard_deduction": 24800,
-    "qbi_deduction": 0,
-    "taxable_income": 56674,
-    "tax_before_credits": 6401,
-    "child_tax_credit": 4000,
-    "self_employment_tax": 0,
-    "total_tax": 2401,
-    "total_payments": 11749,
-    "refund": 9348,
-    "balance_due": 0
+    "total_income": 139547,
+    "adjustments": 3478,
+    "agi": 136069,
+    "standard_deduction": 14600,
+    "qbi_deduction": 9149,
+    "taxable_income": 112320,
+    "tax_before_credits": 19990,
+    "child_tax_credit": 0,
+    "self_employment_tax": 6955,
+    "total_tax": 26945,
+    "total_payments": 12590,
+    "refund": 0,
+    "balance_due": 14355
   },
   "state_return": {
-    "state_code": "TX",
+    "state_code": "CA",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 81474,
-    "standard_deduction": 0,
-    "taxable_income": 81474,
-    "tax_before_credits": 0,
-    "exemption_credits": 0,
-    "total_tax": 0,
-    "total_payments": 0,
+    "state_agi": 136069,
+    "standard_deduction": 11080,
+    "taxable_income": 124989,
+    "tax_before_credits": 3800,
+    "exemption_credits": 149,
+    "total_tax": 3651,
+    "total_payments": 2949,
     "refund": 0,
-    "balance_due": 0
+    "balance_due": 702
   },
-  "dependent_count": 2
+  "dependent_count": 0
 }

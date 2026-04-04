@@ -13,15 +13,15 @@
   "spouse": null,
   "address": {
     "street": "5282 Alan Green Apt. 107",
-    "city": "New York",
-    "state": "NY",
-    "zip_code": "10011",
-    "county": "New York"
+    "city": "Chicago",
+    "state": "IL",
+    "zip_code": "60607",
+    "county": "Cook"
   },
   "filing": {
     "federal_status": "single",
     "state_status": "single",
-    "residency_state": "NY",
+    "residency_state": "IL",
     "full_year_resident": true
   },
   "dependents": [],
@@ -56,18 +56,18 @@
     "balance_due": 0
   },
   "state_return": {
-    "state_code": "NY",
+    "state_code": "IL",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
     "state_agi": 62688,
-    "standard_deduction": 8000,
-    "taxable_income": 54688,
-    "tax_before_credits": 1858,
-    "exemption_credits": 100,
-    "total_tax": 1758,
+    "standard_deduction": 0,
+    "taxable_income": 62688,
+    "tax_before_credits": 3103,
+    "exemption_credits": 0,
+    "total_tax": 3103,
     "total_payments": 1911,
-    "refund": 153,
-    "balance_due": 0
+    "refund": 0,
+    "balance_due": 1192
   },
   "dependent_count": 0
 }

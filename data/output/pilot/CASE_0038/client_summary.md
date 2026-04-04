@@ -5,21 +5,26 @@
 - SSN: 378-60-9878
 - DOB: 1995-11-21
 - Occupation: Operations Associate
+- Employer: Vertex Solutions
 
 ## Spouse
-- Name: Miguel Patel- SSN: 825-63-7046- DOB: 1992-10-02- Occupation: Accountant- Employer: CarePoint Health
+- Name: N/A
+- SSN: N/A
+- DOB: N/A
+- Occupation: N/A
+- Employer: N/A
+
 ## Address
-- Street: 639 Paul Extension
-- City: Miami
-- State: FL
-- ZIP: 33131
-- County: Miami-Dade
+- Street: 8650 Mcfarland River Apt. 632
+- City: Austin
+- State: TX
+- ZIP: 78704
+- County: Travis
 
 ## Dependents
-- Sophia Hart (son) — SSN: 645-61-7139
-- Shannon Anderson (daughter) — SSN: 125-80-7280
+- None
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: FL
+- Federal Status: single
+- State Status: single
+- Residency: TX

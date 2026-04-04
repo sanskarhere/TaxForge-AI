@@ -4,8 +4,8 @@
 - Name: Michael Jordan
 - SSN: 460-18-8048
 - DOB: 1998-02-16
-- Occupation: Project Coordinator
-- Employer: BlueWave Inc
+- Occupation: Sales Executive
+- Employer: Vertex Solutions
 
 ## Spouse
 - Name: N/A
@@ -16,10 +16,10 @@
 
 ## Address
 - Street: 8669 Laura Shoals Apt. 104
-- City: Sacramento
-- State: CA
-- ZIP: 95833
-- County: Sacramento
+- City: Austin
+- State: TX
+- ZIP: 78704
+- County: Travis
 
 ## Dependents
 - None
@@ -27,4 +27,4 @@
 ## Filing Details
 - Federal Status: single
 - State Status: single
-- Residency: CA
+- Residency: TX

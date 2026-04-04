@@ -4,15 +4,18 @@
 - Form 1040 - U.S. Individual Income Tax Return
 - Schedule 1 - Additional Income & Adjustments
 - Schedule 2 - Additional Taxes
+
 - Schedule B - Interest & Dividends
 
+
+
 ## State Forms
-- State Resident Income Tax Return
+- No State Income Tax Return Required
 
 ## Federal Return Snapshot
 - Total Income: $3033
 - AGI: $3033
-- Standard Deduction: $12950
+- Standard Deduction: $14600
 - QBI Deduction: $0
 - Taxable Income: $0
 - Tax Before Credits: $0
@@ -24,6 +27,7 @@
 - Balance Due: $0
 
 ## State Return Snapshot
+- State Code: TX
 - State AGI: $3033
 - Standard Deduction: $0
 - Taxable Income: $3033

@@ -4,21 +4,28 @@
 - Name: Christina Wu
 - SSN: 731-37-8479
 - DOB: 1998-04-27
-- Occupation: Operations Associate
+- Occupation: Teacher
+- Employer: Vertex Solutions
 
 ## Spouse
-- Name: Wayne Webb- SSN: 614-71-9528- DOB: 1991-10-20- Occupation: Operations Executive- Employer: CarePoint Health
+- Name: N/A
+- SSN: N/A
+- DOB: N/A
+- Occupation: N/A
+- Employer: N/A
+
 ## Address
-- Street: 002 Francis Green Apt. 205
-- City: New York
-- State: NY
-- ZIP: 11201
-- County: New York
+- Street: 857 Michele Camp Apt. 524
+- City: Chicago
+- State: IL
+- ZIP: 60614
+- County: Cook
 
 ## Dependents
-- None
+- Nicole Brown (daughter) — SSN: 835-76-6909
+- Michael Alexander (daughter) — SSN: 851-68-1511
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: NY
+- Federal Status: head_of_household
+- State Status: head_of_household
+- Residency: IL

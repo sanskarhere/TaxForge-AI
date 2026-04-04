@@ -1,16 +1,13 @@
+# EXECUTIVE SUMMARY
+
 ## State Summary
-
-- State Code: NY
-
+- State Code: IL
 - State AGI: $62688
-- Standard Deduction: $8000
-- Taxable Income: $54688
-
-- Tax Before Credits: $1858
-- Exemption Credits: $100
-
-- Total Tax: $1758
+- Standard Deduction: $0
+- Taxable Income: $62688
+- Tax Before Credits: $3103
+- Exemption Credits: $0
+- Total Tax: $3103
 - Total Payments: $1911
-
-- Refund: $153
-- Balance Due: $0
+- Refund: $0
+- Balance Due: $1192

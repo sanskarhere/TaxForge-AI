@@ -4,35 +4,36 @@
 - Form 1040 - U.S. Individual Income Tax Return
 - Schedule 1 - Additional Income & Adjustments
 - Schedule 2 - Additional Taxes
+
 - Schedule B - Interest & Dividends
-- Schedule C - Profit or Loss from Business
-- Schedule SE - Self-Employment Tax
-- Form 8995 - Qualified Business Income Deduction
+
+
 
 ## State Forms
-- State Resident Income Tax Return
+- Illinois IL-1040 - Individual Income Tax Return
 
 ## Federal Return Snapshot
-- Total Income: $91710
-- AGI: $88722
-- Standard Deduction: $29200
-- QBI Deduction: $7861
-- Taxable Income: $51661
-- Tax Before Credits: $5799
+- Total Income: $72752
+- AGI: $72752
+- Standard Deduction: $14600
+- QBI Deduction: $0
+- Taxable Income: $58152
+- Tax Before Credits: $8073
 - Child Tax Credit: $0
-- Self-Employment Tax: $5976
-- Total Tax: $11775
-- Total Payments: $5300
-- Refund: $0
-- Balance Due: $6475
+- Self-Employment Tax: $0
+- Total Tax: $8073
+- Total Payments: $9501
+- Refund: $1428
+- Balance Due: $0
 
 ## State Return Snapshot
-- State AGI: $88722
-- Standard Deduction: $11080
-- Taxable Income: $77642
-- Tax Before Credits: $1906
-- Exemption Credits: $298
-- Total Tax: $1608
-- Total Payments: $1062
+- State Code: IL
+- State AGI: $72752
+- Standard Deduction: $0
+- Taxable Income: $72752
+- Tax Before Credits: $3601
+- Exemption Credits: $0
+- Total Tax: $3601
+- Total Payments: $1588
 - Refund: $0
-- Balance Due: $546
+- Balance Due: $2013

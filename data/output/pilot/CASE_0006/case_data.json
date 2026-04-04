@@ -6,22 +6,22 @@
     "last_name": "Anderson",
     "ssn": "661-50-3160",
     "dob": "1987-10-28",
-    "occupation": "Operations Associate",
+    "occupation": "Sales Executive",
     "employer": "BlueWave Inc",
     "full_name": "Amy Anderson"
   },
   "spouse": null,
   "address": {
     "street": "622 Trevor Forges",
-    "city": "Austin",
-    "state": "TX",
-    "zip_code": "78702",
-    "county": "Travis"
+    "city": "Chicago",
+    "state": "IL",
+    "zip_code": "60610",
+    "county": "Cook"
   },
   "filing": {
     "federal_status": "single",
     "state_status": "single",
-    "residency_state": "TX",
+    "residency_state": "IL",
     "full_year_resident": true
   },
   "dependents": [],
@@ -31,7 +31,7 @@
       "wages_box1": 75116,
       "federal_withholding": 7167,
       "state_wages": 75116,
-      "state_withholding": 0
+      "state_withholding": 3219
     },
     "interest_1099_int": null,
     "dividend_1099_div": {
@@ -57,18 +57,18 @@
     "balance_due": 2236
   },
   "state_return": {
-    "state_code": "TX",
+    "state_code": "IL",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
     "state_agi": 78794,
     "standard_deduction": 0,
     "taxable_income": 78794,
-    "tax_before_credits": 0,
+    "tax_before_credits": 3900,
     "exemption_credits": 0,
-    "total_tax": 0,
-    "total_payments": 0,
+    "total_tax": 3900,
+    "total_payments": 3219,
     "refund": 0,
-    "balance_due": 0
+    "balance_due": 681
   },
   "dependent_count": 0
 }

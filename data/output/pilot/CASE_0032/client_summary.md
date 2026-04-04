@@ -4,21 +4,27 @@
 - Name: Michele Robertson
 - SSN: 725-75-2861
 - DOB: 1974-12-26
-- Occupation: Nurse
+- Occupation: Software Analyst
+- Employer: BrightPath Systems
 
 ## Spouse
-- Name: N/A- SSN: N/A- DOB: N/A- Occupation: N/A- Employer: N/A
+- Name: Luis Marsh
+- SSN: 426-25-6064
+- DOB: 1979-08-19
+- Occupation: Teacher
+- Employer: CarePoint Health
+
 ## Address
-- Street: 42351 Solis Pine Suite 725
+- Street: 1778 Griffin Island
 - City: Chicago
 - State: IL
-- ZIP: 60610
+- ZIP: 60607
 - County: Cook
 
 ## Dependents
-- None
+- Joshua Weber (daughter) — SSN: 321-54-2967
 
 ## Filing Details
-- Federal Status: head_of_household
-- State Status: head_of_household
+- Federal Status: married_filing_jointly
+- State Status: married_filing_jointly
 - Residency: IL

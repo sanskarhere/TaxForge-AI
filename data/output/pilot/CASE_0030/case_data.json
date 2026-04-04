@@ -1,50 +1,50 @@
 {
   "case_id": "CASE_0030",
-  "tax_year": 2020,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Charles",
     "last_name": "Wheeler",
     "ssn": "175-86-4051",
     "dob": "1979-12-06",
-    "occupation": "Teacher",
-    "employer": "BrightPath Systems",
+    "occupation": "Operations Associate",
+    "employer": "Northwind LLC",
     "full_name": "Charles Wheeler"
   },
-  "spouse": {
-    "first_name": "Maurice",
-    "last_name": "Stephens",
-    "ssn": "452-99-9912",
-    "dob": "1992-09-23",
-    "occupation": "Operations Executive",
-    "employer": "CarePoint Health",
-    "full_name": "Maurice Stephens"
-  },
+  "spouse": null,
   "address": {
-    "street": "925 Norman Roads Apt. 370",
-    "city": "Chicago",
-    "state": "IL",
-    "zip_code": "60610",
-    "county": "Cook"
+    "street": "895 Singh Spur Apt. 536",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "95825",
+    "county": "Sacramento"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "IL",
+    "federal_status": "head_of_household",
+    "state_status": "head_of_household",
+    "residency_state": "CA",
     "full_year_resident": true
   },
   "dependents": [
     {
-      "first_name": "Sergio",
-      "last_name": "Barton",
-      "ssn": "414-97-3113",
+      "first_name": "Douglas",
+      "last_name": "Johnson",
+      "ssn": "815-79-7133",
       "relationship": "daughter",
       "qualifies_child_tax_credit": true,
-      "full_name": "Sergio Barton"
+      "full_name": "Douglas Johnson"
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_name": "Lamb",
+      "ssn": "414-97-3113",
+      "relationship": "son",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Jeffrey Lamb"
     }
   ],
   "income_documents": {
     "w2": {
-      "employer_name": "BrightPath Systems",
+      "employer_name": "Northwind LLC",
       "wages_box1": 88066,
       "federal_withholding": 11944,
       "state_wages": 88066,
@@ -66,30 +66,30 @@
     "total_income": 133555,
     "adjustments": 3214,
     "agi": 130341,
-    "standard_deduction": 24800,
+    "standard_deduction": 21900,
     "qbi_deduction": 8455,
-    "taxable_income": 97086,
-    "tax_before_credits": 12959,
-    "child_tax_credit": 2000,
+    "taxable_income": 99986,
+    "tax_before_credits": 15697,
+    "child_tax_credit": 4000,
     "self_employment_tax": 6427,
-    "total_tax": 17386,
+    "total_tax": 18124,
     "total_payments": 11944,
     "refund": 0,
-    "balance_due": 5442
+    "balance_due": 6180
   },
   "state_return": {
-    "state_code": "IL",
+    "state_code": "CA",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
     "state_agi": 130341,
-    "standard_deduction": 0,
-    "taxable_income": 130341,
-    "tax_before_credits": 6452,
-    "exemption_credits": 0,
-    "total_tax": 6452,
+    "standard_deduction": 11080,
+    "taxable_income": 119261,
+    "tax_before_credits": 3570,
+    "exemption_credits": 1071,
+    "total_tax": 2499,
     "total_payments": 2376,
     "refund": 0,
-    "balance_due": 4076
+    "balance_due": 123
   },
-  "dependent_count": 1
+  "dependent_count": 2
 }

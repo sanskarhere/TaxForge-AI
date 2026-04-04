@@ -8,6 +8,10 @@ from tax_synth.renderers.irs_packet_renderer import IRSPacketRenderer
 from tax_synth.renderers.pdf_renderer import PDFRenderer
 from tax_synth.renderers.text_renderer import TextRenderer
 from tax_synth.utils.pdf_merge import merge_pdfs
+from tax_synth.renderers.schedule_c_renderer import ScheduleCRenderer
+from tax_synth.renderers.schedule_se_renderer import ScheduleSERenderer
+from tax_synth.renderers.schedule_b_renderer import ScheduleBRenderer
+from tax_synth.renderers.state_renderer import StateRenderer
 
 
 def export_case(case: TaxCase, output_dir: Path, templates_root: Path) -> None:
@@ -68,7 +72,26 @@ def export_case(case: TaxCase, output_dir: Path, templates_root: Path) -> None:
     packet_renderer.render_form_1040_page1(case, page1_path)
     packet_renderer.render_form_1040_page2(case, page2_path)
 
+    extra_pdfs = []
+    federal_templates = templates_root / "pdf" / "federal"
+
+    sc = ScheduleCRenderer(federal_templates).render(case, case_dir / "schedule_c.pdf")
+    if sc:
+        extra_pdfs.append(sc)
+
+    se = ScheduleSERenderer(federal_templates).render(case, case_dir / "schedule_se.pdf")
+    if se:
+        extra_pdfs.append(se)
+
+    sb = ScheduleBRenderer(federal_templates).render(case, case_dir / "schedule_b.pdf")
+    if sb:
+        extra_pdfs.append(sb)
+
+    state_pdf = StateRenderer().render(case, case_dir / "state_return.pdf")
+    if state_pdf:
+        extra_pdfs.append(state_pdf)
+
     merge_pdfs(
-        [page1_path, page2_path],
-        case_dir / "filled_tax_return.pdf",
+        [page1_path, page2_path] + extra_pdfs,
+        case_dir / "final_tax_packet.pdf",
     )

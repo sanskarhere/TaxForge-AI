@@ -1,13 +1,13 @@
 # EXECUTIVE SUMMARY
 
 ## State Summary
-- State Code: FL
+- State Code: CA
 - State AGI: $51959
-- Standard Deduction: $0
-- Taxable Income: $51959
-- Tax Before Credits: $0
-- Exemption Credits: $0
-- Total Tax: $0
-- Total Payments: $0
-- Refund: $0
+- Standard Deduction: $11080
+- Taxable Income: $40879
+- Tax Before Credits: $618
+- Exemption Credits: $149
+- Total Tax: $469
+- Total Payments: $2516
+- Refund: $2047
 - Balance Due: $0

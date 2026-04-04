@@ -4,33 +4,36 @@
 - Form 1040 - U.S. Individual Income Tax Return
 - Schedule 1 - Additional Income & Adjustments
 - Schedule 2 - Additional Taxes
+
 - Schedule B - Interest & Dividends
-- Schedule 8812 - Credits for Qualifying Children and Other Dependents
+
+
 
 ## State Forms
-- State Resident Income Tax Return
+- No State Income Tax Return Required
 
 ## Federal Return Snapshot
-- Total Income: $74035
-- AGI: $74035
-- Standard Deduction: $25900
+- Total Income: $73284
+- AGI: $73284
+- Standard Deduction: $14600
 - QBI Deduction: $0
-- Taxable Income: $48135
-- Tax Before Credits: $5376
-- Child Tax Credit: $4000
+- Taxable Income: $58684
+- Tax Before Credits: $8190
+- Child Tax Credit: $0
 - Self-Employment Tax: $0
-- Total Tax: $1376
-- Total Payments: $6356
-- Refund: $4980
-- Balance Due: $0
+- Total Tax: $8190
+- Total Payments: $7496
+- Refund: $0
+- Balance Due: $694
 
 ## State Return Snapshot
-- State AGI: $74035
-- Standard Deduction: $11080
-- Taxable Income: $62955
-- Tax Before Credits: $1318
-- Exemption Credits: $1220
-- Total Tax: $98
-- Total Payments: $1979
-- Refund: $1881
+- State Code: TX
+- State AGI: $73284
+- Standard Deduction: $0
+- Taxable Income: $73284
+- Tax Before Credits: $0
+- Exemption Credits: $0
+- Total Tax: $0
+- Total Payments: $0
+- Refund: $0
 - Balance Due: $0

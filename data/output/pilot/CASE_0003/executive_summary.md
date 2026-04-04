@@ -1,10 +1,10 @@
 # EXECUTIVE SUMMARY
 
 ## State Summary
-- State Code: FL
-- State AGI: $0
+- State Code: TX
+- State AGI: $33217
 - Standard Deduction: $0
-- Taxable Income: $0
+- Taxable Income: $33217
 - Tax Before Credits: $0
 - Exemption Credits: $0
 - Total Tax: $0

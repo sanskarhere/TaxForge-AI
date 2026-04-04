@@ -4,27 +4,27 @@
 - Name: Joseph Freeman
 - SSN: 378-63-8995
 - DOB: 1972-10-29
-- Occupation: Software Analyst
-- Employer: BrightPath Systems
+- Occupation: Nurse
+- Employer: Acme Corp
 
 ## Spouse
-- Name: Kevin Smith
-- SSN: 363-20-5967
-- DOB: 2000-03-17
-- Occupation: Accountant
-- Employer: Public School District
+- Name: N/A
+- SSN: N/A
+- DOB: N/A
+- Occupation: N/A
+- Employer: N/A
 
 ## Address
-- Street: 41409 Derek Underpass
-- City: Miami
-- State: FL
-- ZIP: 33131
-- County: Miami-Dade
+- Street: 0170 Justin Crest Suite 091
+- City: Austin
+- State: TX
+- ZIP: 78702
+- County: Travis
 
 ## Dependents
-- Paula Moore (son) — SSN: 122-19-8934
+- None
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: FL
+- Federal Status: single
+- State Status: single
+- Residency: TX

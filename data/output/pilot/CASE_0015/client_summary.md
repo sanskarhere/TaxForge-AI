@@ -4,21 +4,27 @@
 - Name: Brad Lawrence
 - SSN: 143-57-1316
 - DOB: 1968-07-26
-- Occupation: Software Analyst
+- Occupation: Sales Executive
+- Employer: Acme Corp
 
 ## Spouse
-- Name: Jeffrey Morris- SSN: 330-75-6262- DOB: 1999-09-27- Occupation: Operations Executive- Employer: CarePoint Health
+- Name: N/A
+- SSN: N/A
+- DOB: N/A
+- Occupation: N/A
+- Employer: N/A
+
 ## Address
-- Street: 6028 Gray Coves Suite 849
-- City: Austin
-- State: TX
-- ZIP: 78704
-- County: Travis
+- Street: 574 Fields Lane
+- City: Sacramento
+- State: CA
+- ZIP: 95821
+- County: Sacramento
 
 ## Dependents
 - None
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: TX
+- Federal Status: single
+- State Status: single
+- Residency: CA

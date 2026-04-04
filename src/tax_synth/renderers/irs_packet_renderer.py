@@ -265,13 +265,9 @@ class IRSPacketRenderer:
                 "f2_23[0]": federal.refund,
                 "f2_24[0]": federal.refund,
                 "f2_27[0]": 0,
-                "f2_28[0]": 0,
+                "f2_28[0]": federal.balance_due,
                 "f2_29[0]": 0,
             }
-
-            values["f2_27[0]"] = 0
-            values["f2_29[0]"] = 0
-            values["f2_28[0]"] = federal.balance_due
 
             for field, value in values.items():
                 self._draw_text_in_rect(

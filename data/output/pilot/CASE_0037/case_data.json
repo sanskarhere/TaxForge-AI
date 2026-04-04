@@ -1,27 +1,27 @@
 {
   "case_id": "CASE_0037",
-  "tax_year": 2021,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Dustin",
     "last_name": "Bailey",
     "ssn": "248-66-6726",
     "dob": "1978-05-05",
-    "occupation": "Teacher",
+    "occupation": "Sales Executive",
     "employer": "Northwind LLC",
     "full_name": "Dustin Bailey"
   },
   "spouse": null,
   "address": {
     "street": "72150 Daniel Stream",
-    "city": "Miami",
-    "state": "FL",
-    "zip_code": "33130",
-    "county": "Miami-Dade"
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "10011",
+    "county": "New York"
   },
   "filing": {
     "federal_status": "single",
     "state_status": "single",
-    "residency_state": "FL",
+    "residency_state": "NY",
     "full_year_resident": true
   },
   "dependents": [],
@@ -31,7 +31,7 @@
       "wages_box1": 89429,
       "federal_withholding": 12108,
       "state_wages": 89429,
-      "state_withholding": 0
+      "state_withholding": 2204
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
@@ -52,30 +52,30 @@
     "total_income": 139117,
     "adjustments": 3478,
     "agi": 135639,
-    "standard_deduction": 12550,
+    "standard_deduction": 14600,
     "qbi_deduction": 9150,
-    "taxable_income": 113939,
-    "tax_before_credits": 20347,
+    "taxable_income": 111889,
+    "tax_before_credits": 19896,
     "child_tax_credit": 0,
     "self_employment_tax": 6956,
-    "total_tax": 27303,
+    "total_tax": 26852,
     "total_payments": 12108,
     "refund": 0,
-    "balance_due": 15195
+    "balance_due": 14744
   },
   "state_return": {
-    "state_code": "FL",
+    "state_code": "NY",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
     "state_agi": 135639,
-    "standard_deduction": 0,
-    "taxable_income": 135639,
-    "tax_before_credits": 0,
-    "exemption_credits": 0,
-    "total_tax": 0,
-    "total_payments": 0,
+    "standard_deduction": 8000,
+    "taxable_income": 127639,
+    "tax_before_credits": 5870,
+    "exemption_credits": 100,
+    "total_tax": 5770,
+    "total_payments": 2204,
     "refund": 0,
-    "balance_due": 0
+    "balance_due": 3566
   },
   "dependent_count": 0
 }

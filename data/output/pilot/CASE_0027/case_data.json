@@ -1,13 +1,13 @@
 {
   "case_id": "CASE_0027",
-  "tax_year": 2020,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Gabrielle",
     "last_name": "Davis",
     "ssn": "800-14-2570",
     "dob": "1978-08-12",
-    "occupation": "Software Analyst",
-    "employer": "BlueWave Inc",
+    "occupation": "Teacher",
+    "employer": "Acme Corp",
     "full_name": "Gabrielle Davis"
   },
   "spouse": null,
@@ -19,84 +19,61 @@
     "county": "Sacramento"
   },
   "filing": {
-    "federal_status": "head_of_household",
-    "state_status": "head_of_household",
+    "federal_status": "single",
+    "state_status": "single",
     "residency_state": "CA",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Ashley",
-      "last_name": "Rivas",
-      "ssn": "168-87-6646",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Ashley Rivas"
-    },
-    {
-      "first_name": "Ann",
-      "last_name": "Stokes",
-      "ssn": "435-80-7791",
-      "relationship": "daughter",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Ann Stokes"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
-    "w2": {
-      "employer_name": "BlueWave Inc",
-      "wages_box1": 70072,
-      "federal_withholding": 8784,
-      "state_wages": 70072,
-      "state_withholding": 3148
-    },
+    "w2": null,
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 1172
+      "taxable_interest": 1174
     },
     "dividend_1099_div": {
       "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 681,
-      "qualified_dividends": 422
+      "ordinary_dividends": 3494,
+      "qualified_dividends": 1754
     },
     "schedule_c": {
       "business_name": "Creative Studio LLC",
       "business_code": "541510",
       "business_description": "Freelance Graphic & Web Design",
-      "gross_receipts": 38434,
-      "total_expenses": 14386,
-      "depreciation": 602,
-      "other_expenses": 802
+      "gross_receipts": 98084,
+      "total_expenses": 33972,
+      "depreciation": 2245,
+      "other_expenses": 1803
     }
   },
   "federal_return": {
-    "total_income": 95973,
-    "adjustments": 1699,
-    "agi": 94274,
-    "standard_deduction": 18650,
-    "qbi_deduction": 4470,
-    "taxable_income": 71154,
-    "tax_before_credits": 9354,
-    "child_tax_credit": 4000,
-    "self_employment_tax": 3398,
-    "total_tax": 8752,
-    "total_payments": 8784,
-    "refund": 32,
-    "balance_due": 0
+    "total_income": 68780,
+    "adjustments": 4530,
+    "agi": 64250,
+    "standard_deduction": 14600,
+    "qbi_deduction": 11916,
+    "taxable_income": 37734,
+    "tax_before_credits": 4308,
+    "child_tax_credit": 0,
+    "self_employment_tax": 9059,
+    "total_tax": 13367,
+    "total_payments": 0,
+    "refund": 0,
+    "balance_due": 13367
   },
   "state_return": {
     "state_code": "CA",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 94274,
+    "state_agi": 64250,
     "standard_deduction": 11080,
-    "taxable_income": 83194,
-    "tax_before_credits": 2128,
-    "exemption_credits": 1071,
-    "total_tax": 1057,
-    "total_payments": 3148,
-    "refund": 2091,
-    "balance_due": 0
+    "taxable_income": 53170,
+    "tax_before_credits": 927,
+    "exemption_credits": 149,
+    "total_tax": 778,
+    "total_payments": 0,
+    "refund": 0,
+    "balance_due": 778
   },
-  "dependent_count": 2
+  "dependent_count": 0
 }

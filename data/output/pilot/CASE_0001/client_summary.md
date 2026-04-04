@@ -8,24 +8,23 @@
 - Employer: Vertex Solutions
 
 ## Spouse
-- Name: Susan Wood
-- SSN: 573-57-2577
-- DOB: 1973-10-22
-- Occupation: Accountant
-- Employer: Public School District
+- Name: N/A
+- SSN: N/A
+- DOB: N/A
+- Occupation: N/A
+- Employer: N/A
 
 ## Address
-- Street: 790 Ray Road Suite 620
-- City: Austin
-- State: TX
-- ZIP: 78704
-- County: Travis
+- Street: 1797 Willie Ports Suite 986
+- City: Sacramento
+- State: CA
+- ZIP: 95833
+- County: Sacramento
 
 ## Dependents
-- Melissa Wilkins (son) — SSN: 713-73-1313
-- Eric Martin (daughter) — SSN: 626-65-7100
+- None
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: TX
+- Federal Status: single
+- State Status: single
+- Residency: CA

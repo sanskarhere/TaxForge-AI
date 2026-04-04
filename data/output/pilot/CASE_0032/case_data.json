@@ -6,62 +6,90 @@
     "last_name": "Robertson",
     "ssn": "725-75-2861",
     "dob": "1974-12-26",
-    "occupation": "Nurse",
-    "employer": "Acme Corp",
+    "occupation": "Software Analyst",
+    "employer": "BrightPath Systems",
     "full_name": "Michele Robertson"
   },
-  "spouse": null,
+  "spouse": {
+    "first_name": "Luis",
+    "last_name": "Marsh",
+    "ssn": "426-25-6064",
+    "dob": "1979-08-19",
+    "occupation": "Teacher",
+    "employer": "CarePoint Health",
+    "full_name": "Luis Marsh"
+  },
   "address": {
-    "street": "42351 Solis Pine Suite 725",
+    "street": "1778 Griffin Island",
     "city": "Chicago",
     "state": "IL",
-    "zip_code": "60610",
+    "zip_code": "60607",
     "county": "Cook"
   },
   "filing": {
-    "federal_status": "head_of_household",
-    "state_status": "head_of_household",
+    "federal_status": "married_filing_jointly",
+    "state_status": "married_filing_jointly",
     "residency_state": "IL",
     "full_year_resident": true
   },
-  "dependents": [],
+  "dependents": [
+    {
+      "first_name": "Joshua",
+      "last_name": "Weber",
+      "ssn": "321-54-2967",
+      "relationship": "daughter",
+      "qualifies_child_tax_credit": true,
+      "full_name": "Joshua Weber"
+    }
+  ],
   "income_documents": {
-    "w2": null,
-    "interest_1099_int": {
-      "payer_name": "Golden State Community Bank",
-      "taxable_interest": 493
+    "w2": {
+      "employer_name": "BrightPath Systems",
+      "wages_box1": 71931,
+      "federal_withholding": 8770,
+      "state_wages": 71931,
+      "state_withholding": 2038
     },
+    "interest_1099_int": null,
     "dividend_1099_div": null,
-    "schedule_c": null
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 97402,
+      "total_expenses": 25646,
+      "depreciation": 935,
+      "other_expenses": 1795
+    }
   },
   "federal_return": {
-    "total_income": 493,
-    "adjustments": 0,
-    "agi": 493,
-    "standard_deduction": 21900,
-    "qbi_deduction": 0,
-    "taxable_income": 0,
-    "tax_before_credits": 0,
-    "child_tax_credit": 0,
-    "self_employment_tax": 0,
-    "total_tax": 0,
-    "total_payments": 0,
+    "total_income": 143687,
+    "adjustments": 5070,
+    "agi": 138617,
+    "standard_deduction": 29200,
+    "qbi_deduction": 13337,
+    "taxable_income": 96080,
+    "tax_before_credits": 12738,
+    "child_tax_credit": 2000,
+    "self_employment_tax": 10139,
+    "total_tax": 20877,
+    "total_payments": 8770,
     "refund": 0,
-    "balance_due": 0
+    "balance_due": 12107
   },
   "state_return": {
     "state_code": "IL",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 493,
+    "state_agi": 138617,
     "standard_deduction": 0,
-    "taxable_income": 493,
-    "tax_before_credits": 24,
+    "taxable_income": 138617,
+    "tax_before_credits": 6862,
     "exemption_credits": 0,
-    "total_tax": 24,
-    "total_payments": 0,
+    "total_tax": 6862,
+    "total_payments": 2038,
     "refund": 0,
-    "balance_due": 24
+    "balance_due": 4824
   },
-  "dependent_count": 0
+  "dependent_count": 1
 }

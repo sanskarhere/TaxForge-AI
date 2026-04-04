@@ -1,13 +1,13 @@
 {
   "case_id": "CASE_0035",
-  "tax_year": 2022,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Lauren",
     "last_name": "Nguyen",
     "ssn": "358-51-4232",
     "dob": "1983-08-15",
     "occupation": "Teacher",
-    "employer": "Acme Corp",
+    "employer": "Northwind LLC",
     "full_name": "Lauren Nguyen"
   },
   "spouse": null,
@@ -42,7 +42,7 @@
     "total_income": 3033,
     "adjustments": 0,
     "agi": 3033,
-    "standard_deduction": 12950,
+    "standard_deduction": 14600,
     "qbi_deduction": 0,
     "taxable_income": 0,
     "tax_before_credits": 0,

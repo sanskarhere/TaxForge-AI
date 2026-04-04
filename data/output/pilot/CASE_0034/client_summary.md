@@ -4,21 +4,27 @@
 - Name: Mitchell Clements
 - SSN: 479-69-7383
 - DOB: 1980-11-13
-- Occupation: Teacher
+- Occupation: Project Coordinator
+- Employer: Northwind LLC
 
 ## Spouse
-- Name: N/A- SSN: N/A- DOB: N/A- Occupation: N/A- Employer: N/A
+- Name: Regina Brown
+- SSN: 304-48-1864
+- DOB: 1983-05-28
+- Occupation: Accountant
+- Employer: Public School District
+
 ## Address
-- Street: 63447 Hall Isle Suite 358
-- City: Miami
-- State: FL
-- ZIP: 33130
-- County: Miami-Dade
+- Street: 7731 Boone Forks Suite 800
+- City: Austin
+- State: TX
+- ZIP: 78704
+- County: Travis
 
 ## Dependents
-- Bruce Hopkins (daughter) — SSN: 404-16-7850
+- Donna Lawrence (daughter) — SSN: 343-46-5937
 
 ## Filing Details
-- Federal Status: head_of_household
-- State Status: head_of_household
-- Residency: FL
+- Federal Status: married_filing_jointly
+- State Status: married_filing_jointly
+- Residency: TX

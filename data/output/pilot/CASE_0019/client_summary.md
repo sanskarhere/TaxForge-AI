@@ -4,22 +4,27 @@
 - Name: Troy Hawkins
 - SSN: 606-33-4551
 - DOB: 1989-01-26
-- Occupation: Nurse
+- Occupation: Teacher
+- Employer: BrightPath Systems
 
 ## Spouse
-- Name: Kelly Brock- SSN: 428-47-6258- DOB: 1969-02-21- Occupation: Accountant- Employer: Public School District
+- Name: N/A
+- SSN: N/A
+- DOB: N/A
+- Occupation: N/A
+- Employer: N/A
+
 ## Address
-- Street: 5167 Mccann Isle Apt. 812
-- City: New York
-- State: NY
-- ZIP: 10001
-- County: New York
+- Street: 0755 Richard Isle Apt. 508
+- City: Miami
+- State: FL
+- ZIP: 33131
+- County: Miami-Dade
 
 ## Dependents
-- Matthew Hamilton (son) — SSN: 597-55-6887
-- David Powell (daughter) — SSN: 166-61-8558
+- None
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: NY
+- Federal Status: single
+- State Status: single
+- Residency: FL

@@ -1,6 +1,6 @@
 {
   "case_id": "CASE_0024",
-  "tax_year": 2020,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Chad",
     "last_name": "Hamilton",
@@ -13,15 +13,15 @@
   "spouse": null,
   "address": {
     "street": "4817 Taylor Crossroad Apt. 526",
-    "city": "Austin",
-    "state": "TX",
-    "zip_code": "78701",
-    "county": "Travis"
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "95821",
+    "county": "Sacramento"
   },
   "filing": {
     "federal_status": "single",
     "state_status": "single",
-    "residency_state": "TX",
+    "residency_state": "CA",
     "full_year_resident": true
   },
   "dependents": [],
@@ -31,7 +31,7 @@
       "wages_box1": 61270,
       "federal_withholding": 6157,
       "state_wages": 61270,
-      "state_withholding": 0
+      "state_withholding": 2809
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
@@ -52,29 +52,29 @@
     "total_income": 83282,
     "adjustments": 1480,
     "agi": 81802,
-    "standard_deduction": 12400,
+    "standard_deduction": 14600,
     "qbi_deduction": 3894,
-    "taxable_income": 65508,
-    "tax_before_credits": 9692,
+    "taxable_income": 63308,
+    "tax_before_credits": 9208,
     "child_tax_credit": 0,
     "self_employment_tax": 2960,
-    "total_tax": 12652,
+    "total_tax": 12168,
     "total_payments": 6157,
     "refund": 0,
-    "balance_due": 6495
+    "balance_due": 6011
   },
   "state_return": {
-    "state_code": "TX",
+    "state_code": "CA",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
     "state_agi": 81802,
-    "standard_deduction": 0,
-    "taxable_income": 81802,
-    "tax_before_credits": 0,
-    "exemption_credits": 0,
-    "total_tax": 0,
-    "total_payments": 0,
-    "refund": 0,
+    "standard_deduction": 11080,
+    "taxable_income": 70722,
+    "tax_before_credits": 1629,
+    "exemption_credits": 149,
+    "total_tax": 1480,
+    "total_payments": 2809,
+    "refund": 1329,
     "balance_due": 0
   },
   "dependent_count": 0

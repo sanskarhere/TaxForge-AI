@@ -4,22 +4,27 @@
 - Name: Joshua Shaw
 - SSN: 386-25-9227
 - DOB: 1979-09-19
-- Occupation: Sales Executive
+- Occupation: Project Coordinator
+- Employer: BlueWave Inc
 
 ## Spouse
-- Name: Steven Willis- SSN: 591-82-4000- DOB: 2000-05-30- Occupation: Designer- Employer: CarePoint Health
+- Name: N/A
+- SSN: N/A
+- DOB: N/A
+- Occupation: N/A
+- Employer: N/A
+
 ## Address
-- Street: 837 Andrew Loop Apt. 658
-- City: Sacramento
-- State: CA
-- ZIP: 95833
-- County: Sacramento
+- Street: 9176 Shannon Brooks Suite 606
+- City: Austin
+- State: TX
+- ZIP: 78704
+- County: Travis
 
 ## Dependents
-- Robert Tran (daughter) — SSN: 404-85-2206
-- Henry Brown (son) — SSN: 598-61-9485
+- None
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: CA
+- Federal Status: single
+- State Status: single
+- Residency: TX

@@ -1,21 +1,67 @@
-# TAX RETURN DATA PROMPT
+# Prompt Data
 
-## Personal Information
-- Taxpayer: {{ case.taxpayer.first_name }} {{ case.taxpayer.last_name }}
-- Spouse: {% if case.spouse %}{{ case.spouse.first_name }} {{ case.spouse.last_name }}{% else %}N/A{% endif %}
+## Case Metadata
+- Case ID: {{ case.case_id }}
+- Tax Year: {{ case.tax_year }}
+- Residency State: {{ case.filing.residency_state }}
+- Federal Filing Status: {{ case.filing.federal_status }}
+- State Filing Status: {{ case.filing.state_status }}
 
-## Filing Information
-- Filing Status: {{ case.filing.federal_status }}
-- State: {{ case.filing.residency_state }}
+## Taxpayer
+- Name: {{ case.taxpayer.first_name }} {{ case.taxpayer.last_name }}
+- SSN: {{ case.taxpayer.ssn }}
+- Occupation: {{ case.taxpayer.occupation }}
+- Employer: {{ case.taxpayer.employer }}
 
-## Income Sources
+{% if case.spouse %}
+## Spouse
+- Name: {{ case.spouse.first_name }} {{ case.spouse.last_name }}
+- SSN: {{ case.spouse.ssn }}
+- Occupation: {{ case.spouse.occupation }}
+- Employer: {{ case.spouse.employer }}
+{% endif %}
+
+## Address
+- Street: {{ case.address.street }}
+- City: {{ case.address.city }}
+- State: {{ case.address.state }}
+- ZIP: {{ case.address.zip_code }}
+
+## Dependents
+{% if case.dependents and case.dependents|length > 0 %}
+{% for dep in case.dependents %}
+- {{ dep.first_name }} {{ dep.last_name }} | {{ dep.relationship }} | SSN: {{ dep.ssn }}
+{% endfor %}
+{% else %}
+- None
+{% endif %}
+
+## Income Inputs
 - W-2 Wages: {% if case.income_documents.w2 %}${{ case.income_documents.w2.wages_box1 }}{% else %}$0{% endif %}
 - Interest Income: {% if case.income_documents.interest_1099_int %}${{ case.income_documents.interest_1099_int.taxable_interest }}{% else %}$0{% endif %}
 - Dividend Income: {% if case.income_documents.dividend_1099_div %}${{ case.income_documents.dividend_1099_div.ordinary_dividends }}{% else %}$0{% endif %}
-- Business Income (Schedule C): {% if case.income_documents.schedule_c %}${{ case.income_documents.schedule_c.net_profit }}{% else %}$0{% endif %}
+- Qualified Dividends: {% if case.income_documents.dividend_1099_div %}${{ case.income_documents.dividend_1099_div.qualified_dividends }}{% else %}$0{% endif %}
+- Business Income (Schedule C): {% if case.income_documents.schedule_c and case.income_documents.schedule_c.get('net_profit') is not none %}${{ case.income_documents.schedule_c.get('net_profit') }}{% else %}$0{% endif %}
 
 ## Expected Outputs
+- Federal Total Income: ${{ case.federal_return.total_income }}
 - Federal AGI: ${{ case.federal_return.agi }}
+- Federal Standard Deduction: ${{ case.federal_return.standard_deduction }}
 - Federal Taxable Income: ${{ case.federal_return.taxable_income }}
-- Federal Tax: ${{ case.federal_return.total_tax }}
-- {{ case.state_return.state_code }} Taxable Income: ${{ case.state_return.taxable_income }}
+- Federal Tax Before Credits: ${{ case.federal_return.tax_before_credits }}
+- Federal Child Tax Credit: ${{ case.federal_return.child_tax_credit }}
+- Federal Total Tax: ${{ case.federal_return.total_tax }}
+- Federal Total Payments: ${{ case.federal_return.total_payments }}
+- Federal Refund: ${{ case.federal_return.refund }}
+- Federal Balance Due: ${{ case.federal_return.balance_due }}
+
+## State Outputs
+- State Code: {{ case.state_return.state_code }}
+- State AGI: ${{ case.state_return.state_agi }}
+- State Standard Deduction: ${{ case.state_return.standard_deduction }}
+- State Taxable Income: ${{ case.state_return.taxable_income }}
+- State Tax Before Credits: ${{ case.state_return.tax_before_credits }}
+- State Total Tax: ${{ case.state_return.total_tax }}
+- State Total Payments: ${{ case.state_return.total_payments }}
+- State Refund: ${{ case.state_return.refund }}
+- State Balance Due: ${{ case.state_return.balance_due }}

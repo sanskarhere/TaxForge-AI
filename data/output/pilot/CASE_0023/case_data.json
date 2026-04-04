@@ -1,33 +1,33 @@
 {
   "case_id": "CASE_0023",
-  "tax_year": 2023,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Robert",
     "last_name": "Roberts",
     "ssn": "524-46-5713",
     "dob": "1982-03-22",
-    "occupation": "Teacher",
-    "employer": "Vertex Solutions",
+    "occupation": "Sales Executive",
+    "employer": "Northwind LLC",
     "full_name": "Robert Roberts"
   },
   "spouse": null,
   "address": {
     "street": "8785 Yoder Cliffs Suite 437",
-    "city": "Austin",
-    "state": "TX",
-    "zip_code": "78701",
-    "county": "Travis"
+    "city": "Miami",
+    "state": "FL",
+    "zip_code": "33130",
+    "county": "Miami-Dade"
   },
   "filing": {
     "federal_status": "single",
     "state_status": "single",
-    "residency_state": "TX",
+    "residency_state": "FL",
     "full_year_resident": true
   },
   "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "Vertex Solutions",
+      "employer_name": "Northwind LLC",
       "wages_box1": 76650,
       "federal_withholding": 8849,
       "state_wages": 76650,
@@ -48,19 +48,19 @@
     "total_income": 77987,
     "adjustments": 0,
     "agi": 77987,
-    "standard_deduction": 13850,
+    "standard_deduction": 14600,
     "qbi_deduction": 0,
-    "taxable_income": 64137,
-    "tax_before_credits": 9390,
+    "taxable_income": 63387,
+    "tax_before_credits": 9225,
     "child_tax_credit": 0,
     "self_employment_tax": 0,
-    "total_tax": 9390,
+    "total_tax": 9225,
     "total_payments": 8849,
     "refund": 0,
-    "balance_due": 541
+    "balance_due": 376
   },
   "state_return": {
-    "state_code": "TX",
+    "state_code": "FL",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
     "state_agi": 77987,

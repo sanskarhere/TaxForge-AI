@@ -4,7 +4,7 @@
 - Name: Amy Anderson
 - SSN: 661-50-3160
 - DOB: 1987-10-28
-- Occupation: Operations Associate
+- Occupation: Sales Executive
 - Employer: BlueWave Inc
 
 ## Spouse
@@ -16,10 +16,10 @@
 
 ## Address
 - Street: 622 Trevor Forges
-- City: Austin
-- State: TX
-- ZIP: 78702
-- County: Travis
+- City: Chicago
+- State: IL
+- ZIP: 60610
+- County: Cook
 
 ## Dependents
 - None
@@ -27,4 +27,4 @@
 ## Filing Details
 - Federal Status: single
 - State Status: single
-- Residency: TX
+- Residency: IL

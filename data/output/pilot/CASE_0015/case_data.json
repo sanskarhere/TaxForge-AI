@@ -1,81 +1,80 @@
 {
   "case_id": "CASE_0015",
-  "tax_year": 2020,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Brad",
     "last_name": "Lawrence",
     "ssn": "143-57-1316",
     "dob": "1968-07-26",
-    "occupation": "Software Analyst",
-    "employer": "Northwind LLC",
+    "occupation": "Sales Executive",
+    "employer": "Acme Corp",
     "full_name": "Brad Lawrence"
   },
-  "spouse": {
-    "first_name": "Jeffrey",
-    "last_name": "Morris",
-    "ssn": "330-75-6262",
-    "dob": "1999-09-27",
-    "occupation": "Operations Executive",
-    "employer": "CarePoint Health",
-    "full_name": "Jeffrey Morris"
-  },
+  "spouse": null,
   "address": {
-    "street": "6028 Gray Coves Suite 849",
-    "city": "Austin",
-    "state": "TX",
-    "zip_code": "78704",
-    "county": "Travis"
+    "street": "574 Fields Lane",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip_code": "95821",
+    "county": "Sacramento"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "TX",
+    "federal_status": "single",
+    "state_status": "single",
+    "residency_state": "CA",
     "full_year_resident": true
   },
   "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "Northwind LLC",
-      "wages_box1": 70641,
-      "federal_withholding": 9246,
-      "state_wages": 70641,
-      "state_withholding": 0
+      "employer_name": "Acme Corp",
+      "wages_box1": 73284,
+      "federal_withholding": 7564,
+      "state_wages": 73284,
+      "state_withholding": 3608
     },
-    "interest_1099_int": null,
-    "dividend_1099_div": {
-      "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 2216,
-      "qualified_dividends": 1527
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 824
     },
-    "schedule_c": null
+    "dividend_1099_div": null,
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 97725,
+      "total_expenses": 51180,
+      "depreciation": 1527,
+      "other_expenses": 1548
+    }
   },
   "federal_return": {
-    "total_income": 72857,
-    "adjustments": 0,
-    "agi": 72857,
-    "standard_deduction": 24800,
-    "qbi_deduction": 0,
-    "taxable_income": 48057,
-    "tax_before_credits": 5367,
+    "total_income": 120653,
+    "adjustments": 3288,
+    "agi": 117365,
+    "standard_deduction": 14600,
+    "qbi_deduction": 8651,
+    "taxable_income": 94114,
+    "tax_before_credits": 15985,
     "child_tax_credit": 0,
-    "self_employment_tax": 0,
-    "total_tax": 5367,
-    "total_payments": 9246,
-    "refund": 3879,
-    "balance_due": 0
+    "self_employment_tax": 6577,
+    "total_tax": 22562,
+    "total_payments": 7564,
+    "refund": 0,
+    "balance_due": 14998
   },
   "state_return": {
-    "state_code": "TX",
+    "state_code": "CA",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 72857,
-    "standard_deduction": 0,
-    "taxable_income": 72857,
-    "tax_before_credits": 0,
-    "exemption_credits": 0,
-    "total_tax": 0,
-    "total_payments": 0,
-    "refund": 0,
+    "state_agi": 117365,
+    "standard_deduction": 11080,
+    "taxable_income": 106285,
+    "tax_before_credits": 3051,
+    "exemption_credits": 149,
+    "total_tax": 2902,
+    "total_payments": 3608,
+    "refund": 706,
     "balance_due": 0
   },
   "dependent_count": 0

@@ -1,37 +1,37 @@
 {
   "case_id": "CASE_0040",
-  "tax_year": 2021,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Duane",
     "last_name": "Burns",
     "ssn": "248-72-9275",
     "dob": "2001-08-17",
-    "occupation": "Nurse",
-    "employer": "Northwind LLC",
+    "occupation": "Sales Executive",
+    "employer": "BrightPath Systems",
     "full_name": "Duane Burns"
   },
   "spouse": null,
   "address": {
     "street": "24206 Aguilar Courts Apt. 482",
-    "city": "Miami",
-    "state": "FL",
-    "zip_code": "33131",
-    "county": "Miami-Dade"
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "11201",
+    "county": "New York"
   },
   "filing": {
     "federal_status": "head_of_household",
     "state_status": "head_of_household",
-    "residency_state": "FL",
+    "residency_state": "NY",
     "full_year_resident": true
   },
   "dependents": [],
   "income_documents": {
     "w2": {
-      "employer_name": "Northwind LLC",
+      "employer_name": "BrightPath Systems",
       "wages_box1": 53770,
       "federal_withholding": 7701,
       "state_wages": 53770,
-      "state_withholding": 0
+      "state_withholding": 2172
     },
     "interest_1099_int": null,
     "dividend_1099_div": {
@@ -53,30 +53,30 @@
     "total_income": 85370,
     "adjustments": 2100,
     "agi": 83270,
-    "standard_deduction": 18800,
+    "standard_deduction": 21900,
     "qbi_deduction": 5525,
-    "taxable_income": 58945,
-    "tax_before_credits": 6773,
+    "taxable_income": 55845,
+    "tax_before_credits": 6401,
     "child_tax_credit": 0,
     "self_employment_tax": 4200,
-    "total_tax": 10973,
+    "total_tax": 10601,
     "total_payments": 7701,
     "refund": 0,
-    "balance_due": 3272
+    "balance_due": 2900
   },
   "state_return": {
-    "state_code": "FL",
+    "state_code": "NY",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
     "state_agi": 83270,
-    "standard_deduction": 0,
-    "taxable_income": 83270,
-    "tax_before_credits": 0,
-    "exemption_credits": 0,
-    "total_tax": 0,
-    "total_payments": 0,
+    "standard_deduction": 8000,
+    "taxable_income": 75270,
+    "tax_before_credits": 2990,
+    "exemption_credits": 100,
+    "total_tax": 2890,
+    "total_payments": 2172,
     "refund": 0,
-    "balance_due": 0
+    "balance_due": 718
   },
   "dependent_count": 0
 }

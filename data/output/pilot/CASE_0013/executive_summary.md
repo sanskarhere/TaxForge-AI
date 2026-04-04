@@ -1,16 +1,13 @@
+# EXECUTIVE SUMMARY
+
 ## State Summary
-
-- State Code: NY
-
+- State Code: CA
 - State AGI: $92735
-- Standard Deduction: $8000
-- Taxable Income: $84735
-
-- Tax Before Credits: $3510
-- Exemption Credits: $100
-
-- Total Tax: $3410
+- Standard Deduction: $11080
+- Taxable Income: $81655
+- Tax Before Credits: $2066
+- Exemption Credits: $149
+- Total Tax: $1917
 - Total Payments: $1651
-
 - Refund: $0
-- Balance Due: $1759
+- Balance Due: $266

@@ -1,102 +1,85 @@
 {
   "case_id": "CASE_0012",
-  "tax_year": 2021,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Robin",
     "last_name": "Taylor",
     "ssn": "240-66-5881",
     "dob": "1987-07-12",
-    "occupation": "Project Coordinator",
+    "occupation": "Nurse",
     "employer": "Vertex Solutions",
     "full_name": "Robin Taylor"
   },
-  "spouse": {
-    "first_name": "Timothy",
-    "last_name": "Haley",
-    "ssn": "594-72-7232",
-    "dob": "1993-02-20",
-    "occupation": "Designer",
-    "employer": "Brooks Consulting",
-    "full_name": "Timothy Haley"
-  },
+  "spouse": null,
   "address": {
-    "street": "5963 Brian Union",
-    "city": "Miami",
-    "state": "FL",
-    "zip_code": "33130",
-    "county": "Miami-Dade"
+    "street": "6375 Walter Wells Apt. 307",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "11354",
+    "county": "New York"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "FL",
+    "federal_status": "single",
+    "state_status": "single",
+    "residency_state": "NY",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Ana",
-      "last_name": "Harper",
-      "ssn": "557-52-7260",
-      "relationship": "son",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Ana Harper"
-    },
-    {
-      "first_name": "Matthew",
-      "last_name": "Carter",
-      "ssn": "313-35-1917",
-      "relationship": "son",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Matthew Carter"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
     "w2": {
       "employer_name": "Vertex Solutions",
-      "wages_box1": 77972,
-      "federal_withholding": 9062,
-      "state_wages": 77972,
-      "state_withholding": 0
+      "wages_box1": 73951,
+      "federal_withholding": 8166,
+      "state_wages": 73951,
+      "state_withholding": 2470
     },
     "interest_1099_int": {
       "payer_name": "Golden State Community Bank",
-      "taxable_interest": 650
+      "taxable_interest": 832
     },
     "dividend_1099_div": {
       "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 1218,
-      "qualified_dividends": 1114
+      "ordinary_dividends": 3698,
+      "qualified_dividends": 855
     },
-    "schedule_c": null
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 37340,
+      "total_expenses": 14887,
+      "depreciation": 2248,
+      "other_expenses": 1854
+    }
   },
   "federal_return": {
-    "total_income": 79840,
-    "adjustments": 0,
-    "agi": 79840,
-    "standard_deduction": 25100,
-    "qbi_deduction": 0,
-    "taxable_income": 54740,
-    "tax_before_credits": 6169,
-    "child_tax_credit": 4000,
-    "self_employment_tax": 0,
-    "total_tax": 2169,
-    "total_payments": 9062,
-    "refund": 6893,
-    "balance_due": 0
+    "total_income": 100934,
+    "adjustments": 1586,
+    "agi": 99348,
+    "standard_deduction": 14600,
+    "qbi_deduction": 4173,
+    "taxable_income": 80575,
+    "tax_before_credits": 13006,
+    "child_tax_credit": 0,
+    "self_employment_tax": 3172,
+    "total_tax": 16178,
+    "total_payments": 8166,
+    "refund": 0,
+    "balance_due": 8012
   },
   "state_return": {
-    "state_code": "FL",
+    "state_code": "NY",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 79840,
-    "standard_deduction": 0,
-    "taxable_income": 79840,
-    "tax_before_credits": 0,
-    "exemption_credits": 0,
-    "total_tax": 0,
-    "total_payments": 0,
+    "state_agi": 99348,
+    "standard_deduction": 8000,
+    "taxable_income": 91348,
+    "tax_before_credits": 3874,
+    "exemption_credits": 100,
+    "total_tax": 3774,
+    "total_payments": 2470,
     "refund": 0,
-    "balance_due": 0
+    "balance_due": 1304
   },
-  "dependent_count": 2
+  "dependent_count": 0
 }

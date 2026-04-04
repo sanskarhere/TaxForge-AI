@@ -1,6 +1,6 @@
 {
   "case_id": "CASE_0021",
-  "tax_year": 2023,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Sean",
     "last_name": "Carter",
@@ -52,16 +52,16 @@
     "total_income": 128947,
     "adjustments": 5694,
     "agi": 123253,
-    "standard_deduction": 13850,
+    "standard_deduction": 14600,
     "qbi_deduction": 14981,
-    "taxable_income": 94422,
-    "tax_before_credits": 16053,
+    "taxable_income": 93672,
+    "tax_before_credits": 15888,
     "child_tax_credit": 0,
     "self_employment_tax": 11388,
-    "total_tax": 27441,
+    "total_tax": 27276,
     "total_payments": 5292,
     "refund": 0,
-    "balance_due": 22149
+    "balance_due": 21984
   },
   "state_return": {
     "state_code": "FL",

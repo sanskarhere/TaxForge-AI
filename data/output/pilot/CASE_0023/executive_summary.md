@@ -1,16 +1,13 @@
+# EXECUTIVE SUMMARY
+
 ## State Summary
-
-- State Code: TX
-
+- State Code: FL
 - State AGI: $77987
 - Standard Deduction: $0
 - Taxable Income: $77987
-
 - Tax Before Credits: $0
 - Exemption Credits: $0
-
 - Total Tax: $0
 - Total Payments: $0
-
 - Refund: $0
 - Balance Due: $0

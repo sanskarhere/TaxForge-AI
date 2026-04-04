@@ -1,75 +1,73 @@
 {
   "case_id": "CASE_0003",
-  "tax_year": 2022,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Joseph",
     "last_name": "Freeman",
     "ssn": "378-63-8995",
     "dob": "1972-10-29",
-    "occupation": "Software Analyst",
-    "employer": "BrightPath Systems",
+    "occupation": "Nurse",
+    "employer": "Acme Corp",
     "full_name": "Joseph Freeman"
   },
-  "spouse": {
-    "first_name": "Kevin",
-    "last_name": "Smith",
-    "ssn": "363-20-5967",
-    "dob": "2000-03-17",
-    "occupation": "Accountant",
-    "employer": "Public School District",
-    "full_name": "Kevin Smith"
-  },
+  "spouse": null,
   "address": {
-    "street": "41409 Derek Underpass",
-    "city": "Miami",
-    "state": "FL",
-    "zip_code": "33131",
-    "county": "Miami-Dade"
+    "street": "0170 Justin Crest Suite 091",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78702",
+    "county": "Travis"
   },
   "filing": {
-    "federal_status": "married_filing_jointly",
-    "state_status": "married_filing_jointly",
-    "residency_state": "FL",
+    "federal_status": "single",
+    "state_status": "single",
+    "residency_state": "TX",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Paula",
-      "last_name": "Moore",
-      "ssn": "122-19-8934",
-      "relationship": "son",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Paula Moore"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
     "w2": null,
-    "interest_1099_int": null,
-    "dividend_1099_div": null,
-    "schedule_c": null
+    "interest_1099_int": {
+      "payer_name": "Golden State Community Bank",
+      "taxable_interest": 198
+    },
+    "dividend_1099_div": {
+      "payer_name": "Charles Schwab Investments",
+      "ordinary_dividends": 570,
+      "qualified_dividends": 290
+    },
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 70768,
+      "total_expenses": 35853,
+      "depreciation": 146,
+      "other_expenses": 2559
+    }
   },
   "federal_return": {
-    "total_income": 0,
-    "adjustments": 0,
-    "agi": 0,
-    "standard_deduction": 25900,
-    "qbi_deduction": 0,
-    "taxable_income": 0,
-    "tax_before_credits": 0,
-    "child_tax_credit": 2000,
-    "self_employment_tax": 0,
-    "total_tax": 0,
+    "total_income": 35683,
+    "adjustments": 2466,
+    "agi": 33217,
+    "standard_deduction": 14600,
+    "qbi_deduction": 6490,
+    "taxable_income": 12127,
+    "tax_before_credits": 1235,
+    "child_tax_credit": 0,
+    "self_employment_tax": 4933,
+    "total_tax": 6168,
     "total_payments": 0,
     "refund": 0,
-    "balance_due": 0
+    "balance_due": 6168
   },
   "state_return": {
-    "state_code": "FL",
+    "state_code": "TX",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 0,
+    "state_agi": 33217,
     "standard_deduction": 0,
-    "taxable_income": 0,
+    "taxable_income": 33217,
     "tax_before_credits": 0,
     "exemption_credits": 0,
     "total_tax": 0,
@@ -77,5 +75,5 @@
     "refund": 0,
     "balance_due": 0
   },
-  "dependent_count": 1
+  "dependent_count": 0
 }

@@ -4,21 +4,28 @@
 - Name: Charles Wheeler
 - SSN: 175-86-4051
 - DOB: 1979-12-06
-- Occupation: Teacher
+- Occupation: Operations Associate
+- Employer: Northwind LLC
 
 ## Spouse
-- Name: Maurice Stephens- SSN: 452-99-9912- DOB: 1992-09-23- Occupation: Operations Executive- Employer: CarePoint Health
+- Name: N/A
+- SSN: N/A
+- DOB: N/A
+- Occupation: N/A
+- Employer: N/A
+
 ## Address
-- Street: 925 Norman Roads Apt. 370
-- City: Chicago
-- State: IL
-- ZIP: 60610
-- County: Cook
+- Street: 895 Singh Spur Apt. 536
+- City: Sacramento
+- State: CA
+- ZIP: 95825
+- County: Sacramento
 
 ## Dependents
-- Sergio Barton (daughter) — SSN: 414-97-3113
+- Douglas Johnson (daughter) — SSN: 815-79-7133
+- Jeffrey Lamb (son) — SSN: 414-97-3113
 
 ## Filing Details
-- Federal Status: married_filing_jointly
-- State Status: married_filing_jointly
-- Residency: IL
+- Federal Status: head_of_household
+- State Status: head_of_household
+- Residency: CA

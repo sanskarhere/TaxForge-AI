@@ -1,94 +1,72 @@
 {
   "case_id": "CASE_0017",
-  "tax_year": 2021,
+  "tax_year": 2024,
   "taxpayer": {
     "first_name": "Jeffrey",
     "last_name": "Cantu",
     "ssn": "329-20-8528",
     "dob": "1998-07-11",
-    "occupation": "Project Coordinator",
-    "employer": "Acme Corp",
+    "occupation": "Operations Associate",
+    "employer": "Vertex Solutions",
     "full_name": "Jeffrey Cantu"
   },
   "spouse": null,
   "address": {
     "street": "40907 Washington Plain",
-    "city": "Sacramento",
-    "state": "CA",
-    "zip_code": "95814",
-    "county": "Sacramento"
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "10001",
+    "county": "New York"
   },
   "filing": {
-    "federal_status": "head_of_household",
-    "state_status": "head_of_household",
-    "residency_state": "CA",
+    "federal_status": "single",
+    "state_status": "single",
+    "residency_state": "NY",
     "full_year_resident": true
   },
-  "dependents": [
-    {
-      "first_name": "Kenneth",
-      "last_name": "Moore",
-      "ssn": "239-48-1381",
-      "relationship": "son",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Kenneth Moore"
-    },
-    {
-      "first_name": "Matthew",
-      "last_name": "Santiago",
-      "ssn": "796-89-1173",
-      "relationship": "son",
-      "qualifies_child_tax_credit": true,
-      "full_name": "Matthew Santiago"
-    }
-  ],
+  "dependents": [],
   "income_documents": {
-    "w2": {
-      "employer_name": "Acme Corp",
-      "wages_box1": 73780,
-      "federal_withholding": 8135,
-      "state_wages": 73780,
-      "state_withholding": 3261
-    },
-    "interest_1099_int": {
-      "payer_name": "Golden State Community Bank",
-      "taxable_interest": 372
-    },
-    "dividend_1099_div": {
-      "payer_name": "Charles Schwab Investments",
-      "ordinary_dividends": 1488,
-      "qualified_dividends": 1371
-    },
-    "schedule_c": null
+    "w2": null,
+    "interest_1099_int": null,
+    "dividend_1099_div": null,
+    "schedule_c": {
+      "business_name": "Creative Studio LLC",
+      "business_code": "541510",
+      "business_description": "Freelance Graphic & Web Design",
+      "gross_receipts": 93561,
+      "total_expenses": 34007,
+      "depreciation": 2195,
+      "other_expenses": 1219
+    }
   },
   "federal_return": {
-    "total_income": 75640,
-    "adjustments": 0,
-    "agi": 75640,
-    "standard_deduction": 18800,
-    "qbi_deduction": 0,
-    "taxable_income": 56840,
-    "tax_before_credits": 6521,
-    "child_tax_credit": 4000,
-    "self_employment_tax": 0,
-    "total_tax": 2521,
-    "total_payments": 8135,
-    "refund": 5614,
-    "balance_due": 0
+    "total_income": 59554,
+    "adjustments": 4208,
+    "agi": 55346,
+    "standard_deduction": 14600,
+    "qbi_deduction": 11069,
+    "taxable_income": 29677,
+    "tax_before_credits": 3341,
+    "child_tax_credit": 0,
+    "self_employment_tax": 8415,
+    "total_tax": 11756,
+    "total_payments": 0,
+    "refund": 0,
+    "balance_due": 11756
   },
   "state_return": {
-    "state_code": "CA",
+    "state_code": "NY",
     "state_adjustments_additions": 0,
     "state_adjustments_subtractions": 0,
-    "state_agi": 75640,
-    "standard_deduction": 11080,
-    "taxable_income": 64560,
-    "tax_before_credits": 1382,
-    "exemption_credits": 1071,
-    "total_tax": 311,
-    "total_payments": 3261,
-    "refund": 2950,
-    "balance_due": 0
+    "state_agi": 55346,
+    "standard_deduction": 8000,
+    "taxable_income": 47346,
+    "tax_before_credits": 1494,
+    "exemption_credits": 100,
+    "total_tax": 1394,
+    "total_payments": 0,
+    "refund": 0,
+    "balance_due": 1394
   },
-  "dependent_count": 2
+  "dependent_count": 0
 }

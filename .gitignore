@@ -224,6 +224,3 @@ final_tax_packet.pdf
 # Large/generated sample bundles
 data/input/sample_bundle/
 
-# Keep only curated public samples
-sample_data/
-sample_outputs/

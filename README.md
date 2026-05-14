@@ -236,4 +236,4 @@ AI/ML Engineer | Synthetic Data | Document Automation | Python
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License.See the (LICENSE) file for details.

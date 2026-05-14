@@ -208,3 +208,22 @@ __marimo__/
 
 __pycache__/
 *.py[cod]
+# Project generated data and outputs
+data/output/
+data/temp/
+outputs/
+artifacts/
+reports/
+
+# Generated PDFs and documents
+filled_1040.pdf
+*_filled.pdf
+filled_*.pdf
+final_tax_packet.pdf
+
+# Large/generated sample bundles
+data/input/sample_bundle/
+
+# Keep only curated public samples
+sample_data/
+sample_outputs/

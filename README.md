@@ -127,7 +127,7 @@ tax_synth/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/tax_synth.git
+git clone https://github.com/sanskarhere/tax_synth.git
 cd tax_synth
 ```
 
